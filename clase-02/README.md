@@ -11,7 +11,7 @@ El trabajo se compone de dos partes:
 - Alberto Cairo
 - Manuel Lima
 - Isabel Meirelles
-- Sandra Rendgen
+- [Sandra Rendgen](https://miro.com/app/board/uXjVISJnIG8=/?share_link_id=896284158626)
 - Edward Tufte
 
 Con la selección grupal hecha: Corresponde buscar todas sus publicaciones –por [acá](https://www.visualcinnamon.com/resources/learning-data-visualization/books/) hay algunas– y la mayor cantidad de conferencias posibles. Luego, entre lo encontrado, revisar aquello que podría considerarse como hitos en la historia de la visualización de información.
@@ -27,7 +27,7 @@ Adolfo Arranz
 - https://www.youtube.com/watch?v=7ImyPxOtvUc
 - https://www.youtube.com/watch?v=fqsTf-T9nZc
 
-Nicholas Felton 
+[Nicholas Felton](https://docs.google.com/document/d/1YV8pUIUvmj2s00w5lT0dMX5pgyBnMJ17a6x8_Iv0PtY/edit?usp=sharing)
 
 - https://www.youtube.com/watch?v=bxYuLAvVqXM
 - https://www.youtube.com/watch?v=aRg1PxDRL5o
