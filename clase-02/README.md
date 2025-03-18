@@ -22,30 +22,34 @@ Preparar una pizarra virtual en línea –[Miro](https://miro.com/es/pizarra-vir
 
 Pero esta vez el grupo debe ver un par de videos, hacer un resumen de cada uno y buscar un tercero que pueda complementar una aproximación completa al trabajo de:
 
-Adolfo Arranz
+[Adolfo Arranz](https://www.perdigallos.com/)
 
 - https://www.youtube.com/watch?v=7ImyPxOtvUc
 - https://www.youtube.com/watch?v=fqsTf-T9nZc
+- https://www.youtube.com/live/kjt21qGhSuA (en español)
 
-[Nicholas Felton](https://docs.google.com/document/d/1YV8pUIUvmj2s00w5lT0dMX5pgyBnMJ17a6x8_Iv0PtY/edit?usp=sharing)
+[Nicholas Felton](https://feltron.com/)
 
 - https://www.youtube.com/watch?v=bxYuLAvVqXM
 - https://www.youtube.com/watch?v=aRg1PxDRL5o
+- https://youtu.be/4jGtImGBBEo?feature=shared
 
-Nigel Holmes 
+[Nigel Holmes](https://nigelholmes.com/)
 
 - https://www.youtube.com/watch?v=YzGl2-VZ_ss
 - https://www.youtube.com/watch?v=XKd6f_1mBJY
 
-Giorgia Lupi 
+[Giorgia Lupi](https://giorgialupi.com/)
 
 - https://www.youtube.com/watch?v=sFIDCtRX_-o
 - https://www.youtube.com/watch?v=jFl9kFms7nA
+- https://www.youtube.com/watch?v=IBg5eKOqtwo
 
-Nadja Popovich 
+[Nadja Popovich](https://nadjapopovich.com/)
 
 - https://www.youtube.com/watch?v=3N6H4ve7TpQ
 - https://www.youtube.com/watch?v=m7HewcO6F48
+- https://www.youtube.com/watch?v=n4zNQrtF-IM
 
 _ _ _ _ 
 
