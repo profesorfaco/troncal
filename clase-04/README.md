@@ -48,6 +48,8 @@ El informe se calificará con una nota equivalente al 20% de su promedio final. 
 
 **El punto base se pierde si es que al inicio de la clase no se hace entrega del informe escrito ni el apoyo a la presentación oral (generado por [Algor](https://www.algoreducation.com/es)). Se podrá esperar hasta 20 minutos la entrega de quienes no obtienen el punto base. Si se cumplen los 20 minutos de espera y el grupo aún no entrega: La calificación para cada integrante del grupo es mínima (1,0).**
 
+La entrega debe estar en la carpeta del grupo: https://github.com/profesorfaco/troncal/blob/main/clase-04/_GRUPOS.pdf
+
 _ _ _ _ 
 
 [clase-03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md) ⇆ [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md)
