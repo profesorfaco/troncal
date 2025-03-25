@@ -26,7 +26,7 @@ El informe se calificará con una nota equivalente al 20% de su promedio final. 
 
 3. Usar en cada párrafo del desarrollo los recursos de la [paráfrasis](https://guiastematicas.bibliotecas.uc.cl/apa7/parafraseo) o la [cita textual](https://guiastematicas.bibliotecas.uc.cl/apa7/citatextual) (con extensión menor a 40 palabras).
 
-4. Usar al menos 3 de los 4 textos compartidos en [la clase recién pasada](https://github.com/profesorfaco/aud5v027-2025/blob/main/clase-03/README.md) para las paráfrasis o citas exigidas en cada párrafo del desarrollo.
+4. Usar al menos 3 de los 6 textos compartidos en [la clase recién pasada](https://github.com/profesorfaco/aud5v027-2025/blob/main/clase-03/README.md) para las paráfrasis o citas exigidas en cada párrafo del desarrollo.
 
 5. Agregar paráfrasis o citas de, al menos, 2 textos diferentes de los compartidos; textos que el grupo haya encontrado en su investigación y que resulten pertinentes, relevantes y de actualidad.
   
