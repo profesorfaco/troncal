@@ -54,7 +54,7 @@ El informe se calificará con una nota equivalente al 20% de su promedio final. 
 - Álcantar *et al*: [Informe escrito](https://drive.google.com/file/d/1KgfbKlMxiydml-AtUg4Y09sRnHlvrIdU/view?usp=drive_link) • apoyo a la presentación oral
 - Álvarez *et al*: [Informe escrito](https://drive.google.com/file/d/1OdYZC9d5aRb1KFCHQ2DhzzUx3wfWDRwV/view?usp=drive_link) • [apoyo a la presentación oral](https://cards.algoreducation.com/app/set/67eb47402ef483851d3402e1?sheetId=67eb47452ef483851d3402eb&toolType=67eb47452ef483851d3402ec)
 - Arismendi *et al*: [Informe escrito](https://drive.google.com/file/d/1PxPvaJUmsoFXJjrxUVcV0MYx0thnjcm4/view?usp=drive_link) • [apoyo a la presentación oral](https://cards.algoreducation.com/app/set/67e9de41c42a5748b8fb5439?sheetId=67e9de47c42a5748b8fb544e)
-- Bustos *et al*: [Informe escrito](https://drive.google.com/file/d/1EaE2zjQhx1zP3JvF6VksdSZy9tKo_ccY/view?usp=drive_link) • apoyo a la presentación oral
+- Bustos *et al*: [Informe escrito](https://drive.google.com/file/d/1EaE2zjQhx1zP3JvF6VksdSZy9tKo_ccY/view?usp=drive_link) • [apoyo a la presentación oral](https://cards.algoreducation.com/app/set/67eadf077a28d736d4cce180?sheetId=67eadf0c7a28d736d4cce18f)
 
 _ _ _ _ 
 
