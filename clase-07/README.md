@@ -1,8 +1,14 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 07 → 22 de abril
 
-### CSV y JSON
+### Variables aplicadas
 
-[CSV](https://www.adobe.com/es/acrobat/resources/document-files/text-files/csv-file.html) es sigla de Comma Separated Values. [JSON](https://www.json.org/json-es.html) es sigla de JavaScript Object Notation. Ambos son formatos de texto ligero que nos permiten intercambiar datos. Como ellos es [XML](https://www.adobe.com/es/acrobat/resources/document-files/text-files/xml-file.html), sigla de eXtensible Markup Language, ya más utilizado en el intercambio de metadatos. 
+#### Trabajo individual, con evaluación sumativa (20% de la nota final)
+
+Corresponde revisar un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-06/infographic_designers_sketchbooks.pdf
+
+Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks*.
+
+Se entregará un desafío de visualización, para el que se deben transformar datos en una cualidad visible, poniendo atención a las variables visuales ya revisadas y el cumplimiento de los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
 
 _ _ _ _ 
 
