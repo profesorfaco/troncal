@@ -37,6 +37,16 @@ Aún en el paréntesis, queda agregar que la omisión de una de las propiedades 
 
 Aunque el 99% de la población [no sería ciega en Chile](https://fundacionluz.cl/noticias/2023/04/comunicado-los-bajos-porcentajes-educacionales-de-las-personas-con-discapacidad-visual-redundan-en-una-alta-cesantia-71-2-con-ceguera-total-no-tiene-trabajo/), nos queda que entre videntes el daltonismo puede afectar al 0,5% de las mujeres y 8% de los hombres. Lo que corresponde es mantener la confianza en el *VALUE*, pero revisar bien *HUE* y *SATURATION* con herramientas tales como [COLOR BREWER 2.0](https://colorbrewer2.org/), activando la opción de *colorblind safe*, o revisar nuestros trabajos en un navegador web después de activa alguna extensión como [Daltonize](https://chromewebstore.google.com/detail/daltonize/obcnmdgpjakcffkcjnonpdlainhphpgh?pli=1).
 
+**¡Y justo hoy, martes 8 de abril, agregamos una invitada al paréntesis!¡A Ingrid Calvo Ivanovic!**
+
+Ella es [destacada](https://www.linkedin.com/in/ingrid-calvo-ivanovic/details/honors/) a nivel mundial en asuntos de color, por lo que es muy recomendable seguir su trabajo en: 
+
+- https://www.instagram.com/colourtraining
+
+- https://uchile.academia.edu/IngridCalvoIvanovic
+
+**Y recuerden que pueden contactarla al correo que les compartió en la presentación, preferentemente por la mañana de Chile**.
+
 Cerremos el paréntesis para volver a dejar parte de las propiedades entre las  variables visuales según Bertin. Cerrado el paréntesis se puede pasar a que cada una de las variables tiene diferentes capacidades para representar determinados tipos de información:
 
 ![5fa44835ab735150a7e18135_visual_variables](https://github.com/user-attachments/assets/0dfc0d3f-29f1-4c86-bcad-733b162d59a4)
