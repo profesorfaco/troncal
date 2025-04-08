@@ -39,7 +39,7 @@ Aunque el 99% de la población [no sería ciega en Chile](https://fundacionluz.c
 
 **¡Y justo hoy, martes 8 de abril, agregamos una invitada al paréntesis! ¡A la *Colour Designer, Researcher & Educator* Ingrid Calvo Ivanovic!**
 
-Ella es [destacada](https://www.linkedin.com/in/ingrid-calvo-ivanovic/details/honors/) a nivel mundial en asuntos de color, por lo que es muy recomendable seguir su trabajo en: 
+**Ella es [destacada](https://www.linkedin.com/in/ingrid-calvo-ivanovic/details/honors/) a nivel mundial en asuntos de color, por lo que es muy recomendable seguir su trabajo en**: 
 
 - https://www.instagram.com/colourtraining
 
