@@ -52,9 +52,9 @@ El curso comienza a las 15:00 hrs. del martes 11 de marzo y termina a las 18:15 
 
 [Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 08 de abril → Posición, orientación, forma, tamaño, textura y color (matiz, saturación y luminosidad).
 
-[Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 15 de abril → Variables aplicadas → **Trabajo individual, evaluación sumativa**
+[Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 15 de abril → CSV y JSON
 
-[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 22 de abril → CSV y JSON
+[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 22 de abril → Variables aplicadas → **Trabajo individual, evaluación sumativa**
 
 [Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 29 de abril → RAWGraphs
 
