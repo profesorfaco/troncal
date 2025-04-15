@@ -64,6 +64,44 @@ Obviamente que correspode saber algo de la notación de JavaScript par poder com
 
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
 
+Y un ejercicio, sin asustarse: 
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualización</title>
+    <style>
+      *{margin:0; padding:0;}
+      html{font-family: Helvetica, Arial, sans-serif; background:#eee; font-size:0.8rem;}
+      main{padding:10%;}
+      article{float:left; margin:1%; padding:1%; width:21%; background:#fff; text-align: center;}
+    </style>
+  </head>
+  <body>
+    <main></main>
+  <script>
+    const alla = document.querySelector("main");
+    async function datos() {
+      const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/troncal/refs/heads/main/clase-06/datos-durisimos.json");
+      const data = await consulta.json();
+      console.log(data);
+      data.forEach((d)=>{
+      alla.innerHTML += `
+      <article>
+        <p>${d.profe}</p>
+        <svg width="100%" height="100%" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#00f" stroke-width="2"></circle><circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#eef" stroke-width="2" stroke-dasharray="${100-d.porcentajes} ${d.porcentajes}" stroke-dashoffset="25"></circle><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="7">${d.porcentajes}%</text></svg>
+      </article>`;
+      })
+    }
+    datos().catch((error) => console.error(error));
+    </script>
+  </body>
+</html>
+```
+
 _ _ _ _ 
 
 [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md) ⇆ [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md)
