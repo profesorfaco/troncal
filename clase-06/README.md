@@ -56,6 +56,8 @@ Manteniendo la idea de tener algo que de sentido al dato que se comparte, podemo
 ]
 ```
 
+Y ahora completemos los titulades colaborando en este documento con consultas a UCampus: https://docs.google.com/spreadsheets/d/1820xdTbmCmXQRj_k2bg2PamTkPxNoZWrSypRGWyV7so/edit?usp=sharing
+
 Obviamente que correspode saber algo de la notación de JavaScript par poder comprender la estructura más allá del par de índice y dato contenido: 
 
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects
