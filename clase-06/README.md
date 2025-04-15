@@ -32,6 +32,8 @@ El mismo ejemplo, preparado para su visualización en GitHub: https://github.com
 
 Y documento que exporté como CSV es este: https://docs.google.com/spreadsheets/d/1vdA3KpFNTVzDSN6wLYAh8Tq3BAzPGqn-t6NY9NH8tLA/edit?usp=drive_link
 
+Desde un CSV podemos pasar a JSON con "trampita": https://csvjson.com/csv2json 
+
 Manteniendo la idea de tener algo que de sentido al dato que se comparte, podemos conectar con **JSON**, donde no tenemos que volver a cada rato al tope de un documento, sino que basta mirar a la izquierda para ver el índice entre comillas, antes de los dos puntos, para saber de qué se trata cada cosa:
 
 ```
