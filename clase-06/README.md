@@ -4,7 +4,7 @@
 
 [CSV](https://www.adobe.com/es/acrobat/resources/document-files/text-files/csv-file.html) es sigla de Comma Separated Values (Valores separados por comas). [JSON](https://www.json.org/json-es.html) es sigla de JavaScript Object Notation (Notación de Objetos en JavaScript). Ambos son formatos de texto ligero que nos permiten intercambiar datos. Como ellos es [XML](https://www.adobe.com/es/acrobat/resources/document-files/text-files/xml-file.html), sigla de eXtensible Markup Language, ya más utilizado en el intercambio de metadatos. 
 
-CSV resulta de exportar los datos de una Tabla, Hoja de Cálculo o Planilla de Excel. En el ejemplo del artículo de Wikipedia para [Valores separados por comas](https://es.wikipedia.org/wiki/Valores_separados_por_comas), tenemos los siguientes datos:
+**CSV** resulta de exportar los datos de una Tabla, Hoja de Cálculo o Planilla de Excel. En el ejemplo del artículo de Wikipedia para [Valores separados por comas](https://es.wikipedia.org/wiki/Valores_separados_por_comas), tenemos los siguientes datos:
 
 | Año | Marca | Modelo | Descripción | Precio |
 |:----|:-------|:-------|:------------|:-------|
@@ -32,7 +32,7 @@ El mismo ejemplo, preparado para su visualización en GitHub: https://github.com
 
 Y documento que exporté como CSV es este: https://docs.google.com/spreadsheets/d/1vdA3KpFNTVzDSN6wLYAh8Tq3BAzPGqn-t6NY9NH8tLA/edit?usp=drive_link
 
-Manteniendo la idea de tener algo que de sentido al dato que se comparte, podemos conectar con JSON, donde no tenemos que volver a cada rato al tope de un documento, sino que basta mirar a la izquierda para ver el índice entre comillas, antes de los dos puntos, para saber de qué se trata cada cosa:
+Manteniendo la idea de tener algo que de sentido al dato que se comparte, podemos conectar con **JSON**, donde no tenemos que volver a cada rato al tope de un documento, sino que basta mirar a la izquierda para ver el índice entre comillas, antes de los dos puntos, para saber de qué se trata cada cosa:
 
 ```
 [
