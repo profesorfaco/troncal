@@ -3,32 +3,28 @@
 		"alfabetico": "Calvo",
 		"titulades": 1,
 		"guiades": 1,
-		"porcentajes": 100,
-		"porcentaje_a_nota": 7
+		"porcentajes": 100
 	},
 	{
 		"profe": "Ricardo Castro Meza",
 		"alfabetico": "Castro",
 		"titulades": 1,
 		"guiades": 1,
-		"porcentajes": 100,
-		"porcentaje_a_nota": 7
+		"porcentajes": 100
 	},
 	{
 		"profe": "Rebeca Silva Roquefort",
 		"alfabetico": "Silva",
 		"titulades": 1,
 		"guiades": 1,
-		"porcentajes": 100,
-		"porcentaje_a_nota": 7
+		"porcentajes": 100
 	},
 	{
 		"profe": "Daniel Reyes León",
 		"alfabetico": "Reyes",
 		"titulades": 4,
 		"guiades": 5,
-		"porcentajes": 80,
-		"porcentaje_a_nota": 5.5
+		"porcentajes": 80
 	},
 	{
 		"profe": "Jenny Abud Carrillo",
@@ -36,7 +32,6 @@
 		"titulades": 10,
 		"guiades": 15,
 		"porcentajes": 67,
-		"porcentaje_a_nota": 4.5
 	},
 	{
 		"profe": "Juan Carlos Lepe Muñoz",
@@ -44,7 +39,6 @@
 		"titulades": 2,
 		"guiades": 3,
 		"porcentajes": 67,
-		"porcentaje_a_nota": 4.5
 	},
 	{
 		"profe": "Mauricio Tapia Reyes",
@@ -52,7 +46,6 @@
 		"titulades": 4,
 		"guiades": 6,
 		"porcentajes": 67,
-		"porcentaje_a_nota": 4.6
 	},
 	{
 		"profe": "María Paz Morales Mujica",
@@ -60,7 +53,6 @@
 		"titulades": 6,
 		"guiades": 11,
 		"porcentajes": 55,
-		"porcentaje_a_nota": 3.8
 	},
 	{
 		"profe": "Verónica Ode Saleh",
@@ -68,7 +60,6 @@
 		"titulades": 15,
 		"guiades": 29,
 		"porcentajes": 52,
-		"porcentaje_a_nota": 3.6
 	},
 	{
 		"profe": "Alfredo Mora Briones",
@@ -76,7 +67,6 @@
 		"titulades": 1,
 		"guiades": 2,
 		"porcentajes": 50,
-		"porcentaje_a_nota": 3.5
 	},
 	{
 		"profe": "Macarena Ruiz Balart",
@@ -84,7 +74,6 @@
 		"titulades": 1,
 		"guiades": 2,
 		"porcentajes": 50,
-		"porcentaje_a_nota": 3.5
 	},
 	{
 		"profe": "Mónica Santibañez Boric",
@@ -92,7 +81,6 @@
 		"titulades": 1,
 		"guiades": 2,
 		"porcentajes": 50,
-		"porcentaje_a_nota": 3.5
 	},
 	{
 		"profe": "Mauricio Vico Sánchez",
@@ -100,7 +88,6 @@
 		"titulades": 2,
 		"guiades": 4,
 		"porcentajes": 50,
-		"porcentaje_a_nota": 3.5
 	},
 	{
 		"profe": "Mariana Young Araya",
@@ -108,7 +95,6 @@
 		"titulades": 6,
 		"guiades": 12,
 		"porcentajes": 50,
-		"porcentaje_a_nota": 3.5
 	},
 	{
 		"profe": "Felipe Cortez Orellana",
@@ -116,7 +102,6 @@
 		"titulades": 8,
 		"guiades": 17,
 		"porcentajes": 47,
-		"porcentaje_a_nota": 3.4
 	},
 	{
 		"profe": "Rodrigo Dueñas Santander",
@@ -124,7 +109,6 @@
 		"titulades": 12,
 		"guiades": 26,
 		"porcentajes": 46,
-		"porcentaje_a_nota": 3.3
 	},
 	{
 		"profe": "Pamela Gatica Ramírez",
@@ -132,7 +116,6 @@
 		"titulades": 6,
 		"guiades": 13,
 		"porcentajes": 46,
-		"porcentaje_a_nota": 3.3
 	},
 	{
 		"profe": "Eduardo Castillo Espinoza",
@@ -140,7 +123,6 @@
 		"titulades": 9,
 		"guiades": 21,
 		"porcentajes": 43,
-		"porcentaje_a_nota": 3.2
 	},
 	{
 		"profe": "Gabriela Pradenas Guentherodt",
@@ -148,7 +130,6 @@
 		"titulades": 3,
 		"guiades": 7,
 		"porcentajes": 43,
-		"porcentaje_a_nota": 3.2
 	},
 	{
 		"profe": "Paola De la Sotta Lazzerini",
@@ -156,7 +137,6 @@
 		"titulades": 7,
 		"guiades": 17,
 		"porcentajes": 41,
-		"porcentaje_a_nota": 3.1
 	},
 	{
 		"profe": "Pablo Domínguez González",
@@ -164,7 +144,6 @@
 		"titulades": 25,
 		"guiades": 62,
 		"porcentajes": 40,
-		"porcentaje_a_nota": 3
 	},
 	{
 		"profe": "Antonio Marín Pacheco",
@@ -172,7 +151,6 @@
 		"titulades": 4,
 		"guiades": 10,
 		"porcentajes": 40,
-		"porcentaje_a_nota": 3
 	},
 	{
 		"profe": "Leonardo Soto Calquín",
@@ -180,7 +158,6 @@
 		"titulades": 8,
 		"guiades": 21,
 		"porcentajes": 38,
-		"porcentaje_a_nota": 2.9
 	},
 	{
 		"profe": "Sebastián Pagueguy Fenner",
@@ -188,7 +165,6 @@
 		"titulades": 5,
 		"guiades": 14,
 		"porcentajes": 36,
-		"porcentaje_a_nota": 2.8
 	},
 	{
 		"profe": "Rubén Jacob Dazarola",
@@ -196,7 +172,6 @@
 		"titulades": 13,
 		"guiades": 37,
 		"porcentajes": 35,
-		"porcentaje_a_nota": 2.8
 	},
 	{
 		"profe": "Sergio Donoso Cisternas",
@@ -204,7 +179,6 @@
 		"titulades": 7,
 		"guiades": 20,
 		"porcentajes": 35,
-		"porcentaje_a_nota": 2.8
 	},
 	{
 		"profe": "Cristián Gómez Moya",
@@ -212,7 +186,6 @@
 		"titulades": 3,
 		"guiades": 9,
 		"porcentajes": 33,
-		"porcentaje_a_nota": 2.7
 	},
 	{
 		"profe": "Félix Maldonado de la Fuente",
@@ -220,7 +193,6 @@
 		"titulades": 3,
 		"guiades": 9,
 		"porcentajes": 33,
-		"porcentaje_a_nota": 2.7
 	},
 	{
 		"profe": "Iván Méndez Olivares",
@@ -228,7 +200,6 @@
 		"titulades": 2,
 		"guiades": 6,
 		"porcentajes": 33,
-		"porcentaje_a_nota": 2.7
 	},
 	{
 		"profe": "Trinidad Jove Avilés",
@@ -236,7 +207,6 @@
 		"titulades": 2,
 		"guiades": 6,
 		"porcentajes": 33,
-		"porcentaje_a_nota": 2.7
 	},
 	{
 		"profe": "Hans Stange Marcus",
@@ -244,7 +214,6 @@
 		"titulades": 1,
 		"guiades": 3,
 		"porcentajes": 33,
-		"porcentaje_a_nota": 2.7
 	},
 	{
 		"profe": "Pablo Nuñez Gutiérrez",
@@ -252,7 +221,6 @@
 		"titulades": 4,
 		"guiades": 13,
 		"porcentajes": 31,
-		"porcentaje_a_nota": 2.6
 	},
 	{
 		"profe": "Roberto Osses Flores",
@@ -260,7 +228,6 @@
 		"titulades": 7,
 		"guiades": 23,
 		"porcentajes": 30,
-		"porcentaje_a_nota": 2.5
 	},
 	{
 		"profe": "Osvaldo Zorzano Betancourt",
@@ -268,7 +235,6 @@
 		"titulades": 3,
 		"guiades": 10,
 		"porcentajes": 30,
-		"porcentaje_a_nota": 2.5
 	},
 	{
 		"profe": "Andrea Wechsler Pizarro",
@@ -276,7 +242,6 @@
 		"titulades": 11,
 		"guiades": 37,
 		"porcentajes": 30,
-		"porcentaje_a_nota": 2.5
 	},
 	{
 		"profe": "Paola Benavides Bermúdez",
@@ -284,7 +249,6 @@
 		"titulades": 2,
 		"guiades": 7,
 		"porcentajes": 29,
-		"porcentaje_a_nota": 2.5
 	},
 	{
 		"profe": "Bruno Perelli Soto",
@@ -292,7 +256,6 @@
 		"titulades": 2,
 		"guiades": 7,
 		"porcentajes": 29,
-		"porcentaje_a_nota": 2.5
 	},
 	{
 		"profe": "René Perea Morales",
@@ -300,7 +263,6 @@
 		"titulades": 3,
 		"guiades": 11,
 		"porcentajes": 27,
-		"porcentaje_a_nota": 2.4
 	},
 	{
 		"profe": "Raúl Molina Oyarzún",
@@ -308,7 +270,6 @@
 		"titulades": 1,
 		"guiades": 4,
 		"porcentajes": 25,
-		"porcentaje_a_nota": 2.3
 	},
 	{
 		"profe": "Lorna Lares López",
@@ -316,7 +277,6 @@
 		"titulades": 4,
 		"guiades": 17,
 		"porcentajes": 24,
-		"porcentaje_a_nota": 2.2
 	},
 	{
 		"profe": "Cortés López, Claudio",
@@ -324,7 +284,6 @@
 		"titulades": 0,
 		"guiades": 2,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1
 	},
 	{
 		"profe": "Morales López, Héctor",
@@ -332,7 +291,6 @@
 		"titulades": 0,
 		"guiades": 2,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1
 	},
 	{
 		"profe": "Pantoja Sánchez, Alejandro",
@@ -340,6 +298,5 @@
 		"titulades": 0,
 		"guiades": 4,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1
 	}
 ]
