@@ -1,11 +1,19 @@
 [
     {
+        "profe": "Calvo Ivanovic, Ingrid",
+        "alfabetico": "Calvo",
+        "titulades": 1,
+        "guiades": 1,
+        "porcentajes": 100,
+        "porcentaje_a_nota": 7.0
+    },
+    {
         "profe": "Ricardo Castro Meza",
         "alfabetico": "Castro",
         "titulades": 1,
         "guiades": 1,
         "porcentajes": 100,
-        "porcentaje_a_nota": 7
+        "porcentaje_a_nota": 7.0
     },
     {
         "profe": "Rebeca Silva Roquefort",
@@ -13,7 +21,7 @@
         "titulades": 1,
         "guiades": 1,
         "porcentajes": 100,
-        "porcentaje_a_nota": 7
+        "porcentaje_a_nota": 7.0
     },
     {
         "profe": "Daniel Reyes León",
@@ -310,5 +318,29 @@
         "guiades": 17,
         "porcentajes": 24,
         "porcentaje_a_nota": 2.2
-    }
+    },
+    {
+        "profe": "Cortés López, Claudio",
+        "alfabetico": "Cortés",
+        "titulades": 0,
+        "guiades": 2,
+        "porcentajes": 0,
+        "porcentaje_a_nota": 1.0
+    },
+    {
+        "profe": "Morales López, Héctor",
+        "alfabetico": "Morales",
+        "titulades": 0,
+        "guiades": 2,
+        "porcentajes": 0,
+        "porcentaje_a_nota": 1.0
+    },
+    {
+        "profe": "Pantoja Sánchez, Alejandro",
+        "alfabetico": "Pantoja",
+        "titulades": 0,
+        "guiades": 4,
+        "porcentajes": 0,
+        "porcentaje_a_nota": 1.0
+    },
 ]
