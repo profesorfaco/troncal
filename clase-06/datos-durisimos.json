@@ -1,302 +1,303 @@
-[{
-		"profe": "Calvo Ivanovic, Ingrid",
-		"alfabetico": "Calvo",
-		"titulades": 1,
-		"guiades": 1,
-		"porcentajes": 100
-	},
-	{
-		"profe": "Ricardo Castro Meza",
-		"alfabetico": "Castro",
-		"titulades": 1,
-		"guiades": 1,
-		"porcentajes": 100
-	},
-	{
-		"profe": "Rebeca Silva Roquefort",
-		"alfabetico": "Silva",
-		"titulades": 1,
-		"guiades": 1,
-		"porcentajes": 100
-	},
-	{
-		"profe": "Daniel Reyes León",
-		"alfabetico": "Reyes",
-		"titulades": 4,
-		"guiades": 5,
-		"porcentajes": 80
-	},
-	{
-		"profe": "Jenny Abud Carrillo",
-		"alfabetico": "Abud",
-		"titulades": 10,
-		"guiades": 15,
-		"porcentajes": 67,
-	},
-	{
-		"profe": "Juan Carlos Lepe Muñoz",
-		"alfabetico": "Lepe",
-		"titulades": 2,
-		"guiades": 3,
-		"porcentajes": 67,
-	},
-	{
-		"profe": "Mauricio Tapia Reyes",
-		"alfabetico": "Tapia",
-		"titulades": 4,
-		"guiades": 6,
-		"porcentajes": 67,
-	},
-	{
-		"profe": "María Paz Morales Mujica",
-		"alfabetico": "Morales",
-		"titulades": 6,
-		"guiades": 11,
-		"porcentajes": 55,
-	},
-	{
-		"profe": "Verónica Ode Saleh",
-		"alfabetico": "Ode",
-		"titulades": 15,
-		"guiades": 29,
-		"porcentajes": 52,
-	},
-	{
-		"profe": "Alfredo Mora Briones",
-		"alfabetico": "Mora",
-		"titulades": 1,
-		"guiades": 2,
-		"porcentajes": 50,
-	},
-	{
-		"profe": "Macarena Ruiz Balart",
-		"alfabetico": "Ruiz",
-		"titulades": 1,
-		"guiades": 2,
-		"porcentajes": 50,
-	},
-	{
-		"profe": "Mónica Santibañez Boric",
-		"alfabetico": "Santibañez",
-		"titulades": 1,
-		"guiades": 2,
-		"porcentajes": 50,
-	},
-	{
-		"profe": "Mauricio Vico Sánchez",
-		"alfabetico": "Vico",
-		"titulades": 2,
-		"guiades": 4,
-		"porcentajes": 50,
-	},
-	{
-		"profe": "Mariana Young Araya",
-		"alfabetico": "Young",
-		"titulades": 6,
-		"guiades": 12,
-		"porcentajes": 50,
-	},
-	{
-		"profe": "Felipe Cortez Orellana",
-		"alfabetico": "Cortez",
-		"titulades": 8,
-		"guiades": 17,
-		"porcentajes": 47,
-	},
-	{
-		"profe": "Rodrigo Dueñas Santander",
-		"alfabetico": "Dueñas",
-		"titulades": 12,
-		"guiades": 26,
-		"porcentajes": 46,
-	},
-	{
-		"profe": "Pamela Gatica Ramírez",
-		"alfabetico": "Gatica",
-		"titulades": 6,
-		"guiades": 13,
-		"porcentajes": 46,
-	},
-	{
-		"profe": "Eduardo Castillo Espinoza",
-		"alfabetico": "Castillo",
-		"titulades": 9,
-		"guiades": 21,
-		"porcentajes": 43,
-	},
-	{
-		"profe": "Gabriela Pradenas Guentherodt",
-		"alfabetico": "Pradenas",
-		"titulades": 3,
-		"guiades": 7,
-		"porcentajes": 43,
-	},
-	{
-		"profe": "Paola De la Sotta Lazzerini",
-		"alfabetico": "De la Sotta",
-		"titulades": 7,
-		"guiades": 17,
-		"porcentajes": 41,
-	},
-	{
-		"profe": "Pablo Domínguez González",
-		"alfabetico": "Domínguez",
-		"titulades": 25,
-		"guiades": 62,
-		"porcentajes": 40,
-	},
-	{
-		"profe": "Antonio Marín Pacheco",
-		"alfabetico": "Marín",
-		"titulades": 4,
-		"guiades": 10,
-		"porcentajes": 40,
-	},
-	{
-		"profe": "Leonardo Soto Calquín",
-		"alfabetico": "Soto",
-		"titulades": 8,
-		"guiades": 21,
-		"porcentajes": 38,
-	},
-	{
-		"profe": "Sebastián Pagueguy Fenner",
-		"alfabetico": "Pagueguy",
-		"titulades": 5,
-		"guiades": 14,
-		"porcentajes": 36,
-	},
-	{
-		"profe": "Rubén Jacob Dazarola",
-		"alfabetico": "Jacob",
-		"titulades": 13,
-		"guiades": 37,
-		"porcentajes": 35,
-	},
-	{
-		"profe": "Sergio Donoso Cisternas",
-		"alfabetico": "Donoso",
-		"titulades": 7,
-		"guiades": 20,
-		"porcentajes": 35,
-	},
-	{
-		"profe": "Cristián Gómez Moya",
-		"alfabetico": "Gómez",
-		"titulades": 3,
-		"guiades": 9,
-		"porcentajes": 33,
-	},
-	{
-		"profe": "Félix Maldonado de la Fuente",
-		"alfabetico": "Maldonado",
-		"titulades": 3,
-		"guiades": 9,
-		"porcentajes": 33,
-	},
-	{
-		"profe": "Iván Méndez Olivares",
-		"alfabetico": "Méndez",
-		"titulades": 2,
-		"guiades": 6,
-		"porcentajes": 33,
-	},
-	{
-		"profe": "Trinidad Jove Avilés",
-		"alfabetico": "Jove",
-		"titulades": 2,
-		"guiades": 6,
-		"porcentajes": 33,
-	},
-	{
-		"profe": "Hans Stange Marcus",
-		"alfabetico": "Stange",
-		"titulades": 1,
-		"guiades": 3,
-		"porcentajes": 33,
-	},
-	{
-		"profe": "Pablo Nuñez Gutiérrez",
-		"alfabetico": "Nuñez",
-		"titulades": 4,
-		"guiades": 13,
-		"porcentajes": 31,
-	},
-	{
-		"profe": "Roberto Osses Flores",
-		"alfabetico": "Osses",
-		"titulades": 7,
-		"guiades": 23,
-		"porcentajes": 30,
-	},
-	{
-		"profe": "Osvaldo Zorzano Betancourt",
-		"alfabetico": "Zorzano",
-		"titulades": 3,
-		"guiades": 10,
-		"porcentajes": 30,
-	},
-	{
-		"profe": "Andrea Wechsler Pizarro",
-		"alfabetico": "Wechsler",
-		"titulades": 11,
-		"guiades": 37,
-		"porcentajes": 30,
-	},
-	{
-		"profe": "Paola Benavides Bermúdez",
-		"alfabetico": "Benavides",
-		"titulades": 2,
-		"guiades": 7,
-		"porcentajes": 29,
-	},
-	{
-		"profe": "Bruno Perelli Soto",
-		"alfabetico": "Perelli",
-		"titulades": 2,
-		"guiades": 7,
-		"porcentajes": 29,
-	},
-	{
-		"profe": "René Perea Morales",
-		"alfabetico": "Perea",
-		"titulades": 3,
-		"guiades": 11,
-		"porcentajes": 27,
-	},
-	{
-		"profe": "Raúl Molina Oyarzún",
-		"alfabetico": "Molina",
-		"titulades": 1,
-		"guiades": 4,
-		"porcentajes": 25,
-	},
-	{
-		"profe": "Lorna Lares López",
-		"alfabetico": "Lares",
-		"titulades": 4,
-		"guiades": 17,
-		"porcentajes": 24,
-	},
-	{
-		"profe": "Cortés López, Claudio",
-		"alfabetico": "Cortés",
-		"titulades": 0,
-		"guiades": 2,
-		"porcentajes": 0,
-	},
-	{
-		"profe": "Morales López, Héctor",
-		"alfabetico": "Morales",
-		"titulades": 0,
-		"guiades": 2,
-		"porcentajes": 0,
-	},
-	{
-		"profe": "Pantoja Sánchez, Alejandro",
-		"alfabetico": "Pantoja",
-		"titulades": 0,
-		"guiades": 4,
-		"porcentajes": 0,
-	}
+[
+    {
+        "profe": "Calvo Ivanovic, Ingrid",
+        "alfabetico": "Calvo",
+        "titulades": 1,
+        "guiades": 1,
+        "porcentajes": 100
+    },
+    {
+        "profe": "Ricardo Castro Meza",
+        "alfabetico": "Castro",
+        "titulades": 1,
+        "guiades": 1,
+        "porcentajes": 100
+    },
+    {
+        "profe": "Rebeca Silva Roquefort",
+        "alfabetico": "Silva",
+        "titulades": 1,
+        "guiades": 1,
+        "porcentajes": 100
+    },
+    {
+        "profe": "Daniel Reyes León",
+        "alfabetico": "Reyes",
+        "titulades": 4,
+        "guiades": 5,
+        "porcentajes": 80
+    },
+    {
+        "profe": "Jenny Abud Carrillo",
+        "alfabetico": "Abud",
+        "titulades": 10,
+        "guiades": 15,
+        "porcentajes": 67
+    },
+    {
+        "profe": "Juan Carlos Lepe Muñoz",
+        "alfabetico": "Lepe",
+        "titulades": 2,
+        "guiades": 3,
+        "porcentajes": 67
+    },
+    {
+        "profe": "Mauricio Tapia Reyes",
+        "alfabetico": "Tapia",
+        "titulades": 4,
+        "guiades": 6,
+        "porcentajes": 67
+    },
+    {
+        "profe": "María Paz Morales Mujica",
+        "alfabetico": "Morales",
+        "titulades": 6,
+        "guiades": 11,
+        "porcentajes": 55
+    },
+    {
+        "profe": "Verónica Ode Saleh",
+        "alfabetico": "Ode",
+        "titulades": 15,
+        "guiades": 29,
+        "porcentajes": 52
+    },
+    {
+        "profe": "Alfredo Mora Briones",
+        "alfabetico": "Mora",
+        "titulades": 1,
+        "guiades": 2,
+        "porcentajes": 50
+    },
+    {
+        "profe": "Macarena Ruiz Balart",
+        "alfabetico": "Ruiz",
+        "titulades": 1,
+        "guiades": 2,
+        "porcentajes": 50
+    },
+    {
+        "profe": "Mónica Santibañez Boric",
+        "alfabetico": "Santibañez",
+        "titulades": 1,
+        "guiades": 2,
+        "porcentajes": 50
+    },
+    {
+        "profe": "Mauricio Vico Sánchez",
+        "alfabetico": "Vico",
+        "titulades": 2,
+        "guiades": 4,
+        "porcentajes": 50
+    },
+    {
+        "profe": "Mariana Young Araya",
+        "alfabetico": "Young",
+        "titulades": 6,
+        "guiades": 12,
+        "porcentajes": 50
+    },
+    {
+        "profe": "Felipe Cortez Orellana",
+        "alfabetico": "Cortez",
+        "titulades": 8,
+        "guiades": 17,
+        "porcentajes": 47
+    },
+    {
+        "profe": "Rodrigo Dueñas Santander",
+        "alfabetico": "Dueñas",
+        "titulades": 12,
+        "guiades": 26,
+        "porcentajes": 46
+    },
+    {
+        "profe": "Pamela Gatica Ramírez",
+        "alfabetico": "Gatica",
+        "titulades": 6,
+        "guiades": 13,
+        "porcentajes": 46
+    },
+    {
+        "profe": "Eduardo Castillo Espinoza",
+        "alfabetico": "Castillo",
+        "titulades": 9,
+        "guiades": 21,
+        "porcentajes": 43
+    },
+    {
+        "profe": "Gabriela Pradenas Guentherodt",
+        "alfabetico": "Pradenas",
+        "titulades": 3,
+        "guiades": 7,
+        "porcentajes": 43
+    },
+    {
+        "profe": "Paola De la Sotta Lazzerini",
+        "alfabetico": "De la Sotta",
+        "titulades": 7,
+        "guiades": 17,
+        "porcentajes": 41
+    },
+    {
+        "profe": "Pablo Domínguez González",
+        "alfabetico": "Domínguez",
+        "titulades": 25,
+        "guiades": 62,
+        "porcentajes": 40
+    },
+    {
+        "profe": "Antonio Marín Pacheco",
+        "alfabetico": "Marín",
+        "titulades": 4,
+        "guiades": 10,
+        "porcentajes": 40
+    },
+    {
+        "profe": "Leonardo Soto Calquín",
+        "alfabetico": "Soto",
+        "titulades": 8,
+        "guiades": 21,
+        "porcentajes": 38
+    },
+    {
+        "profe": "Sebastián Pagueguy Fenner",
+        "alfabetico": "Pagueguy",
+        "titulades": 5,
+        "guiades": 14,
+        "porcentajes": 36
+    },
+    {
+        "profe": "Rubén Jacob Dazarola",
+        "alfabetico": "Jacob",
+        "titulades": 13,
+        "guiades": 37,
+        "porcentajes": 35
+    },
+    {
+        "profe": "Sergio Donoso Cisternas",
+        "alfabetico": "Donoso",
+        "titulades": 7,
+        "guiades": 20,
+        "porcentajes": 35
+    },
+    {
+        "profe": "Cristián Gómez Moya",
+        "alfabetico": "Gómez",
+        "titulades": 3,
+        "guiades": 9,
+        "porcentajes": 33
+    },
+    {
+        "profe": "Félix Maldonado de la Fuente",
+        "alfabetico": "Maldonado",
+        "titulades": 3,
+        "guiades": 9,
+        "porcentajes": 33
+    },
+    {
+        "profe": "Iván Méndez Olivares",
+        "alfabetico": "Méndez",
+        "titulades": 2,
+        "guiades": 6,
+        "porcentajes": 33
+    },
+    {
+        "profe": "Trinidad Jove Avilés",
+        "alfabetico": "Jove",
+        "titulades": 2,
+        "guiades": 6,
+        "porcentajes": 33
+    },
+    {
+        "profe": "Hans Stange Marcus",
+        "alfabetico": "Stange",
+        "titulades": 1,
+        "guiades": 3,
+        "porcentajes": 33
+    },
+    {
+        "profe": "Pablo Nuñez Gutiérrez",
+        "alfabetico": "Nuñez",
+        "titulades": 4,
+        "guiades": 13,
+        "porcentajes": 31
+    },
+    {
+        "profe": "Roberto Osses Flores",
+        "alfabetico": "Osses",
+        "titulades": 7,
+        "guiades": 23,
+        "porcentajes": 30
+    },
+    {
+        "profe": "Osvaldo Zorzano Betancourt",
+        "alfabetico": "Zorzano",
+        "titulades": 3,
+        "guiades": 10,
+        "porcentajes": 30
+    },
+    {
+        "profe": "Andrea Wechsler Pizarro",
+        "alfabetico": "Wechsler",
+        "titulades": 11,
+        "guiades": 37,
+        "porcentajes": 30
+    },
+    {
+        "profe": "Paola Benavides Bermúdez",
+        "alfabetico": "Benavides",
+        "titulades": 2,
+        "guiades": 7,
+        "porcentajes": 29
+    },
+    {
+        "profe": "Bruno Perelli Soto",
+        "alfabetico": "Perelli",
+        "titulades": 2,
+        "guiades": 7,
+        "porcentajes": 29
+    },
+    {
+        "profe": "René Perea Morales",
+        "alfabetico": "Perea",
+        "titulades": 3,
+        "guiades": 11,
+        "porcentajes": 27
+    },
+    {
+        "profe": "Raúl Molina Oyarzún",
+        "alfabetico": "Molina",
+        "titulades": 1,
+        "guiades": 4,
+        "porcentajes": 25
+    },
+    {
+        "profe": "Lorna Lares López",
+        "alfabetico": "Lares",
+        "titulades": 4,
+        "guiades": 17,
+        "porcentajes": 24
+    },
+    {
+        "profe": "Cortés López, Claudio",
+        "alfabetico": "Cortés",
+        "titulades": 0,
+        "guiades": 2,
+        "porcentajes": 0
+    },
+    {
+        "profe": "Morales López, Héctor",
+        "alfabetico": "Morales",
+        "titulades": 0,
+        "guiades": 2,
+        "porcentajes": 0
+    },
+    {
+        "profe": "Pantoja Sánchez, Alejandro",
+        "alfabetico": "Pantoja",
+        "titulades": 0,
+        "guiades": 4,
+        "porcentajes": 0
+    }
 ]
