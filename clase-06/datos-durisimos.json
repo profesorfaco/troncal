@@ -4,7 +4,7 @@
 		"titulades": 1,
 		"guiades": 1,
 		"porcentajes": 100,
-		"porcentaje_a_nota": 7.0
+		"porcentaje_a_nota": 7
 	},
 	{
 		"profe": "Ricardo Castro Meza",
@@ -12,7 +12,7 @@
 		"titulades": 1,
 		"guiades": 1,
 		"porcentajes": 100,
-		"porcentaje_a_nota": 7.0
+		"porcentaje_a_nota": 7
 	},
 	{
 		"profe": "Rebeca Silva Roquefort",
@@ -20,7 +20,7 @@
 		"titulades": 1,
 		"guiades": 1,
 		"porcentajes": 100,
-		"porcentaje_a_nota": 7.0
+		"porcentaje_a_nota": 7
 	},
 	{
 		"profe": "Daniel Reyes León",
@@ -324,7 +324,7 @@
 		"titulades": 0,
 		"guiades": 2,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1.0
+		"porcentaje_a_nota": 1
 	},
 	{
 		"profe": "Morales López, Héctor",
@@ -332,7 +332,7 @@
 		"titulades": 0,
 		"guiades": 2,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1.0
+		"porcentaje_a_nota": 1
 	},
 	{
 		"profe": "Pantoja Sánchez, Alejandro",
@@ -340,6 +340,6 @@
 		"titulades": 0,
 		"guiades": 4,
 		"porcentajes": 0,
-		"porcentaje_a_nota": 1.0
+		"porcentaje_a_nota": 1
 	}
 ]
