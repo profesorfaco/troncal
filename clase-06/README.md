@@ -146,6 +146,8 @@ Y un ejercicio, sin asustarse:
 </html>
 ```
 
+El resultado del ejercicio se puede consultar en: https://profesorfaco.github.io/troncal/clase-06/
+
 _ _ _ _ 
 
 [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md) ⇆ [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md)
