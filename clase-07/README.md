@@ -10,7 +10,7 @@
 
 - Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
-**Genere una propuesta de visualización que le permita hacer la mejor elección posible de Prof. Guía para su Proyecto de Título**.
+**Genere una propuesta de visualización que le permita (a usted y gente como usted) hacer la mejor elección posible de Prof. Guía para su Proyecto de Título**.
 
 #### Trabajo individual, con evaluación sumativa (20% de la nota final)
 
