@@ -4,7 +4,7 @@
 
 - La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
 
-- Para esta clase les preparé otra visualización: https://profesorfaco.github.io/troncal/clase-07/
+- Para esta clase les preparé una visualización complementaria: https://profesorfaco.github.io/troncal/clase-07/
 
 - Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
