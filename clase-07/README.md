@@ -2,11 +2,15 @@
 
 ### Variables aplicadas
 
-La clase recién pasada vimos algunos datos: https://profesorfaco.github.io/troncal/clase-06/
+La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
 
-A ellos podemos sumar: https://profesorfaco.github.io/troncal/clase-07/
+Para esta clase les preparé otra visualización: https://profesorfaco.github.io/troncal/clase-07/
 
-Después de la revisión atenta de todos los datos, genere una propuesta de visualización digital, dinámica e interactiva que le permita hacer la mejor elección posible de Prof. Guía para su Proyecto de Título.
+Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
+
+**Después de la revisión atenta de todo lo preparado y disponible**: 
+
+**Genere una propuesta de visualización digital, dinámica e interactiva que le permita hacer la mejor elección posible de Prof. Guía para su Proyecto de Título**.
 
 #### Trabajo individual, con evaluación sumativa (20% de la nota final)
 
