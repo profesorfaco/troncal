@@ -2,13 +2,17 @@
 
 ### Variables aplicadas
 
+La clase recién pasada vimos algunos datos: https://profesorfaco.github.io/troncal/clase-06/
+
+A ellos podemos sumar: https://profesorfaco.github.io/troncal/clase-07/
+
+Después de la revisión atenta de todos los datos, genere una propuesta de visualización digital, dinámica e interactiva que le permita hacer la mejor elección posible de Prof. Guía para su Proyecto de Título.
+
 #### Trabajo individual, con evaluación sumativa (20% de la nota final)
 
-Corresponde revisar un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-06/infographic_designers_sketchbooks.pdf
+Corresponde revisar un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-07/infographic_designers_sketchbooks.pdf
 
-Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks*.
-
-Se entregará un desafío de visualización, para el que se deben transformar datos en una cualidad visible, poniendo atención a las variables visuales ya revisadas y el cumplimiento de los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
+Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks*. Poniendo atención a las variables visuales ya revisadas y el cumplimiento de los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
 
 _ _ _ _ 
 
