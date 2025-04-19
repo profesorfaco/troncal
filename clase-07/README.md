@@ -2,11 +2,11 @@
 
 ### Variables aplicadas
 
-La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
+- La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
 
-Para esta clase les preparé otra visualización: https://profesorfaco.github.io/troncal/clase-07/
+- Para esta clase les preparé otra visualización: https://profesorfaco.github.io/troncal/clase-07/
 
-Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
+- Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
 **Después de la revisión atenta de todo lo preparado y disponible**: 
 
