@@ -16,13 +16,13 @@
 
 Antes de generar sus propuestas, por favor: 
 
-- conozca los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
+- conozca los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization; 
 
-- revise un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://edelweiss-assets.abovethetreeline.com/BFC/supplemental/Infographic_Designers_Sketchbooks_Dummy_INC.pdf
+- revise un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://edelweiss-assets.abovethetreeline.com/BFC/supplemental/Infographic_Designers_Sketchbooks_Dummy_INC.pdf; y
 
-- recuerde las variables visuales ya revisadas, con énfasis en color: https://github.com/profesorfaco/troncal/tree/main/clase-05 
+- recuerde las variables visuales ya revisadas: https://github.com/profesorfaco/troncal/tree/main/clase-05 
 
-Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks* del libro.
+Corresponde trabajar con lápiz y papel, a la manera de los *sketchbooks* en el libro y/o el [paper prototyping](https://www.youtube.com/watch?v=yafaGNFu8Eg)
 
 _ _ _ _ 
 
