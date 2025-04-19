@@ -2,6 +2,8 @@
 
 ### Variables aplicadas
 
+#### Trabajo individual, con evaluación sumativa (20% de la nota final)
+
 **Considerando**:
 
 - La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
@@ -10,13 +12,17 @@
 
 - Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
-**Genere una propuesta de visualización que le permita (a usted y gente como usted) hacer la mejor elección posible de Prof. Guía para su Proyecto de Título**.
+**Genere 6 propuestas de visualización que le permitan (a usted y gente como usted) hacer la mejor elección informada de Prof. Guía para su Proyecto de Título**.
 
-#### Trabajo individual, con evaluación sumativa (20% de la nota final)
+Antes de generar sus propuestas, considere: 
 
-Corresponde revisar un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-07/infographic_designers_sketchbooks.pdf
+- un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-07/infographic_designers_sketchbooks.pdf 
 
-Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks*. Poniendo atención a las variables visuales ya revisadas y el cumplimiento de los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
+- las variables visuales ya revisadas; 
+
+- los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
+
+Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks* del libro.
 
 _ _ _ _ 
 
