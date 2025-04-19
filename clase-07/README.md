@@ -14,13 +14,13 @@
 
 **Genere 6 propuestas de visualización que le permitan (a usted y gente como usted) hacer la mejor elección informada de Prof. Guía para su Proyecto de Título**.
 
-Antes de generar sus propuestas, considere: 
+Antes de generar sus propuestas, por favor: 
 
-- un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://github.com/profesorfaco/troncal/blob/main/clase-07/infographic_designers_sketchbooks.pdf 
+- conozca los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
 
-- las variables visuales ya revisadas; 
+- revise un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://edelweiss-assets.abovethetreeline.com/BFC/supplemental/Infographic_Designers_Sketchbooks_Dummy_INC.pdf
 
-- los principios descritos en https://www.tableau.com/blog/stephen-few-data-visualization
+- recuerde las variables visuales ya revisadas, con énfasis en color: https://github.com/profesorfaco/troncal/tree/main/clase-05 
 
 Vamos a trabajar con lápiz y papel, como en la mayoría de tales *sketchbooks* del libro.
 
