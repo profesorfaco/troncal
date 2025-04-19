@@ -4,13 +4,13 @@
 
 #### Trabajo individual, con evaluación sumativa (20% de la nota final)
 
-**Considerando**:
+**Considerando que**:
 
-- La clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/
+- la clase recién pasada visualizamos algunos datos duros: https://profesorfaco.github.io/troncal/clase-06/;
 
-- Para esta clase les preparé una visualización complementaria: https://profesorfaco.github.io/troncal/clase-07/
+- esta clase cuentan con una visualización complementaria: https://profesorfaco.github.io/troncal/clase-07/; y
 
-- Ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
+- ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
 **Genere 6 propuestas de visualización que le permitan (a usted y gente como usted) hacer la mejor elección informada de Prof. Guía para su Proyecto de Título**.
 
