@@ -61,7 +61,7 @@
       <h1>¿Qué porcentaje de inscripciones en Proyecto de Título II ha aprobado Examen de Título?</h1>
       <p><em>Los datos de <a href="https://github.com/profesorfaco/troncal/blob/main/clase-06/titulos.csv" target="_blank">209 Exámenes de Título aprobados</a> se cruzan con algunos datos disponibles en <a href="https://ucampus.uchile.cl/" target="_blank">UCampus</a></em>, la Plataforma de Gestión Curricular y Docente de la Universidad de Chile. En esta Plataforma se cuentan "ocupados" en distintas secciones de Proyecto de Título II, desde el segundo semestre de 2021 hasta el segundo semestre de 2024.</p> 
       <p>Cada "ocupado" corresponde a una inscripción en una misma asignatura que puede tener distintas secciones a cargo de distintos(as) Profesores(as) Guía. Contar "ocupados" en las distintas secciones de Proyecto de Título II es lo mismo que contar inscripciones en la asignatura.</p>
-      <p><em>Del cruce de los datos de 209 Exámenes de Título aprobados y el conteo de <span id="total"></span> "ocupados", resulta que el porcentaje de inscripciones en Proyecto de Título II que ha aprobado Examen de Título se aproxima al <span id="parte"></span>%</em>.</p>
+      <p><em>Del cruce de los datos de 209 Exámenes de Título aprobados y el <a href="https://docs.google.com/spreadsheets/d/1820xdTbmCmXQRj_k2bg2PamTkPxNoZWrSypRGWyV7so/edit?usp=sharing" target="_blank">conteo de <span id="total"></span> "ocupados"</a>, resulta que el porcentaje de inscripciones en Proyecto de Título II que ha aprobado Examen de Título se aproxima al <span id="parte"></span>%</em>.</p>
       <p>Para poder revisar la relación entre aprobados e inscritos por Profesor(a) Guía en Proyecto de Título II, se presentan los siguientes porcentajes aproximados:</p>
     </header>
     <main></main>
@@ -102,7 +102,7 @@
     datos().catch((error) => console.error(error));
     function color(n){
       var texto = '';
-      if(n >= 40){
+      if(n >= 43){
         texto = 'fill="#000"';
       } else {
         texto = 'fill="var(--gris)"'
