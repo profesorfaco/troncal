@@ -12,7 +12,7 @@
 
 - ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
-**Genere 6 propuestas de visualización que le permitan (a usted y gente como usted) hacer la mejor elección informada de Prof. Guía para su Proyecto de Título**.
+**Genere 6 propuestas de visualización que le permitan** ([a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2)) **conocer las mejores alternativas de Prof. Guía para su Proyecto de Título**.
 
 Antes de generar sus propuestas, por favor: 
 
