@@ -36,7 +36,7 @@ No trabajaremos con los computadores. Será un trabajo a mano:
 
 ![asi](https://github.com/user-attachments/assets/dcc25561-d2ef-47c9-818f-c9b6d71b0147)
 
-Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes de proponer el uso de gráficos (*diagramm* en alemán, *chart* en inglés), revise el Catálogo de Visualización de Datos: https://datavizcatalogue.com/ES/
+Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes de proponer el uso de gráficos (*diagramm* en alemán, *chart* en inglés), se podría revisar el Catálogo de Visualización de Datos: https://datavizcatalogue.com/ES/
 
 
 _ _ _ _ 
