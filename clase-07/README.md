@@ -18,7 +18,7 @@ Antes de generar sus propuestas, por favor:
 
 - recuerde las variables visuales ya revisadas: https://github.com/profesorfaco/troncal/tree/main/clase-05 
 
-- revise el vínculo de [a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2);
+- revise el vínculo "[a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2)";
 
 - revise un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://edelweiss-assets.abovethetreeline.com/BFC/supplemental/Infographic_Designers_Sketchbooks_Dummy_INC.pdf; y
 
