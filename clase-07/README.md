@@ -12,17 +12,32 @@
 
 - ambas visualizaciones pueden sumarse a lo ya disponible en: https://disenouchile.github.io/guiaturas/guias.html
 
-**Genere 6 propuestas de visualización que le permitan** ([a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2)) **conocer las mejores alternativas de Prof. Guía para su Proyecto de Título**.
+**Tendrá que generar 6 propuestas de visualización que le permitan** ([a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2)) **conocer las mejores alternativas de Prof. Guía para su Proyecto de Título**.
 
 Antes de generar sus propuestas, por favor: 
 
 - recuerde las variables visuales ya revisadas: https://github.com/profesorfaco/troncal/tree/main/clase-05 
 
+- revise el vínculo de [a usted y gente como usted](https://dl.acm.org/doi/full/10.1145/3492342#sec-2);
+
 - revise un fragmento del libro *Infographic designers’ sketchbooks* (Heller & Landers, 2014): https://edelweiss-assets.abovethetreeline.com/BFC/supplemental/Infographic_Designers_Sketchbooks_Dummy_INC.pdf; y
 
-- apóyese en este Catálogo de Visualización de Datos: https://datavizcatalogue.com/ES/
+- revise este video de [paper prototyping](https://www.youtube.com/watch?v=yafaGNFu8Eg)
 
-Y genera las propuestas con lápiz y papel, a la manera de los *sketchbooks* en el libro y/o el [paper prototyping](https://www.youtube.com/watch?v=yafaGNFu8Eg)
+Al principio de la clase se le darán más instrucciones respecto del formato. Le conviene llegar a las 15.00 hrs. con: 
+
+- papel blanco formato doble carta o similar (43.18 cm x 27.94 cm; un Block Artel 99 1/8 tiene un foramto similar);
+
+- lápiz mina y *masking tape*; y
+
+- marcadores de color doble punta (de [los baratos, que venden en supermercados chinos](https://www.mercadolibre.cl/set-de-80-marcadores-doble-punta-touch-yuzu/p/MLC28389106); con una punta fina y otra tipo pincel)
+
+No trabajaremos con los computadores. Será un trabajo a mano:
+
+![asi](https://github.com/user-attachments/assets/dcc25561-d2ef-47c9-818f-c9b6d71b0147)
+
+Sólo aprovecharemos los computadores para tomar consultar referencias. Ejemplo: Antes de proponer el uso de gráficos (*diagramm* en alemán, *chart* en inglés), revise el Catálogo de Visualización de Datos: https://datavizcatalogue.com/ES/
+
 
 _ _ _ _ 
 
