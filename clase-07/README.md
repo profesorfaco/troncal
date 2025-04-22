@@ -38,6 +38,19 @@ No trabajaremos con los computadores. Será un trabajo a mano:
 
 Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes de proponer el uso de gráficos (*diagramm* en alemán, *chart* en inglés), se podría revisar el Catálogo de Visualización de Datos: https://datavizcatalogue.com/ES/
 
+#### PARA ENTREGAR
+
+1ro.- Descargar este ZIP: https://github.com/profesorfaco/troncal/raw/refs/heads/main/clase-07/entrega.zip
+
+2do.- Descomprimir el ZIP y subir su contenido a un repositorio de GitHub. 
+
+3ro.- Preparar imágenes (fotos de sus bocetos). Las que correspondan a versión de *desktop* deberían tener un ancho máximo de 1600 pixeles, y las de *mobile* un ancho máximo de 1000 pixeles. ¡Todas deberían tener 72 dpi! Se recomienda trabajar con [Photopea](https://www.photopea.com/) y luego con TinyPNG, siempre cuidando el tipo de extensión más adecuada al caso (acaso PNG, JPG o WebP).
+
+4to.- Modifique el `index.html` y vuelva a subirlo a repositorio de GitHub junto con la carpeta que ahora debería tener todas las imágenes. 
+
+5to.- Avise que ya subió todo enviando mensaje vía U-Cursos al Profesor. En el mensaje debe incluir 2 direcciones. La de su repositorio y la de su página funcionando.
+
+Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la clase de Proyecto) para enviar ese correo.
 
 _ _ _ _ 
 
