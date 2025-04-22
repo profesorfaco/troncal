@@ -44,7 +44,7 @@ Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes
 
 2do.- Descomprimir el ZIP y subir su contenido a un repositorio de GitHub. 
 
-3ro.- Preparar imágenes (fotos de sus bocetos). Las que correspondan a versión de *desktop* deberían tener un ancho máximo de 1600 pixeles, y las de *mobile* un ancho máximo de 1000 pixeles. ¡Todas deberían tener 72 dpi! Se recomienda trabajar con [Photopea](https://www.photopea.com/) y luego con TinyPNG, siempre cuidando el tipo de extensión más adecuada al caso (acaso PNG, JPG o WebP).
+3ro.- Preparar imágenes (fotos de sus bocetos). Las que correspondan a versión de *desktop* deberían tener un ancho máximo de 1600 pixeles, y las de *mobile* un ancho máximo de 1000 pixeles. ¡Todas deberían tener 72 dpi! Se recomienda trabajar con [Photopea](https://www.photopea.com/) y luego con [TinyPNG](https://tinypng.com/), siempre cuidando el tipo de extensión más adecuada al caso (acaso PNG, JPG o WebP).
 
 4to.- Modifique el `index.html` y vuelva a subirlo a repositorio de GitHub junto con la carpeta que ahora debería tener todas las imágenes. 
 
