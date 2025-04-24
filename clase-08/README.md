@@ -1,18 +1,28 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 08 → 29 de abril
 
-### RAWGraphs
+### Tenemos que conversar… 
 
-Por favor leer: Mauri, M., Elli, T., Caviglia, G., Uboldi, G., & Azzi, M. (2017). *RAWGraphs: A Visualisation Platform to Create Open Outputs*. Proceedings of the 12th Biannual Conference on Italian SIGCHI Chapter, 28:1--28:5. https://doi.org/10.1145/3125571.3125585
+Lo que sigue debería ser dominado por cualquiera en la mención de visualidad y medios. Ojalá les suene repetido. Lamentaría mucho que fuera la primera vez que lo leen:
 
-Si aprovechamos el *abstract* de tal artículo y la versión gratuita del traductor DeepL.com, tenemos:
+**Distintos gráficos tienen distintas funciones y estructuras**.
 
-> RAWGraphs es una aplicación web de código abierto para la creación de visualizaciones estáticas de datos diseñadas para ser modificadas posteriormente. Concebida originalmente para diseñadores gráficos con el fin de proporcionar una serie de tareas no disponibles con otras herramientas, evolucionó hasta convertirse en una plataforma que ofrece formas sencillas de mapear las dimensiones de los datos en variables visuales. Presenta un enfoque de la visualización de datos basado en gráficos: cada modelo visual es un módulo independiente que expone distintas variables visuales que pueden utilizarse para mapear dimensiones de datos. De este modo, los usuarios pueden crear visualizaciones de datos complejas. Por último, la herramienta está pensada para producir resultados abiertos, es decir, no sujetos a soluciones propietarias, que puedan editarse posteriormente.
+La primera pregunta que corresponde hacer antes de decidir por un gráfico para una visualización es *¿Qué desea mostrar?*. Por favor revise la pregunta y alternativas de respuesta en: 
 
-RAWGraphs, como proyecto, nació en el [DensityDesign Lab](https://densitydesign.org/) del Politécnico de Milán, y hoy por hoy es mantenido por el mismo Lab y [Calibro](https://calib.ro/).
+https://datavizcatalogue.com/ES/buscar.html
 
-Para familiarizarse con la herramienta y los módulos que ofrece RAWGraphs, conviene revisar los videos vinculados en https://www.rawgraphs.io/learning#charts-and-templates
+Si estamos comparando alternativas de Prof. Guía, nuestra respuesta a la pregunta podría ser *comparaciones*, por lo que necesitaríamos *métodos de visualización que ayuden a mostrar las diferencias o similitudes entre valores*: 
 
-Luego pasemos a probar la herramienta pegando datos ya copiados de un CSV o un JSON: https://app.rawgraphs.io/
+https://datavizcatalogue.com/ES/buscar/comparaciones.html
+
+Lo que sigue es tener claridad respecto de sus datos por comparar, lo que ahora se estaría viendo sin más en columnas de números. Por ejemplo, si usted tiene 2 columnas de datos, estos pueden pasar a los ejes *x* e *y*, a la *abscisa* y la *ordenada*, y con eso estaría traslando lo abstracto de 2 variables a una configuración visual.
+
+Pero si tiene sólo 2 columnas de datos, no tendría sentido, por ejemplo, proponer un [gráfico de burbujas](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), porque tal gráfico se estructura hasta con 4 variables (o 4 columnas de datos):
+
+- coordenadas x
+- coordenadas y
+- radio de la burbuja
+- color de la burbuja
+
 
 _ _ _ _ 
 
