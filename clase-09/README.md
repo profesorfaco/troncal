@@ -1,31 +1,18 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 09 → 06 de mayo
 
-### De RAWGraphs a SVG
+### RAWGraphs
 
-En el [*abstract* del artículo](https://doi.org/10.1145/3125571.3125585) que pudo leer [la clase recién pasada](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md) se insiste en una característica: 
+Por favor leer: Mauri, M., Elli, T., Caviglia, G., Uboldi, G., & Azzi, M. (2017). *RAWGraphs: A Visualisation Platform to Create Open Outputs*. Proceedings of the 12th Biannual Conference on Italian SIGCHI Chapter, 28:1--28:5. https://doi.org/10.1145/3125571.3125585
 
-- *visualizaciones estáticas de datos diseñadas **para ser modificadas posteriormente*** 
+Si aprovechamos el *abstract* de tal artículo y la versión gratuita del traductor DeepL.com, tenemos:
 
-- *no sujetos a soluciones propietarias, que **puedan editarse posteriormente***
+> RAWGraphs es una aplicación web de código abierto para la creación de visualizaciones estáticas de datos diseñadas para ser modificadas posteriormente. Concebida originalmente para diseñadores gráficos con el fin de proporcionar una serie de tareas no disponibles con otras herramientas, evolucionó hasta convertirse en una plataforma que ofrece formas sencillas de mapear las dimensiones de los datos en variables visuales. Presenta un enfoque de la visualización de datos basado en gráficos: cada modelo visual es un módulo independiente que expone distintas variables visuales que pueden utilizarse para mapear dimensiones de datos. De este modo, los usuarios pueden crear visualizaciones de datos complejas. Por último, la herramienta está pensada para producir resultados abiertos, es decir, no sujetos a soluciones propietarias, que puedan editarse posteriormente.
 
-Una opción sencilla de modificar o editar posterior está en el exportar como `.svg`.
+RAWGraphs, como proyecto, nació en el [DensityDesign Lab](https://densitydesign.org/) del Politécnico de Milán, y hoy por hoy es mantenido por el mismo Lab y [Calibro](https://calib.ro/).
 
-Cuando usted tiene un `.svg` puede abrirlo en Adobe Illustrator. 
+Para familiarizarse con la herramienta y los módulos que ofrece RAWGraphs, conviene revisar los videos vinculados en https://www.rawgraphs.io/learning#charts-and-templates
 
-Pero `.svg` no es equivalente a un `.ai`. Puede comprobarlo haciendo lo que sigue indicado en 4 pasos:
-
-1. Abra lo descargado desde RawGraphs en Adobe Illustrator u otro software de edición de gráfica vectorial.
-
-2. Sin hacer modificaciones, guárdelo como `.ai`
-
-3. Abra un editor de código fuente (Ej. [Sublime Text](https://www.sublimetext.com/)) para leer los documentos que deberían ser iguales.
-
-4. Note cómo es que el documento de extensión `.svg` es legible, tal como lo es un `.xml`. El otro no.
-
-SVG es sigla de Scalable Vector Graphics. Como se pudo notar en el cuarto paso, se trata de un lenguaje de marcado XML para describir, marcando, gráficos vectoriales.
-
-Ver más en: https://developer.mozilla.org/es/docs/Web/SVG
-
+Luego pasemos a probar la herramienta pegando datos ya copiados de un CSV o un JSON: https://app.rawgraphs.io/
 
 _ _ _ _ 
 
