@@ -56,11 +56,11 @@ El curso comienza a las 15:00 hrs. del martes 11 de marzo y termina a las 18:15 
 
 [Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 22 de abril → Variables aplicadas → **Trabajo individual, evaluación sumativa**
 
-[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 29 de abril → RAWGraphs
+[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 29 de abril → ~~RAWGraphs~~ Tenemos que conversar…
 
-[Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 06 de mayo → De RAWGraphs a SVG
+[Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 06 de mayo → RAWGraphs
 
-[Clase 10](https://github.com/profesorfaco/troncal/tree/main/clase-10) → 13 de mayo → De SVG a HTML → **Trabajo individual, evaluación sumativa**
+[Clase 10](https://github.com/profesorfaco/troncal/tree/main/clase-10) → 13 de mayo → ~~De SVG a HTML~~ De RAWGraphs a SVG → **Trabajo individual, evaluación sumativa**
 
 Sin clases → 20 de mayo → **Receso de actividades docentes (19 al 23 de mayo)**
 
