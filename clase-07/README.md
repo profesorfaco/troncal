@@ -52,6 +52,35 @@ Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes
 
 Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la clase de Proyecto) para enviar ese correo.
 
+#### LO ENTREGADO HASTA EL JUEVES A LAS 19.30 HRS.
+
+| N° | Nombre | GitHub | GitHub Pages |
+|:----:|:-----------------|:----------------|:------------|
+| 1 | Rodrigo Albornoz C. | PENDIENTE | PENDIENTE |
+| 2 | Benjamín Alcántar Z. | https://github.com/BenjaminAlcantar/ | https://benjaminalcantar.github.io/nota-individual-1/ |
+| 3 | Isabel Álvarez B. | PENDIENTE | PENDIENTE |
+| 4 | Macarena Arancibia H. | PENDIENTE | PENDIENTE |
+| 5 | Catalina Arismendi L. | PENDIENTE | PENDIENTE |
+| 6 | Lucas Assis A. | PENDIENTE | PENDIENTE |
+| 7 | Antonia Cáceres N. | PENDIENTE | PENDIENTE |
+| 8 | Maximiliano Cantarero G. | PENDIENTE | PENDIENTE |
+| 9 | Gabriel Castillo | PENDIENTE | PENDIENTE |
+| 10 | Valentina Cayuqueo H. | PENDIENTE | PENDIENTE |
+| 11 | Jacob Gidi Q. | PENDIENTE | PENDIENTE |
+| 12 | Isabel Hernández B. | PENDIENTE | PENDIENTE |
+| 13 | Daniel Oñate F. | PENDIENTE | PENDIENTE |
+| 14 | Javiera Parra M. | PENDIENTE | PENDIENTE |
+| 15 | Martina Pezoa M. | https://github.com/martinapezoa/ | https://martinapezoa.github.io/nota-individual-1/ |
+| 16 | Isidora Riffo O. | PENDIENTE | PENDIENTE |
+| 17 | Fernanda Rivera B. | https://github.com/Fernanda2222 | https://fernanda2222.github.io/nota-individual-1/ |
+| 18 | Ámbar Ruiz de Loizaga C. | https://github.com/ambarruizzz | https://ambarruizzz.github.io/visualizaciones/ |
+| 19 | Maroa Tapia Vásquez | PENDIENTE | PENDIENTE |
+| 20 | Fernanda Tejo O. | PENDIENTE | PENDIENTE |
+| 21 | Javiera Paz Torres P. | PENDIENTE | PENDIENTE |
+| 22 | Renata Vargas B. | PENDIENTE | PENDIENTE |
+| 23 | Iñigo Vasquez L. | PENDIENTE | PENDIENTE |
+| 24 | Sofía Verdugo M. | PENDIENTE | PENDIENTE |
+
 _ _ _ _ 
 
 [clase-06](https://github.com/profesorfaco/troncal/blob/main/clase-06/README.md) ⇆ [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md)
