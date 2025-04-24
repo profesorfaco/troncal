@@ -4,7 +4,7 @@
 
 Lo que sigue debería ser dominado por cualquiera en este electivo de la mención en visualidad y medios. Ojalá le suene repetido:
 
-**Los gráficos (*chart* en inglés; *diagramm* en alemán) se ven y leen. Capturan la mirada y en ellos nos dan algo a interpretar según cierta convención. Es por lo convenido que distintos gráficos tienen distintas funciones y estructuras**.
+**Los gráficos (*chart* en inglés; *diagramm* en alemán) se ven y leen. Capturan la mirada y en ellos nos se nos da algo a interpretar según cierta convención; y es por lo convenido que distintos gráficos tienen distintas funciones y estructuras**.
 
 Para no fallar en la elección de un gráfico, la primera pregunta que corresponde hacerse es *¿Qué desea mostrar?*. Por favor revise la pregunta y alternativas de respuesta en: 
 
