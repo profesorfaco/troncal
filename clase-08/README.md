@@ -6,9 +6,9 @@ Lo que sigue debería ser dominado por cualquiera en este electivo de la menció
 
 **Los gráficos (*chart* en inglés; *diagramm* en alemán) se ven y leen. Capturan la mirada y en ellos se nos da algo a comprender según cierta convención; y es por lo convenido que distintos gráficos tienen distintas funciones y estructuras**.
 
-Para no fallar en la elección de un gráfico, la primera pregunta que le corresponde hacerse es *¿Qué desea mostrar?*. Por favor revise la pregunta y alternativas de respuesta en: 
+Para no fallar en la elección de un gráfico, la primera pregunta que le corresponde hacerse es *¿Qué desea mostrar?*. 
 
-https://datavizcatalogue.com/ES/buscar.html
+Por favor revise la pregunta y alternativas de respuesta en: https://datavizcatalogue.com/ES/buscar.html
 
 Si usted está comparando alternativas de Prof. Guía, la respuesta a la pregunta podría ser *comparaciones*, por lo que necesita *métodos de visualización que ayuden a mostrar las diferencias o similitudes entre valores*: 
 
