@@ -35,7 +35,10 @@ Podría usar un gráfico de dispersión para hacer evidente la relación entre:
 
 Lo que mostrarían tales gráficos sería una correlación fuerte, débil o ninguna.
 
-![correlation-no](https://github.com/user-attachments/assets/1c6dd09f-63ea-4c3f-993e-08461ad076c0)
+![no-correlation](https://github.com/user-attachments/assets/fd29933e-4eb7-4cb7-bac0-9f2ed436a021)
+
+
+¿Qué correlación mostraría este gráfico? Los datos que muestra son reales, corresponden a quienes aprobaron Examen de Título en segundo semestre de 2024. Y fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/)
 
 _ _ _ _ 
 
