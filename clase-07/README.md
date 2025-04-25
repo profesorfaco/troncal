@@ -52,34 +52,34 @@ Sólo aprovecharemos los computadores para consultar referencias. Ejemplo: Antes
 
 Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la clase de Proyecto) para enviar ese correo.
 
-#### LO ENTREGADO HASTA EL JUEVES A LAS 19.30 HRS.
+#### ENTREGAS
 
 | N° | Nombre | GitHub | GitHub Pages |
 |:----:|:-----------------|:----------------|:------------|
-| 1 | Rodrigo Albornoz C. | PENDIENTE | PENDIENTE |
+| 1 | Rodrigo Albornoz C. | https://github.com/RodrigoAlbornoz3 | https://rodrigoalbornoz3.github.io/nota-individual-1/ |
 | 2 | Benjamín Alcántar Z. | https://github.com/BenjaminAlcantar/ | https://benjaminalcantar.github.io/nota-individual-1/ |
-| 3 | Isabel Álvarez B. | PENDIENTE | PENDIENTE |
-| 4 | Macarena Arancibia H. | PENDIENTE | PENDIENTE |
-| 5 | Catalina Arismendi L. | PENDIENTE | PENDIENTE |
-| 6 | Lucas Assis A. | PENDIENTE | PENDIENTE |
-| 7 | Antonia Cáceres N. | PENDIENTE | PENDIENTE |
-| 8 | Maximiliano Cantarero G. | PENDIENTE | PENDIENTE |
-| 9 | Gabriel Castillo | PENDIENTE | PENDIENTE |
-| 10 | Valentina Cayuqueo H. | PENDIENTE | PENDIENTE |
-| 11 | Jacob Gidi Q. | PENDIENTE | PENDIENTE |
-| 12 | Isabel Hernández B. | PENDIENTE | PENDIENTE |
-| 13 | Daniel Oñate F. | PENDIENTE | PENDIENTE |
-| 14 | Javiera Parra M. | PENDIENTE | PENDIENTE |
+| 3 | Isabel Álvarez B. | https://github.com/IsabelCarolina | https://isabelcarolina.github.io/Nota_individual-1/ |
+| 4 | Macarena Arancibia H. | **PENDIENTE** | **PENDIENTE** |
+| 5 | Catalina Arismendi L. | https://github.com/CAris2 | **ERROR** |
+| 6 | Lucas Assis A. | https://github.com/LucasAssis7 | https://lucasassis7.github.io/trabajo-individual-1/ |
+| 7 | Antonia Cáceres N. | https://github.com/antoniacaceresn | https://antoniacaceresn.github.io/entrega-bocetos/ |
+| 8 | Maximiliano Cantarero G. | https://github.com/MaximilianoCantareroG | https://maximilianocantarerog.github.io/nota-individual-1/ |
+| 9 | Gabriel Castillo | https://github.com/GabooDesign | https://gaboodesign.github.io/Troncal/Entregas/evaluacion-1/ |
+| 10 | Valentina Cayuqueo H. | https://github.com/ValeCh2 | https://valech2.github.io/Nota_Individual_1/ |
+| 11 | Jacob Gidi Q. | https://github.com/Jacob-Gidi | https://jacob-gidi.github.io/Nota_Individual_1/ |
+| 12 | Isabel Hernández B. | https://github.com/IsabelH235 | https://isabelh235.github.io/nota-individual-1/ |
+| 13 | Daniel Oñate F. | https://github.com/pockyjuno | https://pockyjuno.github.io/Entrega-indovidual-1/ |
+| 14 | Javiera Parra M. | https://github.com/JP1702 | https://jp1702.github.io/entrega-individual-1/ |
 | 15 | Martina Pezoa M. | https://github.com/martinapezoa/ | https://martinapezoa.github.io/nota-individual-1/ |
-| 16 | Isidora Riffo O. | PENDIENTE | PENDIENTE |
+| 16 | Isidora Riffo O. | https://github.com/isidorariffo | https://isidorariffo.github.io/nota-individual-1/ |
 | 17 | Fernanda Rivera B. | https://github.com/Fernanda2222 | https://fernanda2222.github.io/nota-individual-1/ |
 | 18 | Ámbar Ruiz de Loizaga C. | https://github.com/ambarruizzz | https://ambarruizzz.github.io/visualizaciones/ |
-| 19 | Maroa Tapia Vásquez | PENDIENTE | PENDIENTE |
-| 20 | Fernanda Tejo O. | PENDIENTE | PENDIENTE |
-| 21 | Javiera Paz Torres P. | PENDIENTE | PENDIENTE |
-| 22 | Renata Vargas B. | PENDIENTE | PENDIENTE |
-| 23 | Iñigo Vasquez L. | PENDIENTE | PENDIENTE |
-| 24 | Sofía Verdugo M. | PENDIENTE | PENDIENTE |
+| 19 | Maroa Tapia V. | https://github.com/MaroTapia | https://marotapia.github.io/visualizaciones/ |
+| 20 | Fernanda Tejo O. | https://github.com/Fer1137 | https://fer1137.github.io/Visualizacion/ |
+| 21 | Javiera Paz Torres P. | https://github.com/Pazzzto | https://pazzzto.github.io/entrega-individual-troncal/ |
+| 22 | Renata Vargas B. | **PENDIENTE** | **PENDIENTE** |
+| 23 | Iñigo Vasquez L. | https://github.com/InigoVasquez | https://inigovasquez.github.io/Nota-individual-1/ |
+| 24 | Sofía Verdugo M. | https://github.com/sofiaaaska | https://sofiaaaska.github.io/nota-individual-1/ |
 
 _ _ _ _ 
 
