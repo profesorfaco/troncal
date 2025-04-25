@@ -43,6 +43,12 @@ El gráfico que muestra ninguna correlación fue generado con [RAWGraph 2.0](htt
 
 Curiosamente va entre comillas porque, como pudo leer en el [Catálogo de Visualización de información](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), un *gráfico de burbujas es un gráfico de varias variables que es un cruce entre un [Gráfico de Dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)* [scatterplot] *y una [Pirámide de Población](https://datavizcatalogue.com/ES/metodos/piramide_de_poblacion.html)*.
 
+Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatterplot*) es: 
+
+- que a cada estudiante **no** le conviene confiarse en la nota de Proyecto de Título I, y/o
+
+- que le conviene a la Dirección de Pregrado revisar la manera en la que se califica el informe de Proyecto de Título I.
+
 _ _ _ _ 
 
 [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md) ⇆ [clase-09](https://github.com/profesorfaco/troncal/blob/main/clase-09/README.md)
