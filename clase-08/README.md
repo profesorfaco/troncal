@@ -25,9 +25,9 @@ Pero si usted tiene sólo 2 columnas de datos, no tendría sentido, por ejemplo,
 - radio de la burbuja
 - color de la burbuja
 
-Si revisa bien los datos de los que dispone y tiene claro qué desea mostrar, usted podría descartar el [gráfico de burbujas](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html) para usar, por ejemplo, un [gráfico de dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html).
+Si revisa bien los datos de los que dispone y tiene claro qué desea mostrar, usted podría descartar el [gráfico de burbujas](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html) para usar, por ejemplo, un [diagrama de dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html).
 
-Podría usar un [gráfico de dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html) para hacer evidente la relación entre: 
+Podría usar un [diagrama de dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html) para hacer evidente la relación entre: 
 
 - calificación final de Proyecto de Título I y calificación de Examen de Título
 
