@@ -39,7 +39,7 @@ Para poner a prueba la primera relación usted podría usar datos reales, corres
 
 ![no-correlacion-diseno](https://github.com/user-attachments/assets/9cc5dfaf-f44a-478e-9b94-2a78c89f7273)
 
-El gráfico que le muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/)
+El gráfico que muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/). Curiosamente, resulta de la alternativa de Bubble Chart en la que sólo se llenan 2 de las 7 variables que se deberían rellenar al [contruir tal gráfico en RAWGraphs](https://www.rawgraphs.io/learning/how-to-make-a-scatterplot).
 
 ¿Pero sería distinto el resultado si preguntar por Prof. Guía? 
 
