@@ -2,7 +2,7 @@
 
 ### ~~RAWGraphs~~ Tenemos que conversar… 
 
-Lo que sigue debería ser dominado por cualquiera en este electivo de la mención en visualidad y medios. Ojalá le suene repetido:
+Lo que sigue debería ser dominado por cualquiera en este electivo de la mención en visualidad y medios. Ojalá a usted le suene repetido:
 
 **Los gráficos (*chart* en inglés; *diagramm* en alemán) se ven y leen. Capturan la mirada y en ellos nos se nos da algo a interpretar según cierta convención; y es por lo convenido que distintos gráficos tienen distintas funciones y estructuras**.
 
