@@ -37,9 +37,13 @@ Lo que mostrarían tales gráficos sería una correlación fuerte, débil o ning
 
 Para poner a prueba la primera relación usted podría usar datos reales, correspondientes a quienes aprobaron Examen de Título en segundo semestre de 2024:
 
-![no-correlation](https://github.com/user-attachments/assets/fd29933e-4eb7-4cb7-bac0-9f2ed436a021)
+![no-correlacion-diseno](https://github.com/user-attachments/assets/9cc5dfaf-f44a-478e-9b94-2a78c89f7273)
 
 El gráfico que le muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/)
+
+¿Pero sería distinto el resultado si preguntar por Prof. Guía? 
+
+Le encargo la repuesta.
 
 _ _ _ _ 
 
