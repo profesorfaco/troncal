@@ -39,7 +39,9 @@ Para poner a prueba la primera relación usted podría usar datos reales, corres
 
 ![no-correlacion-diseno](https://github.com/user-attachments/assets/9cc5dfaf-f44a-478e-9b94-2a78c89f7273)
 
-El gráfico que muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/). "Curiosamente", el gráfico se generó escogiendo la alternativa de *Bubble Chart* para luego llenar 2 de las 7 variables por mostrar. Curiosamente va entre paréntesis porque, como pudo leer en el [Catálogo de Visualización de información](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html#google_vignette), un *gráfico de burbujas es un gráfico de varias variables que es un cruce entre un [Gráfico de Dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html) y una [Pirámide de Población](https://datavizcatalogue.com/ES/metodos/piramide_de_poblacion.html)*.
+El gráfico que muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/). "Curiosamente", el gráfico se generó escogiendo la alternativa de *Bubble Chart* para luego llenar 2 de las 7 variables por mostrar. 
+
+Curiosamente va entre paréntesis porque, como pudo leer en el [Catálogo de Visualización de información](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html#google_vignette), un *gráfico de burbujas es un gráfico de varias variables que es un cruce entre un [Gráfico de Dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html) y una [Pirámide de Población](https://datavizcatalogue.com/ES/metodos/piramide_de_poblacion.html)*.
 
 _ _ _ _ 
 
