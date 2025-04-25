@@ -45,7 +45,7 @@ Curiosamente va entre comillas porque, como pudo leer en el [Catálogo de Visual
 
 Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatterplot*) es: 
 
-- que a cada estudiante **no** le conviene confiarse en la nota de Proyecto de Título I, y/o
+- que a cada estudiante **no** le conviene confiarse en la nota de Proyecto de Título I; y/o
 
 - que le conviene al [Centro de Enseñanza y Aprendizaje (CEA)](https://fau.uchile.cl/facultad/escuelas-y-direcciones/escuela-de-pregrado/acompanamiento-virtual-centro-de-ensenanza-y-aprendizaje-cea) de nuestra Facultad echarle un vistazo a la manera en la que se califica nuestro informe de Proyecto de Título I.
 
