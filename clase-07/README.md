@@ -77,7 +77,7 @@ Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la c
 | 19 | Maroa Tapia | https://github.com/MaroTapia | https://marotapia.github.io/visualizaciones/ |
 | 20 | Fernanda Tejo | https://github.com/Fer1137 | https://fer1137.github.io/Visualizacion/ |
 | 21 | Javiera Paz Torres | https://github.com/Pazzzto | https://pazzzto.github.io/entrega-individual-troncal/ |
-| 22 | Renata Vargas | **PENDIENTE** | **PENDIENTE** |
+| 22 | Renata Vargas | https://github.com/Bloo-omo | https://bloo-omo.github.io/nota-individual-1/entrega/ |
 | 23 | Iñigo Vasquez | https://github.com/InigoVasquez | https://inigovasquez.github.io/Nota-individual-1/ |
 | 24 | Sofía Verdugo | https://github.com/sofiaaaska | https://sofiaaaska.github.io/nota-individual-1/ |
 
