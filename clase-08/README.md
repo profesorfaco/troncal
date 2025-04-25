@@ -47,7 +47,7 @@ Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatter
 
 - que a cada estudiante **no** le conviene confiarse en la nota de Proyecto de Título I, y/o
 
-- que le conviene a la Dirección de Pregrado revisar la manera en la que se califica el informe de Proyecto de Título I en la Carrera de Diseño.
+- que le conviene al Centro de Enseñanza y Aprendizaje (CEA) echarle un vistazo a la manera en la que se califica el informe de Proyecto de Título I en la Carrera de Diseño.
 
 _ _ _ _ 
 
