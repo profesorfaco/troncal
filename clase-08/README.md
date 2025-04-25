@@ -49,6 +49,8 @@ Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatter
 
 - que le conviene al [Centro de Enseñanza y Aprendizaje (CEA)](https://fau.uchile.cl/facultad/escuelas-y-direcciones/escuela-de-pregrado/acompanamiento-virtual-centro-de-ensenanza-y-aprendizaje-cea) de nuestra Facultad echarle un vistazo a la manera en la que se califica nuestro informe de Proyecto de Título I.
 
+Si es que de la visualización de información no se deriva una decisión relevante, podría ser la visualización y/o la información no sean las más pertinentes.
+
 _ _ _ _ 
 
 [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md) ⇆ [clase-09](https://github.com/profesorfaco/troncal/blob/main/clase-09/README.md)
