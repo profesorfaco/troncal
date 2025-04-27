@@ -31,17 +31,31 @@
                 <tbody id="mencion"></tbody>
             </table>
 
+            <div class="ct-chart ct-perfect-fourth"></div>
+
             <div id="palabreo"></div>
 
             <button onclick="location.href='page.html'">Ver memorias agrupadas por Profesor(a) Guía</button>
         </main>
         <footer>
-            <p><small><a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a></small></p></p>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
         </footer>
         <script>
             const resumen = document.querySelector("h2");
             const tabla = document.querySelector("#mencion");
             const palabreo = document.querySelector("#palabreo");
+
+            function desviacionEstandar(array) {
+                const n = array.length;
+                const mean = array.reduce((a, b) => a + b) / n;
+                return Math.sqrt(array.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n);
+            }
 
             async function datos(criterio) {
                 var seleccion = [];
@@ -53,28 +67,31 @@
 
                 //Creo una selección, basándome en el selector
                 data.forEach((d) => {
-                    if (d.tituloProfesional == criterio) {
+                    if (d.titulo_profesional == criterio) {
                         seleccion.push(d);
                     }
                 });
 
                 //Ordeno la selección por nombre de tituladas/os
                 seleccion.sort(function (a, b) {
-                    if (a.nombre < b.nombre) {
-                        return -1;
-                    }
-                    if (a.nombre > b.nombre) {
+                    if (a.nota_proyecto < b.nota_proyecto) {
                         return 1;
+                    }
+                    if (a.nota_proyecto > b.nota_proyecto) {
+                        return -1;
                     }
                     return 0;
                 });
 
                 //Genero una tabla que muestre la selección ya ordenada
                 seleccion.forEach((s, i) => {
-                    tabla.innerHTML += `<tr><td>${s.nombre}</td><td>${s.profeGuia}</td><td>${s.semestreExamen}</td><td><a href="${s.repositorioAcademico}" target="_blank">${
-                        s.proyecto
-                    }</a></td><td class="text-center">${s.notaExamen.toFixed(1)}</td></tr>`;
-                    notas.push(s.notaExamen);
+                    if (s.repositorio_academico) {
+                        tabla.innerHTML += `
+                    <tr><td>${s.nombre}</td><td>${s.profe_guia}</td><td>${s.semestre_examen}</td><td><a href="${s.repositorio_academico}" target="_blank">${s.proyecto}</a></td><td class="text-center">${s.nota_proyecto.toFixed(1)}</td></tr>`;
+                    } else {
+                        tabla.innerHTML += `<tr><td>${s.nombre}</td><td>${s.profe_guia}</td><td>${s.semestre_examen}</td><td>${s.proyecto}</td><td class="text-center">${s.nota_proyecto.toFixed(1)}</td></tr>`;
+                    }
+                    notas.push(s.nota_proyecto);
                 });
 
                 //Saco un promedio de las notas en la tabla
@@ -84,15 +101,11 @@
                     total += n;
                     i++;
                 });
-                var corte = (total / i).toFixed(1);
+                var promedio = (total / i).toFixed(1);
 
-                console.log(corte);
+                console.log(promedio);
 
-                if (notas.length == 1) {
-                    resumen.innerHTML = `<em>${corte}</em> es la calificación del proyecto en este grupo:`;
-                } else {
-                    resumen.innerHTML = `<em>${corte}</em> es la calificación promedio de los <em>${notas.length}</em> proyectos en este grupo:`;
-                }
+                resumen.innerHTML = `<em>${promedio}</em> es la calificación promedio de los <em>${notas.length}</em> proyectos en este grupo. Y la desviación estándar entre calificaciones es de <em>${(desviacionEstandar(notas)).toFixed(2)}</em>:`;
 
                 //Buscando las palabras frecuentes del "para qué" en su selección
                 var words = "";
@@ -103,7 +116,67 @@
                 });
                 var palabras = words.split(" ");
                 palabras = palabras.sort();
-                const nopalabras = ["",":","a","al","ante","así","base","basado","como","con","contra","de","De","del","dentro","desde","e","el","El","en","entre","esta","este","esto","estos","fin","hacia","la","las","le","les","lo","los","más","mediante","no","o","para","por","que","qué","se","sin","sobre","son","su","sus","tanto","través","un","una","unas","unos","vez","y","Una","bajo","partir","puesta"];
+                const nopalabras = [
+                    "",
+                    ":",
+                    "a",
+                    "al",
+                    "ante",
+                    "así",
+                    "base",
+                    "basado",
+                    "como",
+                    "con",
+                    "contra",
+                    "de",
+                    "De",
+                    "del",
+                    "dentro",
+                    "desde",
+                    "e",
+                    "el",
+                    "El",
+                    "en",
+                    "entre",
+                    "esta",
+                    "este",
+                    "esto",
+                    "estos",
+                    "fin",
+                    "hacia",
+                    "la",
+                    "las",
+                    "le",
+                    "les",
+                    "lo",
+                    "los",
+                    "más",
+                    "mediante",
+                    "no",
+                    "o",
+                    "para",
+                    "por",
+                    "que",
+                    "qué",
+                    "se",
+                    "sin",
+                    "sobre",
+                    "son",
+                    "su",
+                    "sus",
+                    "tanto",
+                    "través",
+                    "un",
+                    "una",
+                    "unas",
+                    "unos",
+                    "vez",
+                    "y",
+                    "Una",
+                    "bajo",
+                    "partir",
+                    "puesta",
+                ];
                 const sacaPalabras = (arreglo, sacar) => {
                     return arreglo.filter((palabra) => {
                         return !sacar.includes(palabra);
@@ -155,4 +228,3 @@
         </script>
     </body>
 </html>
-

@@ -68,16 +68,40 @@
             <button onclick="location.href='index.html'">Ver memorias agrupadas por Título Profesional</button>
         </main>
         <footer>
-            <p><small><a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a></small></p></p>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
         </footer>
         <script>
             const resumen = document.querySelector("h2");
             const tabla = document.querySelector("#mencion");
             const palabreo = document.querySelector("#palabreo");
 
+            function desviacionEstandar(array) {
+                const n = array.length;
+                const mean = array.reduce((a, b) => a + b) / n;
+                return Math.sqrt(array.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n);
+            }
+
+            function mediana(numbers) {
+                const sorted = Array.from(numbers).sort((a, b) => a - b);
+                const middle = Math.floor(sorted.length / 2);
+
+                if (sorted.length % 2 === 0) {
+                    return (sorted[middle - 1] + sorted[middle]) / 2;
+                }
+
+                return sorted[middle];
+            }
+
             async function datos(criterio) {
                 var seleccion = [];
                 var notas = [];
+                var notasPrevias = [];
                 const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/troncal/refs/heads/main/clase-07/titulades.json");
                 const data = await consulta.json();
                 console.log("Lo que sigue son todos los datos:");
@@ -85,28 +109,34 @@
 
                 //Creo una selección, basándome en el selector
                 data.forEach((d) => {
-                    if (d.profeGuia == criterio) {
+                    if (d.profe_guia == criterio) {
                         seleccion.push(d);
                     }
                 });
 
                 //Ordeno la selección por nombre de tituladas/os
                 seleccion.sort(function (a, b) {
-                    if (a.nombre < b.nombre) {
-                        return -1;
-                    }
-                    if (a.nombre > b.nombre) {
+                    if (a.nota_proyecto < b.nota_proyecto) {
                         return 1;
+                    }
+                    if (a.nota_proyecto > b.nota_proyecto) {
+                        return -1;
                     }
                     return 0;
                 });
 
                 //Genero una tabla que muestre la selección ya ordenada
                 seleccion.forEach((s, i) => {
-                    tabla.innerHTML += `<tr><td>${s.nombre}</td><td>${s.tituloProfesional}</td><td>${s.semestreExamen}</td><td><a href="${s.repositorioAcademico}" target="_blank">${
-                        s.proyecto
-                    }</a></td><td class="text-center">${s.notaExamen.toFixed(1)}</td></tr>`;
-                    notas.push(s.notaExamen);
+                    if (s.repositorio_academico) {
+                        tabla.innerHTML += `
+                    <tr><td>${s.nombre}</td><td>${s.titulo_profesional}</td><td>${s.semestre_examen}</td><td><a href="${s.repositorio_academico}" target="_blank">${s.proyecto}</a></td><td class="text-center">${s.nota_proyecto.toFixed(
+                            1
+                        )}</td></tr>`;
+                    } else {
+                        tabla.innerHTML += `<tr><td>${s.nombre}</td><td>${s.titulo_profesional}</td><td>${s.semestre_examen}</td><td>${s.proyecto}</td><td class="text-center">${s.nota_proyecto.toFixed(1)}</td></tr>`;
+                    }
+                    notas.push(s.nota_proyecto);
+                    notasPrevias.push(s.nota_anteproyecto);
                 });
 
                 //Saco un promedio de las notas en la tabla
@@ -116,14 +146,14 @@
                     total += n;
                     i++;
                 });
-                var corte = (total / i).toFixed(1);
-
-                console.log(corte);
+                var promedio = (total / i).toFixed(1);
 
                 if (notas.length == 1) {
-                    resumen.innerHTML = `<em>${corte}</em> es la calificación del proyecto en este grupo:`;
+                    resumen.innerHTML = `<em>${promedio}</em> es la calificación del proyecto en este grupo:`;
                 } else {
-                    resumen.innerHTML = `<em>${corte}</em> es la calificación promedio de los <em>${notas.length}</em> proyectos en este grupo:`;
+                    resumen.innerHTML = `<em>${promedio}</em> es la calificación promedio de los <em>${notas.length}</em> proyectos en este grupo. La mediana es de <em>${mediana(notas).toFixed(
+                        1
+                    )}</em>. Y la desviación estándar es de <em>${desviacionEstandar(notas).toFixed(2)}</em>:`;
                 }
 
                 //Buscando las palabras frecuentes del "para qué" en su selección
@@ -135,7 +165,61 @@
                 });
                 var palabras = words.split(" ");
                 palabras = palabras.sort();
-                const nopalabras = ["",":","a","al","así","como","con","de","De","del","dentro","desde","e","el","El","en","entre","esta","este","esto","estos","fin","hacia","la","las","le","les","lo","los","más","mediante","no","o","para","por","que","qué","se","sin","sobre","son","su","sus","tanto","través","un","una","unas","unos","vez","y","Una","bajo"];
+                const nopalabras = [
+                    "",
+                    ":",
+                    "a",
+                    "al",
+                    "así",
+                    "como",
+                    "con",
+                    "de",
+                    "De",
+                    "del",
+                    "dentro",
+                    "desde",
+                    "e",
+                    "el",
+                    "El",
+                    "en",
+                    "entre",
+                    "esta",
+                    "este",
+                    "esto",
+                    "estos",
+                    "fin",
+                    "hacia",
+                    "la",
+                    "las",
+                    "le",
+                    "les",
+                    "lo",
+                    "los",
+                    "más",
+                    "mediante",
+                    "no",
+                    "o",
+                    "para",
+                    "por",
+                    "que",
+                    "qué",
+                    "se",
+                    "sin",
+                    "sobre",
+                    "son",
+                    "su",
+                    "sus",
+                    "tanto",
+                    "través",
+                    "un",
+                    "una",
+                    "unas",
+                    "unos",
+                    "vez",
+                    "y",
+                    "Una",
+                    "bajo",
+                ];
                 const sacaPalabras = (arreglo, sacar) => {
                     return arreglo.filter((palabra) => {
                         return !sacar.includes(palabra);
