@@ -39,9 +39,9 @@ Para poner a prueba la primera posibilidad usted podría usar datos reales, corr
 
 ![no-correlacion-diseno](https://github.com/user-attachments/assets/9cc5dfaf-f44a-478e-9b94-2a78c89f7273)
 
-El gráfico que ld muestra ninguna correlación fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/). "Curiosamente", el gráfico se generó escogiendo la alternativa de [Bubble Chart](https://www.rawgraphs.io/learning/how-to-make-a-scatterplot) para luego llenar 2 de las 7 variables que podría mostrar. 
+El gráfico que muestra *ninguna correlación* fue generado con [RAWGraph 2.0](https://app.rawgraphs.io/). "Curiosamente", el gráfico se generó escogiendo la alternativa de [Bubble Chart](https://www.rawgraphs.io/learning/how-to-make-a-scatterplot) para luego llenar 2 de las 7 variables que podría mostrar. 
 
-Curiosamente va entre comillas porque, como pudo leer en el [Catálogo de Visualización de información](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), un *gráfico de burbujas es un gráfico de varias variables que es un cruce entre un [Gráfico de Dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)* [scatterplot] *y una [Pirámide de Población](https://datavizcatalogue.com/ES/metodos/piramide_de_poblacion.html)*.
+Curiosamente va entre comillas porque, como pudo leer en el [Catálogo de Visualización de información](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), un *gráfico de burbujas es un gráfico de varias variables que es un cruce entre un [Gráfico de Dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)* [scatterplot] *y una [Pirámide de Población](https://datavizcatalogue.com/ES/metodos/piramide_de_poblacion.html)*. O sea, se está comportando como uno de los dos que se cruzan.
 
 Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatterplot*) es: 
 
@@ -49,7 +49,7 @@ Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatter
 
 - que le conviene al [Centro de Enseñanza y Aprendizaje (CEA)](https://fau.uchile.cl/facultad/escuelas-y-direcciones/escuela-de-pregrado/acompanamiento-virtual-centro-de-ensenanza-y-aprendizaje-cea) de nuestra Facultad echarle un vistazo a la manera en la que se está calificando el informe de Proyecto de Título I.
 
-O sea, desde una visualización de información se justifican dos acciones. Pero si fuera el caso que desde ella no se deriva acción ni decisión relevante, podría ser la visualización y/o la información no sean las más pertinentes.
+Note que desde una visualización de información se justifican dos acciones. Si de ella no se deriva acción, recomendación ni decisión relevante, podría ser que la visualización y/o la información no sean las más pertinentes.
 
 _ _ _ _ 
 
