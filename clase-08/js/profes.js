@@ -364,11 +364,11 @@ async function datos(criterio) {
     var promedio = (total / i).toFixed(1);
 
     if (notas.length == 1) {
-        resumen.innerHTML = `<em>${promedio}</em> es la nota del proyecto guiado por ${profeSeleccion.profe} que aprobó Examen de Título:`;
+        resumen.innerHTML = `<em>${promedio}</em> es la nota del proyecto guiado por ${profeSeleccion.profe} hasta un Examen de Título aprobado`;
     } else {
-        resumen.innerHTML = `<em>${promedio}</em> es la nota aprobatoria promedio de los <em>${notas.length}</em> proyectos guiados por ${profeSeleccion.profe} hasta el Examen de Título; la mediana es de <em>${mediana(notas).toFixed(
+        resumen.innerHTML = `<em>${promedio}</em> es la nota promedio de los <em>${notas.length}</em> proyectos guiados por ${profeSeleccion.profe} hasta un Examen de Título aprobado; la mediana es de <em>${mediana(notas).toFixed(
             1
-        )}</em>, y la desviación estándar es de <em>${desviacionEstandar(notas).toFixed(2)}</em>:`;
+        )}</em>, y la desviación estándar es de <em>${desviacionEstandar(notas).toFixed(2)}</em>`;
     }
 
     //Buscando las palabras frecuentes del "para qué" en su selección
@@ -479,21 +479,20 @@ async function datos(criterio) {
     }%</text><text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-size="2" ${profeSeleccion.porcentajes}>${profeSeleccion.titulades} de ${profeSeleccion.guiades}</text></svg>`;
     profeGuia.innerHTML = profeSeleccion.profe;
     profeNotas.innerHTML = `
-    <circle cx="5" cy="3" r=".5" fill="silver"/>
-    <line x1="5" y1="3" x2="5" y2="62" stroke="silver" stroke-width=".3" />
+    <circle cx="5" cy="2.5" r=".5" fill="silver"/>
+    <line x1="5" y1="2.5" x2="5" y2="62" stroke="silver" stroke-width=".3" />
     <circle cx="5" cy="62" r=".5" fill="silver"/>
-    
-    <circle cx="62" cy="3" r=".5" fill="silver"/>
-    <line x1="62" y1="3" x2="62" y2="62" stroke="silver" stroke-width=".3" />
-    <circle cx="62" cy="62" r=".5" fill="silver"/>
-`;
+    <circle cx="60" cy="2.5" r=".5" fill="silver"/>
+    <line x1="60" y1="2.5" x2="60" y2="62.5" stroke="silver" stroke-width=".3" />
+    <circle cx="60" cy="62.5" r=".5" fill="silver"/>
+    `;
     for (var i = 0; i < notas.length; i++) {
         profeNotas.innerHTML += `<g>    
-<text x="0" y="${140 - notasPrevias[i] * 20 + 3}" font-size="2.3" dominant-baseline="middle">${notasPrevias[i].toFixed(1)}</text>
-<circle cx="5" cy="${140 - notasPrevias[i] * 20 + 3}" r=".5" fill="var(--naranja)"/>
-<line x1="5" y1="${140 - notasPrevias[i] * 20 + 3}" x2="62" y2="${140 - notas[i] * 20 + 3}" stroke="var(--naranja)" stroke-width=".3"/>
-<circle cx="62" cy="${140 - notas[i] * 20 + 3}" r=".5" fill="var(--naranja)"/>
-<text x="63.5" y="${140 - notas[i] * 20 + 3}" font-size="2.3" dominant-baseline="middle">${notas[i].toFixed(1)}</text>
+<text x="0.5" y="${140 - notasPrevias[i] * 20 + 2.5}" font-size="2.3" dominant-baseline="middle">${notasPrevias[i].toFixed(1)}</text>
+<circle cx="5" cy="${140 - notasPrevias[i] * 20 + 2.5}" r=".5" fill="var(--naranja)"/>
+<line x1="5" y1="${140 - notasPrevias[i] * 20 + 2.5}" x2="60" y2="${140 - notas[i] * 20 + 2.5}" stroke="var(--naranja)" stroke-width=".3"/>
+<circle cx="60" cy="${140 - notas[i] * 20 + 2.5}" r=".5" fill="var(--naranja)"/>
+<text x="61.25" y="${140 - notas[i] * 20 + 2.5}" font-size="2.3" dominant-baseline="middle">${notas[i].toFixed(1)}</text>
 </g>`;
     }
 }
