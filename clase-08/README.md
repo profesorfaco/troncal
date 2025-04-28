@@ -49,7 +49,7 @@ Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatter
 
 - que conviene revisar los criterios con los que se calculan las notas en Proyecto de Título I.
 
-Note que desde una visualización de información se justifican dos acciones. Si de ella no se deriva acción, recomendación ni decisión relevante, podría ser que la visualización y/o la información no sean las más pertinentes.
+Note que desde una visualización de información se justifican dos acciones. Si de ella no se derivaran acción, recomendación ni decisión relevante, podría ser que la visualización y/o la información no sean las más pertinentes.
 
 Y para continuar: https://profesorfaco.github.io/troncal/clase-08/
 
