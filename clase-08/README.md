@@ -29,7 +29,7 @@ Si revisa bien los datos de los que dispone y tiene claro qué desea mostrar, us
 
 Podría usar un [diagrama de dispersión](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html) para hacer evidente la relación entre: 
 
-- calificación final de Proyecto de Título I y calificación de Examen de Título
+- calificación final de Proyecto de Título I y calificación de Examen de Título; o
 
 - número de semestres en Proyecto de Título II y calificación de Examen de Título. 
 
