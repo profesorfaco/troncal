@@ -54,32 +54,32 @@ Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la c
 
 #### ENTREGAS
 
-| N° | Nombre | GitHub | GitHub Pages |
-|:----:|:-----------------|:----------------|:------------|
-| 1 | Rodrigo Albornoz | https://github.com/RodrigoAlbornoz3 | https://rodrigoalbornoz3.github.io/nota-individual-1/ |
-| 2 | Benjamín Alcántar | https://github.com/BenjaminAlcantar/ | https://benjaminalcantar.github.io/nota-individual-1/ |
-| 3 | Isabel Álvarez | https://github.com/IsabelCarolina | https://isabelcarolina.github.io/Nota_individual-1/ |
-| 4 | Macarena Arancibia | **PENDIENTE** | **PENDIENTE** |
-| 5 | Catalina Arismendi | https://github.com/CAris2 | **ERROR** |
-| 6 | Lucas Assis | https://github.com/LucasAssis7 | https://lucasassis7.github.io/trabajo-individual-1/ |
-| 7 | Antonia Cáceres | https://github.com/antoniacaceresn | https://antoniacaceresn.github.io/entrega-bocetos/ |
-| 8 | Maximiliano Cantarero | https://github.com/MaximilianoCantareroG | https://maximilianocantarerog.github.io/nota-individual-1/ |
-| 9 | Gabriel Castillo | https://github.com/GabooDesign | https://gaboodesign.github.io/Troncal/Entregas/evaluacion-1/ |
-| 10 | Valentina Cayuqueo | https://github.com/ValeCh2 | https://valech2.github.io/Nota_Individual_1/ |
-| 11 | Jacob Gidi | https://github.com/Jacob-Gidi | https://jacob-gidi.github.io/Nota_Individual_1/ |
-| 12 | Isabel Hernández | https://github.com/IsabelH235 | https://isabelh235.github.io/nota-individual-1/ |
-| 13 | Daniel Oñate | https://github.com/pockyjuno | https://pockyjuno.github.io/Entrega-indovidual-1/ |
-| 14 | Javiera Parra | https://github.com/JP1702 | https://jp1702.github.io/entrega-individual-1/ |
-| 15 | Martina Pezoa | https://github.com/martinapezoa/ | https://martinapezoa.github.io/nota-individual-1/ |
-| 16 | Isidora Riffo | https://github.com/isidorariffo | https://isidorariffo.github.io/nota-individual-1/ |
-| 17 | Fernanda Rivera | https://github.com/Fernanda2222 | https://fernanda2222.github.io/nota-individual-1/ |
-| 18 | Ámbar Ruiz de Loizaga | https://github.com/ambarruizzz | https://ambarruizzz.github.io/visualizaciones/ |
-| 19 | Maroa Tapia | https://github.com/MaroTapia | https://marotapia.github.io/visualizaciones/ |
-| 20 | Fernanda Tejo | https://github.com/Fer1137 | https://fer1137.github.io/Visualizacion/ |
-| 21 | Javiera Paz Torres | https://github.com/Pazzzto | https://pazzzto.github.io/entrega-individual-troncal/ |
-| 22 | Renata Vargas | https://github.com/Bloo-omo | https://bloo-omo.github.io/nota-individual-1/entrega/ |
-| 23 | Iñigo Vasquez | https://github.com/InigoVasquez | https://inigovasquez.github.io/Nota-individual-1/ |
-| 24 | Sofía Verdugo | https://github.com/sofiaaaska | https://sofiaaaska.github.io/nota-individual-1/ |
+| N° | Nombre | GitHub Pages | Rango de nota |
+|:-----:|:-------------------------------------|:----------------------------------|:--------------|
+| 1 | Rodrigo Albornoz | https://rodrigoalbornoz3.github.io/nota-individual-1/ | Insuficiente |
+| 2 | Benjamín Alcántar | https://benjaminalcantar.github.io/nota-individual-1/ | Buena |
+| 3 | Isabel Álvarez | https://isabelcarolina.github.io/Nota_individual-1/ | Buena |
+| 4 | Macarena Arancibia | NO ENTREGA | Insuficiente |
+| 5 | Catalina Arismendi | https://caris2.github.io/Nota-individual1/ | Suficiente |
+| 6 | Lucas Assis | https://lucasassis7.github.io/trabajo-individual-1/ | Buena |
+| 7 | Antonia Cáceres | https://antoniacaceresn.github.io/entrega-bocetos/ | **Muy buena** |
+| 8 | Maximiliano Cantarero | https://maximilianocantarerog.github.io/nota-individual-1/ | Insuficiente |
+| 9 | Gabriel Castillo | https://gaboodesign.github.io/Troncal/Entregas/evaluacion-1/ | Insuficiente |
+| 10 | Valentina Cayuqueo | https://valech2.github.io/Nota_Individual_1/ | Suficiente |
+| 11 | Jacob Gidi | https://jacob-gidi.github.io/Nota_Individual_1/ | Insuficiente |
+| 12 | Isabel Hernández | https://isabelh235.github.io/nota-individual-1/ | Insuficiente |
+| 13 | Daniel Oñate | https://pockyjuno.github.io/Entrega-indovidual-1/ | Insuficiente |
+| 14 | Javiera Parra | https://jp1702.github.io/entrega-individual-1/ | Suficiente |
+| 15 | Martina Pezoa | https://martinapezoa.github.io/nota-individual-1/ | Buena |
+| 16 | Isidora Riffo | https://isidorariffo.github.io/nota-individual-1/ | Buena |
+| 17 | Fernanda Rivera | https://fernanda2222.github.io/nota-individual-1/ | Insuficiente |
+| 18 | Ámbar Ruiz de Loizaga | https://ambarruizzz.github.io/visualizaciones/ | **Muy buena** |
+| 19 | Maroa Tapia | https://marotapia.github.io/visualizaciones/ | Buena |
+| 20 | Fernanda Tejo | https://fer1137.github.io/Visualizacion/ | Insuficiente |
+| 21 | Javiera Paz Torres | https://pazzzto.github.io/entrega-individual-troncal/ | **Muy buena** |
+| 22 | Renata Vargas | https://bloo-omo.github.io/nota-individual-1/entrega/ | Suficiente |
+| 23 | Iñigo Vasquez | https://inigovasquez.github.io/Nota-individual-1/ | Buena |
+| 24 | Sofía Verdugo | https://sofiaaaska.github.io/nota-individual-1/ | Suficiente |
 
 _ _ _ _ 
 
