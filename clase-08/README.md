@@ -18,7 +18,7 @@ Lo que sigue es tener claridad respecto de los datos por comparar, datos que por
 
 Luego, si usted tiene 2 columnas de datos: cada columna puede pasar al eje *x* o *y*, a la *abscisa* o la *ordenada*, y con eso ya estaría traslando lo abstracto de 2 variables a una configuración visual en un plano cartesiano.
 
-Pero si usted tiene sólo 2 columnas de datos, no tendría sentido, por ejemplo, proponer un [gráfico de burbujas](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), porque tal gráfico se estructura hasta con 4 variables (o 4 columnas de datos):
+Pero si usted tiene sólo 2 columnas de datos, no tendría sentido, por ejemplo, proponer un [gráfico de burbujas](https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html), porque tal gráfico se estructura con 4 variables (o 4 columnas de datos):
 
 - coordenadas x
 - coordenadas y
