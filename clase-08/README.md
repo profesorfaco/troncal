@@ -47,9 +47,11 @@ Y lo que puede derivarse de lo que muestra tal diagrama de dispersión (*scatter
 
 - que a cada estudiante **no** le conviene confiarse en la nota de Proyecto de Título I; y/o
 
-- que le conviene al [Centro de Enseñanza y Aprendizaje (CEA)](https://fau.uchile.cl/facultad/escuelas-y-direcciones/escuela-de-pregrado/acompanamiento-virtual-centro-de-ensenanza-y-aprendizaje-cea) de nuestra Facultad echarle un vistazo a la manera en la que se está calificando el informe de Proyecto de Título I.
+- que le conviene revisar los criterios con los que se calculan las notas en Proyecto de Título I.
 
 Note que desde una visualización de información se justifican dos acciones. Si de ella no se deriva acción, recomendación ni decisión relevante, podría ser que la visualización y/o la información no sean las más pertinentes.
+
+Y para continuar: https://profesorfaco.github.io/troncal/clase-08/
 
 _ _ _ _ 
 
