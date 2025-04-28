@@ -18,7 +18,7 @@ En el abstract pudo leer una idea repetida:
 
 Una opción sencilla de modificar o editar está en el exportar como `.svg`, para luego abrir lo exportado en un software de edición de gráfica vectorial, tal como Adobe Illustrator. 
 
-Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportado en un editor de código fuente verá un *markup language* describiendo gráficos. 
+Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportado en un editor de código fuente verá un *markup language* describiendo [formas básicas y otros elementos](https://developer.mozilla.org/es/docs/Web/SVG/Reference/Element#elementos_svg_por_categor%C3%ADas).
 
 _ _ _ _ 
 
