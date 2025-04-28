@@ -230,3 +230,30 @@ svg#slope line{
 svg#slope text{
     opacity: 0.6;    
 }
+
+div.doble{
+    font-size: 90%;
+}
+
+div.doble > hr {
+    clear:both;
+    border:none;
+
+}
+
+div.uno{
+    width:48%;
+    float:left;
+}
+
+div.otro{
+    width:48%;
+    float:right;
+}
+
+@media (orientation:portrait){
+    div.uno, div.otro{
+        width:100%;
+    }
+}
+
