@@ -38,7 +38,6 @@ const profes = [
     {
         profe: "Jenny Abud Carrillo",
         alfabetico: "Abud Carrillo, Jenny",
-        secciones: 3,
         guiades: 12,
         titulades: 10,
         porcentajes: 83,
@@ -46,7 +45,6 @@ const profes = [
     {
         profe: "Paola Benavides Bermúdez",
         alfabetico: "Benavides Bermúdez, Paola",
-        secciones: 1,
         guiades: 5,
         titulades: 2,
         porcentajes: 40,
@@ -54,7 +52,6 @@ const profes = [
     {
         profe: "Eduardo Castillo Espinoza",
         alfabetico: "Castillo Espinoza, Eduardo",
-        secciones: 6,
         guiades: 21,
         titulades: 9,
         porcentajes: 43,
@@ -62,7 +59,6 @@ const profes = [
     {
         profe: "Felipe Cortez Orellana",
         alfabetico: "Cortez Orellana, Felipe",
-        secciones: 8,
         guiades: 17,
         titulades: 9,
         porcentajes: 53,
@@ -70,7 +66,6 @@ const profes = [
     {
         profe: "Paola De la Sotta Lazzerini",
         alfabetico: "De la Sotta Lazzerini, Paola",
-        secciones: 6,
         guiades: 19,
         titulades: 7,
         porcentajes: 37,
@@ -78,7 +73,6 @@ const profes = [
     {
         profe: "Pablo Domínguez González",
         alfabetico: "Domínguez González, Pablo",
-        secciones: 7,
         guiades: 53,
         titulades: 25,
         porcentajes: 47,
@@ -86,7 +80,6 @@ const profes = [
     {
         profe: "Sergio Donoso Cisternas",
         alfabetico: "Donoso Cisternas, Sergio",
-        secciones: 5,
         guiades: 16,
         titulades: 7,
         porcentajes: 44,
@@ -94,7 +87,6 @@ const profes = [
     {
         profe: "Rodrigo Dueñas Santander",
         alfabetico: "Dueñas Santander, Rodrigo",
-        secciones: 6,
         guiades: 24,
         titulades: 12,
         porcentajes: 50,
@@ -102,7 +94,6 @@ const profes = [
     {
         profe: "Pamela Gatica Ramírez",
         alfabetico: "Gatica Ramírez, Pamela",
-        secciones: 5,
         guiades: 12,
         titulades: 6,
         porcentajes: 50,
@@ -110,7 +101,6 @@ const profes = [
     {
         profe: "Cristián Gómez Moya",
         alfabetico: "Gómez Moya, Cristián",
-        secciones: 4,
         guiades: 8,
         titulades: 3,
         porcentajes: 38,
@@ -118,7 +108,6 @@ const profes = [
     {
         profe: "Rubén Jacob Dazarola",
         alfabetico: "Jacob Dazarola, Rubén",
-        secciones: 7,
         guiades: 40,
         titulades: 13,
         porcentajes: 33,
@@ -126,7 +115,6 @@ const profes = [
     {
         profe: "Trinidad Jove Avilés",
         alfabetico: "Jove Avilés, Trinidad",
-        secciones: 1,
         guiades: 3,
         titulades: 2,
         porcentajes: 67,
@@ -134,7 +122,6 @@ const profes = [
     {
         profe: "Lorna Lares López",
         alfabetico: "Lares López, Lorna",
-        secciones: 6,
         guiades: 14,
         titulades: 4,
         porcentajes: 29,
@@ -142,7 +129,6 @@ const profes = [
     {
         profe: "Juan Carlos Lepe Muñoz",
         alfabetico: "Lepe Muñoz, Juan Carlos",
-        secciones: 2,
         guiades: 3,
         titulades: 2,
         porcentajes: 67,
@@ -150,7 +136,6 @@ const profes = [
     {
         profe: "Félix Maldonado de la Fuente",
         alfabetico: "Maldonado de la Fuente, Felix",
-        secciones: 4,
         guiades: 9,
         titulades: 3,
         porcentajes: 33,
@@ -158,7 +143,6 @@ const profes = [
     {
         profe: "Antonio Marín Pacheco",
         alfabetico: "Marín Pacheco, Antonio",
-        secciones: 2,
         guiades: 6,
         titulades: 4,
         porcentajes: 67,
@@ -166,7 +150,6 @@ const profes = [
     {
         profe: "Raúl Molina Oyarzún",
         alfabetico: "Molina Oyarzún, Raúl",
-        secciones: 1,
         guiades: 2,
         titulades: 1,
         porcentajes: 50,
@@ -174,7 +157,6 @@ const profes = [
     {
         profe: "Alfredo Mora Briones",
         alfabetico: "Mora Briones, Alfredo",
-        secciones: 1,
         guiades: 2,
         titulades: 1,
         porcentajes: 50,
@@ -182,7 +164,6 @@ const profes = [
     {
         profe: "María Paz Morales Mujica",
         alfabetico: "Morales Mujica, María Paz",
-        secciones: 3,
         guiades: 9,
         titulades: 6,
         porcentajes: 67,
@@ -190,7 +171,6 @@ const profes = [
     {
         profe: "Iván Méndez Olivares",
         alfabetico: "Méndez Olivares, Iván",
-        secciones: 3,
         guiades: 6,
         titulades: 2,
         porcentajes: 33,
@@ -198,7 +178,6 @@ const profes = [
     {
         profe: "Pablo Nuñez Gutiérrez",
         alfabetico: "Nuñez Gutiérrez, Pablo",
-        secciones: 3,
         guiades: 6,
         titulades: 4,
         porcentajes: 67,
@@ -206,7 +185,6 @@ const profes = [
     {
         profe: "Verónica Ode Saleh",
         alfabetico: "Ode Saleh, Verónica",
-        secciones: 6,
         guiades: 27,
         titulades: 15,
         porcentajes: 56,
@@ -214,7 +192,6 @@ const profes = [
     {
         profe: "Roberto Osses Flores",
         alfabetico: "Osses Flores, Roberto",
-        secciones: 7,
         guiades: 19,
         titulades: 7,
         porcentajes: 37,
@@ -222,7 +199,6 @@ const profes = [
     {
         profe: "Sebastián Pagueguy Fenner",
         alfabetico: "Pagueguy Fenner, Sebastián",
-        secciones: 4,
         guiades: 14,
         titulades: 5,
         porcentajes: 36,
@@ -230,7 +206,6 @@ const profes = [
     {
         profe: "René Perea Morales",
         alfabetico: "Perea Morales, René",
-        secciones: 4,
         guiades: 7,
         titulades: 3,
         porcentajes: 43,
@@ -238,7 +213,6 @@ const profes = [
     {
         profe: "Bruno Perelli Soto",
         alfabetico: "Perelli Soto, Bruno",
-        secciones: 3,
         guiades: 7,
         titulades: 2,
         porcentajes: 29,
@@ -246,7 +220,6 @@ const profes = [
     {
         profe: "Gabriela Pradenas Guentherodt",
         alfabetico: "Pradenas Guentherodt, Gabriela",
-        secciones: 2,
         guiades: 4,
         titulades: 3,
         porcentajes: 75,
@@ -254,7 +227,6 @@ const profes = [
     {
         profe: "Daniel Reyes León",
         alfabetico: "Reyes León, Daniel",
-        secciones: 5,
         guiades: 5,
         titulades: 4,
         porcentajes: 80,
@@ -262,7 +234,6 @@ const profes = [
     {
         profe: "Macarena Ruiz Balart",
         alfabetico: "Ruiz Balart, Macarena",
-        secciones: 1,
         guiades: 2,
         titulades: 1,
         porcentajes: 50,
@@ -270,7 +241,6 @@ const profes = [
     {
         profe: "Mónica Santibañez Boric",
         alfabetico: "Santibañez Boric, Mónica",
-        secciones: 2,
         guiades: 2,
         titulades: 1,
         porcentajes: 50,
@@ -278,7 +248,6 @@ const profes = [
     {
         profe: "Rebeca Silva Roquefort",
         alfabetico: "Silva Roquefort, Rebeca",
-        secciones: 1,
         guiades: 1,
         titulades: 1,
         porcentajes: 100,
@@ -286,7 +255,6 @@ const profes = [
     {
         profe: "Leonardo Soto Calquín",
         alfabetico: "Soto Calquín, Leonardo",
-        secciones: 6,
         guiades: 21,
         titulades: 8,
         porcentajes: 38,
@@ -294,7 +262,6 @@ const profes = [
     {
         profe: "Hans Stange Marcus",
         alfabetico: "Stange Marcus, Hans",
-        secciones: 2,
         guiades: 3,
         titulades: 1,
         porcentajes: 33,
@@ -302,7 +269,6 @@ const profes = [
     {
         profe: "Mauricio Tapia Reyes",
         alfabetico: "Tapia Reyes, Mauricio",
-        secciones: 4,
         guiades: 5,
         titulades: 4,
         porcentajes: 80,
@@ -310,7 +276,6 @@ const profes = [
     {
         profe: "Mauricio Vico Sánchez",
         alfabetico: "Vico Sánchez, Mauricio",
-        secciones: 4,
         guiades: 4,
         titulades: 2,
         porcentajes: 50,
@@ -318,7 +283,6 @@ const profes = [
     {
         profe: "Andrea Wechsler Pizarro",
         alfabetico: "Wechsler Pizarro, Andrea",
-        secciones: 7,
         guiades: 38,
         titulades: 11,
         porcentajes: 29,
@@ -326,7 +290,6 @@ const profes = [
     {
         profe: "Mariana Young Araya",
         alfabetico: "Young Araya, Mariana",
-        secciones: 3,
         guiades: 12,
         titulades: 6,
         porcentajes: 50,
@@ -334,7 +297,6 @@ const profes = [
     {
         profe: "Osvaldo Zorzano Betancourt",
         alfabetico: "Zorzano Betancourt, Osvaldo",
-        secciones: 6,
         guiades: 11,
         titulades: 3,
         porcentajes: 27,
@@ -518,20 +480,20 @@ async function datos(criterio) {
     profeGuia.innerHTML = profeSeleccion.profe;
     profeNotas.innerHTML = `
     <circle cx="5" cy="3" r=".5" fill="silver"/>
-    <line x1="5" y1="3" x2="5" y2="63" stroke="silver" stroke-width=".3" />
-    <circle cx="5" cy="63" r=".5" fill="silver"/>
+    <line x1="5" y1="3" x2="5" y2="62" stroke="silver" stroke-width=".3" />
+    <circle cx="5" cy="62" r=".5" fill="silver"/>
     
-    <circle cx="63" cy="3" r=".5" fill="silver"/>
-    <line x1="63" y1="3" x2="63" y2="63" stroke="silver" stroke-width=".3" />
-    <circle cx="63" cy="63" r=".5" fill="silver"/>
+    <circle cx="62" cy="3" r=".5" fill="silver"/>
+    <line x1="62" y1="3" x2="62" y2="62" stroke="silver" stroke-width=".3" />
+    <circle cx="62" cy="62" r=".5" fill="silver"/>
 `;
     for (var i = 0; i < notas.length; i++) {
         profeNotas.innerHTML += `<g>    
 <text x="0" y="${140 - notasPrevias[i] * 20 + 3}" font-size="2.3" dominant-baseline="middle">${notasPrevias[i].toFixed(1)}</text>
 <circle cx="5" cy="${140 - notasPrevias[i] * 20 + 3}" r=".5" fill="var(--naranja)"/>
-<line x1="5" y1="${140 - notasPrevias[i] * 20 + 3}" x2="63" y2="${140 - notas[i] * 20 + 3}" stroke="var(--naranja)" stroke-width=".3"/>
-<circle cx="63" cy="${140 - notas[i] * 20 + 3}" r=".5" fill="var(--naranja)"/>
-<text x="65" y="${140 - notas[i] * 20 + 3}" font-size="2.3" dominant-baseline="middle">${notas[i].toFixed(1)}</text>
+<line x1="5" y1="${140 - notasPrevias[i] * 20 + 3}" x2="62" y2="${140 - notas[i] * 20 + 3}" stroke="var(--naranja)" stroke-width=".3"/>
+<circle cx="62" cy="${140 - notas[i] * 20 + 3}" r=".5" fill="var(--naranja)"/>
+<text x="63.5" y="${140 - notas[i] * 20 + 3}" font-size="2.3" dominant-baseline="middle">${notas[i].toFixed(1)}</text>
 </g>`;
     }
 }
