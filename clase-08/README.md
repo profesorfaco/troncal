@@ -57,7 +57,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 
 - Luego descargó: https://github.com/profesorfaco/troncal/raw/refs/heads/main/clase-08/sitio_web.zip
 
-- Con lo descargado puedo generar sus propias versiones de visualizaciones y publicar el sitio completo en su cuenta de GitHub
+- Con lo descargado pudo generar sus propias versiones de visualizaciones y publicar el sitio completo en su cuenta de GitHub
 
 | N° | Nombre | GitHub Pages |
 |:-----:|:------|:-------------|
