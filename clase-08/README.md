@@ -88,7 +88,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 
 **Nada** implica que usted no creó repositorio o lo creó pero olvidó subir los archivos del sitio web.
 
-**Error 404** implica no usted no activo GitHub Pages o lo hizo para subir una "carpeta cerrada" cuando correspondía abrir la carpeta y subir lo que había dentro de ella.
+**Error 404** implica que usted no activo GitHub Pages o lo hizo para subir una "carpeta cerrada" cuando correspondía abrir la carpeta y subir lo que había dentro de ella.
 
 _ _ _ _ 
 
