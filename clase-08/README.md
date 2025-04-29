@@ -55,7 +55,38 @@ Y para continuar:
 
 - Ya pudo ver: https://profesorfaco.github.io/troncal/clase-08/
 
-- Ahora puede descargar: https://github.com/profesorfaco/troncal/raw/refs/heads/main/clase-08/sitio_web.zip
+- Luego descargó: https://github.com/profesorfaco/troncal/raw/refs/heads/main/clase-08/sitio_web.zip
+
+- Con lo descargado puedo generar sus propias versiones de visualizaciones y publicar el sitio completo en su cuenta de GitHub
+
+| N° | Nombre | GitHub Pages |
+|:-----:|:------|:-------------|
+| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | … |
+| 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | … |
+| 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | … |
+| 4 | Macarena Arancibia | … |
+| 5 | [Catalina Arismendi](https://github.com/caris2) | … |
+| 6 | [Lucas Assis](https://github.com/lucasassis7) | … |
+| 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | … |
+| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | … |
+| 9 | [Gabriel Castillo](https://github.com/gaboodesign) | … |
+| 10 | [Valentina Cayuqueo](https://github.com/valech2) | … |
+| 11 | [Jacob Gidi](https://github.com/jacob-gidi) | … |
+| 12 | [Isabel Hernández](https://github.com/isabelh235) | … |
+| 13 | [Daniel Oñate](https://github.com/pockyjuno) | … |
+| 14 | [Javiera Parra](https://github.com/jp1702) | … |
+| 15 | [Martina Pezoa](https://github.com/martinapezoa) | … |
+| 16 | [Isidora Riffo](https://github.com/isidorariffo) | … |
+| 17 | [Fernanda Rivera](https://github.com/fernanda2222) | … |
+| 18 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | … |
+| 19 | [Maroa Tapia](https://github.com/marotapia) | … |
+| 20 | [Fernanda Tejo](https://github.com/fer1137) | … |
+| 21 | [Javiera Paz Torres](https://github.com/pazzzto) | … |
+| 22 | [Renata Vargas](https://github.com/bloo-omo) | … |
+| 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | … |
+| 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | … |
+
+
 
 _ _ _ _ 
 
