@@ -68,7 +68,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 5 | [Catalina Arismendi](https://github.com/caris2) | Nada |
 | 6 | [Lucas Assis](https://github.com/lucasassis7) | Error 404 |
 | 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/graficos/ |
-| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | nada |
+| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | Nada |
 | 9 | [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Entregas/RawGraph-1/ |
 | 10 | [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/sitioweb/ |
 | 11 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal-Graficos/ |
