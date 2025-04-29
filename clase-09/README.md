@@ -24,7 +24,7 @@ Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs,
 
 Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien esté evaluando la posibilidad de acompañarme, orientarme y evaluarme en el avance autónomo que exige Proyecto de Título? ¿Acaso necesitará mi foto de perfil y rumores de mi simpatía? ¿Un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿Ver todas mis notas sin conocer razones detrás de ellas? ¿O quizá necesite visualizar otro tipo de información?
 
-Para poder generar propuetas le corresponde salir del diseño en primera persona, para entrar al diseño en segunda o tercera persona. Y para entrar a tal modo de diseño de manera ágil le conviene acercarse al *loop* del método Lean StartUp:
+Para poder generar propuetas le corresponde salir del diseño en primera persona, para entrar al [diseño en segunda o tercera persona](https://www.researchgate.net/figure/The-three-basic-perspectives-in-design-based-on-Tomico-et-al-2012-the-first-person_fig1_307605892). Y para entrar a tal modo de diseño de manera ágil le conviene acercarse al *loop* del método Lean StartUp:
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
