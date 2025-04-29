@@ -20,9 +20,9 @@ Una opción sencilla de modificar o editar está en el exportar como `.svg`, par
 
 Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportado en un editor de código fuente verá un *markup language* describiendo [formas básicas y otros elementos](https://developer.mozilla.org/es/docs/Web/SVG/Reference/Element#elementos_svg_por_categor%C3%ADas).
 
-Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en la web.
+Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en [la web](https://profesorfaco.github.io/troncal/clase-08/).
 
-Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien esté evaluando la posibilidad de acompañarme, orientarme y evaluarme en el avance autónomo que exige Proyecto de Título? ¿Acaso necesitará algo mi foto de perfil y rumores de mi simpatía? ¿Un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿O quizá necesite visualizar otro tipo de información?
+Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien esté evaluando la posibilidad de acompañarme, orientarme y evaluarme en el avance autónomo que exige Proyecto de Título? ¿Acaso necesitará mi foto de perfil y rumores de mi simpatía? ¿Un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿Ver todas mis notas sin conocer ningún motivo que pudo alterarlas? ¿O quizá necesite visualizar otro tipo de información?
 
 Para poder generar propuetas le corresponde salir del diseño en primera persona, para entrar al diseño en segunda o tercera persona. Y para entrar a tal modo de diseño debe idear, testear y modificar. 
 
