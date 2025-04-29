@@ -86,7 +86,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/sitioweb/ |
 | 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | Error 404 |
 
-**Nada** implica que usted no creó repositorio o lo creó pero olvidó subir los archivos del sitio web.
+**Nada** implica que usted no creó repositorio o lo creó para pronto olvidar que debía subir los archivos del sitio web.
 
 **Error 404** implica que usted no activo GitHub Pages o lo hizo para subir una "carpeta cerrada" cuando correspondía abrir la carpeta y subir lo que había dentro de ella.
 
