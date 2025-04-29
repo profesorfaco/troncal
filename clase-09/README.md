@@ -20,6 +20,10 @@ Una opción sencilla de modificar o editar está en el exportar como `.svg`, par
 
 Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportado en un editor de código fuente verá un *markup language* describiendo [formas básicas y otros elementos](https://developer.mozilla.org/es/docs/Web/SVG/Reference/Element#elementos_svg_por_categor%C3%ADas).
 
+Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en la web.
+
+Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien acepte acompañarme, orientarme y evaluarme en el avance autónomo que me exigirá Proyecto de Título? ¿Acaso necesitará algo tan superfluo como mi foto de perfil y un índice de simpatía? ¿Podría convencerle con un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿O quizá necesite visualizar información más académica?
+
 _ _ _ _ 
 
 [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md) ⇆ [clase-10](https://github.com/profesorfaco/troncal/blob/main/clase-10/README.md)
