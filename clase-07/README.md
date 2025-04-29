@@ -85,7 +85,7 @@ Las notas que están en los rangos de **buena** y **muy buena** corresponden a t
 
 - se atiende al encargo de las 6 propuestas de visualización de información que permitirían escoger a un Profesor o Profesora Guía; 
 
-- se revisan los [datos compartidos](https://docs.google.com/spreadsheets/d/1vdA3KpFNTVzDSN6wLYAh8Tq3BAzPGqn-t6NY9NH8tLA/edit?usp=sharing), por lo que las variables relacionadas con cada Profesor o Profesora Guía son realistas;
+- se revisan los datos compartidos [aquí](https://profesorfaco.github.io/troncal/clase-06/), [allá](https://profesorfaco.github.io/troncal/clase-07/) y [más allá](https://disenouchile.github.io/guiaturas/guias.html), por lo que las variables relacionadas con cada Profesor o Profesora Guía son realistas;
 
 - se seleccionan visualizaciones de información en función de las variables que se busca poner a la vista; y 
 
