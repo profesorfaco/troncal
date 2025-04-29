@@ -89,7 +89,7 @@ Las notas que están en los rangos de **buena** y **muy buena** corresponden a t
 
 - se seleccionan visualizaciones de información en función de las variables que se busca poner a la vista; y 
 
-- se cuida la legibilidad del boceto que busca comunicar un diseño de manera clara y neutral, centrándose más en explicar la idea que en venderla (ver *explanatory sketches* en [Basic Sketching Techniques for Industrial Designer](https://portal.tpu.ru/SHARED/y/YULJA_VIT/study/Tab1/basic_sketching-for_the_industrial_designer.pdf)).
+- se cuida la legibilidad del boceto que busca comunicar un diseño de manera clara y neutral, centrándose más en explicar la idea que en venderla (ver *explanatory sketches* en [*Basic Sketching Techniques for Industrial Designer*](https://portal.tpu.ru/SHARED/y/YULJA_VIT/study/Tab1/basic_sketching-for_the_industrial_designer.pdf)).
 
 Quienes tienen notas en los demás rangos fallaron en atender, conocer, seleccionar o cuidar lo recién referido.
 
