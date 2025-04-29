@@ -61,32 +61,34 @@ Y para continuar:
 
 | N° | Nombre | GitHub Pages |
 |:-----:|:------|:-------------|
-| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | … |
-| 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | … |
-| 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | … |
-| 4 | Macarena Arancibia | … |
-| 5 | [Catalina Arismendi](https://github.com/caris2) | … |
-| 6 | [Lucas Assis](https://github.com/lucasassis7) | … |
-| 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | … |
-| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | … |
-| 9 | [Gabriel Castillo](https://github.com/gaboodesign) | … |
-| 10 | [Valentina Cayuqueo](https://github.com/valech2) | … |
-| 11 | [Jacob Gidi](https://github.com/jacob-gidi) | … |
-| 12 | [Isabel Hernández](https://github.com/isabelh235) | … |
-| 13 | [Daniel Oñate](https://github.com/pockyjuno) | … |
-| 14 | [Javiera Parra](https://github.com/jp1702) | … |
-| 15 | [Martina Pezoa](https://github.com/martinapezoa) | … |
-| 16 | [Isidora Riffo](https://github.com/isidorariffo) | … |
-| 17 | [Fernanda Rivera](https://github.com/fernanda2222) | … |
-| 18 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | … |
-| 19 | [Maroa Tapia](https://github.com/marotapia) | … |
-| 20 | [Fernanda Tejo](https://github.com/fer1137) | … |
-| 21 | [Javiera Paz Torres](https://github.com/pazzzto) | … |
-| 22 | [Renata Vargas](https://github.com/bloo-omo) | … |
-| 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | … |
-| 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | … |
+| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | Nada |
+| 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | Nada |
+| 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Gr-ficos-clase-8/ |
+| 4 | Macarena Arancibia | Nada |
+| 5 | [Catalina Arismendi](https://github.com/caris2) | Nada |
+| 6 | [Lucas Assis](https://github.com/lucasassis7) | Error 404 |
+| 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/graficos/ |
+| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | nada |
+| 9 | [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Entregas/RawGraph-1/ |
+| 10 | [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/sitioweb/ |
+| 11 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal-Graficos/ |
+| 12 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/sitioweb/ |
+| 13 | [Daniel Oñate](https://github.com/pockyjuno) | Error 404 |
+| 14 | [Javiera Parra](https://github.com/jp1702) | Nada |
+| 15 | [Martina Pezoa](https://github.com/martinapezoa) | Error 404 |
+| 16 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Graficos/ |
+| 17 | [Fernanda Rivera](https://github.com/fernanda2222) | Nada |
+| 18 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/sitio-web/ |
+| 19 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/sitioweb/ |
+| 20 | [Fernanda Tejo](https://github.com/fer1137) | Nada |
+| 21 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/graphs2904/ |
+| 22 | [Renata Vargas](https://github.com/bloo-omo) | Nada |
+| 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/sitioweb/ |
+| 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | Error 404 |
 
+**Nada** implica que usted no creó repositorio o lo creó pero olvidó subir los archivos del sitio web.
 
+**Error 404** implica no usted no activo GitHub Pages o lo hizo para subir una "carpeta cerrada" cuando correspondía abrir la carpeta y subir lo que había dentro de ella.
 
 _ _ _ _ 
 
