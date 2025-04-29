@@ -81,6 +81,18 @@ Tiene hasta este viernes, antes de las 08:30 hrs. (o sea, antes de entrar a la c
 | 23 | Iñigo Vasquez | https://inigovasquez.github.io/Nota-individual-1/ | Buena |
 | 24 | Sofía Verdugo | https://sofiaaaska.github.io/nota-individual-1/ | Suficiente |
 
+Las notas que están en los rangos de **buena** y **muy buena** corresponden a trabajos donde: 
+
+- se atiende al encargo de las 6 propuesta de visualizaciones de información que permitirían escoger a un Profesor o Profesora Guía; 
+
+- se revisa los [datos compartidos](https://docs.google.com/spreadsheets/d/1vdA3KpFNTVzDSN6wLYAh8Tq3BAzPGqn-t6NY9NH8tLA/edit?usp=sharing), por lo que las variables relacionadas con cada Profesor o Profesora Guía son realistas;
+
+- se seleccionan visualizaciones de información en función de las variables que se busca poner a la vista; y 
+
+- se cuida la legibilidad del boceto que busca comunicar un diseño de manera clara y neutral, centrándose más en explicar la idea que en venderla (ver *explanatory sketches* en [Basic Sketching Techniques for Industrial Designer](https://portal.tpu.ru/SHARED/y/YULJA_VIT/study/Tab1/basic_sketching-for_the_industrial_designer.pdf)).
+
+Quienes tienen notas en los demás rangos fallaron en atender, conocer, seleccionar o cuidar lo recién referido.
+
 _ _ _ _ 
 
 [clase-06](https://github.com/profesorfaco/troncal/blob/main/clase-06/README.md) ⇆ [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md)
