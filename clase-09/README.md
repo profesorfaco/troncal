@@ -22,7 +22,9 @@ Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportad
 
 Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en la web.
 
-Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien acepte acompañarme, orientarme y evaluarme en el avance autónomo que me exigirá Proyecto de Título? ¿Acaso necesitará algo tan superfluo como mi foto de perfil y un índice de simpatía? ¿Podría convencerle con un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿O quizá necesite visualizar información más académica?
+Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi quien acepte acompañarme, orientarme y evaluarme en el avance autónomo que me exigirá Proyecto de Título? ¿Acaso necesitará algo tan superfluo como mi foto de perfil y un índice de simpatía? ¿Podría convencerle con un recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿O quizá necesite visualizar otro tipo de información?
+
+Para hacer sus propuestas le corresponde salir del diseño en primera persona, para pasarse al diseño en segunda o tercera persona.
 
 _ _ _ _ 
 
