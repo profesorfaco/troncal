@@ -62,7 +62,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | N° | Nombre | GitHub Pages |
 |:-----:|:------|:-------------|
 | 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/RawGraphs1/ |
-| 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | Nada |
+| 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Encargo-clase-8/ |
 | 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Gr-ficos-clase-8/ |
 | 4 | Macarena Arancibia | Nada |
 | 5 | [Catalina Arismendi](https://github.com/caris2) | Nada |
