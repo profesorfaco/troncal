@@ -73,7 +73,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 10 | [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/sitioweb/ |
 | 11 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal-Graficos/ |
 | 12 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/sitioweb/ |
-| 13 | [Daniel Oñate](https://github.com/pockyjuno) | Error 404 |
+| 13 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/Tarea-29-Abril/ |
 | 14 | [Javiera Parra](https://github.com/jp1702) | Nada |
 | 15 | [Martina Pezoa](https://github.com/martinapezoa) | Error 404 |
 | 16 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Graficos/ |
