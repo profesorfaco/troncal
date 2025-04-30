@@ -82,7 +82,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 19 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/sitioweb/ |
 | 20 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/Sitio_web/ |
 | 21 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/graphs2904/ |
-| 22 | [Renata Vargas](https://github.com/bloo-omo) | Nada |
+| 22 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/viz-graphs/ |
 | 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/sitioweb/ |
 | 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Trabajooo/ |
 
