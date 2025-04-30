@@ -84,7 +84,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 21 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/graphs2904/ |
 | 22 | [Renata Vargas](https://github.com/bloo-omo) | Nada |
 | 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/sitioweb/ |
-| 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | Error 404 |
+| 24 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Trabajooo/ |
 
 **Nada** implica que usted no creó repositorio o lo creó para pronto olvidar que debía subir los archivos del sitio web.
 
