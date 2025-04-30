@@ -61,7 +61,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 
 | N° | Nombre | GitHub Pages |
 |:-----:|:------|:-------------|
-| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | Nada |
+| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | No sube lo que corresponde subir |
 | 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | Nada |
 | 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Gr-ficos-clase-8/ |
 | 4 | Macarena Arancibia | Nada |
