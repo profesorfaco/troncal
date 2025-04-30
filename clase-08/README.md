@@ -65,22 +65,22 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 2 | [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Encargo-clase-8/ |
 | 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Gr-ficos-clase-8/ |
 | 4 | Macarena Arancibia | Nada |
-| 5 | [Catalina Arismendi](https://github.com/caris2) | Nada |
+| 5 | [Catalina Arismendi](https://github.com/caris2) | https://caris2.github.io/Entrega_29/Entrega%2029-04/sitio_web/ |
 | 6 | [Lucas Assis](https://github.com/lucasassis7) | Error 404 |
 | 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/graficos/ |
-| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | Nada |
+| 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Sitio_Web_Gr-ficos/ |
 | 9 | [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Entregas/RawGraph-1/ |
 | 10 | [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/sitioweb/ |
 | 11 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal-Graficos/ |
 | 12 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/sitioweb/ |
 | 13 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/Tarea-29-Abril/ |
 | 14 | [Javiera Parra](https://github.com/jp1702) | Nada |
-| 15 | [Martina Pezoa](https://github.com/martinapezoa) | Error 404 |
+| 15 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/Tarea-clase-8/ |
 | 16 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Graficos/ |
 | 17 | [Fernanda Rivera](https://github.com/fernanda2222) | Nada |
 | 18 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/sitio-web/ |
 | 19 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/sitioweb/ |
-| 20 | [Fernanda Tejo](https://github.com/fer1137) | Nada |
+| 20 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/Sitio_web/ |
 | 21 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/graphs2904/ |
 | 22 | [Renata Vargas](https://github.com/bloo-omo) | Nada |
 | 23 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/sitioweb/ |
