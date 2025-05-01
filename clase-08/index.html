@@ -9,40 +9,46 @@
     <body>
         <nav>
             <a href="index.html" class="active">Resumen <span>de Proyectos de Título</span></a>
-            <a href="profes.html"><span>Proyectos agrupados por </span>Profesor(a) Guía</a>
-            <a href="titulos.html"><span>Proyectos agrupados por </span>Título Profesional</a>
-            <a href="semestres.html"><span>Proyectos agrupados por </span>Semestre</a>
+            <a href="profes.html"><span>Proyectos por </span>Profesor(a) Guía</a>
+            <a href="titulos.html"><span>Proyectos por </span>Título Profesional</a>
+            <a href="semestres.html"><span>Proyectos por </span>Semestre</a>
         </nav>
         <header>
             <h1>Resumen de Proyectos de Título</h1>
-            <p>Estas páginas ofrecerán información de los Proyectos de Título ya aprobados del actual programa de pregrado en <em>Diseño de la Universidad de Chile</em>, programa vigente desde el año 2019. La ofrecerán, a futuro, por lo que se explica en los dos párrafos que siguen.</p>
-            <p>Las visualizaciones de más abajo deben ser mejoradas (el martes 29 de abril) por estudiantes del curso electivo en <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a>.</p>
-            <p>Y los datos en las páginas que agrupan <em>207 proyectos aprobados</em> por <a href="profes.html">Profesor(a) Guía</a>, <a href="titulos.html">Título Profesional</a> y <a href="semestres.html">Semestre</a>, que ya son cuantitativamente reales, necesitan de un complemento cualitativo que será resuelto por los estudiantes del curso electivo ya referido (hasta el martes 13 de mayo).</p>
+            <p>Estas páginas ofrecen información de los Proyectos de Título ya aprobados del actual programa de pregrado en <em>Diseño de la Universidad de Chile</em>, programa vigente desde el año 2019.</p>
+            <p>Los datos en las páginas que agrupan <em>207 proyectos aprobados</em> por <a href="profes.html">Profesor(a) Guía</a>, <a href="titulos.html">Título Profesional</a> y <a href="semestres.html">Semestre</a>, que son cuantitativamente reales, necesitan de un complemento cualitativo que será resuelto por estudiantes del curso electivo en <a href="https://github.com/profesorfaco/troncal/" target="_blank">Diseño y visualización de información</a> (hasta el martes 13 de mayo).</p>
+            <p>A continuación, en esta página, se ofrecen visualizaciones que informan de la situación general sobre los Proyectos de Título de Diseño en la Universidad de Chile.</p>
         </header>
         <main>
             <article>
-                <h2><em>Alluvial diagram</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h2>
-                <object data="viz/alluvial_diagram.svg" type="image/svg+xml"></object> 
-                <p><em>¿Qué se visualiza?</em> Los Diseñadores son pocos, sea sin o con menciones. La calificación de Examen de Título más repetida es 6, seguida de 7. Hay 2 profesores que se llevan una porción importante de la calificación 7: Eduardo Castillo y Rubén Jacob.</p>
-                <p>Todo eso se puede leer con harto trabajo. Por lo que el primer desafío será editar esta visualización hasta que su lectura no sea trabajosa, a condición de que siga "viéndose lindo".</p>
-            </article> 
-            <article>
-                <h2><em>Box plot</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h2>
-                <object data="viz/box_plot.svg" type="image/svg+xml"></object>                
-                <p><em>¿Qué se visualiza?</em> Con <a href="https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html">diagrama cajas y bigotes</a> podemos ver distribución y rangos. A la vista quedan los extremos, los cuartiles y una indicación respecto de la simetría de la distribución en una mediana que debería estar al centro del rectángulo. Vemos que la mención en Visualidad y Medios podría ser la mejor calificada: Mejor por sus números con mayor distribución y simetría.</p>
-                <p>Aquí también hay problemas de legibilidad que deben arreglarse. Podrían ser acotados pero son más graves que en el caso anterior.</p>
-            </article> 
-            <article>
-                <h2><em>Bubble Chart</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h2>
-                <object data="viz/bubble_chart.svg" type="image/svg+xml"></object>
-                <p><em>¿Qué se visualiza?</em> No es necesario repetir la explicación que ya pudieron leer en el <a href="https://github.com/profesorfaco/troncal/tree/main/clase-08">README.md de la clase de hoy</a>. La diferencia con lo que allá pudieron leer es que acá están todas las calificaciones de malla actual, no sólo las de exámenes de título del segundo semestre del año 2024. Otra diferencia es que aquí se usa un poco de transparencia en los circulos, lo que hace que las coincidencias parezcan círculos más saturados y menos luminosos, cuando son, ralmente, un círculo sobre otro.</p>    
-                <p>Lo que se le pueda reclamar a este gráfico es la cantidad de espacio que utiliza cuando los valores de eje X e Y son los mismos (y uno quiere mantener la proporción)</p>                            
+                <h2>Comparación entre aprobados y reprobados por semestre</h2>
+                <h3>Basado en el gráfico generado, con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a>, por <a href="https://fer1137.github.io/Sitio_web/" target="_blank">Fernanda Tejo</a>.</h3>
+                <object data="viz/multiset_bar_chart.svg" type="image/svg+xml"></object>
+                <p>La asignatura de Proyecto de Título II se imparte desde el segundo semestre del año 2021. Cada semestre la cantidad de <em><small style="background:#9b9b9b">&nbsp;&nbsp;&nbsp;&nbsp;</small> reprobadas/os</em> es importante, pero desde el segundo semestre del año 2023 esa cantidad es menor que la suma de quienes aprueban la asignatura para obtener su Título Profesional de <em><small style="background:#00c3ff">&nbsp;&nbsp;&nbsp;&nbsp;</small> Diseñador/a (sin mención)</em>, <em><small style="background:#189af6">&nbsp;&nbsp;&nbsp;&nbsp;</small> Diseñador/a con mención visualidad y medios</em>, y <em><small style="background:#125389">&nbsp;&nbsp;&nbsp;&nbsp;</small> Diseñador/a con mención industrial y servicios</em>.</p>
             </article>
             <article>
-                <h2><em>Slope Chart</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h2>
+                <h2>Proyecto de título aprobados y guías</h2>
+                <h3>Mantiendo los colores de <a href="https://fer1137.github.io/Sitio_web/" target="_blank">Fernanda Tejo</a> y el uso de <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h3>
+                <object data="viz/alluvial_diagram_menciones.svg" type="image/svg+xml" class="ancho"></object> 
+                <p>La guía de 207 proyectos aprobados, conducentes al título profesional de <small style="background:#00c3ff">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador/a</em>, <small style="background:#125389">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador/a con mención Industrial y Servicios</em> y <small style="background:#189af6">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador/a con mención en Visualidad y Medios</em>, se distribuye entre 38 Profesoras/es Guía. El asterisco a la derecha de 9 nombres es para indicar que ya no continúan en el rol de Profesor/a Guía.</p>
+            </article> 
+            <article>
+                <h2>Proyecto de título aprobados, notas finales de examen y guías</h2>
+                <h3>Los colores se complementan con verdes de <a href="https://materialui.co/colors">Material Design</a> y <a href="https://meyerweb.com/eric/tools/color-blend/">Color Blender</a></h3>
+                <object data="viz/alluvial_diagram.svg" type="image/svg+xml" class="ancho"></object> 
+                <p>Por reglamento, el examen de título se aprueba cuando el promedio de las calificaciones otorgadas por los diferentes miembros de la comisión examinadora es igual o superior a 4,0 (cuatro coma cero). Curiosamente, entre 207 oportunidades no han resultado promedios iguales a 4,1; 4,2; 4,3; 4,4; 4,9; 5,1; 6,4; 6,9.</p>
+            </article> 
+            <article>
+                <h2>Distribución y rangos de notas finales de examen</h2>
+                <h3>Con un <em>Box plot</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h3>
+                <object data="viz/box_plot.svg" type="image/svg+xml"></object>
+                <p>No hay <small style="background:#189af6">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador con mención en Visualidad y Medios</em> (V y M) ni <small style="background:#125389">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador con mención Industrial y Servicios</em> (I y S) que haya alcanzado la nota máxima (7,0) en su examen de título. En examen de <small style="background:#00c3ff">&nbsp;&nbsp;&nbsp;&nbsp;</small> <em>Diseñador</em> si se ha alcanzado tal nota. También se ha hecho en los exámenes de las <em>Diseñadoras, con o sin mención</em>.</p>
+            </article> 
+            <article>
+                <h2>Relación entre calificaciones de Proyecto de Título I y II</h2>
+                <h3>Con un <em>Slope Chart</em> generado con <a href="https://app.rawgraphs.io/" target="_blank"><em>RAW</em>Graphs 2.0</a></h3>
                 <object data="viz/slope_chart.svg" type="image/svg+xml"></object>
-                <p><em>¿Qué se visualiza?</em> Podemos ver detalles de algo ya visto en el Bubble Chart. Porque en lugar de ver la correlación general, vemos los detalles de la correlación entre los pares de calificaciones. Buena es la línea yendo de 7 a 7 (pendiente nula), pero mejor es la línea que sube desde la primera a la segunda calificación, como la que partiendo del 5.3 llega al 7 (pendiente positiva). Mala es la línea que bajó de 6.9 a 4 (pendiente negativa).</p> 
-                <p>Quizá convenga implementar una de estas visualizaciones en los <a href="profes.html">Proyectos agrupados por Profesor(a) Guía</a> 🤔</p>
+                <p>A la vista tenemos relaciones de un par de calificaciones. La primera, a la izquierda, depende mucho de cada Profesor(a) Guía, quien califica apoyado(a) en la evaluación de 2 académicos(as) más. Y la segunda es responsabilidad de una comisión de 4 académicos(as) donde cada Profesor(a) Guía está impedido(a) de calificar. Buena es la línea yendo de 7 a 7 (pendiente nula), pero mejor es la línea que sube desde la primera a la segunda calificación, como la que partiendo del 5.3 llega al 7 (pendiente positiva). Mala es la línea que baja de 6.9 a 4 (pendiente negativa).</p> 
             </article> 
         </main>
         <footer>
