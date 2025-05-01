@@ -1,0 +1,1345 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600">
+    <title>vizualizate</title>
+    <style>
+        tspan {
+            white-space: pre;
+        }
+        g {
+            font-size: 11px;
+            fill: #000000;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        .nota {
+            font-weight: bold;
+        }
+        .s1 {
+            fill: #000000;
+        }
+        .s2 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 14.2;
+        }
+        .s3 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 11.2;
+        }
+        .s4 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00c3ff;
+            stroke-width: 3;
+        }
+        .s5 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 2;
+        }
+        .s6 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 15.2;
+        }
+        .s7 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 6.1;
+        }
+        .s8 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 3;
+        }
+        .s9 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 5.1;
+        }
+        .s10 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 23.3;
+        }
+        .s11 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 2;
+        }
+        .s12 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 12.2;
+        }
+        .s13 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 4.1;
+        }
+        .s14 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00c3ff;
+            stroke-width: 4.1;
+        }
+        .s15 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00c3ff;
+            stroke-width: 1;
+        }
+        .s16 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 6.1;
+        }
+        .s17 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 1;
+        }
+        .s18 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 3;
+        }
+        .s19 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #125389;
+            stroke-width: 8.1;
+        }
+        .s20 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 5.1;
+        }
+        .s21 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00c3ff;
+            stroke-width: 2;
+        }
+        .s22 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 1;
+        }
+        .s23 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #189af6;
+            stroke-width: 4.1;
+        }
+        .s24 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #26945e;
+            stroke-width: 1;
+        }
+        .s25 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00796b;
+            stroke-width: 1;
+        }
+        .s26 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #52b14f;
+            stroke-width: 1;
+        }
+        .s27 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #8bc34a;
+            stroke-width: 1;
+        }
+        .s28 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00796b;
+            stroke-width: 2;
+        }
+        .s29 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #e6e43a;
+            stroke-width: 3;
+        }
+        .s30 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #26945e;
+            stroke-width: 2;
+        }
+        .s31 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #b9d442;
+            stroke-width: 2;
+        }
+        .s32 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00796b;
+            stroke-width: 7.1;
+        }
+        .s33 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #6cb94d;
+            stroke-width: 1;
+        }
+        .s34 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #4caf50;
+            stroke-width: 4.1;
+        }
+        .s35 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #85c14b;
+            stroke-width: 1;
+        }
+        .s36 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #4caf50;
+            stroke-width: 3;
+        }
+        .s37 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #0f8466;
+            stroke-width: 1;
+        }
+        .s38 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #178963;
+            stroke-width: 1;
+        }
+        .s39 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #359f58;
+            stroke-width: 2;
+        }
+        .s40 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #59b34f;
+            stroke-width: 1;
+        }
+        .s41 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #00796b;
+            stroke-width: 5.1;
+        }
+        .s42 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #4caf50;
+            stroke-width: 5.1;
+        }
+        .s43 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #65b74e;
+            stroke-width: 1;
+        }
+        .s44 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #4caf50;
+            stroke-width: 2;
+        }
+        .s45 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #26945e;
+            stroke-width: 4.1;
+        }
+        .s46 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #4caf50;
+            stroke-width: 1;
+        }
+        .s47 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #a6cd45;
+            stroke-width: 1;
+        }
+        .s48 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #72bb4c;
+            stroke-width: 2;
+        }
+        .s49 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #7ebf4b;
+            stroke-width: 1;
+        }
+        .s50 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #72bb4c;
+            stroke-width: 1;
+        }
+        .s51 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #44aa53;
+            stroke-width: 1;
+        }
+        .s52 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #7ebf4b;
+            stroke-width: 2;
+        }
+        .s53 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #e6e43a;
+            stroke-width: 1;
+        }
+        .s54 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #afd044;
+            stroke-width: 1;
+        }
+        .s55 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #59b34f;
+            stroke-width: 4.1;
+        }
+        .s56 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #9dca47;
+            stroke-width: 1;
+        }
+        .s57 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #b9d442;
+            stroke-width: 1;
+        }
+        .s58 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #26945e;
+            stroke-width: 3;
+        }
+        .s59 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #3da455;
+            stroke-width: 2;
+        }
+        .s60 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #72bb4c;
+            stroke-width: 3;
+        }
+        .s61 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #359f58;
+            stroke-width: 1;
+        }
+        .s62 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #3da455;
+            stroke-width: 1;
+        }
+        .s63 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #78bd4c;
+            stroke-width: 1;
+        }
+        .s64 {
+            mix-blend-mode: multiply;
+            fill: none;
+            stroke: #1e8f60;
+            stroke-width: 1;
+        }
+        .t65 {
+            fill: #666666;
+        }
+    </style>
+    <g id="titulos">
+        <text id="Diseñador/a" style="transform: matrix(1, 0, 0, 1, 139, 200.17);">
+            <tspan x="-60.4" y="0" class="t0">Diseñador/a</tspan>
+        </text>
+        <text id="Diseñador/a con mención Industri" style="transform: matrix(1, 0, 0, 1, 137, 255);">
+            <tspan x="-127.7" y="0" class="t0">Diseñador/a con mención</tspan>
+            <tspan x="-104.1" y="12" class="t0">Industrial y Servicios</tspan>
+        </text>
+        <text id="Diseñador/a con mención en Visua" style="transform: matrix(1, 0, 0, 1, 137, 355);">
+            <tspan x="-127.7" y="0" class="t0">Diseñador/a con mención</tspan>
+            <tspan x="-116" y="12" class="t0">en Visualidad y Medios</tspan>
+        </text>
+    </g>
+    <g id="visualization">
+        <g>
+            <path class="s1" d="m542 85v6.1h-2v-6.1z" />
+            <path class="s1" d="m542 101.1v10.1h-2v-10.1z" />
+            <path class="s1" d="m542 121.2v3.1h-2v-3.1z" />
+            <path class="s1" d="m540 134.3h2v1h-2z" />
+            <path class="s1" d="m542 145.3v4h-2v-4z" />
+            <path class="s1" d="m542 159.3v9.2h-2v-9.2z" />
+            <path class="s1" d="m542 178.5v2h-2v-2z" />
+            <path class="s1" d="m542 190.5v4.1h-2v-4.1z" />
+            <path class="s1" d="m540 204.6h2v1h-2z" />
+            <path class="s1" d="m542 215.6v20.3h-2v-20.3z" />
+            <path class="s1" d="m542 245.9v4h-2v-4z" />
+            <path class="s1" d="m542 259.9v5.1h-2v-5.1z" />
+            <path class="s1" d="m542 275v11.2h-2v-11.2z" />
+            <path class="s1" d="m542 296.2v2h-2v-2z" />
+            <path class="s1" d="m542 308.2v39.6h-2v-39.6z" />
+            <path class="s1" d="m542 357.8v3h-2v-3z" />
+            <path class="s1" d="m542 370.8v7.1h-2v-7.1z" />
+            <path class="s1" d="m542 387.9v10.1h-2v-10.1z" />
+            <path class="s1" d="m542 408v25.4h-2v-25.4z" />
+            <path class="s1" d="m540 443.4h2v1h-2z" />
+            <path class="s1" d="m542 454.4v5.1h-2v-5.1z" />
+            <path class="s1" d="m542 469.5v5.1h-2v-5.1z" />
+            <path class="s1" d="m542 484.6v30.4h-2v-30.4z" />
+            <path class="s1" d="m931 10v10.1h-2v-10.1z" />
+            <path class="s1" d="m931 30.1v2.1h-2v-2.1z" />
+            <path class="s1" d="m931 42.2v9.1h-2v-9.1z" />
+            <path class="s1" d="m931 61.3v9.1h-2v-9.1z" />
+            <path class="s1" d="m931 80.4v7.1h-2v-7.1z" />
+            <path class="s1" d="m153 185v24.3h-2v-24.3z" />
+            <path class="s1" d="m153 219.3v82.2h-2v-82.2z" />
+            <path class="s1" d="m153 311.5v103.5h-2v-103.5z" />
+            <path class="s1" d="m931 97.5v25.4h-2v-25.4z" />
+            <path class="s1" d="m931 132.9v7.1h-2v-7.1z" />
+            <path class="s1" d="m931 150v12.2h-2v-12.2z" />
+            <path class="s1" d="m931 172.2v6.1h-2v-6.1z" />
+            <path class="s1" d="m931 188.3v3h-2v-3z" />
+            <path class="s1" d="m931 201.3v13.2h-2v-13.2z" />
+            <path class="s1" d="m931 224.5v2h-2v-2z" />
+            <path class="s1" d="m931 236.5v4.1h-2v-4.1z" />
+            <path class="s1" d="m931 250.6v2h-2v-2z" />
+            <path class="s1" d="m931 262.6v3.1h-2v-3.1z" />
+            <path class="s1" d="m931 275.7v4h-2v-4z" />
+            <path class="s1" d="m929 289.7h2v1h-2z" />
+            <path class="s1" d="m929 300.7h2v1h-2z" />
+            <path class="s1" d="m931 311.7v6.1h-2v-6.1z" />
+            <path class="s1" d="m931 327.8v2.1h-2v-2.1z" />
+            <path class="s1" d="m931 339.9v4h-2v-4z" />
+            <path class="s1" d="m931 353.9v15.2h-2v-15.2z" />
+            <path class="s1" d="m931 379.1v7.1h-2v-7.1z" />
+            <path class="s1" d="m931 396.2v5.1h-2v-5.1z" />
+            <path class="s1" d="m931 411.3v2h-2v-2z" />
+            <path class="s1" d="m931 423.3v2.1h-2v-2.1z" />
+            <path class="s1" d="m931 435.4v3h-2v-3z" />
+            <path class="s1" d="m931 448.4v3h-2v-3z" />
+            <path class="s1" d="m929 461.4h2v1.1h-2z" />
+            <path class="s1" d="m929 472.5h2v1h-2z" />
+            <path class="s1" d="m929 483.5h2v1h-2z" />
+            <path class="s1" d="m931 494.5v8.1h-2v-8.1z" />
+            <path class="s1" d="m929 512.6h2v1h-2z" />
+            <path class="s1" d="m931 523.6v4.1h-2v-4.1z" />
+            <path class="s1" d="m931 537.7v2h-2v-2z" />
+            <path class="s1" d="m931 549.7v11.2h-2v-11.2z" />
+            <path class="s1" d="m931 570.9v6.1h-2v-6.1z" />
+            <path class="s1" d="m931 587v3h-2v-3z" />
+        </g>
+        <g>
+            <g>
+                <path class="s2" d="m153 390.7c193.5 0 193.5 35.6 387 35.6" />
+            </g>
+            <g>
+                <path class="s3" d="m153 409.4c193.5 0 193.5 100 387 100" />
+            </g>
+            <g>
+                <path class="s4" d="m153 202.8c193.5 0 193.5 206.8 387 206.8" />
+            </g>
+            <g>
+                <path class="s5" d="m153 251.8c193.5 0 193.5 45.4 387 45.4" />
+            </g>
+            <g>
+                <path class="s6" d="m153 293.9c193.5 0 193.5 202.3 387 202.3" />
+            </g>
+            <g>
+                <path class="s7" d="m153 322.7c193.5 0 193.5-157.3 387-157.3" />
+            </g>
+            <g>
+                <path class="s8" d="m153 313c193.5 0 193.5-223.4 387-223.4" />
+            </g>
+            <g>
+                <path class="s9" d="m153 224.9c193.5 0 193.5-120.3 387-120.3" />
+            </g>
+            <g>
+                <path class="s8" d="m153 342.5c193.5 0 193.5-94.1 387-94.1" />
+            </g>
+            <g>
+                <path class="s10" d="m153 363.8c193.5 0 193.5-27.7 387-27.7" />
+            </g>
+            <g>
+                <path class="s11" d="m153 326.7c193.5 0 193.5-147.2 387-147.2" />
+            </g>
+            <g>
+                <path class="s5" d="m153 285.3c193.5 0 193.5 186.2 387 186.2" />
+            </g>
+            <g>
+                <path class="s12" d="m153 258.9c193.5 0 193.5 59.4 387 59.4" />
+            </g>
+            <g>
+                <path class="s5" d="m153 283.3c193.5 0 193.5 172.1 387 172.1" />
+            </g>
+            <g>
+                <path class="s13" d="m153 272.1c193.5 0 193.5 117.8 387 117.8" />
+            </g>
+            <g>
+                <path class="s13" d="m153 248.8c193.5 0 193.5 30.3 387 30.3" />
+            </g>
+            <g>
+                <path class="s14" d="m153 207.3c193.5 0 193.5 279.3 387 279.3" />
+            </g>
+            <g>
+                <path class="s8" d="m153 400.3c193.5 0 193.5 57.7 387 57.7" />
+            </g>
+            <g>
+                <path class="s8" d="m153 345.5c193.5 0 193.5-82 387-82" />
+            </g>
+            <g>
+                <path class="s14" d="m153 196.2c193.5 0 193.5 114 387 114" />
+            </g>
+            <g>
+                <path class="s15" d="m153 186.5c193.5 0 193.5-51.7 387-51.7" />
+            </g>
+            <g>
+                <path class="s16" d="m153 240.7c193.5 0 193.5-19 387-19" />
+            </g>
+            <g>
+                <path class="s15" d="m153 188.6c193.5 0 193.5 2.4 387 2.4" />
+            </g>
+            <g>
+                <path class="s3" d="m153 335.4c193.5 0 193.5-105.1 387-105.1" />
+            </g>
+            <g>
+                <path class="s11" d="m153 402.8c193.5 0 193.5 70.8 387 70.8" />
+            </g>
+            <g>
+                <path class="s17" d="m153 236.1c193.5 0 193.5-44.1 387-44.1" />
+            </g>
+            <g>
+                <path class="s5" d="m153 234.6c193.5 0 193.5-73.2 387-73.2" />
+            </g>
+            <g>
+                <path class="s18" d="m153 266.5c193.5 0 193.5 92.8 387 92.8" />
+            </g>
+            <g>
+                <path class="s11" d="m153 328.8c193.5 0 193.5-135.2 387-135.2" />
+            </g>
+            <g>
+                <path class="s18" d="m153 220.9c193.5 0 193.5-134.4 387-134.4" />
+            </g>
+            <g>
+                <path class="s4" d="m153 190.6c193.5 0 193.5 26.5 387 26.5" />
+            </g>
+            <g>
+                <path class="s19" d="m153 278.2c193.5 0 193.5 136.9 387 136.9" />
+            </g>
+            <g>
+                <path class="s18" d="m153 229c193.5 0 193.5-106.2 387-106.2" />
+            </g>
+            <g>
+                <path class="s20" d="m153 349.6c193.5 0 193.5-66 387-66" />
+            </g>
+            <g>
+                <path class="s15" d="m153 204.8c193.5 0 193.5 265.2 387 265.2" />
+            </g>
+            <g>
+                <path class="s18" d="m153 232c193.5 0 193.5-85.2 387-85.2" />
+            </g>
+            <g>
+                <path class="s17" d="m153 244.2c193.5 0 193.5 2.2 387 2.2" />
+            </g>
+            <g>
+                <path class="s21" d="m153 193.1c193.5 0 193.5 82.9 387 82.9" />
+            </g>
+            <g>
+                <path class="s22" d="m153 319.1c193.5 0 193.5-170.3 387-170.3" />
+            </g>
+            <g>
+                <path class="s4" d="m153 199.7c193.5 0 193.5 172.6 387 172.6" />
+            </g>
+            <g>
+                <path class="s23" d="m153 316.6c193.5 0 193.5-207.4 387-207.4" />
+            </g>
+            <g>
+                <path class="s7" d="m153 380.5c193.5 0 193.5 14.5 387 14.5" />
+            </g>
+            <g>
+                <path class="s5" d="m153 245.7c193.5 0 193.5 15.2 387 15.2" />
+            </g>
+            <g>
+                <path class="s5" d="m153 269.1c193.5 0 193.5 105.8 387 105.8" />
+            </g>
+            <g>
+                <path class="s17" d="m153 237.1c193.5 0 193.5-32 387-32" />
+            </g>
+            <g>
+                <path class="s22" d="m153 398.3c193.5 0 193.5 45.6 387 45.6" />
+            </g>
+            <g>
+                <path class="s11" d="m153 376.4c193.5 0 193.5 0.5 387 0.5" />
+            </g>
+            <g>
+                <path class="s15" d="m153 185.5c193.5 0 193.5-83.9 387-83.9" />
+            </g>
+            <g>
+                <path class="s15" d="m153 187.5c193.5 0 193.5-27.6 387-27.6" />
+            </g>
+            <g>
+                <path class="s24" d="m542 413.6c193.5 0 193.5-345.7 387-345.7" />
+            </g>
+            <g>
+                <path class="s25" d="m542 511.4c193.5 0 193.5 27.8 387 27.8" />
+            </g>
+            <g>
+                <path class="s24" d="m542 423.8c193.5 0 193.5-57.2 387-57.2" />
+            </g>
+            <g>
+                <path class="s26" d="m542 297.7c193.5 0 193.5 227.4 387 227.4" />
+            </g>
+            <g>
+                <path class="s25" d="m542 504.3c193.5 0 193.5-264.2 387-264.2" />
+            </g>
+            <g>
+                <path class="s27" d="m542 160.9c193.5 0 193.5-99.1 387-99.1" />
+            </g>
+            <g>
+                <path class="s28" d="m542 495.7c193.5 0 193.5-305.4 387-305.4" />
+            </g>
+            <g>
+                <path class="s29" d="m542 86.5c193.5 0 193.5 12.6 387 12.6" />
+            </g>
+            <g>
+                <path class="s30" d="m542 425.3c193.5 0 193.5-41.1 387-41.1" />
+            </g>
+            <g>
+                <path class="s31" d="m542 103.1c193.5 0 193.5-1.5 387-1.5" />
+            </g>
+            <g>
+                <path class="s32" d="m542 500.3c193.5 0 193.5-289.4 387-289.4" />
+            </g>
+            <g>
+                <path class="s28" d="m542 513c193.5 0 193.5 46.9 387 46.9" />
+            </g>
+            <g>
+                <path class="s25" d="m542 490.1c193.5 0 193.5-420.2 387-420.2" />
+            </g>
+            <g>
+                <path class="s26" d="m542 296.7c193.5 0 193.5-161.3 387-161.3" />
+            </g>
+            <g>
+                <path class="s33" d="m542 249.4c193.5 0 193.5 108.1 387 108.1" />
+            </g>
+            <g>
+                <path class="s34" d="m542 334.6c193.5 0 193.5 27.4 387 27.4" />
+            </g>
+            <g>
+                <path class="s35" d="m542 179c193.5 0 193.5-136.3 387-136.3" />
+            </g>
+            <g>
+                <path class="s25" d="m542 494.2c193.5 0 193.5-332.5 387-332.5" />
+            </g>
+            <g>
+                <path class="s36" d="m542 338.1c193.5 0 193.5 43.6 387 43.6" />
+            </g>
+            <g>
+                <path class="s37" d="m542 471c193.5 0 193.5-350.6 387-350.6" />
+            </g>
+            <g>
+                <path class="s34" d="m542 314.3c193.5 0 193.5-201.5 387-201.5" />
+            </g>
+            <g>
+                <path class="s38" d="m542 457c193.5 0 193.5-337.7 387-337.7" />
+            </g>
+            <g>
+                <path class="s39" d="m542 397c193.5 0 193.5 157.8 387 157.8" />
+            </g>
+            <g>
+                <path class="s40" d="m542 285.7c193.5 0 193.5 266.5 387 266.5" />
+            </g>
+            <g>
+                <path class="s41" d="m542 487.1c193.5 0 193.5-438.3 387-438.3" />
+            </g>
+            <g>
+                <path class="s42" d="m542 321.9c193.5 0 193.5-166.3 387-166.3" />
+            </g>
+            <g>
+                <path class="s30" d="m542 419.2c193.5 0 193.5-259.1 387-259.1" />
+            </g>
+            <g>
+                <path class="s38" d="m542 455.9c193.5 0 193.5-387 387-387" />
+            </g>
+            <g>
+                <path class="s43" d="m542 261.4c193.5 0 193.5-197.6 387-197.6" />
+            </g>
+            <g>
+                <path class="s44" d="m542 309.2c193.5 0 193.5-297.2 387-297.2" />
+            </g>
+            <g>
+                <path class="s45" d="m542 410.1c193.5 0 193.5-392 387-392" />
+            </g>
+            <g>
+                <path class="s46" d="m542 343.2c193.5 0 193.5 81.7 387 81.7" />
+            </g>
+            <g>
+                <path class="s47" d="m542 134.8c193.5 0 193.5 315.1 387 315.1" />
+            </g>
+            <g>
+                <path class="s48" d="m542 218.6c193.5 0 193.5-109.9 387-109.9" />
+            </g>
+            <g>
+                <path class="s49" d="m542 191c193.5 0 193.5-84.8 387-84.8" />
+            </g>
+            <g>
+                <path class="s50" d="m542 222.2c193.5 0 193.5 29.9 387 29.9" />
+            </g>
+            <g>
+                <path class="s44" d="m542 331.5c193.5 0 193.5 10.4 387 10.4" />
+            </g>
+            <g>
+                <path class="s25" d="m542 506.4c193.5 0 193.5-163 387-163" />
+            </g>
+            <g>
+                <path class="s37" d="m542 472c193.5 0 193.5-104.4 387-104.4" />
+            </g>
+            <g>
+                <path class="s48" d="m542 216.6c193.5 0 193.5-134.1 387-134.1" />
+            </g>
+            <g>
+                <path class="s35" d="m542 180c193.5 0 193.5-117.2 387-117.2" />
+            </g>
+            <g>
+                <path class="s43" d="m542 264.5c193.5 0 193.5 324 387 324" />
+            </g>
+            <g>
+                <path class="s33" d="m542 246.4c193.5 0 193.5-73.7 387-73.7" />
+            </g>
+            <g>
+                <path class="s38" d="m542 458c193.5 0 193.5-251.1 387-251.1" />
+            </g>
+            <g>
+                <path class="s24" d="m542 428.8c193.5 0 193.5 72.3 387 72.3" />
+            </g>
+            <g>
+                <path class="s49" d="m542 192c193.5 0 193.5 9.8 387 9.8" />
+            </g>
+            <g>
+                <path class="s27" d="m542 161.9c193.5 0 193.5-56.8 387-56.8" />
+            </g>
+            <g>
+                <path class="s24" d="m542 420.7c193.5 0 193.5-242.9 387-242.9" />
+            </g>
+            <g>
+                <path class="s46" d="m542 311.7c193.5 0 193.5-227.7 387-227.7" />
+            </g>
+            <g>
+                <path class="s51" d="m542 358.3c193.5 0 193.5-273.3 387-273.3" />
+            </g>
+            <g>
+                <path class="s46" d="m542 329c193.5 0 193.5-12.7 387-12.7" />
+            </g>
+            <g>
+                <path class="s46" d="m542 344.2c193.5 0 193.5 106.7 387 106.7" />
+            </g>
+            <g>
+                <path class="s52" d="m542 193.6c193.5 0 193.5 303.9 387 303.9" />
+            </g>
+            <g>
+                <path class="s53" d="m542 89.6c193.5 0 193.5 161.5 387 161.5" />
+            </g>
+            <g>
+                <path class="s51" d="m542 360.3c193.5 0 193.5-121.2 387-121.2" />
+            </g>
+            <g>
+                <path class="s48" d="m542 220.7c193.5 0 193.5-68.7 387-68.7" />
+            </g>
+            <g>
+                <path class="s24" d="m542 427.8c193.5 0 193.5 45.2 387 45.2" />
+            </g>
+            <g>
+                <path class="s54" d="m542 121.7c193.5 0 193.5-18.6 387-18.6" />
+            </g>
+            <g>
+                <path class="s46" d="m542 345.2c193.5 0 193.5 193 387 193" />
+            </g>
+            <g>
+                <path class="s24" d="m542 412.6c193.5 0 193.5-368.9 387-368.9" />
+            </g>
+            <g>
+                <path class="s43" d="m542 263.5c193.5 0 193.5 95 387 95" />
+            </g>
+            <g>
+                <path class="s55" d="m542 279.1c193.5 0 193.5-103.9 387-103.9" />
+            </g>
+            <g>
+                <path class="s40" d="m542 284.6c193.5 0 193.5 239.5 387 239.5" />
+            </g>
+            <g>
+                <path class="s37" d="m542 470c193.5 0 193.5-424.3 387-424.3" />
+            </g>
+            <g>
+                <path class="s46" d="m542 346.2c193.5 0 193.5 207.1 387 207.1" />
+            </g>
+            <g>
+                <path class="s56" d="m542 145.8c193.5 0 193.5-41.7 387-41.7" />
+            </g>
+            <g>
+                <path class="s25" d="m542 514.5c193.5 0 193.5 61.9 387 61.9" />
+            </g>
+            <g>
+                <path class="s24" d="m542 426.8c193.5 0 193.5 35.2 387 35.2" />
+            </g>
+            <g>
+                <path class="s33" d="m542 248.4c193.5 0 193.5 92 387 92" />
+            </g>
+            <g>
+                <path class="s40" d="m542 276.5c193.5 0 193.5-166.3 387-166.3" />
+            </g>
+            <g>
+                <path class="s57" d="m542 104.6c193.5 0 193.5 28.8 387 28.8" />
+            </g>
+            <g>
+                <path class="s28" d="m542 492.7c193.5 0 193.5-370.8 387-370.8" />
+            </g>
+            <g>
+                <path class="s48" d="m542 231.8c193.5 0 193.5 267.8 387 267.8" />
+            </g>
+            <g>
+                <path class="s58" d="m542 430.9c193.5 0 193.5 126.4 387 126.4" />
+            </g>
+            <g>
+                <path class="s36" d="m542 317.8c193.5 0 193.5-180.3 387-180.3" />
+            </g>
+            <g>
+                <path class="s40" d="m542 282.6c193.5 0 193.5 76.9 387 76.9" />
+            </g>
+            <g>
+                <path class="s56" d="m542 148.8c193.5 0 193.5 364.3 387 364.3" />
+            </g>
+            <g>
+                <path class="s59" d="m542 376.9c193.5 0 193.5-11.8 387-11.8" />
+            </g>
+            <g>
+                <path class="s60" d="m542 228.3c193.5 0 193.5 127.1 387 127.1" />
+            </g>
+            <g>
+                <path class="s27" d="m542 164.9c193.5 0 193.5 258.9 387 258.9" />
+            </g>
+            <g>
+                <path class="s31" d="m542 107.2c193.5 0 193.5 388.3 387 388.3" />
+            </g>
+            <g>
+                <path class="s24" d="m542 422.8c193.5 0 193.5-216.9 387-216.9" />
+            </g>
+            <g>
+                <path class="s61" d="m542 392.5c193.5 0 193.5-233.9 387-233.9" />
+            </g>
+            <g>
+                <path class="s58" d="m542 416.7c193.5 0 193.5-299.4 387-299.4" />
+            </g>
+            <g>
+                <path class="s61" d="m542 393.5c193.5 0 193.5-128.4 387-128.4" />
+            </g>
+            <g>
+                <path class="s31" d="m542 110.2c193.5 0 193.5 461.7 387 461.7" />
+            </g>
+            <g>
+                <path class="s39" d="m542 388.9c193.5 0 193.5-373.8 387-373.8" />
+            </g>
+            <g>
+                <path class="s43" d="m542 262.5c193.5 0 193.5-128.1 387-128.1" />
+            </g>
+            <g>
+                <path class="s36" d="m542 341.2c193.5 0 193.5 56.6 387 56.6" />
+            </g>
+            <g>
+                <path class="s25" d="m542 509.4c193.5 0 193.5-7.3 387-7.3" />
+            </g>
+            <g>
+                <path class="s46" d="m542 310.7c193.5 0 193.5-245.8 387-245.8" />
+            </g>
+            <g>
+                <path class="s25" d="m542 508.4c193.5 0 193.5-122.7 387-122.7" />
+            </g>
+            <g>
+                <path class="s50" d="m542 235.4c193.5 0 193.5 352.1 387 352.1" />
+            </g>
+            <g>
+                <path class="s24" d="m542 432.9c193.5 0 193.5 156.6 387 156.6" />
+            </g>
+            <g>
+                <path class="s62" d="m542 372.3c193.5 0 193.5-257 387-257" />
+            </g>
+            <g>
+                <path class="s63" d="m542 205.1c193.5 0 193.5-97.9 387-97.9" />
+            </g>
+            <g>
+                <path class="s40" d="m542 281.6c193.5 0 193.5-78.8 387-78.8" />
+            </g>
+            <g>
+                <path class="s39" d="m542 390.9c193.5 0 193.5-324.5 387-324.5" />
+            </g>
+            <g>
+                <path class="s56" d="m542 146.8c193.5 0 193.5 90.2 387 90.2" />
+            </g>
+            <g>
+                <path class="s64" d="m542 443.9c193.5 0 193.5-44.1 387-44.1" />
+            </g>
+            <g>
+                <path class="s24" d="m542 421.7c193.5 0 193.5-232.9 387-232.9" />
+            </g>
+            <g>
+                <path class="s46" d="m542 327c193.5 0 193.5-89 387-89" />
+            </g>
+            <g>
+                <path class="s44" d="m542 325.4c193.5 0 193.5-121.1 387-121.1" />
+            </g>
+            <g>
+                <path class="s37" d="m542 473c193.5 0 193.5-72.2 387-72.2" />
+            </g>
+            <g>
+                <path class="s57" d="m542 105.7c193.5 0 193.5 343.2 387 343.2" />
+            </g>
+            <g>
+                <path class="s40" d="m542 283.6c193.5 0 193.5 153.3 387 153.3" />
+            </g>
+            <g>
+                <path class="s56" d="m542 147.8c193.5 0 193.5 142.4 387 142.4" />
+            </g>
+            <g>
+                <path class="s27" d="m542 163.9c193.5 0 193.5 149.4 387 149.4" />
+            </g>
+            <g>
+                <path class="s24" d="m542 414.6c193.5 0 193.5-328.6 387-328.6" />
+            </g>
+            <g>
+                <path class="s59" d="m542 373.8c193.5 0 193.5-110.2 387-110.2" />
+            </g>
+            <g>
+                <path class="s27" d="m542 165.9c193.5 0 193.5 270 387 270" />
+            </g>
+            <g>
+                <path class="s46" d="m542 347.2c193.5 0 193.5 228.2 387 228.2" />
+            </g>
+            <g>
+                <path class="s38" d="m542 459c193.5 0 193.5-21.1 387-21.1" />
+            </g>
+            <g>
+                <path class="s61" d="m542 395.5c193.5 0 193.5 17.3 387 17.3" />
+            </g>
+            <g>
+                <path class="s57" d="m542 101.6c193.5 0 193.5-20.7 387-20.7" />
+            </g>
+            <g>
+                <path class="s25" d="m542 510.4c193.5 0 193.5 16.8 387 16.8" />
+            </g>
+            <g>
+                <path class="s25" d="m542 507.4c193.5 0 193.5-138.8 387-138.8" />
+            </g>
+            <g>
+                <path class="s48" d="m542 225.7c193.5 0 193.5 89.1 387 89.1" />
+            </g>
+            <g>
+                <path class="s37" d="m542 474.1c193.5 0 193.5 52.1 387 52.1" />
+            </g>
+            <g>
+                <path class="s53" d="m542 90.6c193.5 0 193.5 221.6 387 221.6" />
+            </g>
+            <g>
+                <path class="s46" d="m542 330c193.5 0 193.5-1.7 387-1.7" />
+            </g>
+            <g>
+                <path class="s40" d="m542 275.5c193.5 0 193.5-265 387-265" />
+            </g>
+            <g>
+                <path class="s38" d="m542 454.9c193.5 0 193.5-410.2 387-410.2" />
+            </g>
+            <g>
+                <path class="s25" d="m542 505.4c193.5 0 193.5-226.2 387-226.2" />
+            </g>
+            <g>
+                <path class="s48" d="m542 223.7c193.5 0 193.5 54 387 54" />
+            </g>
+            <g>
+                <path class="s62" d="m542 371.3c193.5 0 193.5-357.7 387-357.7" />
+            </g>
+            <g>
+                <path class="s57" d="m542 108.7c193.5 0 193.5 441.5 387 441.5" />
+            </g>
+            <g>
+                <path class="s50" d="m542 230.3c193.5 0 193.5 149.3 387 149.3" />
+            </g>
+            <g>
+                <path class="s54" d="m542 123.8c193.5 0 193.5 288 387 288" />
+            </g>
+            <g>
+                <path class="s43" d="m542 260.4c193.5 0 193.5-228.7 387-228.7" />
+            </g>
+            <g>
+                <path class="s33" d="m542 247.4c193.5 0 193.5-21.4 387-21.4" />
+            </g>
+            <g>
+                <path class="s27" d="m542 159.9c193.5 0 193.5-129.2 387-129.2" />
+            </g>
+            <g>
+                <path class="s54" d="m542 122.8c193.5 0 193.5 153.4 387 153.4" />
+            </g>
+            <g>
+                <path class="s27" d="m542 168c193.5 0 193.5 405.4 387 405.4" />
+            </g>
+            <g>
+                <path class="s51" d="m542 359.3c193.5 0 193.5-219.8 387-219.8" />
+            </g>
+            <g>
+                <path class="s50" d="m542 234.3c193.5 0 193.5 340.1 387 340.1" />
+            </g>
+            <g>
+                <path class="s53" d="m542 88.6c193.5 0 193.5 61.9 387 61.9" />
+            </g>
+            <g>
+                <path class="s27" d="m542 167c193.5 0 193.5 317 387 317" />
+            </g>
+            <g>
+                <path class="s46" d="m542 328c193.5 0 193.5-26.8 387-26.8" />
+            </g>
+            <g>
+                <path class="s62" d="m542 375.4c193.5 0 193.5-58.1 387-58.1" />
+            </g>
+            <g>
+                <path class="s61" d="m542 394.5c193.5 0 193.5-65.2 387-65.2" />
+            </g>
+            <g>
+                <path class="s50" d="m542 233.3c193.5 0 193.5 317.9 387 317.9" />
+            </g>
+            <g>
+                <path class="s25" d="m542 491.2c193.5 0 193.5-404.2 387-404.2" />
+            </g>
+            <g>
+                <path class="s27" d="m542 162.9c193.5 0 193.5 62.1 387 62.1" />
+            </g>
+        </g>
+
+        <rect fill="rgba(250,250,250,.5)" x="542" y="0" height="600" width="25"></rect>
+
+        <g id="notas">
+            <text
+                id="4.0
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 91.043);"
+            >
+                <tspan x="0" y="0" class="nota">4,0</tspan>
+            </text>
+            <text
+                id="4.5
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 110.159);"
+            >
+                <tspan x="0" y="0" class="nota">4,5</tspan>
+            </text>
+            <text
+                id="4.6
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 125.754);"
+            >
+                <tspan x="0" y="0" class="nota">4,6</tspan>
+            </text>
+            <text
+                id="4.7
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 138.783);"
+            >
+                <tspan x="0" y="0" class="nota">4,7</tspan>
+            </text>
+            <text
+                id="4.8
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 151.319);"
+            >
+                <tspan x="0" y="0" class="nota">4,8</tspan>
+            </text>
+            <text
+                id="5.0
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 167.913);"
+            >
+                <tspan x="0" y="0" class="nota">5,0</tspan>
+            </text>
+            <text
+                id="5.2
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 183.493);"
+            >
+                <tspan x="0" y="0" class="nota">5,2</tspan>
+            </text>
+            <text
+                id="5.3
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 195.536);"
+            >
+                <tspan x="0" y="0" class="nota">5,3</tspan>
+            </text>
+            <text
+                id="5.4
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 209.072);"
+            >
+                <tspan x="0" y="0" class="nota">5,4</tspan>
+            </text>
+            <text
+                id="5.5
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 229.725);"
+            >
+                <tspan x="0" y="0" class="nota">5,5</tspan>
+            </text>
+            <text
+                id="5.6
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 251.898);"
+            >
+                <tspan x="0" y="0" class="nota">5,6</tspan>
+            </text>
+            <text
+                id="5.7
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 267.464);"
+            >
+                <tspan x="0" y="0" class="nota">5,7</tspan>
+            </text>
+
+            <text
+                id="5.8
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 283.58);"
+            >
+                <tspan x="0" y="0" class="nota">5,8</tspan>
+            </text>
+            <text
+                id="5.9
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 301.174);"
+            >
+                <tspan x="0" y="0" class="nota">5,9</tspan>
+            </text>
+            <text
+                id="6.0
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 330.971);"
+            >
+                <tspan x="0" y="0" class="nota">6,0</tspan>
+            </text>
+            <text
+                id="6.1
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 363.275);"
+            >
+                <tspan x="0" y="0" class="nota">6,1</tspan>
+            </text>
+            <text
+                id="6.2
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 377.348);"
+            >
+                <tspan x="0" y="0" class="nota">6,2</tspan>
+            </text>
+            <text
+                id="6.3
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 395.971);"
+            >
+                <tspan x="0" y="0" class="nota">6,3</tspan>
+            </text>
+            <text
+                id="6.5
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 423.725);"
+            >
+                <tspan x="0" y="0" class="nota">6,5</tspan>
+            </text>
+            <text
+                id="6.6
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 446.913);"
+            >
+                <tspan x="0" y="0" class="nota">6,6</tspan>
+            </text>
+            <text
+                id="6.7
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 460.956);"
+            >
+                <tspan x="0" y="0" class="nota">6,7</tspan>
+            </text>
+            <text
+                id="6.8
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 476.029);"
+            >
+                <tspan x="0" y="0" class="nota">6,8</tspan>
+            </text>
+            <text
+                id="7.0
+"
+                style="transform: matrix(1, 0, 0, 1, 547, 503.783);"
+            >
+                <tspan x="0" y="0" class="nota">7,0</tspan>
+            </text>
+        </g>
+        <g id="nombres">
+            <text id="Jenny Abud" style="transform: matrix(1, 0, 0, 1, 936.927, 17.072);">
+                <tspan x="0" y="0" class="t0">Jenny Abud</tspan>
+            </text>
+            <text id="Paola Benavides*" style="transform: matrix(1, 0, 0, 1, 937, 34.159);">
+                <tspan x="0" y="0" class="t65">Paola Benavides*</tspan>
+            </text>
+            <text id="Eduardo Castillo" style="transform: matrix(1, 0, 0, 1, 937, 51);">
+                <tspan x="0" y="0" class="t0">Eduardo Castillo</tspan>
+            </text>
+            <text id="Felipe Cortez" style="transform: matrix(1, 0, 0, 1, 937, 70);">
+                <tspan x="0" y="0" class="t0">Felipe Cortez</tspan>
+            </text>
+            <text id="Paola De la Sotta" style="transform: matrix(1, 0, 0, 1, 937, 88);">
+                <tspan x="0" y="0" class="t0">Paola De la Sotta</tspan>
+            </text>
+            <text id="Pablo Domínguez" style="transform: matrix(1, 0, 0, 1, 937, 113);">
+                <tspan x="0" y="0" class="t0">Pablo Domínguez</tspan>
+            </text>
+            <text id="Sergio Donoso" style="transform: matrix(1, 0, 0, 1, 937, 141);">
+                <tspan x="0" y="0" class="t0">Sergio Donoso</tspan>
+            </text>
+            <text id="Rodrigo Dueñas" style="transform: matrix(1, 0, 0, 1, 937, 160);">
+                <tspan x="0" y="0" class="t0">Rodrigo Dueñas</tspan>
+            </text>
+            <text id="Pamela Gatica" style="transform: matrix(1, 0, 0, 1, 937, 178.217);">
+                <tspan x="0" y="0" class="t0">Pamela Gatica</tspan>
+            </text>
+            <text id="Cristián Gómez" style="transform: matrix(1, 0, 0, 1, 937, 193.783);">
+                <tspan x="0" y="0" class="t0">Cristián Gómez</tspan>
+            </text>
+            <text id="Rubén Jacob" style="transform: matrix(1, 0, 0, 1, 937, 210.898);">
+                <tspan x="0" y="0" class="t0">Rubén Jacob</tspan>
+            </text>
+            <text id="Trinidad Jove*" style="transform: matrix(1, 0, 0, 1, 937, 228.507);">
+                <tspan x="0" y="0" class="t65">Trinidad Jove*</tspan>
+            </text>
+            <text id="Lorna Lares" style="transform: matrix(1, 0, 0, 1, 937, 241.551);">
+                <tspan x="0" y="0" class="t0">Lorna Lares</tspan>
+            </text>
+            <text id="Juan Carlos Lepe*" style="transform: matrix(1, 0, 0, 1, 937, 254.594);">
+                <tspan x="0" y="0" class="t65">Juan Carlos Lepe*</tspan>
+            </text>
+            <text id="Félix Maldonado" style="transform: matrix(1, 0, 0, 1, 937, 268.13);">
+                <tspan x="0" y="0" class="t0">Félix Maldonado</tspan>
+            </text>
+            <text id="Antonio Marín" style="transform: matrix(1, 0, 0, 1, 937, 280.681);">
+                <tspan x="0" y="0" class="t0">Antonio Marín</tspan>
+            </text>
+            <text id="Raúl Molina*" style="transform: matrix(1, 0, 0, 1, 937, 294.217);">
+                <tspan x="0" y="0" class="t65">Raúl Molina*</tspan>
+            </text>
+            <text id="Alfredo Mora" style="transform: matrix(1, 0, 0, 1, 937, 305.232);">
+                <tspan x="0" y="0" class="t0">Alfredo Mora</tspan>
+            </text>
+            <text id="María Paz Morales*" style="transform: matrix(1, 0, 0, 1, 937, 317.783);">
+                <tspan x="0" y="0" class="t65">María Paz Morales*</tspan>
+            </text>
+            <text id="Iván Méndez" style="transform: matrix(1, 0, 0, 1, 937, 331.84);">
+                <tspan x="0" y="0" class="t0">Iván Méndez</tspan>
+            </text>
+            <text id="Pablo Nuñez" style="transform: matrix(1, 0, 0, 1, 937, 345.884);">
+                <tspan x="0" y="0" class="t0">Pablo Núñez</tspan>
+            </text>
+            <text id="Verónica Ode" style="transform: matrix(1, 0, 0, 1, 937, 364.522);">
+                <tspan x="0" y="0" class="t0">Verónica Ode</tspan>
+            </text>
+            <text id="Roberto Osses" style="transform: matrix(1, 0, 0, 1, 937, 385.681);">
+                <tspan x="0" y="0" class="t0">Roberto Osses</tspan>
+            </text>
+            <text id="Sebastián Pagueguy" style="transform: matrix(1, 0, 0, 1, 937, 401.768);">
+                <tspan x="0" y="0" class="t0">Sebastián Pagueguy</tspan>
+            </text>
+            <text id="René Perea" style="transform: matrix(1, 0, 0, 1, 937, 415.319);">
+                <tspan x="0" y="0" class="t0">René Perea</tspan>
+            </text>
+            <text id="Bruno Perelli" style="transform: matrix(1, 0, 0, 1, 937, 428.348);">
+                <tspan x="0" y="0" class="t0">Bruno Perelli</tspan>
+            </text>
+            <text id="Gabriela Pradenas" style="transform: matrix(1, 0, 0, 1, 937, 440.884);">
+                <tspan x="0" y="0" class="t0">Gabriela Pradenas</tspan>
+            </text>
+            <text id="Daniel Reyes" style="transform: matrix(1, 0, 0, 1, 937, 452.927);">
+                <tspan x="0" y="0" class="t0">Daniel Reyes</tspan>
+            </text>
+            <text id="Macarena Ruiz*" style="transform: matrix(1, 0, 0, 1, 937, 464.956);">
+                <tspan x="0" y="0" class="t65">Macarena Ruiz*</tspan>
+            </text>
+            <text id="Mónica Santibañez*" style="transform: matrix(1, 0, 0, 1, 937, 475.971);">
+                <tspan x="0" y="0" class="t65">Mónica Santibañez*</tspan>
+            </text>
+            <text id="Rebeca Silva" style="transform: matrix(1, 0, 0, 1, 937, 487.985);">
+                <tspan x="0" y="0" class="t0">Rebeca Silva</tspan>
+            </text>
+            <text id="Leonardo Soto" style="transform: matrix(1, 0, 0, 1, 937, 500.551);">
+                <tspan x="0" y="0" class="t0">Leonardo Soto</tspan>
+            </text>
+            <text id="Hans Stange" style="transform: matrix(1, 0, 0, 1, 937, 516.116);">
+                <tspan x="0" y="0" class="t0">Hans Stange</tspan>
+            </text>
+            <text id="Mauricio Tapia" style="transform: matrix(1, 0, 0, 1, 937, 528.652);">
+                <tspan x="0" y="0" class="t0">Mauricio Tapia</tspan>
+            </text>
+            <text id="Mauricio Vico" style="transform: matrix(1, 0, 0, 1, 937, 541.696);">
+                <tspan x="0" y="0" class="t0">Mauricio Vico</tspan>
+            </text>
+            <text id="Andrea Wechsler*" style="transform: matrix(1, 0, 0, 1, 937, 559.29);">
+                <tspan x="0" y="0" class="t65">Andrea Wechsler</tspan>
+            </text>
+            <text id="Mariana Young*" style="transform: matrix(1, 0, 0, 1, 937, 576.993);">
+                <tspan x="0" y="0" class="t65">Mariana Young*</tspan>
+            </text>
+            <text id="Osvaldo Zorzano" style="transform: matrix(1, 0, 0, 1, 937, 592.478);">
+                <tspan x="0" y="0" class="t0">Osvaldo Zorzano</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

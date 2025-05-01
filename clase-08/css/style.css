@@ -1,7 +1,7 @@
 :root {
-    --naranjita: #FFCCBC;
-    --naranja: #FF5722;
-    --naranjota: #E64A19;
+    --acentoAlto: #FFCCBC;
+    --acento: #FF5722;
+    --acentoBajo: #E64A19;
     --gris: #546E7A;
 }
 body {
@@ -12,14 +12,14 @@ body {
     background:#fafafa;
 }
 a {
-    color: var(--naranjota);
-    text-decoration: underline solid var(--naranjita) 10%;
+    color: var(--acentoBajo);
+    text-decoration: underline solid var(--acentoAlto) 10%;
     transition: all ease .25s;
 
 }
 a:hover {
-    color: var(--naranja);
-    text-decoration: underline solid var(--naranja) 10%;
+    color: var(--acento);
+    text-decoration: underline solid var(--acento) 10%;
     transition: all ease .25s;
 }
 
@@ -90,8 +90,8 @@ main{
 }
 
 @keyframes tintinea{
-    0%{border: 1px solid var(--naranjita);}
-    100%{border: 1px solid var(--naranjota);}
+    0%{border: 1px solid var(--acentoAlto);}
+    100%{border: 1px solid var(--acentoBajo);}
 }
 
 select {
@@ -136,8 +136,8 @@ h3 a{
 }
 
 h3 a:hover{
-    color:var(--naranja);
-    text-decoration: underline solid var(--naranjita) 8%;
+    color:var(--acento);
+    text-decoration: underline solid var(--acentoAlto) 8%;
 }
 
 table {

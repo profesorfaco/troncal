@@ -8,7 +8,7 @@ const profeGuia = document.querySelector("#profe");
 function eficiencia(profe) {
     var esto;
     if (alfabetico == profe) {
-        esto = `<svg width="100%" height="100%" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--naranjita)" stroke-width="2"></circle><circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--naranja)" stroke-width="2" stroke-dasharray="${
+        esto = `<svg width="100%" height="100%" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--acentoAlto)" stroke-width="2"></circle><circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--acento)" stroke-width="2" stroke-dasharray="${
             d.porcentajes
         } ${100 - d.porcentajes}" stroke-dashoffset="25"></circle><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="7" ${color(d.porcentajes)}>${
             d.porcentajes
@@ -472,7 +472,7 @@ async function datos(criterio) {
         palabreo.innerHTML = `<p>Se revisan los nombres de los proyectos en el grupo, pero <em>no</em> se encuentran palabras repetidas.</p>`;
     }
 
-    dona.innerHTML = `<svg width="100%" height="100%" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--naranjita)" stroke-width="2"></circle><circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--naranja)" stroke-width="2" stroke-dasharray="${
+    dona.innerHTML = `<svg width="100%" height="100%" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--acentoAlto)" stroke-width="2"></circle><circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--acento)" stroke-width="2" stroke-dasharray="${
         profeSeleccion.porcentajes
     } ${100 - profeSeleccion.porcentajes}" stroke-dashoffset="25"></circle><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="7" ${profeSeleccion.porcentajes}>${
         profeSeleccion.porcentajes
@@ -489,9 +489,9 @@ async function datos(criterio) {
     for (var i = 0; i < notas.length; i++) {
         profeNotas.innerHTML += `<g>    
 <text x="0.5" y="${140 - notasPrevias[i] * 20 + 2.5}" font-size="2.3" dominant-baseline="middle">${notasPrevias[i].toFixed(1)}</text>
-<circle cx="5" cy="${140 - notasPrevias[i] * 20 + 2.5}" r=".5" fill="var(--naranja)"/>
-<line x1="5" y1="${140 - notasPrevias[i] * 20 + 2.5}" x2="60" y2="${140 - notas[i] * 20 + 2.5}" stroke="var(--naranja)" stroke-width=".3"/>
-<circle cx="60" cy="${140 - notas[i] * 20 + 2.5}" r=".5" fill="var(--naranja)"/>
+<circle cx="5" cy="${140 - notasPrevias[i] * 20 + 2.5}" r=".5" fill="var(--acento)"/>
+<line x1="5" y1="${140 - notasPrevias[i] * 20 + 2.5}" x2="60" y2="${140 - notas[i] * 20 + 2.5}" stroke="var(--acento)" stroke-width=".3"/>
+<circle cx="60" cy="${140 - notas[i] * 20 + 2.5}" r=".5" fill="var(--acento)"/>
 <text x="61.25" y="${140 - notas[i] * 20 + 2.5}" font-size="2.3" dominant-baseline="middle">${notas[i].toFixed(1)}</text>
 </g>`;
     }
