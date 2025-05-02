@@ -22,7 +22,7 @@ Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportad
 
 Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en [la web](https://profesorfaco.github.io/troncal/clase-08/): 
 
-> un complemento cualitativo que será resuelto por los estudiantes del curso electivo ya referido (hasta el martes 13 de mayo).
+> necesitan de un complemento cualitativo que será resuelto por estudiantes del curso electivo en Diseño y visualización de información (hasta el martes 13 de mayo).
 
 Le queda, entre otras cosas, ponerse en el lugar de otro para responder a las siguientes preguntas: ¿Qué información podría necesitar de mi trayectoria e intereses quien esté evaluando la posibilidad de acompañarme, orientarme y evaluarme en el avance autónomo que exige Proyecto de Título? ¿Acaso necesitará mi foto de perfil y rumores de mi simpatía? ¿Un simple recuento de las veces que le he pedido ser mi Profesor o Profesora Guía? ¿Ojear todas mis calificaciones finales, sin conocer razones detrás de ellas?…
 
