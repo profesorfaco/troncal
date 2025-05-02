@@ -1,196 +1,160 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 610" width="1120" height="610">
     <title>Multi_set_bar_chart</title>
     <style>
-        tspan {
-            white-space: pre;
+        g#viz {
+            font-size: 14px;
+            fill: #000000;
+            font-family: Helvetica, Arial, sans-serif;
         }
-        .s0 {
-            fill: #189af6;
-        }
-        .s1 {
+
+        g#reprueban {
             fill: #9b9b9b;
         }
-        .s2 {
+
+        g#aprueban {
+            fill: #189af6;
+        }
+
+        g#industriales {
+            fill: #125389;
+        }
+
+        g#sinmencion {
+            fill: #00c3ff;
+        }
+
+        .rayita {
             fill: none;
             stroke: #000000;
         }
-        .t3 {
-            font-size: 14px;
-            fill: #000000;
-            font-weight: 400;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        .s4 {
-            fill: #00c3ff;
-        }
-        .s5 {
-            fill: #125389;
-        }
     </style>
-    <g id="Layer_1">
-        <path id="undefined_-_Aprueban" class="s0" d="m44.6 555.7h49.5v24h-49.5z" />
-        <path id="undefined_-_Reprueban" class="s1" d="m95 371.7h49.5v208h-49.5z" />
-        <path id="undefined_-_Aprueban_00000111899894031319453600000007121113847019663004_" class="s0" d="m203.4 499.7h49.5v80h-49.5z" />
-        <path id="undefined_-_Reprueban_00000076569561269110875430000008861842296012628926_" class="s1" d="m253.9 307.7h49.5v272h-49.5z" />
-        <path id="undefined_-_Aprueban_00000065760340272094516830000014267729501152632213_" class="s0" d="m362.3 491.7h49.5v88h-49.5z" />
-        <path id="undefined_-_Reprueban_00000037690781783271513630000001110244192942364597_" class="s1" d="m412.7 107.7h49.5v472h-49.5z" />
-        <path id="undefined_-_Aprueban_00000158009099421339331620000013947027731943146146_" class="s0" d="m522.2 419.7h49.5v160h-49.5z" />
-        <path id="undefined_-_Reprueban_00000061465251432949943800000013913101051907430070_" class="s1" d="m572.6 203.7h49.5v376h-49.5z" />
-        <path id="undefined_-_Aprueban_00000072997050940451533950000013176869402776937102_" class="s0" d="m682 139.7h49.5v440h-49.5z" />
-        <path id="undefined_-_Reprueban_00000067234036453798054040000004044410054234800288_" class="s1" d="m732.5 235.7h49.5v344h-49.5z" />
-        <path id="undefined_-_Aprueban_00000106109929813722787250000012753123022189375388_" class="s0" d="m841.9 267.7h49.5v312h-49.5z" />
-        <path id="undefined_-_Reprueban_00000049918455997260378260000001895917658451530157_" class="s1" d="m892.3 411.7h49.5v168h-49.5z" />
-        <path id="undefined_-_Aprueban_00000080922808296696788290000016960463221201791398_" class="s0" d="m1001.7 27.7h49.5v552h-49.5c0 0 0-552 0-552z" />
-        <path id="undefined_-_Reprueban_00000150074748761391409280000017544181070678186663_" class="s1" d="m1052.2 171.7h49.5v408h-49.5z" />
+    <g id="viz">
+        <g id="reprueban">
+            <path d="m95 371.7h49.5v208h-49.5z" />
+            <path d="m253.9 307.7h49.5v272h-49.5z" />
+            <path d="m412.7 107.7h49.5v472h-49.5z" />
+            <path d="m572.6 203.7h49.5v376h-49.5z" />
+            <path d="m732.5 235.7h49.5v344h-49.5z" />
+            <path d="m892.3 411.7h49.5v168h-49.5z" />
+            <path d="m1052.2 171.7h49.5v408h-49.5z" />
+        </g>
+        <g id="aprueban">
+            <path d="m44.6 555.7h49.5v24h-49.5z" />
+            <path d="m1001.7 27.7h49.5v552h-49.5c0 0 0-552 0-552z" />
+            <path d="m841.9 267.7h49.5v312h-49.5z" />
+            <path d="m522.2 419.7h49.5v160h-49.5z" />
+            <path d="m203.4 499.7h49.5v80h-49.5z" />
+            <path d="m362.3 491.7h49.5v88h-49.5z" />
+            <path d="m682 139.7h49.5v440h-49.5z" />
+        </g>
+        <g id="industriales">
+            <path d="m203.4 539.7h49.5v40h-49.5z" />
+            <path d="m362.3 547.7h49.5v32h-49.5z" />
+            <path d="m522.2 523.7h49.5v56h-49.5z" />
+            <path d="m682 395.7h49.5v184h-49.5z" />
+            <path d="m841.9 467.7h49.5v112h-49.5z" />
+            <path d="m1001.7 347.7h49.5v232h-49.5z" />
+        </g>
+        <g id="sinmencion">
+            <path d="m44.6 555.7h49.5v8h-49.5z" />
+            <path d="m522.2 419.7h49.5v32h-49.5z" />
+            <path d="m682 139.7h49.5v56c0-0.3-49.5 0-49.5 0z" />
+            <path d="m841.9 267.7h49.5v32h-49.5z" />
+            <path d="m1001.7 27.7h49.5v64h-49.5z" />
+        </g>
+
         <g id="xAxis">
             <g>
-                <path class="s2" d="m94.6 579.7v6" />
-                <text id="2021-2" style="transform: matrix(1, 0, 0, 1, 79.006, 599.776);">
-                    <tspan x="0" y="0" class="t3">2021-2</tspan>
-                </text>
+                <path class="rayita" d="m94.6 579.7v6" />
+                <text  style="transform: matrix(1, 0, 0, 1, 79.006, 599.776);">2021-2</text>
             </g>
             <g>
-                <path class="s2" d="m253.4 579.7v6" />
-                <text id="2022-1" style="transform: matrix(1, 0, 0, 1, 237.867, 599.776);">
-                    <tspan x="0" y="0" class="t3">2022-1</tspan>
-                </text>
+                <path class="rayita" d="m253.4 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 237.867, 599.776);">2022-1</text>
             </g>
             <g>
-                <path class="s2" d="m412.3 579.7v6" />
-                <text id="2022-2" style="transform: matrix(1, 0, 0, 1, 396.727, 599.776);">
-                    <tspan x="0" y="0" class="t3">2022-2</tspan>
-                </text>
+                <path class="rayita" d="m412.3 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 396.727, 599.776);">2022-2</text>
             </g>
             <g>
-                <path class="s2" d="m572.1 579.7v6" />
-                <text id="2023-1" style="transform: matrix(1, 0, 0, 1, 556.587, 599.776);">
-                    <tspan x="0" y="0" class="t3">2023-1</tspan>
-                </text>
+                <path class="rayita" d="m572.1 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 556.587, 599.776);">2023-1</text>
             </g>
             <g>
-                <path class="s2" d="m732 579.7v6" />
-                <text id="2023-2" style="transform: matrix(1, 0, 0, 1, 716.447, 599.776);">
-                    <tspan x="0" y="0" class="t3">2023-2</tspan>
-                </text>
+                <path class="rayita" d="m732 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 716.447, 599.776);">2023-2</text>
             </g>
             <g>
-                <path class="s2" d="m891.9 579.7v6" />
-                <text id="2024-1" style="transform: matrix(1, 0, 0, 1, 876.307, 599.776);">
-                    <tspan x="0" y="0" class="t3">2024-1</tspan>
-                </text>
+                <path class="rayita" d="m891.9 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 876.307, 599.776);">2024-1</text>
             </g>
             <g>
-                <path class="s2" d="m1051.7 579.7v6" />
-                <text id="2024-2" style="transform: matrix(1, 0, 0, 1, 1036.168, 599.776);">
-                    <tspan x="0" y="0" class="t3">2024-2</tspan>
-                </text>
+                <path class="rayita" d="m1051.7 579.7v6" />
+                <text style="transform: matrix(1, 0, 0, 1, 1036.168, 599.776);">2024-2</text>
             </g>
         </g>
         <g id="yAxis">
-            <path class="s2" d="m30.1 580.2v-560" />
+            <path class="rayita" d="m30.1 580.2v-560" />
             <g>
-                <path class="s2" d="m1119.6 580.2h-1096" />
-                <text id="0" style="transform: matrix(1, 0, 0, 1, 11.094, 583.376);">
-                    <tspan x="0" y="0" class="t3">0</tspan>
-                </text>
+                <path class="rayita" d="m1119.6 580.2h-1096" />
+                <text style="transform: matrix(1, 0, 0, 1, 11.094, 583.376);">0</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 540.2h-6" />
-                <text id="5" style="transform: matrix(1, 0, 0, 1, 11.094, 543.376);">
-                    <tspan x="0" y="0" class="t3">5</tspan>
-                </text>
+                <path class="rayita" d="m29.6 540.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 11.094, 543.376);">5</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 500.2h-6" />
-                <text id="10" style="transform: matrix(1, 0, 0, 1, 5.533, 503.376);">
-                    <tspan x="0" y="0" class="t3">10</tspan>
-                </text>
+                <path class="rayita" d="m29.6 500.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 503.376);">10</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 460.2h-6" />
-                <text id="15" style="transform: matrix(1, 0, 0, 1, 5.533, 463.376);">
-                    <tspan x="0" y="0" class="t3">15</tspan>
-                </text>
+                <path class="rayita" d="m29.6 460.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 463.376);">15</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 420.2h-6" />
-                <text id="20" style="transform: matrix(1, 0, 0, 1, 5.533, 423.376);">
-                    <tspan x="0" y="0" class="t3">20</tspan>
-                </text>
+                <path class="rayita" d="m29.6 420.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 423.376);">20</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 380.2h-6" />
-                <text id="25" style="transform: matrix(1, 0, 0, 1, 5.533, 383.376);">
-                    <tspan x="0" y="0" class="t3">25</tspan>
-                </text>
+                <path class="rayita" d="m29.6 380.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 383.376);">25</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 340.2h-6" />
-                <text id="30" style="transform: matrix(1, 0, 0, 1, 5.533, 343.376);">
-                    <tspan x="0" y="0" class="t3">30</tspan>
-                </text>
+                <path class="rayita" d="m29.6 340.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 343.376);">30</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 300.2h-6" />
-                <text id="35" style="transform: matrix(1, 0, 0, 1, 5.533, 303.376);">
-                    <tspan x="0" y="0" class="t3">35</tspan>
-                </text>
+                <path class="rayita" d="m29.6 300.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 303.376);">35</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 260.2h-6" />
-                <text id="40" style="transform: matrix(1, 0, 0, 1, 5.533, 263.376);">
-                    <tspan x="0" y="0" class="t3">40</tspan>
-                </text>
+                <path class="rayita" d="m29.6 260.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 263.376);">40</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 220.2h-6" />
-                <text id="45" style="transform: matrix(1, 0, 0, 1, 5.533, 223.376);">
-                    <tspan x="0" y="0" class="t3">45</tspan>
-                </text>
+                <path class="rayita" d="m29.6 220.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 223.376);">45</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 180.2h-6" />
-                <text id="50" style="transform: matrix(1, 0, 0, 1, 5.533, 183.376);">
-                    <tspan x="0" y="0" class="t3">50</tspan>
-                </text>
+                <path class="rayita" d="m29.6 180.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 183.376);">50</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 140.2h-6" />
-                <text id="55" style="transform: matrix(1, 0, 0, 1, 5.533, 143.376);">
-                    <tspan x="0" y="0" class="t3">55</tspan>
-                </text>
+                <path class="rayita" d="m29.6 140.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 143.376);">55</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 100.2h-6" />
-                <text id="60" style="transform: matrix(1, 0, 0, 1, 5.533, 103.376);">
-                    <tspan x="0" y="0" class="t3">60</tspan>
-                </text>
+                <path class="rayita" d="m29.6 100.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 103.376);">60</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 60.2h-6" />
-                <text id="65" style="transform: matrix(1, 0, 0, 1, 5.533, 63.376);">
-                    <tspan x="0" y="0" class="t3">65</tspan>
-                </text>
+                <path class="rayita" d="m29.6 60.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 63.376);">65</text>
             </g>
             <g>
-                <path class="s2" d="m29.6 20.2h-6" />
-                <text id="70" style="transform: matrix(1, 0, 0, 1, 5.533, 23.376);">
-                    <tspan x="0" y="0" class="t3">70</tspan>
-                </text>
+                <path class="rayita" d="m29.6 20.2h-6" />
+                <text style="transform: matrix(1, 0, 0, 1, 5.533, 23.376);">70</text>
             </g>
         </g>
-        <path id="undefined_-_Aprueban_00000091735151761129966660000002272623898458215051_" class="s4" d="m44.6 555.7h49.5v8h-49.5z" />
-        <path id="undefined_-_Aprueban_00000114034852873694150820000008728930767495696513_" class="s5" d="m203.4 539.7h49.5v40h-49.5z" />
-        <path id="undefined_-_Aprueban_00000110470232653040809820000010260964776762129336_" class="s5" d="m362.3 547.7h49.5v32h-49.5z" />
-        <path id="undefined_-_Aprueban_00000041284137058154201280000004537529225817308054_" class="s5" d="m522.2 523.7h49.5v56h-49.5z" />
-        <path id="undefined_-_Aprueban_00000074436299927903409720000001225756831441772956_" class="s4" d="m522.2 419.7h49.5v32h-49.5z" />
-        <path id="undefined_-_Aprueban_00000052106302869473023320000017770024510761634481_" class="s5" d="m682 395.7h49.5v184h-49.5z" />
-        <path id="undefined_-_Aprueban_00000170977251085404612270000013372667628143188102_" class="s4" d="m682 139.7h49.5v56c0-0.3-49.5 0-49.5 0z" />
-        <path id="undefined_-_Aprueban_00000044177416332049459760000013391453966760263327_" class="s5" d="m841.9 467.7h49.5v112h-49.5z" />
-        <path id="undefined_-_Aprueban_00000115514514095308366970000010262418787190785192_" class="s4" d="m841.9 267.7h49.5v32h-49.5z" />
-        <path id="undefined_-_Aprueban_00000150813578744090875570000000286964356727035791_" class="s5" d="m1001.7 347.7h49.5v232h-49.5z" />
-        <path id="undefined_-_Aprueban_00000150076046708812109850000009342210897161776261_" class="s4" d="m1001.7 27.7h49.5v64h-49.5z" />
-        <g></g>
     </g>
-    <g id="Layer_2"></g>
 </svg>

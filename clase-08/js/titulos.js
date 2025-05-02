@@ -11,7 +11,7 @@ function desviacionEstandar(criterio) {
 async function datos(criterio) {
     var seleccion = [];
     var notas = [];
-    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/troncal/refs/heads/main/clase-07/titulades.json");
+    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/troncal/refs/heads/main/clase-09/titulades.json");
     const data = await consulta.json();
     console.log("Lo que sigue son todos los datos:");
     console.log(data);
