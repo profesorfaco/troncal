@@ -399,14 +399,14 @@
     </style>
     <g id="titulos">
         <text id="Diseñador/a" style="transform: matrix(1, 0, 0, 1, 139, 200.17);">
-            <tspan x="-60.4" y="0" class="t0">Diseñador/a</tspan>
+            <tspan x="-67" y="0" class="t0">Diseñador(a)</tspan>
         </text>
         <text id="Diseñador/a con mención Industri" style="transform: matrix(1, 0, 0, 1, 137, 255);">
-            <tspan x="-127.7" y="0" class="t0">Diseñador/a con mención</tspan>
-            <tspan x="-104.1" y="12" class="t0">Industrial y Servicios</tspan>
+            <tspan x="-132" y="0" class="t0">Diseñador(a) con mención</tspan>
+            <tspan x="-105" y="12" class="t0">Industrial y Servicios</tspan>
         </text>
         <text id="Diseñador/a con mención en Visua" style="transform: matrix(1, 0, 0, 1, 137, 355);">
-            <tspan x="-127.7" y="0" class="t0">Diseñador/a con mención</tspan>
+            <tspan x="-132" y="0" class="t0">Diseñador(a) con mención</tspan>
             <tspan x="-116" y="12" class="t0">en Visualidad y Medios</tspan>
         </text>
     </g>

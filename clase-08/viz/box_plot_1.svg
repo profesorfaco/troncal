@@ -1,371 +1,375 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400">
-	<title>box_plot_1</title>
-	<style>
-		tspan { white-space:pre } 
-		.s0 { fill: none;stroke: #000000 } 
-		.t1 { font-size: 11px;fill: #000000;font-weight: 400;font-family: Helvetica, Arial, sans-serif } 
-		.s2 { fill: #000000;stroke: #00c3ff;stroke-dasharray: 4 } 
-		.s3 { fill: #000000;stroke: #00c3ff } 
-		.s4 { fill: #00c3ff } 
-		.s5 { fill: #000000;stroke: #ffffff } 
-		.s6 { fill: #000000;stroke: #189af6;stroke-dasharray: 4 } 
-		.s7 { fill: #000000;stroke: #189af6 } 
-		.s8 { fill: #189af6 } 
-		.s9 { fill: #ffffff;stroke: #189af6 } 
-		.s10 { fill: #000000;stroke: #125389;stroke-dasharray: 4 } 
-		.s11 { fill: #000000;stroke: #125389 } 
-		.s12 { fill: #125389 } 
-		.s13 { fill: #ffffff;stroke: #125389 } 
-		.s14 { fill: #000000;stroke: #125389;stroke-width: 2 } 
-	</style>
-	<g id="viz">
-		<g id="y axis">
-			<path class="s0" d="m24 370h6v-360h-6"/>
-			<g>
-				<path class="s0" d="m30 370h-6"/>
-				<text id="4,0" style="transform: matrix(1,0,0,1,5.1,373.2)" >
-					<tspan x="0" y="0" class="t1">4,0
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 346h-6"/>
-				<text id="4,2" style="transform: matrix(1,0,0,1,5.1,349.2)" >
-					<tspan x="0" y="0" class="t1">4,2
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 322h-6"/>
-				<text id="4,4" style="transform: matrix(1,0,0,1,5.1,325.2)" >
-					<tspan x="0" y="0" class="t1">4,4
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 298h-6"/>
-				<text id="4,6" style="transform: matrix(1,0,0,1,5.1,301.2)" >
-					<tspan x="0" y="0" class="t1">4,6
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 274h-6"/>
-				<text id="4,8" style="transform: matrix(1,0,0,1,5.1,277.2)" >
-					<tspan x="0" y="0" class="t1">4,8
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 250h-6"/>
-				<text id="5,0" style="transform: matrix(1,0,0,1,5.1,253.2)" >
-					<tspan x="0" y="0" class="t1">5,0
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 226h-6"/>
-				<text id="5,2" style="transform: matrix(1,0,0,1,5.1,229.2)" >
-					<tspan x="0" y="0" class="t1">5,2
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 202h-6"/>
-				<text id="5,4" style="transform: matrix(1,0,0,1,5.1,205.2)" >
-					<tspan x="0" y="0" class="t1">5,4
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 178h-6"/>
-				<text id="5,6" style="transform: matrix(1,0,0,1,5.1,181.2)" >
-					<tspan x="0" y="0" class="t1">5,6
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 154h-6"/>
-				<text id="5,8" style="transform: matrix(1,0,0,1,5.1,157.2)" >
-					<tspan x="0" y="0" class="t1">5,8
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 130h-6"/>
-				<text id="6,0" style="transform: matrix(1,0,0,1,5.1,133.2)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 106h-6"/>
-				<text id="6,2" style="transform: matrix(1,0,0,1,5.1,109.2)" >
-					<tspan x="0" y="0" class="t1">6,2
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 82h-6"/>
-				<text id="6,4" style="transform: matrix(1,0,0,1,5.1,85.2)" >
-					<tspan x="0" y="0" class="t1">6,4
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 58h-6"/>
-				<text id="6,6" style="transform: matrix(1,0,0,1,5.1,61.2)" >
-					<tspan x="0" y="0" class="t1">6,6
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 34h-6"/>
-				<text id="6,8" style="transform: matrix(1,0,0,1,5.1,37.2)" >
-					<tspan x="0" y="0" class="t1">6,8
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m30 10h-6"/>
-				<text id="7,0" style="transform: matrix(1,0,0,1,5.1,13.2)" >
-					<tspan x="0" y="0" class="t1">7,0
-</tspan>
-				</text>
-			</g>
-		</g>
-		<g id="x axis">
-			<path class="s0" d="m30 376v-6h740v6"/>
-			<g>
-				<path class="s0" d="m93 370v6"/>
-				<text id="Diseñador
-" style="transform: matrix(1,0,0,1,66.6,391.1)" >
-					<tspan x="0" y="0" class="t1">Diseñador
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m216 370v6"/>
-				<text id="Diseñadora
-" style="transform: matrix(1,0,0,1,186.5,390.1)" >
-					<tspan x="0" y="0" class="t1">Diseñadora
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m339 370v6"/>
-				<text id="Diseñador V y M" style="transform: matrix(1,0,0,1,298.1,390.1)" >
-					<tspan x="0" y="0" class="t1">Diseñador V y M
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m462 370v6"/>
-				<text id="Diseñadora V y M" style="transform: matrix(1,0,0,1,418,390.1)" >
-					<tspan x="0" y="0" class="t1">Diseñadora V y M
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m585 370v6"/>
-				<text id="Diseñador I y S" style="transform: matrix(1,0,0,1,547.2,390.1)" >
-					<tspan x="0" y="0" class="t1">Diseñador I y S
-</tspan>
-				</text>
-			</g>
-			<g>
-				<path class="s0" d="m708 370v6"/>
-				<text id="Diseñadora I y S" style="transform: matrix(1,0,0,1,667.1,390.1)" >
-					<tspan x="0" y="0" class="t1">Diseñadora I y S
-</tspan>
-				</text>
-			</g>
-		</g>
-		<g id="boxplots">
-			<g id="diseñador">
-				<path class="s2" d="m93 10v276"/>
-				<path class="s3" d="m83 10h20"/>
-				<path class="s3" d="m83 286h20"/>
-				<path class="s4" d="m83 106h20v84h-20z"/>
-				<path class="s5" d="m83 130h20"/>
-			</g>
-			<g id="diseñadora">
-				<path class="s2" d="m216 10v300"/>
-				<path class="s3" d="m206 10h20"/>
-				<path class="s3" d="m206 310h20"/>
-				<path class="s4" d="m206 52h20v120h-20z"/>
-				<path class="s5" d="m206 130h20"/>
-			</g>
-			<g id="diseñador v y m">
-				<path class="s6" d="m339 70v210"/>
-				<path class="s7" d="m329 70h20"/>
-				<path class="s7" d="m329 280h20"/>
-				<path class="s8" d="m329 130h20v60h-20z"/>
-				<path class="s5" d="m329 154h20"/>
-				<path class="s9" d="m339 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-				<path class="s9" d="m339 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-				<path class="s9" d="m339 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-			</g>
-			<g id="diseñadora v y m">
-				<path class="s6" d="m462 10v345"/>
-				<path class="s7" d="m452 10h20"/>
-				<path class="s7" d="m452 355h20"/>
-				<path class="s8" d="m452 70h20v114h-20z"/>
-				<path class="s5" d="m452 130h20"/>
-				<path class="s9" d="m462 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-				<path class="s9" d="m462 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-			</g>
-			<g id="diseñador i y s">
-				<path class="s10" d="m585 37v216"/>
-				<path class="s11" d="m575 37h20"/>
-				<path class="s11" d="m575 253h20"/>
-				<path class="s12" d="m575 118h20v54h-20z"/>
-				<path class="s5" d="m575 142h20"/>
-				<path class="s13" d="m585 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-				<path class="s13" d="m585 35c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z"/>
-			</g>
-			<g id="diseñadora i y s">
-				<path class="s10" d="m708 10v360"/>
-				<path class="s11" d="m698 10h20"/>
-				<path id="Layer copy" class="s14" d="m698 370h20"/>
-				<path class="s11" d="m698 370h20"/>
-				<path class="s12" d="m698 52h20v138h-20z"/>
-				<path class="s5" d="m698 130h20"/>
-			</g>
-		</g>
-		<g id="boxplots">
-			<g>
-				<text id="7,0" style="transform: matrix(1,0,0,1,107,13)" >
-					<tspan x="0" y="0" class="t1">7,0
-</tspan>
-				</text>
-				<text id="4,7" style="transform: matrix(1,0,0,1,107,288)" >
-					<tspan x="0" y="0" class="t1">4,7
-</tspan>
-				</text>
-				<text id="6,0" style="transform: matrix(1,0,0,1,107,135)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-				<text id="5,5" style="transform: matrix(1,0,0,1,63.1,195)" >
-					<tspan x="0" y="0" class="t1">5,5
-</tspan>
-				</text>
-				<text id="6,2" style="transform: matrix(1,0,0,1,63.1,111)" >
-					<tspan x="0" y="0" class="t1">6,2
-</tspan>
-				</text>
-			</g>
-			<g>
-				<text id="7,0" style="transform: matrix(1,0,0,1,230,13)" >
-					<tspan x="0" y="0" class="t1">7,0
-</tspan>
-				</text>
-				<text id="4,5" style="transform: matrix(1,0,0,1,230,312)" >
-					<tspan x="0" y="0" class="t1">4,5
-</tspan>
-				</text>
-				<text id="6,0" style="transform: matrix(1,0,0,1,230,135)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-				<text id="5,65" style="transform: matrix(1,0,0,1,179.7,177)" >
-					<tspan x="0" y="0" class="t1">5,65
-</tspan>
-				</text>
-				<text id="6,65" style="transform: matrix(1,0,0,1,179.7,57)" >
-					<tspan x="0" y="0" class="t1">6,65
-</tspan>
-				</text>
-			</g>
-			<g>
-				<text id="6,5" style="transform: matrix(1,0,0,1,353,75)" >
-					<tspan x="0" y="0" class="t1">6,5
-</tspan>
-				</text>
-				<text id="4,75" style="transform: matrix(1,0,0,1,353,282)" >
-					<tspan x="0" y="0" class="t1">4,75
-</tspan>
-				</text>
-				<text id="5,8" style="transform: matrix(1,0,0,1,353,159)" >
-					<tspan x="0" y="0" class="t1">5,8
-</tspan>
-				</text>
-				<text id="5,5" style="transform: matrix(1,0,0,1,309.1,195)" >
-					<tspan x="0" y="0" class="t1">5,5
-</tspan>
-				</text>
-				<text id="6,0" style="transform: matrix(1,0,0,1,309.1,135)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-			</g>
-			<g>
-				<text id="7,0" style="transform: matrix(1,0,0,1,476,13)" >
-					<tspan x="0" y="0" class="t1">7,0
-</tspan>
-				</text>
-				<text id="4,125" style="transform: matrix(1,0,0,1,476,357)" >
-					<tspan x="0" y="0" class="t1">4,125
-</tspan>
-				</text>
-				<text id="6,0" style="transform: matrix(1,0,0,1,476,135)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-				<text id="5,55" style="transform: matrix(1,0,0,1,425.7,189)" >
-					<tspan x="0" y="0" class="t1">5,55
-</tspan>
-				</text>
-				<text id="6,5" style="transform: matrix(1,0,0,1,432.1,75)" >
-					<tspan x="0" y="0" class="t1">6,5
-</tspan>
-				</text>
-			</g>
-			<g>
-				<text id="6,77" style="transform: matrix(1,0,0,1,599,42)" >
-					<tspan x="0" y="0" class="t1">6,77
-</tspan>
-				</text>
-				<text id="4.98" style="transform: matrix(1,0,0,1,599,256)" >
-					<tspan x="0" y="0" class="t1">4.98
-</tspan>
-				</text>
-				<text id="5,9" style="transform: matrix(1,0,0,1,599,147)" >
-					<tspan x="0" y="0" class="t1">5,9
-</tspan>
-				</text>
-				<text id="5,65" style="transform: matrix(1,0,0,1,548.7,177)" >
-					<tspan x="0" y="0" class="t1">5,65
-</tspan>
-				</text>
-				<text id="6,1" style="transform: matrix(1,0,0,1,555.1,123)" >
-					<tspan x="0" y="0" class="t1">6,1
-</tspan>
-				</text>
-			</g>
-			<g>
-				<text id="7,0" style="transform: matrix(1,0,0,1,722,13)" >
-					<tspan x="0" y="0" class="t1">7,0
-</tspan>
-				</text>
-				<text id="4,0" style="transform: matrix(1,0,0,1,723,374)" >
-					<tspan x="0" y="0" class="t1">4,0
-</tspan>
-				</text>
-				<text id="6,0" style="transform: matrix(1,0,0,1,722,135)" >
-					<tspan x="0" y="0" class="t1">6,0
-</tspan>
-				</text>
-				<text id="5,5" style="transform: matrix(1,0,0,1,678.1,195)" >
-					<tspan x="0" y="0" class="t1">5,5
-</tspan>
-				</text>
-				<text id="6,65" style="transform: matrix(1,0,0,1,671.7,57)" >
-					<tspan x="0" y="0" class="t1">6,65
-</tspan>
-				</text>
-			</g>
-		</g>
-	</g>
+    <title>box_plot_1</title>
+    <style>
+        tspan {
+            white-space: pre;
+        }
+        .s0 {
+            fill: none;
+            stroke: #000000;
+        }
+        .t1 {
+            font-size: 11px;
+            fill: #000000;
+            font-weight: 400;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        .s2 {
+            fill: #000000;
+            stroke: #00c3ff;
+            stroke-dasharray: 4;
+        }
+        .s3 {
+            fill: #000000;
+            stroke: #00c3ff;
+        }
+        .s4 {
+            fill: #00c3ff;
+        }
+        .s5 {
+            fill: #000000;
+            stroke: #ffffff;
+        }
+        .s6 {
+            fill: #000000;
+            stroke: #189af6;
+            stroke-dasharray: 4;
+        }
+        .s7 {
+            fill: #000000;
+            stroke: #189af6;
+        }
+        .s8 {
+            fill: #189af6;
+        }
+        .s9 {
+            fill: #ffffff;
+            stroke: #189af6;
+        }
+        .s10 {
+            fill: #000000;
+            stroke: #125389;
+            stroke-dasharray: 4;
+        }
+        .s11 {
+            fill: #000000;
+            stroke: #125389;
+        }
+        .s12 {
+            fill: #125389;
+        }
+        .s13 {
+            fill: #ffffff;
+            stroke: #125389;
+        }
+        .s14 {
+            fill: #000000;
+            stroke: #125389;
+            stroke-width: 2;
+        }
+    </style>
+    <g id="viz">
+        <g id="y axis">
+            <path class="s0" d="m24 370h6v-360h-6" />
+            <g>
+                <path class="s0" d="m30 370h-6" />
+                <text id="4,0" style="transform: matrix(1, 0, 0, 1, 5.1, 373.2);">
+                    <tspan x="0" y="0" class="t1">4,0</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 346h-6" />
+                <text id="4,2" style="transform: matrix(1, 0, 0, 1, 5.1, 349.2);">
+                    <tspan x="0" y="0" class="t1">4,2</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 322h-6" />
+                <text id="4,4" style="transform: matrix(1, 0, 0, 1, 5.1, 325.2);">
+                    <tspan x="0" y="0" class="t1">4,4</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 298h-6" />
+                <text id="4,6" style="transform: matrix(1, 0, 0, 1, 5.1, 301.2);">
+                    <tspan x="0" y="0" class="t1">4,6</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 274h-6" />
+                <text id="4,8" style="transform: matrix(1, 0, 0, 1, 5.1, 277.2);">
+                    <tspan x="0" y="0" class="t1">4,8</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 250h-6" />
+                <text id="5,0" style="transform: matrix(1, 0, 0, 1, 5.1, 253.2);">
+                    <tspan x="0" y="0" class="t1">5,0</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 226h-6" />
+                <text id="5,2" style="transform: matrix(1, 0, 0, 1, 5.1, 229.2);">
+                    <tspan x="0" y="0" class="t1">5,2</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 202h-6" />
+                <text id="5,4" style="transform: matrix(1, 0, 0, 1, 5.1, 205.2);">
+                    <tspan x="0" y="0" class="t1">5,4</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 178h-6" />
+                <text id="5,6" style="transform: matrix(1, 0, 0, 1, 5.1, 181.2);">
+                    <tspan x="0" y="0" class="t1">5,6</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 154h-6" />
+                <text id="5,8" style="transform: matrix(1, 0, 0, 1, 5.1, 157.2);">
+                    <tspan x="0" y="0" class="t1">5,8</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 130h-6" />
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 5.1, 133.2);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 106h-6" />
+                <text id="6,2" style="transform: matrix(1, 0, 0, 1, 5.1, 109.2);">
+                    <tspan x="0" y="0" class="t1">6,2</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 82h-6" />
+                <text id="6,4" style="transform: matrix(1, 0, 0, 1, 5.1, 85.2);">
+                    <tspan x="0" y="0" class="t1">6,4</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 58h-6" />
+                <text id="6,6" style="transform: matrix(1, 0, 0, 1, 5.1, 61.2);">
+                    <tspan x="0" y="0" class="t1">6,6</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 34h-6" />
+                <text id="6,8" style="transform: matrix(1, 0, 0, 1, 5.1, 37.2);">
+                    <tspan x="0" y="0" class="t1">6,8</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m30 10h-6" />
+                <text id="7,0" style="transform: matrix(1, 0, 0, 1, 5.1, 13.2);">
+                    <tspan x="0" y="0" class="t1">7,0</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="x axis">
+            <path class="s0" d="m30 376v-6h740v6" />
+            <g>
+                <path class="s0" d="m93 370v6" />
+                <text
+                    id="Diseñador
+"
+                    style="transform: matrix(1, 0, 0, 1, 66.6, 391.1);"
+                >
+                    <tspan x="0" y="0" class="t1">Diseñador</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m216 370v6" />
+                <text
+                    id="Diseñadora
+"
+                    style="transform: matrix(1, 0, 0, 1, 186.5, 390.1);"
+                >
+                    <tspan x="0" y="0" class="t1">Diseñadora</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m339 370v6" />
+                <text id="Diseñador V y M" style="transform: matrix(1, 0, 0, 1, 298.1, 390.1);">
+                    <tspan x="0" y="0" class="t1">Diseñador V y M</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m462 370v6" />
+                <text id="Diseñadora V y M" style="transform: matrix(1, 0, 0, 1, 418, 390.1);">
+                    <tspan x="0" y="0" class="t1">Diseñadora V y M</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m585 370v6" />
+                <text id="Diseñador I y S" style="transform: matrix(1, 0, 0, 1, 547.2, 390.1);">
+                    <tspan x="0" y="0" class="t1">Diseñador I y S</tspan>
+                </text>
+            </g>
+            <g>
+                <path class="s0" d="m708 370v6" />
+                <text id="Diseñadora I y S" style="transform: matrix(1, 0, 0, 1, 667.1, 390.1);">
+                    <tspan x="0" y="0" class="t1">Diseñadora I y S</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="boxplots">
+            <g id="diseñador">
+                <path class="s2" d="m93 10v276" />
+                <path class="s3" d="m83 10h20" />
+                <path class="s3" d="m83 286h20" />
+                <path class="s4" d="m83 106h20v84h-20z" />
+                <path class="s5" d="m83 130h20" />
+            </g>
+            <g id="diseñadora">
+                <path class="s2" d="m216 10v300" />
+                <path class="s3" d="m206 10h20" />
+                <path class="s3" d="m206 310h20" />
+                <path class="s4" d="m206 52h20v120h-20z" />
+                <path class="s5" d="m206 130h20" />
+            </g>
+            <g id="diseñador v y m">
+                <path class="s6" d="m339 70v210" />
+                <path class="s7" d="m329 70h20" />
+                <path class="s7" d="m329 280h20" />
+                <path class="s8" d="m329 130h20v60h-20z" />
+                <path class="s5" d="m329 154h20" />
+                <path class="s9" d="m339 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+                <path class="s9" d="m339 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+                <path class="s9" d="m339 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+            </g>
+            <g id="diseñadora v y m">
+                <path class="s6" d="m462 10v345" />
+                <path class="s7" d="m452 10h20" />
+                <path class="s7" d="m452 355h20" />
+                <path class="s8" d="m452 70h20v114h-20z" />
+                <path class="s5" d="m452 130h20" />
+                <path class="s9" d="m462 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+                <path class="s9" d="m462 371c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+            </g>
+            <g id="diseñador i y s">
+                <path class="s10" d="m585 37v216" />
+                <path class="s11" d="m575 37h20" />
+                <path class="s11" d="m575 253h20" />
+                <path class="s12" d="m575 118h20v54h-20z" />
+                <path class="s5" d="m575 142h20" />
+                <path class="s13" d="m585 311c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+                <path class="s13" d="m585 35c-0.6 0-1-0.4-1-1 0-0.6 0.4-1 1-1 0.6 0 1 0.4 1 1 0 0.6-0.4 1-1 1z" />
+            </g>
+            <g id="diseñadora i y s">
+                <path class="s10" d="m708 10v360" />
+                <path class="s11" d="m698 10h20" />
+                <path id="Layer copy" class="s14" d="m698 370h20" />
+                <path class="s11" d="m698 370h20" />
+                <path class="s12" d="m698 52h20v138h-20z" />
+                <path class="s5" d="m698 130h20" />
+            </g>
+        </g>
+        <g id="boxplots">
+            <g>
+                <text id="7,0" style="transform: matrix(1, 0, 0, 1, 107, 13);">
+                    <tspan x="0" y="0" class="t1">7,0</tspan>
+                </text>
+                <text id="4,7" style="transform: matrix(1, 0, 0, 1, 107, 288);">
+                    <tspan x="0" y="0" class="t1">4,7</tspan>
+                </text>
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 107, 135);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+                <text id="5,5" style="transform: matrix(1, 0, 0, 1, 63.1, 195);">
+                    <tspan x="0" y="0" class="t1">5,5</tspan>
+                </text>
+                <text id="6,2" style="transform: matrix(1, 0, 0, 1, 63.1, 111);">
+                    <tspan x="0" y="0" class="t1">6,2</tspan>
+                </text>
+            </g>
+            <g>
+                <text id="7,0" style="transform: matrix(1, 0, 0, 1, 230, 13);">
+                    <tspan x="0" y="0" class="t1">7,0</tspan>
+                </text>
+                <text id="4,5" style="transform: matrix(1, 0, 0, 1, 230, 312);">
+                    <tspan x="0" y="0" class="t1">4,5</tspan>
+                </text>
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 230, 135);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+                <text id="5,65" style="transform: matrix(1, 0, 0, 1, 179.7, 177);">
+                    <tspan x="0" y="0" class="t1">5,65</tspan>
+                </text>
+                <text id="6,65" style="transform: matrix(1, 0, 0, 1, 179.7, 57);">
+                    <tspan x="0" y="0" class="t1">6,65</tspan>
+                </text>
+            </g>
+            <g>
+                <text id="6,5" style="transform: matrix(1, 0, 0, 1, 353, 75);">
+                    <tspan x="0" y="0" class="t1">6,5</tspan>
+                </text>
+                <text id="4,75" style="transform: matrix(1, 0, 0, 1, 353, 282);">
+                    <tspan x="0" y="0" class="t1">4,75</tspan>
+                </text>
+                <text id="5,8" style="transform: matrix(1, 0, 0, 1, 353, 159);">
+                    <tspan x="0" y="0" class="t1">5,8</tspan>
+                </text>
+                <text id="5,5" style="transform: matrix(1, 0, 0, 1, 309.1, 195);">
+                    <tspan x="0" y="0" class="t1">5,5</tspan>
+                </text>
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 309.1, 135);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+            </g>
+            <g>
+                <text id="7,0" style="transform: matrix(1, 0, 0, 1, 476, 13);">
+                    <tspan x="0" y="0" class="t1">7,0</tspan>
+                </text>
+                <text id="4,125" style="transform: matrix(1, 0, 0, 1, 476, 357);">
+                    <tspan x="0" y="0" class="t1">4,125</tspan>
+                </text>
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 476, 135);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+                <text id="5,55" style="transform: matrix(1, 0, 0, 1, 425.7, 189);">
+                    <tspan x="0" y="0" class="t1">5,55</tspan>
+                </text>
+                <text id="6,5" style="transform: matrix(1, 0, 0, 1, 432.1, 75);">
+                    <tspan x="0" y="0" class="t1">6,5</tspan>
+                </text>
+            </g>
+            <g>
+                <text id="6,77" style="transform: matrix(1, 0, 0, 1, 599, 42);">
+                    <tspan x="0" y="0" class="t1">6,77</tspan>
+                </text>
+                <text id="4.98" style="transform: matrix(1, 0, 0, 1, 599, 256);">
+                    <tspan x="0" y="0" class="t1">4,98</tspan>
+                </text>
+                <text id="5,9" style="transform: matrix(1, 0, 0, 1, 599, 147);">
+                    <tspan x="0" y="0" class="t1">5,9</tspan>
+                </text>
+                <text id="5,65" style="transform: matrix(1, 0, 0, 1, 548.7, 177);">
+                    <tspan x="0" y="0" class="t1">5,65</tspan>
+                </text>
+                <text id="6,1" style="transform: matrix(1, 0, 0, 1, 555.1, 123);">
+                    <tspan x="0" y="0" class="t1">6,1</tspan>
+                </text>
+            </g>
+            <g>
+                <text id="7,0" style="transform: matrix(1, 0, 0, 1, 722, 13);">
+                    <tspan x="0" y="0" class="t1">7,0</tspan>
+                </text>
+                <text id="4,0" style="transform: matrix(1, 0, 0, 1, 723, 374);">
+                    <tspan x="0" y="0" class="t1">4,0</tspan>
+                </text>
+                <text id="6,0" style="transform: matrix(1, 0, 0, 1, 722, 135);">
+                    <tspan x="0" y="0" class="t1">6,0</tspan>
+                </text>
+                <text id="5,5" style="transform: matrix(1, 0, 0, 1, 678.1, 195);">
+                    <tspan x="0" y="0" class="t1">5,5</tspan>
+                </text>
+                <text id="6,65" style="transform: matrix(1, 0, 0, 1, 671.7, 57);">
+                    <tspan x="0" y="0" class="t1">6,65</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
 </svg>
