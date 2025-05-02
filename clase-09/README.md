@@ -20,7 +20,9 @@ Una opción sencilla de modificar o editar está en el exportar como `.svg`, par
 
 Pero `.svg` es una extensión emparentada con `.html`. Si usted abre lo exportado en un editor de código fuente verá un *markup language* describiendo [formas básicas y otros elementos](https://developer.mozilla.org/es/docs/Web/SVG/Reference/Element#elementos_svg_por_categor%C3%ADas).
 
-Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer en [la web](https://profesorfaco.github.io/troncal/clase-08/): 
+Estas formas las podemos revisar en la carpeta de visualizaciones del [sitio web](https://profesorfaco.github.io/troncal/clase-08/) que comenzamos a trabajar la semana recién pasada, y que ya tiene una segunda versión para descargar: https://github.com/profesorfaco/troncal/raw/refs/heads/main/clase-09/sitio_web_v2.zip
+
+Ahora bien, volviendo a la posibilidad de generar visualizaciones con RAWGraphs, recuerde que aún queda trabajo por hacer:
 
 > necesitan de un complemento cualitativo que será resuelto por estudiantes del curso electivo en Diseño y visualización de información (hasta el martes 13 de mayo).
 
@@ -37,6 +39,8 @@ reconociendo problemas relacionados con:
 - la recolección cuando sólo cuenta lo que se cuenta; o
 
 - la propagación de información errónea y desinformación.
+
+¿Cómo aplicar tal reflexión al caso de la visualización de información para la mejor elección en el mutuo acuerdo entre estudiante y Profe' guía?
 
 Además de aprovechar tal ventaja, le corresponde salir del diseño en primera persona, para entrar al [diseño en segunda o tercera persona](https://www.researchgate.net/figure/The-three-basic-perspectives-in-design-based-on-Tomico-et-al-2012-the-first-person_fig1_307605892). Y para entrar a tal modo de manera ágil le conviene acercarse al *loop* del método Lean StartUp:
 
