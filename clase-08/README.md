@@ -66,7 +66,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 3 | [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Gr-ficos-clase-8/ |
 | 4 | Macarena Arancibia | Nada |
 | 5 | [Catalina Arismendi](https://github.com/caris2) | https://caris2.github.io/Entrega_29/Entrega%2029-04/sitio_web/ |
-| 6 | [Lucas Assis](https://github.com/lucasassis7) | Error 404 |
+| 6 | [Lucas Assis](https://github.com/lucasassis7) | https://lucasassis7.github.io/clase---08/ |
 | 7 | [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/graficos/ |
 | 8 | [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Sitio_Web_Gr-ficos/ |
 | 9 | [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Entregas/RawGraph-1/ |
@@ -77,7 +77,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 14 | [Javiera Parra](https://github.com/jp1702) | Nada |
 | 15 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/Tarea-clase-8/ |
 | 16 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Graficos/ |
-| 17 | [Fernanda Rivera](https://github.com/fernanda2222) | Nada |
+| 17 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/sitioweb/ |
 | 18 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/sitio-web/ |
 | 19 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/sitioweb/ |
 | 20 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/Sitio_web/ |
