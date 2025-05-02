@@ -40,11 +40,13 @@ reconociendo problemas relacionados con:
 
 - la propagación de información errónea y desinformación.
 
-¿Cómo aplicar tal reflexión al caso de la visualización de información para la mejor elección en el mutuo acuerdo entre estudiante y Profe' guía?
+¿Cómo aplicar tal reflexión al caso de lo que se cuenta y propagada para la elección de Profe' guía y estudiante en mutuo acuerdo?
 
-Además de aprovechar tal ventaja, le corresponde salir del diseño en primera persona, para entrar al [diseño en segunda o tercera persona](https://www.researchgate.net/figure/The-three-basic-perspectives-in-design-based-on-Tomico-et-al-2012-the-first-person_fig1_307605892). Y para entrar a tal modo de manera ágil le conviene acercarse al *loop* del método Lean StartUp:
+Además de aplicar tal reflexión, le corresponde salir del diseño en primera persona, para entrar al [diseño en segunda o tercera persona](https://www.researchgate.net/figure/The-three-basic-perspectives-in-design-based-on-Tomico-et-al-2012-the-first-person_fig1_307605892). Y para entrar a tal modo de manera ágil le conviene acercarse al *loop* del método Lean StartUp:
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
+
+Construya alternativas de visualización de información que se sumen a las que ya ofrece esta página: https://profesorfaco.github.io/troncal/clase-08/profes.html
 
 _ _ _ _ 
 
