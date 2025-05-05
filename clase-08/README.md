@@ -74,7 +74,7 @@ Note que desde una visualización de información se justifican dos acciones. Si
 | 11 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal-Graficos/ |
 | 12 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/sitioweb/ |
 | 13 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/Tarea-29-Abril/ |
-| 14 | [Javiera Parra](https://github.com/jp1702) | Nada |
+| 14 | [Javiera Parra](https://github.com/jp1702) | https://jp1702.github.io/Graficos-2/ |
 | 15 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/Tarea-clase-8/ |
 | 16 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Graficos/ |
 | 17 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/sitioweb/ |
