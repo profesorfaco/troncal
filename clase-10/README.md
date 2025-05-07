@@ -6,7 +6,7 @@
 
 #### Antes de la clase de hoy:
 
-**Le corresponde contactar a [Profes' designados](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing). Si les contacta por mail, por favor considere 3 cosas**:
+**Le corresponde contactar a [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing). Si les contacta por mail, por favor considere 3 cosas**:
 
 1ra.- https://pbs.twimg.com/media/E_f3TTHWYAIuFQA.jpg
 
@@ -26,17 +26,17 @@ línea.
 
 3ra.- El que usted escriba “urgente” en el asunto de su correo NO provocará, mágicamente, cambios en las prioridades de quien reciba el correo. 
 
-**Luego, al reunirse con su(s) Profe(s) designado(s) le conviene presentar dos prototipos**: 
+**Luego, al reunirse con su(s) [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing) le conviene mostrar dos prototipos**: 
 
 1- El que hoy está operativo y tal Profesor(a) ya podrían conocer: https://profesorfaco.github.io/troncal/clase-08/
 
-2- El que usted pudo preparar, con su complemento cualitativo.
+2- El que usted pudo preparar, con su propuesta de complemento cualitativo.
 
-**Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su trabajo de la clase_09**
+**Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su propuesta**
 
-**En la clase 10, de hoy 13 de mayo, le corresponde**
+**En la clase 10, de hoy 13 de mayo, le corresponde:**
 
-- Criterio 1: Compartir con al curso la propuesta que pudo presentar a su(s) profesor(es).
+- Criterio 1: Compartir con al curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
 - Criterio 2: Compartir el *feedback* para tal propuesta.
 
