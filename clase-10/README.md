@@ -23,7 +23,7 @@ línea.
 
 3ra.- El que usted escriba “urgente” en el asunto de su correo NO provocará, mágicamente, cambios en las prioridades de quien reciba el correo. 
 
-**Luego, al reunirse con su(s) [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing) le conviene mostrar dos prototipos**: 
+**Al reunirse con su(s) [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing) le conviene mostrar dos prototipos**: 
 
 1- El que hoy está operativo y tal Profesor(a) ya podrían conocer: https://profesorfaco.github.io/troncal/clase-08/
 
