@@ -126,7 +126,7 @@
             async function datos() {
                 const consulta = await fetch("https://api.myjson.online/v1/records/37160c1e-48e9-4c12-b2c6-41b5165f72f9");
                 const data = await consulta.json();
-                data.forEach((d,i) => {
+                data.data.forEach((d,i) => {
                     notas.innerHTML += `
                         <g>
                             <text x="0.5" y="${140 - d.nota_anteproyecto * 20 + 2.5}" font-size="2" dominant-baseline="middle">${d.nota_anteproyecto.toFixed(1).replace(".",",")}</text>
