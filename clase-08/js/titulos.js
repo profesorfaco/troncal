@@ -16,7 +16,7 @@ async function datos(criterio) {
     console.log("Lo que sigue son todos los datos:");
     console.log(data);
 
-    data.forEach((d) => {
+    data.data.forEach((d) => {
         if (d.titulo_profesional == criterio) {
             seleccion.push(d);
         }
