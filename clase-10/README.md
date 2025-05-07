@@ -33,9 +33,9 @@ línea.
 
 **En la clase 10, de hoy 13 de mayo, le corresponde:**
 
-- Criterio 1: Compartir con al curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
+- Criterio 1: Compartir con el curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
-- Criterio 2: Compartir el *feedback* para tal propuesta.
+- Criterio 2: Compartir, en voz alta, el *feedback* para tal propuesta.
 
 - Criterio 3: Compartir con el curso la propuesta ajustada por tal *feedback*.
 
