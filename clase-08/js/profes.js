@@ -314,7 +314,7 @@ async function datos(criterio) {
     console.log(data);
 
     //Creo una selección, basándome en el selector
-    data.forEach((d) => {
+    data.data.forEach((d) => {
         if (d.profe_guia == criterio) {
             seleccion.push(d);
         }
