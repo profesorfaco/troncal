@@ -16,12 +16,9 @@ Para el *3. Señalar el vínculo con el interlocutor*, aproveche que pudieron le
 
 Noescribatodoenunbloquedetextocontinuo.
 
-Use espacios y
-
-saltos
-
-de
-
+Use espacios y\
+saltos\
+de\
 línea.
 
 3ra.- El que usted escriba “urgente” en el asunto de su correo NO provocará, mágicamente, cambios en las prioridades de quien reciba el correo. 
