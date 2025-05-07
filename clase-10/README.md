@@ -14,7 +14,7 @@ Para el *3. Señalar el vínculo con el interlocutor*, aproveche que pudieron le
 
 2da.- https://www.nngroup.com/articles/how-users-read-on-the-web/
 
-Noescribatodoenunbloquedetextocontinuo.
+Nodigatodoenunbloquedetextocontinuo.
 
 Use **e s p a c i o s** y\
 saltos\
