@@ -4,7 +4,7 @@
 
 #### Trabajo individual, con evaluación sumativa (20% de la nota final)
 
-##### Antes de la clase de hoy:
+#### Antes de la clase de hoy:
 
 **Le corresponde contactar a [Profes' designados](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing). Si les contacta por mail, por favor considere 3 cosas**:
 
