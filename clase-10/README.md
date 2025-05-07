@@ -6,7 +6,7 @@
 
 #### Antes de la clase de hoy:
 
-**Le corresponde contactar a [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing). Si les contacta por mail, por favor considere 3 cosas**:
+**Le corresponde contactar a [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing). Si le(s) contacta por mail, por favor considere 3 cosas**:
 
 1ra.- https://pbs.twimg.com/media/E_f3TTHWYAIuFQA.jpg
 
