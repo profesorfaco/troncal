@@ -16,7 +16,7 @@ Para el *3. Señalar el vínculo con el interlocutor*, aproveche que pudieron le
 
 Noescribatodoenunbloquedetextocontinuo.
 
-Use e s p a c i o s y\
+Use **e s p a c i o s** y\
 saltos\
 de\
 línea.
