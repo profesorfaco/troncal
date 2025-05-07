@@ -39,7 +39,7 @@ línea.
 
 - Criterio 3: Compartir la propuesta ajustada por tal *feedback*.
 
-- Criterio 4: Aprovechar la presentación de cada compañerx para volver a ajustar su propuesta ajustada antes del término de la clase.
+- Criterio 4: Aprovechar la presentación de cada compañerx para volver a ajustar su propuesta antes del término de la clase.
 
 Con esto, antes del receso le habrá dado dos vueltas al: 
 
