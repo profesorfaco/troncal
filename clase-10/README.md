@@ -35,11 +35,11 @@ línea.
 
 - Criterio 1: Compartir con el curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
-- Criterio 2: Compartir, en voz alta, el *feedback* para tal propuesta.
+- Criterio 2: Compartir, [de pie](https://www.atlassian.com/es/agile/scrum/standups) y en voz alta, el *feedback* para tal propuesta.
 
-- Criterio 3: Compartir con el curso la propuesta ajustada por tal *feedback*.
+- Criterio 3: Compartir la propuesta ajustada por tal *feedback*.
 
-- Criterio 4: Aprovechar la presentación de cada compañerx para ajustar su propuesta antes del término de la clase.
+- Criterio 4: Aprovechar la presentación de cada compañerx para volver a ajustar su propuesta ajustada antes del término de la clase.
 
 _ _ _ _ 
 
