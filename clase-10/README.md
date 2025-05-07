@@ -25,7 +25,7 @@ línea.
 
 **Al reunirse con su(s) [Profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing) le conviene mostrar dos prototipos**: 
 
-1- El que hoy está operativo y tal Profesor(a) ya podrían conocer: https://profesorfaco.github.io/troncal/clase-08/profes.html
+1- El que hoy está operativo y tal Profesor(a) ya podría(n) conocer: https://profesorfaco.github.io/troncal/clase-08/profes.html
 
 2- El que usted pudo preparar, con su propuesta de complemento cualitativo.
 
@@ -35,11 +35,17 @@ línea.
 
 - Criterio 1: Compartir con el curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
-- Criterio 2: Compartir, [de pie](https://www.atlassian.com/es/agile/scrum/standups) y en voz alta, el *feedback* para tal propuesta.
+- Criterio 2: Compartir, en voz alta, un resumen del *feedback* para tal propuesta.
 
 - Criterio 3: Compartir la propuesta ajustada por tal *feedback*.
 
 - Criterio 4: Aprovechar la presentación de cada compañerx para volver a ajustar su propuesta ajustada antes del término de la clase.
+
+Con esto, antes del receso le habrá dado dos vueltas al: 
+
+![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
+
+La primera la da antes de la clase 10, la segunda la da en la misma clase 10.
 
 _ _ _ _ 
 
