@@ -206,9 +206,9 @@ const profes = [
     {
         profe: "René Perea Morales",
         alfabetico: "Perea Morales, René",
-        guiades: 7,
-        titulades: 3,
-        porcentajes: 43,
+        guiades: 6,
+        titulades: 2,
+        porcentajes: 33,
     },
     {
         profe: "Bruno Perelli Soto",
