@@ -33,19 +33,19 @@ línea.
 
 **En la clase 10, de hoy 13 de mayo, le corresponde:**
 
-- Criterio 1: Compartir con el curso la propuesta que le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
+- **Criterio 1**: Comparte con el curso la propuesta desarrollada para la clase 9, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
-- Criterio 2: Compartir, en voz alta, un resumen del *feedback* para tal propuesta.
+- **Criterio 2**: Comparte con el curso, en voz alta, un resumen del *feedback* para tal propuesta.
 
-- Criterio 3: Compartir la propuesta ajustada por tal *feedback*.
+- **Criterio 3**: Comparte con el curso la propuesta ajustada por tal *feedback*; esta propuesta ajustada está publicada en un nuevo repositorio (de clase 10).
 
-- Criterio 4: Aprovechar la presentación de cada compañerx para volver a ajustar su propuesta antes del término de la clase.
+- **Criterio 4**: Aprovechar la presentación de cada compañerx y los comentarios del Profesor para inspirarse en últimos ajustes de su propuesta durante la clase 10.
 
 Con esto, antes del receso le habrá dado dos vueltas al: 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-La primera la da antes de la clase 10, la segunda la da en la misma clase 10.
+La primera vuelta la da antes de la clase 10, la segunda la da en la misma clase 10.
 
 _ _ _ _ 
 
