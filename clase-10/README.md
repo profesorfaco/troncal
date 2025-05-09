@@ -31,7 +31,7 @@ línea.
 
 **Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su propuesta**
 
-**En la clase 10, de hoy 13 de mayo, le corresponde:**
+**En la clase 10, de hoy 13 de mayo, se evaluará:**
 
 - **Criterio 1**: Al inicio de la clase comparte con el curso la propuesta desarrollada para la clase 09, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
