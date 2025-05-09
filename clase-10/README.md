@@ -27,13 +27,13 @@ línea.
 
 1- El que hoy está operativo y tal(es) Profe(s) ya podría(n) conocer: https://profesorfaco.github.io/troncal/clase-08/profes.html
 
-2- El que usted pudo preparar, con su propuesta de complemento cualitativo.
+2- El que usted pudo preparar en la clase 09, con su propuesta de complemento cualitativo.
 
 **Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su propuesta**
 
 **En la clase 10, de hoy 13 de mayo, le corresponde:**
 
-- **Criterio 1**: Comparte con el curso la propuesta desarrollada para la clase 9, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
+- **Criterio 1**: Comparte con el curso la propuesta desarrollada para la clase 09, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
 - **Criterio 2**: Comparte con el curso, en voz alta, un resumen del *feedback* para tal propuesta.
 
