@@ -33,13 +33,13 @@ línea.
 
 **En la clase 10, de hoy 13 de mayo, le corresponde:**
 
-- **Criterio 1**: Comparte con el curso la propuesta desarrollada para la clase 09, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
+- **Criterio 1**: Al inicio de la clase comparte con el curso la propuesta desarrollada para la clase 09, que ya le presentó a su(s) [profe(s) designado(s)](https://docs.google.com/spreadsheets/d/1ZXvhXKhGd2IETFkHMo_vDUkkE3C-BneM84UWdIqetjM/edit?usp=sharing).
 
-- **Criterio 2**: Comparte con el curso, en voz alta, un resumen del *feedback* para tal propuesta.
+- **Criterio 2**: Al inicio de la clase comparte con el curso, en voz alta, un resumen del *feedback* para tal propuesta.
 
-- **Criterio 3**: Comparte con el curso la propuesta ajustada por tal *feedback*; esta propuesta ajustada está publicada en un nuevo repositorio (de clase 10).
+- **Criterio 3**: Al inicio de la clase comparte con el curso la propuesta ajustada por tal *feedback*; esta propuesta ajustada está publicada en un nuevo repositorio (de clase 10).
 
-- **Criterio 4**: Aprovechar la presentación de cada compañerx y los comentarios del Profesor para inspirarse en últimos ajustes de su propuesta durante la clase 10.
+- **Criterio 4**: Antes del final de la clase, aprovecha la presentación de cada compañerx y los comentarios del Profesor para hacer los últimos ajustes de su propuesta.
 
 Con esto, antes del receso le habrá dado dos vueltas al: 
 
