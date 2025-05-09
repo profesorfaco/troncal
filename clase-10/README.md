@@ -29,7 +29,7 @@ línea.
 
 2- El que usted pudo preparar en la clase 09, con su propuesta de complemento cualitativo.
 
-**Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su propuesta**
+**Registre el *feedback* de su su(s) Profe(s) designado(s) e interprételo para ajustar su propuesta.**
 
 **En la clase 10, de hoy 13 de mayo, se evaluará:**
 
