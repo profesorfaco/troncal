@@ -52,29 +52,29 @@ Lo construido y evaluado hasta el cierre de la jornada del jueves 8 de mayo:
 
 | N° | Nombre | GitHub Pages |
 |:----:|:---------------|:--------------|
-| 1 | Rodrigo Albornoz | https://rodrigoalbornoz3.github.io/clase_9_troncal/profes.html |
-| 2	| Benjamín Alcántar | https://benjaminalcantar.github.io/Trabajo_Eduardo_Castillo/profes.html |
-| 3	| Isabel Álvarez | https://isabelcarolina.github.io/Clase9/profes.html |
-| 4	| Catalina Arismendi | https://caris2.github.io/Clase9_2/profes.html |
-| 5	| Lucas Assis | — |
-| 6	| Antonia Cáceres | https://antoniacaceresn.github.io/clase09/profes.html |
-| 7	| Maximiliano Cantarero | https://maximilianocantarerog.github.io/Clase_9/profes.html |
-| 8	| Gabriel Castillo | https://gaboodesign.github.io/Troncal/Clases/Clase-9/profes.html |
-| 9	| Valentina Cayuqueo | https://valech2.github.io/Clase9/profes.html |
-| 10 | Jacob Gidi | https://jacob-gidi.github.io/Max.-Esfuerzo/profes.html |
-| 11 | Isabel Hernández | https://isabelh235.github.io/clase-9/profes.html |
-| 12 | Dani Oñate | https://pockyjuno.github.io/06mayo/profes.html |
-| 13 | Javiera Parra | https://jp1702.github.io/graficos_2/profes.html |
-| 14 | Martina Pezoa | https://martinapezoa.github.io/clase-9/profes.html |
-| 15 | Isidora Riffo | https://isidorariffo.github.io/Clase_09/profes.html |
-| 16 | Fernanda Rivera | — |
-| 17 | Ámbar Ruiz de Loizaga | https://ambarruizzz.github.io/clase_9_/profes.html |
-| 18 | Maroa Tapia | https://marotapia.github.io/Clase_09/profes.html |
-| 19 | Fernanda Tejo | https://fer1137.github.io/Sitio_web_V2/profes.html |
-| 20 | Javiera Paz Torres | https://pazzzto.github.io/sitiowebclase9/profes.html |
-| 21 | Renata Vargas | https://bloo-omo.github.io/viz/profes.html |
-| 22 |  Iñigo Vasquez | https://inigovasquez.github.io/clase_9/profes.html |
-| 23 | Sofía Verdugo | https://sofiaaaska.github.io/Clase_09/profes.html |
+| 1 | [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_9_troncal/profes.html |
+| 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Trabajo_Eduardo_Castillo/profes.html |
+| 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase9/profes.html |
+| 4	| [Catalina Arismendi](https://github.com/caris2) | https://caris2.github.io/Clase9_2/profes.html |
+| 5	| [Lucas Assis](https://github.com/lucasassis7) | — |
+| 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase09/profes.html |
+| 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase_9/profes.html |
+| 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Clases/Clase-9/profes.html |
+| 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/Clase9/profes.html |
+| 10 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Max.-Esfuerzo/profes.html |
+| 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/clase-9/profes.html |
+| 12 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/06mayo/profes.html |
+| 13 | [Javiera Parra](https://github.com/jp1702) | https://jp1702.github.io/graficos_2/profes.html |
+| 14 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/clase-9/profes.html |
+| 15 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Clase_09/profes.html |
+| 16 | [Fernanda Rivera](https://github.com/fernanda2222) | — |
+| 17 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/clase_9_/profes.html |
+| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/Clase_09/profes.html |
+| 19 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/Sitio_web_V2/profes.html |
+| 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/sitiowebclase9/profes.html |
+| 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/viz/profes.html |
+| 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/clase_9/profes.html |
+| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Clase_09/profes.html |
 
 _ _ _ _ 
 
