@@ -48,6 +48,34 @@ Además de aplicar tal reflexión, le corresponde salir del diseño en primera p
 
 Construya alternativas de visualización de información que se sumen a las que ya ofrece esta página: https://profesorfaco.github.io/troncal/clase-08/profes.html
 
+Lo construido y evaluado hasta el cierre de la jornada del jueves 8 de mayo:
+
+| N° | Nombre | GitHub Pages |
+|:----:|:---------------|:--------------|
+| 1 | Rodrigo Albornoz | https://rodrigoalbornoz3.github.io/clase_9_troncal/profes.html |
+| 2	| Benjamín Alcántar | https://benjaminalcantar.github.io/Trabajo_Eduardo_Castillo/profes.html |
+| 3	| Isabel Álvarez | https://isabelcarolina.github.io/Clase9/profes.html |
+| 4	| Catalina Arismendi | https://caris2.github.io/Clase9_2/profes.html |
+| 5	| Lucas Assis | — |
+| 6	| Antonia Cáceres | https://antoniacaceresn.github.io/clase09/profes.html |
+| 7	| Maximiliano Cantarero | https://maximilianocantarerog.github.io/Clase_9/profes.html |
+| 8	| Gabriel Castillo | https://gaboodesign.github.io/Troncal/Clases/Clase-9/profes.html |
+| 9	| Valentina Cayuqueo | https://valech2.github.io/Clase9/profes.html |
+| 10 | Jacob Gidi | https://jacob-gidi.github.io/Max.-Esfuerzo/profes.html |
+| 11 | Isabel Hernández | https://isabelh235.github.io/clase-9/profes.html |
+| 12 | Dani Oñate | https://pockyjuno.github.io/06mayo/profes.html |
+| 13 | Javiera Parra | https://jp1702.github.io/graficos_2/profes.html |
+| 14 | Martina Pezoa | https://martinapezoa.github.io/clase-9/profes.html |
+| 15 | Isidora Riffo | https://isidorariffo.github.io/Clase_09/profes.html |
+| 16 | Fernanda Rivera | — |
+| 17 | Ámbar Ruiz de Loizaga | https://ambarruizzz.github.io/clase_9_/profes.html |
+| 18 | Maroa Tapia | https://marotapia.github.io/Clase_09/profes.html |
+| 19 | Fernanda Tejo | https://fer1137.github.io/Sitio_web_V2/profes.html |
+| 20 | Javiera Paz Torres | https://pazzzto.github.io/sitiowebclase9/profes.html |
+| 21 | Renata Vargas | https://bloo-omo.github.io/viz/profes.html |
+| 22 |  Iñigo Vasquez | https://inigovasquez.github.io/clase_9/profes.html |
+| 23 | Sofía Verdugo | https://sofiaaaska.github.io/Clase_09/profes.html |
+
 _ _ _ _ 
 
 [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md) ⇆ [clase-10](https://github.com/profesorfaco/troncal/blob/main/clase-10/README.md)
