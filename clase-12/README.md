@@ -1,6 +1,6 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 12 → 03 de junio
 
-### JavaScript: Un lenguaje de programación
+### ~~JavaScript: Un lenguaje de programación~~ HTML, CSS y JavaScript: Dos lenguajes de descripción y uno de programación
 
 Pendiente.
 _ _ _ _ 
