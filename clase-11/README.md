@@ -4,9 +4,9 @@
 
 **Por favor lea**: 
 
-- https://www.etilmercurio.com/em/este-es-un-articulo-promedio
-
 - https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio
+
+- https://www.etilmercurio.com/em/este-es-un-articulo-promedio (el medio donde se publica este artículo tiene un [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) muy informal, gracioso, irreverente, pero va al grano)
 
 Con lo leído pudo recordar o conocer los conceptos de **media** y **mediana**.
 
