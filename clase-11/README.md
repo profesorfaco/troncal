@@ -2,7 +2,7 @@
 
 ### ~~HTML y CSS: Dos lenguajes de descripción~~ Repaso y trabajo para la recta final
 
-**Por favor lea**: 
+**Lea dos artículos muy breves**: 
 
 - **https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio**
 
