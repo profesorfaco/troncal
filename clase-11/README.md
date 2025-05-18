@@ -46,7 +46,9 @@ Con los datos a la vista, le conviene decidir por el cuartil superior (1920 x 19
 
 Luego, ya trabajando con los 1920 pixeles como tope pare el ancho y/o alto de sus imágenes, podría mejorar los pesos de las mismas usando WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP con un “guardar para web” de [Photopea](https://www.photopea.com/), y luego reducir el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/), todo eso sin perder resolución en su imagen.
+Puede obtener un WebP si “guarda para web” de [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen.
+
+
 
 
 _ _ _ _ 
