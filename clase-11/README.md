@@ -10,7 +10,7 @@
 
 Con lo leído le deberían quedar claros los conceptos de **media** y **mediana**.
 
-Aplique tal claridad con un ejercicio: 
+Por favor aplique tal claridad al siguiente ejercicio: 
 
 Primero [importe a Google Spreadsheet](https://support.google.com/docs/answer/3093339?hl=es-419) las **dimensiones de pantallas informadas en https://screensiz.es/**. 
 
