@@ -44,7 +44,7 @@ Para obtener tales datos use, en [Google Spreadsheet](https://docs.google.com/sp
 
 Con los datos a la vista, le conviene decidir por el cuartil superior (1920 x 1920 pixeles como máximo para las imágenes): ¡Así podría quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto.
 
-Luego, ya trabajando con los 1920 pixeles como tope pare el ancho y/o alto de sus imágenes, puede mejorar los pesos de las mismas usando WebP: https://developers.google.com/speed/webp?hl=es
+Luego, ya trabajando con los 1920 pixeles como tope pare el ancho y/o alto de sus imágenes, podría mejorar los pesos de las mismas usando WebP: https://developers.google.com/speed/webp?hl=es
 
 Puede obtener un WebP con un “guardar para web” de [Photopea](https://www.photopea.com/), y luego reducir más en peso del mismo archivo en [TinyPNG](https://tinypng.com/), todo eso sin perder resolución en su imagen (ni gastar un peso).
 
