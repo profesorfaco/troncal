@@ -48,7 +48,35 @@ Luego, ya trabajando con los 1920 pixeles como tope pare el ancho y/o alto de su
 
 Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso.
 
+Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
 
+| N° |	Nombre |	Imágenes a mejorar |
+|:----:|:----------|:---------------------| 
+| 1	| Rodrigo Albornoz	| https://rodrigoalbornoz3.github.io/clase_troncal_10/viz/Ejemplofinall.png |
+| 2	| Benjamín Alcántar	| https://benjaminalcantar.github.io/Clase10/viz/Eduardo%20Castillo.png |
+| 3	| Isabel Álvarez | https://isabelcarolina.github.io/Clase_10/viz/feedback-1.png |
+| 4	| Catalina Arismendi | https://caris2.github.io/Clase_10/viz/Vera_Perfil.png |
+| 5	 | Lucas Assis | https://lucasassis7.github.io/clase-10/viz/ejemplo.png | 
+| 6	| Antonia Cáceres	| https://antoniacaceresn.github.io/clase10/viz/ejemplo.png | 
+| 7	| Maximiliano Cantarero	 | https://maximilianocantarerog.github.io/Clase_10/viz/prueba2.png | 
+| 8	| Gabriel Castillo | https://gaboodesign.github.io/Troncal/Clases/Clase-10/viz/ejemplo.png |
+| 9	| Valentina Cayuqueo | https://valech2.github.io/Clase10/viz/Visualizacion11.png |
+| 10 | Jacob Gidi	| https://jacob-gidi.github.io/Clase-10/viz/Profesor-Ruben-Jacob.svg |
+| 11	| Isabel Hernández	| https://isabelh235.github.io/clase_10/viz/ejemplo.png |
+| 12 |	Dani Oñate |	https://pockyjuno.github.io/Clase10_12Mayo/viz/Tarea_Troncal_06Mayo.png |
+| 13 | Javiera Parra	| https://jp1702.github.io/feedback/viz/ejemplo.png |
+| 14 | Martina Pezoa	| https://martinapezoa.github.io/Clase-10/viz/Clarisa3.png |
+| 15	| Isidora Riffo	| https://isidorariffo.github.io/Clase_10/viz/Trabajo.png |
+| 16	| Fernanda Rivera	| https://fernanda2222.github.io/Clase_10/viz/Rebeca_Silvaaa.png | 
+| 17	| Ámbar Ruiz de Loizaga	| https://ambarruizzz.github.io/clase_10/viz/leonardo_soto.png |
+| 18	| Maroa Tapia	| https://marotapia.github.io/Clase_10/viz/Trabajo.png | 
+| 19	| Fernanda Tejo	| https://fer1137.github.io/clase10/viz/Agregado.png |
+| 20	| Javiera Paz Torres	| https://pazzzto.github.io/sitiowebclase10/viz/ejemplo.png |
+| 21	| Renata Vargas	| https://bloo-omo.github.io/viz_2/viz/propuesta.png |
+| 22	| Iñigo Vasquez	| https://inigovasquez.github.io/clase_10/viz/ejemplo.png |
+| 23	| Sofía Verdugo	| https://sofiaaaska.github.io/Clase_10_feedback/Petru_visualizacio%CC%81n_final.png |
+
+Y con lo que aprendió también puede volver a examinar las calificaciones, con más atención en los cuartiles y valorando el [Diagrama Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html) donde se ponen a su vista cálculos que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
 
 _ _ _ _ 
