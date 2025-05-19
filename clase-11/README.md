@@ -76,7 +76,7 @@ Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (p
 | 22	| Iñigo Vasquez	| https://inigovasquez.github.io/clase_10/viz/ejemplo.png |
 | 23	| Sofía Verdugo	| https://sofiaaaska.github.io/Clase_10_feedback/Petru_visualizacio%CC%81n_final.png |
 
-Y con lo que aprendió también puede volver a examinar las calificaciones, con más atención en los cuartiles y valorando el [Diagrama Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html) donde se ponen a su vista cálculos que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
+Y con lo que aprendió también puede volver a examinar los datos cuantitativos, con más atención en los cuartiles y valorando el [Diagrama Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html) donde se ponen a su vista cálculos que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
 
 _ _ _ _ 
