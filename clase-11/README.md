@@ -98,13 +98,11 @@ Una de las afirmaciones de la dimensión de Gestión del Clima de Aula dice: *El
 
 Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
-Pero son 12 estudiantes que marcan el máximo de completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 está en el mínimo de totalmente en desacuerdo. Dicho de otro modo, aquí 12 califican al Profesor con 4 de 4, pero 1 le califica con 1 de 4.
+Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, aquí 12 califican al Profesor con 4 de 4, pero 1 lo califica con 1 de 4.
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con la desviación estándar de 0,834 o con los cuartiles: 
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con la desviación estándar de 0,834 o con los cuartiles: Tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) en "totalmente en desacuerdo".
 
-Tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) en "totalmente en desacuerdo".
-
-Con esto ya se puede repetir: Lo que cuenta, cuenta. Y lo que se repite puede conectarse con lo que sigue: **el modo en que se presenta lo que ya se contó también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
+Con esto ya se puede repetir: Lo que cuenta, cuenta. Y lo que repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que ya se contó también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
 - - - - - - - 
 
