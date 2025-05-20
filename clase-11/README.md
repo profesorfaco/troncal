@@ -106,7 +106,7 @@ Con esto ya se puede repetir: Lo que cuenta, cuenta. Y lo que repetido debe cone
 
 - - - - - - - 
 
-Lo que queda para cerrar el semestre, decidiendo el 40% de su calificación final de asignatura, es darle "más vueltas" al loop del método Lean StartUp. Pero esta vuelta le corresponde hacerla desde lo aprendido de otras propuestas: 
+Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "más vueltas" al loop del método Lean StartUp. Pero esta vuelta le corresponde hacerla desde lo aprendido de otras propuestas: 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
