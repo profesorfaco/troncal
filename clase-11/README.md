@@ -92,15 +92,15 @@ En el mismo [artículo desde donde se toma la frase de Nicanor Parra](https://ww
 
 Tal moraleja se puede aplicar a otro caso, más conectado con lo que le queda a Usted resolver en la recta final del semestre: 
 
-Considere un resultado real y específico de una evaluación docente, respondida en el Primer Semestre 2023 por 18 de 18 estudiantes, lo que es un sueño hecho realidad en términos de [representatividad para una encuesta](https://es.surveymonkey.com/mp/sample-size-calculator/):
+Considere un resultado real y específico de una evaluación docente respondida en el Primer Semestre 2023 por 18 de 18 estudiantes, lo que es un sueño hecho realidad en términos de [representatividad para una encuesta](https://es.surveymonkey.com/mp/sample-size-calculator/):
 
-Una de las afirmaciones de la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
+Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
 Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
 Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, aquí 12 califican al Profesor con 4 de 4, pero 1 lo califica con 1 de 4.
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) diciendo "totalmente en desacuerdo".
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) diciendo "totalmente en desacuerdo".
 
 Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
@@ -111,6 +111,8 @@ Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es dar
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
 Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de su conversación con su Prof. ni olvidar que lo que podría resultar podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
+
+Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.
 
 - - - - - - - 
 
