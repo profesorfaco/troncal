@@ -52,7 +52,7 @@ Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www
 
 Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
 
-| N° |	Nombre |	Imágenes a mejorar | Tamaño |
+| N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
 |:----:|:----------|:---------------------|:----:|
 | 1	| Rodrigo Albornoz	| https://rodrigoalbornoz3.github.io/clase_troncal_10/viz/Ejemplofinall.png | 204 KB |
 | 2	| Benjamín Alcántar	| https://benjaminalcantar.github.io/Clase10/viz/Eduardo%20Castillo.png | **2,8 MB** |
