@@ -110,7 +110,7 @@ Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es dar
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas.
+Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de su conversación con su Prof. ni olvidar que lo que podría resultar podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
 
 - - - - - - - 
 
