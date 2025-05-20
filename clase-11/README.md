@@ -12,9 +12,9 @@ Con lo leído le deberían quedar claros los conceptos de **media** y **mediana*
 
 Por favor aplique tal claridad al siguiente ejercicio: 
 
-Primero [importe a Google Spreadsheet](https://support.google.com/docs/answer/3093339?hl=es-419) las **dimensiones de pantallas informadas en https://screensiz.es/**. 
+Lo primero que podría hacer es [importar a Google Spreadsheet](https://support.google.com/docs/answer/3093339?hl=es-419) las **dimensiones de pantallas informadas en https://screensiz.es/**. 
 
-Una vez importe las dimensiones, puede calcular:
+Con lo importado podría calcular:
 
 - Media del ancho de pantallas en pixeles: 1390,287879
   
@@ -26,7 +26,7 @@ Una vez importe las dimensiones, puede calcular:
 
 Si usted quisiera decidir el tamaño más adecuado para las imágenes a toda pantalla: Media y mediana podrían ser insuficientes. 
 
-Por tal insuficiencia, le conviene avanzar a los cuartiles, considerando que: 
+Por tal insuficiencia, conviene avanzar a los cuartiles, considerando que: 
 
 - El cuartil superior (tercer cuartil; Q3) es la mediana de la mitad superior del conjunto de datos.
 
@@ -42,13 +42,13 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 - El cuartil inferior del alto de pantalla es 900 pixeles
 
-Para obtener tales datos use, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función explicada en https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA
+Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función explicada en https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA
 
 Con los datos a la vista, le conviene decidir por el cuartil superior (1920 x 1920 pixeles como máximo para las imágenes): ¡Así podría quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto.
 
-Luego, ya trabajando con los 1920 pixeles como tope pare el ancho y/o alto de sus imágenes, podría mejorar los pesos de las mismas usando WebP: https://developers.google.com/speed/webp?hl=es
+Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso.
+Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
 Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
 
@@ -78,15 +78,15 @@ Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (p
 | 22	| Iñigo Vasquez	| https://inigovasquez.github.io/clase_10/viz/ejemplo.png | 288 KB |
 | 23	| Sofía Verdugo	| https://sofiaaaska.github.io/Clase_10_feedback/Petru_visualizacio%CC%81n_final.png | 238 KB |
 
-Los tamaños con negrita están en MB. Debe recordar que 1 MB equivale a 1000 KB. 
+Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1000 KB. 
 
 - - - - - - - 
 
 Con que aprendió también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
-Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista resultados de cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
+Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
-En el mismo [artículo desde donde se toma la frase de Nicanor Parra](https://www.etilmercurio.com/em/este-es-un-articulo-promedio) (con cambio de nombre y foto, por el tono de voz del medio), se escribe en la *Moraleja*:
+En el mismo [artículo desde donde se toma la frase de Nicanor Parra](https://www.etilmercurio.com/em/este-es-un-articulo-promedio) (con cambio de nombre y foto, por el [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) del medio), se escribe en la *Moraleja*:
 
 > El promedio […] muchas veces no interpreta en forma correcta un conjunto de datos. Utilizar un promedio de esta forma puede causar desde errores jocosos a graves distorsiones en la comprensión de la realidad.
 
@@ -96,13 +96,13 @@ Considere un resultado real y específico de una evaluación docente, respondida
 
 Una de las afirmaciones de la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
-Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
+Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
 Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, aquí 12 califican al Profesor con 4 de 4, pero 1 lo califica con 1 de 4.
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con la desviación estándar de 0,834 o con los cuartiles: Tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) en "totalmente en desacuerdo".
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con la desviación estándar de 0,834 o con los cuartiles: Tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) diciendo "totalmente en desacuerdo".
 
-Con esto ya se puede repetir: Lo que cuenta, cuenta. Y lo que repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que ya se contó también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
+Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
 - - - - - - - 
 
@@ -110,7 +110,7 @@ Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es dar
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-Pero esta vuelta le corresponde hacerla desde lo aprendido de otras propuestas.
+Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas.
 
 - - - - - - - 
 
