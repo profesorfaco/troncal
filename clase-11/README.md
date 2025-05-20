@@ -42,15 +42,15 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 - El cuartil inferior del alto de pantalla es 900 pixeles
 
-Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función explicada en https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA
+Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función del [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-Con los datos a la vista, le conviene decidir por el cuartil superior (1920 x 1920 pixeles como máximo para las imágenes): ¡Así podría quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto.
+Con los datos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles como máximo para las imágenes): ¡Así podría quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto.
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
 
 Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
-Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
+Con lo que ya leyó, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
 
 | N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
 |:----:|:----------|:---------------------|:----:|
@@ -82,17 +82,17 @@ Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1
 
 - - - - - - - 
 
-Con que aprendió también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
+Con lo que leyó también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
-Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
+Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
 En el mismo [artículo desde donde se toma la frase de Nicanor Parra](https://www.etilmercurio.com/em/este-es-un-articulo-promedio) (con cambio de nombre y foto, por el [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) del medio), se escribe en la *Moraleja*:
 
 > El promedio […] muchas veces no interpreta en forma correcta un conjunto de datos. Utilizar un promedio de esta forma puede causar desde errores jocosos a graves distorsiones en la comprensión de la realidad.
 
-Tal moraleja se puede aplicar a otro caso, más conectado con lo que le queda a Usted resolver en la recta final del semestre: 
+Tal moraleja se puede aplicar a otro caso, más conectado con lo que le queda resolver en la recta final del semestre: 
 
-Considere un resultado real y específico de una evaluación docente respondida en el Primer Semestre 2023 por 18 de 18 estudiantes, lo que es un sueño hecho realidad en términos de [representatividad para una encuesta](https://es.surveymonkey.com/mp/sample-size-calculator/):
+Considere un resultado real y específico de una evaluación docente respondida en el Primer Semestre 2023 por 18 de 18 estudiantes, lo que es un sueño hecho realidad en términos de [representatividad](https://es.surveymonkey.com/mp/sample-size-calculator/):
 
 Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
@@ -110,7 +110,7 @@ Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es dar
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de su conversación con su Prof. ni olvidar que lo que podría resultar podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
+Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de la conversación con su Prof. ni olvidar que su trabajo podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
 
 Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.
 
