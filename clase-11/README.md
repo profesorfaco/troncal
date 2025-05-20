@@ -78,7 +78,7 @@ Con lo que ya leyó a aprendió, puede ajustar formato, dimensiones y tamaño (p
 | 22	| Iñigo Vasquez	| https://inigovasquez.github.io/clase_10/viz/ejemplo.png | 288 KB |
 | 23	| Sofía Verdugo	| https://sofiaaaska.github.io/Clase_10_feedback/Petru_visualizacio%CC%81n_final.png | 238 KB |
 
-Se marcan tamaño expresados en MB porque 1 MB equivale a 1000 KB. 
+Los tamaños con negrita están en MB. Debe recordar que 1 MB equivale a 1000 KB. 
 
 - - - - - - - 
 
