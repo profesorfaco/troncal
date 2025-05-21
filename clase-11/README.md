@@ -42,11 +42,11 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 - El cuartil inferior del alto de pantalla es 900 pixeles
 
-Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función del [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
+Para el cálculo de los cuartiles usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-**Con los datos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
+**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
 
-Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
+Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes que use en web usando WebP: https://developers.google.com/speed/webp?hl=es
 
 Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
@@ -82,7 +82,7 @@ Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1
 
 - - - - - - - 
 
-Con lo que leyó ajustar formato, dimensiones y peso de su imagen también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
+Con lo que leyó para ajustar formato, dimensiones y peso de su imagen también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
 Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
@@ -98,7 +98,7 @@ Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El
 
 Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
-Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, aquí 12 califican al Profesor con 4 de 4, pero 1 lo califica con 1 de 4.
+Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, hay 12 que califican al Profesor con 4 de 4, pero sólo 1 que lo califica con 1 de 4.
 
 Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) diciendo "totalmente en desacuerdo".
 
