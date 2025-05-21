@@ -48,7 +48,7 @@ Además de aplicar tal reflexión, le corresponde salir del diseño en primera p
 
 Construya alternativas de visualización de información que se sumen a las que ya ofrece esta página: https://profesorfaco.github.io/troncal/clase-08/profes.html
 
-Lo construido y evaluado hasta el cierre de la jornada del jueves 8 de mayo:
+Lo construido y evaluado hasta el cierre de la jornada del jueves 8 de mayo es lo que sigue:
 
 | N° | Nombre | GitHub Pages |
 |:----:|:---------------|:--------------|
