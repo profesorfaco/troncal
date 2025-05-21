@@ -112,7 +112,23 @@ Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es dar
 
 Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de la conversación con su Prof. ni olvidar que su trabajo podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
 
-Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.
+**Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
+
+**Para esta actividad y las que sigan hasta el cierre del semestres, convendría mucho saber sobre *operacionalización* y *muestra***, siendo dos asuntos que ya pudo aprender en las asignaturas de la línea de la investigación. En caso no lo haya hecho, por favor revise lo ofrecido en: 
+
+- https://atlasti.com/es/research-hub/operacionalizacion/
+
+- https://es.surveymonkey.com/mp/sample-size-calculator/
+
+También se asumirán como aprendidos, por sus años en la Universidad de Chile y en la carrera de Diseño: 
+
+- Reglamento de Estudiantes de la Universidad de Chile; al menos en su TITULO II: DE LOS DEBERES Y DERECHOS DE LOS Y LAS ESTUDIANTES: https://uchile.cl/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/reglamento-de-estudiantes-de-la-universidad-de-chile
+
+- Reglamento General de Carrera Académica de la Universidad de Chile; al menos en su TITULO I: Normas Generales: https://uchile.cl/presentacion/senado-universitario/reglamentos/reglamentos-aprobados-o-modificados-por-el-senado-universitario/reglamento-general-de-carrera-academica-de-la-universidad-de-chile
+
+- Modelo Educativo de la Universidad de Chile 2021; al menos en lo referido a las competencias sello de la Universidad (pp.51-54) y las implicancias para la docencia (pp.59-60): https://libros.uchile.cl/files/presses/1/monographs/1431/submission/proof/52/index.html
+
+- Reglamento de Carrera; al menos en los que se haga referencia al CICLO 3: artículo 11, 23, 25, 26, 27, 28, 29 y 30: https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf
 
 - - - - - - - 
 
