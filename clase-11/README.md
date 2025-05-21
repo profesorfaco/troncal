@@ -48,7 +48,7 @@ Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/s
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP aproveche el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reduzca más el peso del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
+Puede obtener un WebP aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
 Con lo que ya leyó, puede ajustar formato, dimensiones y peso en:
 
