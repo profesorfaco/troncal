@@ -44,13 +44,13 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función del [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-**Con los datos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podría quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
+**Con los datos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir más el tamaño (o peso) del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
+Puede obtener un WebP aproveche el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reduzca más el peso del mismo archivo en [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
-Con lo que ya leyó, puede ajustar formato, dimensiones y tamaño (peso) de la sección que es imagen en su prototipo:
+Con lo que ya leyó, puede ajustar formato, dimensiones y peso en:
 
 | N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
 |:----:|:----------|:---------------------|:----:|
