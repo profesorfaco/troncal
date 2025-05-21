@@ -48,9 +48,9 @@ Para obtener tales datos usé, en [Google Spreadsheet](https://docs.google.com/s
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes usando WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
+Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
-Con lo que ya leyó, puede ajustar formato, dimensiones y peso de:
+Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
 | N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
 |:----:|:----------|:---------------------|:----:|
@@ -82,7 +82,7 @@ Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1
 
 - - - - - - - 
 
-Con lo que leyó también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
+Con lo que leyó ajustar formato, dimensiones y peso de su imagen también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
 Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
@@ -114,7 +114,7 @@ Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuesta
 
 **Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
 
-**Para esta actividad y las que sigan hasta el cierre del semestres, convendría mucho saber sobre *operacionalización* y *muestra***, siendo dos asuntos que ya pudo aprender en las asignaturas de la línea de la investigación. En caso no lo haya hecho, por favor revise lo ofrecido en: 
+**Para esta actividad y las que sigan hasta el cierre del semestres, convendría mucho saber sobre *operacionalización* y *muestra***, dos asuntos que ya pudo aprender en las asignaturas de la línea de la investigación. En caso no lo haya hecho, por favor revise lo ofrecido en: 
 
 - https://atlasti.com/es/research-hub/operacionalizacion/
 
