@@ -102,7 +102,7 @@ Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con
 
 Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, hay 12 que califican al Profesor con 4 de 4, pero sólo 1 que lo califica con 1 de 4.
 
-Luego si ordenamos las esas 13 repuestas y 5 más, de mayor a menor, tenemos:
+Si ordenamos esas 13 repuestas y 5 más, de mayor a menor, tenemos:
 
 | N° | Repuesta marcada        |  Q  |
 |:-----:|:---------------------|:----:|
