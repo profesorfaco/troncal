@@ -12,9 +12,9 @@ Con lo leído le deberían quedar claros los conceptos de **media** y **mediana*
 
 Por favor aplique tal claridad al siguiente ejercicio: 
 
-Lo primero que podría hacer es [importar a Google Spreadsheet](https://support.google.com/docs/answer/3093339?hl=es-419) las **dimensiones de pantallas informadas en https://screensiz.es/**. 
+Usted puede [importar a Google Spreadsheet](https://support.google.com/docs/answer/3093339?hl=es-419) las **dimensiones de pantallas informadas en https://screensiz.es/**. 
 
-Con lo importado podría calcular:
+Con lo importado se puede calcular:
 
 - Media del ancho de pantallas en pixeles: 1390,287879
   
@@ -42,13 +42,13 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 - El cuartil inferior del alto de pantalla es 900 pixeles
 
-Para el cálculo de los cuartiles usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
+Para el cálculo de los cuartiles de arriba usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo con dimensiones exageradas, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
+**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 pixeles por lado) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo con dimensiones exageradas, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes con WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
+Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso en licencias.
 
 Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
