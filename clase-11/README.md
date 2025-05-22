@@ -84,7 +84,7 @@ El tamaños expresado en MB es mala idea cuando usted [tiene 3 segundos para cap
 
 - - - - - - - 
 
-Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla que permita decidir una dimensión máxima de la imagen, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
+Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
 Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
