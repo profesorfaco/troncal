@@ -129,7 +129,7 @@ Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe cone
 
 - - - - - - - 
 
-Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "más vueltas" al *loop* del método *Lean StartUp*. 
+**Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "más vueltas" al *loop* del método *Lean StartUp***. 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
