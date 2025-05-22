@@ -50,7 +50,7 @@ Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los peso
 
 Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
-Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
+Con lo que ya leyó puede ajustar formato, dimensiones y tamaño de:
 
 | N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
 |:----:|:----------|:---------------------|:----:|
@@ -80,9 +80,11 @@ Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
 Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1000 KB. 
 
+El tamaños expresado en MB es mala idea cuando usted [tiene 3 segundos para captar la atención de navegantes](https://somoswoko.com/blog/captar-atencion-diseno-web/) que, probablemente, no tengan [conexiones rapidísimas a internet](https://support.google.com/websearch/answer/6283840?visit_id=638835149629874555-846514672&p=speedtest&rd=1) ni planes con datos ilimitado. 
+
 - - - - - - - 
 
-Con lo que leyó para ajustar formato, dimensiones y peso de su imagen también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
+Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla que permita decidir una dimensión máxima de la imagen, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
 Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
@@ -96,11 +98,34 @@ Considere un resultado real y específico de una evaluación docente respondida 
 
 Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
-Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación. O, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
+Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación, o, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
 Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, hay 12 que califican al Profesor con 4 de 4, pero sólo 1 que lo califica con 1 de 4.
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar en forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que tanto el valor máximo (Q4), como el cuartil superior (Q3) y la mediana (Q2) dicen “completamente de acuerdo”, mientras el cuartil inferior (Q1) está entre “bastante de acuerdo” y “un poco de acuerdo”. Con un valor mínimo (Q0) diciendo "totalmente en desacuerdo".
+Luego si ordenamos las esas 13 repuestas y 5 más, de mayor a menor, tenemos:
+
+| N° | Repuesta marcada        |  Q  |
+|:-----:|:---------------------|:----:|
+| 1 | Totalmente en desacuerdo | Q0 | 
+| 2 | Bastante en desacuerdo | … |
+| 3 | Un poco en desacuerdo | … |
+| 4 | Un poco de acuerdo | Q1 |
+| 5 | Un poco de acuerdo | Q1 |
+| 6 | Bastante de acuerdo | … |
+| 7 | Totalmente de acuerdo | … |
+| 8 | Totalmente de acuerdo | … |
+| 9 | Totalmente de acuerdo | Q2 |
+| 10 | Totalmente de acuerdo | … |
+| 11 | Totalmente de acuerdo | … |
+| 12 | Totalmente de acuerdo | … |
+| 13 | Totalmente de acuerdo | Q3 |
+| 14 | Totalmente de acuerdo  | Q3 | 
+| 15 | Totalmente de acuerdo | … |
+| 16 | Totalmente de acuerdo | … |
+| 17 | Totalmente de acuerdo | … |
+| 18 | Totalmente de acuerdo | Q4 |
+
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que en el valor máximo (Q4), el cuartil superior (Q3) y la mediana (Q2) marcan “completamente de acuerdo”, mientras que el cuartil inferior (Q1) marca "un poco de acuerdo". Con un valor mínimo (Q0) marcando "totalmente en desacuerdo".
 
 Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
