@@ -52,7 +52,7 @@ La primera vuelta la da antes de la clase 10, la segunda la da en la misma clase
 | 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_troncal_10/profes.html | 
 | 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Clase10/profes.html | 
 | 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase_10/profes.html | 
-| 4	| [Catalina Arismendi](https://github.com/caris2) |  https://caris2.github.io/Clase10/profes.html | 
+| 4	| [Catalina Arismendi](https://github.com/caris2) |  https://caris2.github.io/Clase_10/profes.html | 
 | 5	| [Lucas Assis](https://github.com/lucasassis) | https://lucasassis7.github.io/clase-10/profes.html | 
 | 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase10/profes.html | 
 | 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase_10/profes.html | 
