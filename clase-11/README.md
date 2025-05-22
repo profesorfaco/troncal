@@ -44,15 +44,15 @@ Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.
 
 Para el cálculo de los cuartiles usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo exageradamente grande y pesado, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
+**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 x 1920 pixeles) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo con dimensiones exageradas, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
 
-Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes que use en web usando WebP: https://developers.google.com/speed/webp?hl=es
+Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes con WebP: https://developers.google.com/speed/webp?hl=es
 
 Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), aprovechando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen (ni gastar un peso en licencias).
 
-Con lo que ya leyó puede ajustar formato, dimensiones y tamaño de:
+Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
-| N° |	Nombre | Imágenes que pueden ajustarse | Tamaño |
+| N° |	Nombre | Imágenes que pueden ajustarse | Peso |
 |:----:|:----------|:---------------------|:----:|
 | 1	| Rodrigo Albornoz	| https://rodrigoalbornoz3.github.io/clase_troncal_10/viz/Ejemplofinall.png | 204 KB |
 | 2	| Benjamín Alcántar	| https://benjaminalcantar.github.io/Clase10/viz/Eduardo%20Castillo.png | **2,8 MB** |
@@ -78,9 +78,9 @@ Con lo que ya leyó puede ajustar formato, dimensiones y tamaño de:
 | 22	| Iñigo Vasquez	| https://inigovasquez.github.io/clase_10/viz/ejemplo.png | 288 KB |
 | 23	| Sofía Verdugo	| https://sofiaaaska.github.io/Clase_10_feedback/Petru_visualizacio%CC%81n_final.png | 238 KB |
 
-Los tamaños con negrita están en MB. Es importante saber que 1 MB equivale a 1000 KB. 
+Los pesos con negrita están en MB. Es importante saber que 1 MB equivale a 1000 KB. 
 
-El tamaños expresado en MB es mala idea cuando usted [tiene 3 segundos para captar la atención de navegantes](https://somoswoko.com/blog/captar-atencion-diseno-web/) que, probablemente, no tengan [conexiones rapidísimas a internet](https://support.google.com/websearch/answer/6283840?visit_id=638835149629874555-846514672&p=speedtest&rd=1) ni planes con datos ilimitado. 
+El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar la atención de navegantes](https://somoswoko.com/blog/captar-atencion-diseno-web/) que, probablemente, no tengan [conexiones rapidísimas a internet](https://support.google.com/websearch/answer/6283840?visit_id=638835149629874555-846514672&p=speedtest&rd=1) ni planes con datos ilimitado. 
 
 - - - - - - - 
 
@@ -151,7 +151,7 @@ También se asumirán como aprendidos, por sus años en la Universidad de Chile 
 
 - Modelo Educativo de la Universidad de Chile 2021; conocer como mínimo lo referido a las competencias sello de la Universidad (pp.51-54) y las implicancias para la docencia (pp.59-60): https://libros.uchile.cl/files/presses/1/monographs/1431/submission/proof/52/index.html
 
-- Reglamento de Carrera; conocer como mínimo los artículo donde se hace referencia al ciclo 3 o ciclo profesional, que considera actividades curriculares propias de la actuación profesional y de la titulación profesional: artículo 11, 23, 25, 26, 27, 28, 29 y 30: https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf
+- Reglamento de Carrera; conocer como mínimo los artículo donde se hace referencia al ciclo 3 o ciclo profesional, que considera actividades curriculares propias de la actuación profesional y de la titulación profesional: artículos 11, 23, 25, 26, 27, 28, 29 y 30: https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf
 
 - - - - - - - 
 
