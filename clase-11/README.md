@@ -100,9 +100,7 @@ Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El
 
 Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación, o, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
-Pero son 12 estudiantes que marcan el máximo que corresponde a estar completamente de acuerdo con que *el docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*, y sólo 1 marca el mínimo de totalmente en desacuerdo. Dicho de otro modo, hay 12 que califican al Profesor con 4 de 4, pero sólo 1 que lo califica con 1 de 4.
-
-Si ordenamos esas 13 repuestas y 5 más, de mayor a menor, tenemos:
+Pero organizando las 18 respuestas de menor a mayor, tenemos:
 
 | N° | Repuesta marcada        |  Q  |
 |:-----:|:---------------------|:----:|
@@ -125,7 +123,7 @@ Si ordenamos esas 13 repuestas y 5 más, de mayor a menor, tenemos:
 | 17 | Totalmente de acuerdo | … |
 | 18 | Totalmente de acuerdo | Q4 |
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que en el valor máximo (Q4), el cuartil superior (Q3) y la mediana (Q2) marcan “completamente de acuerdo”, mientras que el cuartil inferior (Q1) marca "un poco de acuerdo". Con un valor mínimo (Q0) marcando "totalmente en desacuerdo".
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que el valor máximo (Q4), el cuartil superior (Q3) y la mediana (Q2) está “completamente de acuerdo”, mientras que el cuartil inferior (Q1) está "un poco de acuerdo". Con un valor mínimo (Q0) que está "totalmente en desacuerdo".
 
 Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
