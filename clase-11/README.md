@@ -8,7 +8,7 @@
 
 - **https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio** —este artículo es breve—.
 
-- **https://www.etilmercurio.com/em/este-es-un-articulo-promedio** —este artículo tiene un [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) muy informal, gracioso e irreverente, pero va al grano—.
+- **https://www.etilmercurio.com/em/este-es-un-articulo-promedio** —este artículo no es tan breve; se escribe en un [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) muy informal, gracioso e irreverente, pero va al grano—.
 
 Con lo leído le deberían quedar claros los conceptos de **media** y **mediana**. 
 
