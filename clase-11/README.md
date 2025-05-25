@@ -143,7 +143,7 @@ Y lo repetido puede conectarse con lo que sigue: **el modo en que se presenta lo
 
 ### III. Última curva y entrando a recta final
 
-**Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "más vueltas" al *loop* del método *Lean StartUp***. 
+**Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "una vuelta más" al *loop* del método *Lean StartUp***. 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
