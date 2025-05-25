@@ -145,7 +145,7 @@ Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-Pero la vuelta de la clase de hoy, martes 27de mayo, debe darla con lo que usted y gente como usted ya pudo aprender.
+Pero la vuelta de la clase de hoy, martes 27 de mayo, debe darla con lo que usted y gente como usted ya pudo aprender.
 
 **Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
 
