@@ -47,31 +47,31 @@ Con esto, antes del receso le habrá dado dos vueltas al:
 
 La primera vuelta la da antes de la clase 10, la segunda la da en la misma clase 10:
 
-| N° | Nombre | GitHub Pages | 
-|:-----:|:------------|:----------------------|
-| 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_troncal_10/profes.html | 
-| 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Clase10/profes.html | 
-| 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase_10/profes.html | 
-| 4	| [Catalina Arismendi](https://github.com/caris2) |  https://caris2.github.io/Clase_10/profes.html | 
-| 5	| [Lucas Assis](https://github.com/lucasassis) | https://lucasassis7.github.io/clase-10/profes.html | 
-| 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase10/profes.html | 
-| 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase_10/profes.html | 
-| 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Clases/Clase-10/profes.html | 
-| 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/Clase10/profes.html | 
-| 10 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Clase-10/profes.html | 
-| 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/clase_10/profes.html | 
-| 12 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/Clase10_12Mayo/profes.html | 
-| 13 | [Javiera Parra](https://github.com/martinapezoa) | https://jp1702.github.io/feedback/profes.html | 
-| 14 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/Clase-10/profes.html | 
-| 15 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Clase_10/profes.html | 
-| 16 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/Clase_10/profes.html | 
-| 17 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/clase_10/profes.html | 
-| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/Clase_10/profes.html | 
-| 19 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/clase10/profes.html | 
-| 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/sitiowebclase10/profes.html | 
-| 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/viz_2/profes.html | 
-| 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/clase_10/profes.html | 
-| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Clase_10_feedback/profes.html | 
+| N° | Nombre | GitHub Pages | Rango de nota |
+|:-----:|:------------|:----------------------|:-------:|
+| 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_troncal_10/profes.html | Insuficiente | 
+| 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Clase10/profes.html | Suficiente | 
+| 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase_10/profes.html | Suficiente | 
+| 4	| [Catalina Arismendi](https://github.com/caris2) |  https://caris2.github.io/Clase_10/profes.html | Suficiente | 
+| 5	| [Lucas Assis](https://github.com/lucasassis) | https://lucasassis7.github.io/clase-10/profes.html | Suficiente | 
+| 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase10/profes.html | Suficiente | 
+| 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase_10/profes.html | Buena | 
+| 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Clases/Clase-10/profes.html | Insuficiente | 
+| 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/Clase10/profes.html | Buena | 
+| 10 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Clase-10/profes.html | Insuficiente | 
+| 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/clase_10/profes.html | Buena | 
+| 12 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/Clase10_12Mayo/profes.html | Buena | 
+| 13 | [Javiera Parra](https://github.com/martinapezoa) | https://jp1702.github.io/feedback/profes.html | Suficiente | 
+| 14 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/Clase-10/profes.html | Suficiente | 
+| 15 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Clase_10/profes.html | Buena | 
+| 16 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/Clase_10/profes.html | Buena | 
+| 17 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/clase_10/profes.html | Buena | 
+| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/Clase_10/profes.html | Buena | 
+| 19 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/clase10/profes.html | Suficiente | 
+| 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/sitiowebclase10/profes.html | Buena | 
+| 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/viz_2/profes.html | Buena | 
+| 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/clase_10/profes.html | Insuficiente | 
+| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Clase_10_feedback/profes.html | Suficiente | 
 
 _ _ _ _ 
 
