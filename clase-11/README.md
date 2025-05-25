@@ -28,29 +28,29 @@ Con lo importado se puede calcular:
 
 Si usted quisiera decidir el tamaño más adecuado para las imágenes a toda pantalla: Media y mediana podrían ser insuficientes. 
 
-Por tal insuficiencia, conviene avanzar a los cuartiles, considerando que: 
-
-- El cuartil superior (tercer cuartil; Q3) es la mediana de la mitad superior del conjunto de datos.
+Por tal insuficiencia, conviene avanzar al primer y tercer cuartil considerando que: 
 
 - El cuartil inferior (primer cuartil; Q1) es la mediana de la mitad inferior del conjunto de datos.
 
-Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.es/monitor:
+- El cuartil superior (tercer cuartil; Q3) es la mediana de la mitad superior del conjunto de datos.
 
-- El cuartil superior del ancho de pantalla es 1920 pixeles
-  
-- El cuartil superior del alto de pantalla es, también, 1920 pixeles
+Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.es/monitor:
 
 - El cuartil inferior del ancho de pantalla es 945 pixeles
 
 - El cuartil inferior del alto de pantalla es 900 pixeles
 
+- El cuartil superior del ancho de pantalla es 1920 pixeles
+  
+- El cuartil superior del alto de pantalla es, también, 1920 pixeles
+
 Para el cálculo de los cuartiles de arriba usé, en [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16AtMeMfXNRgx3TlRH09HCxLqR1x0ymhXWAwwY64niMk/edit?usp=sharing), la función [CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA)
 
-**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 pixeles por lado) como máximo para las imágenes: ¡Así podrá quedar entre lo más habitual y el valor máximo! De tal manera no hará algo con dimensiones exageradas, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
+**Con los cálculos a la vista, conviene decidir por el cuartil superior (1920 pixeles por lado) como máximo para las imágenes que se despliegan sólo en pantalla: ¡Así podrá quedar entre lo más habitual y el valor máximo! Con lo que no hará algo con dimensiones exageradas, ni le quedará debiendo tantos pixeles a lo exageradamente ancho o alto**.
 
 Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los pesos de las imágenes con WebP: https://developers.google.com/speed/webp?hl=es
 
-Puede obtener un WebP, con un ancho máximo de 1920 pixeles (y 72 dpi de resolución), usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso en licencias.
+Puede obtener un WebP, con un ancho máximo de 1920 pixeles y 72 dpi de resolución, usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso en licencias.
 
 Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
@@ -82,7 +82,7 @@ Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
 Los pesos con negrita están en MB. Es importante saber que 1 MB equivale a 1000 KB. 
 
-El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar la atención de navegantes](https://somoswoko.com/blog/captar-atencion-diseno-web/) que, probablemente, no tengan [conexiones rapidísimas a internet](https://support.google.com/websearch/answer/6283840?visit_id=638835149629874555-846514672&p=speedtest&rd=1) ni planes con datos ilimitado. 
+El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar la atención de navegantes](https://somoswoko.com/blog/captar-atencion-diseno-web/) que, probablemente, no tienen [conexiones rapidísimas a internet](https://support.google.com/websearch/answer/6283840?visit_id=638835149629874555-846514672&p=speedtest&rd=1) ni planes con datos ilimitado.
 
 - - - - - - - 
 
@@ -90,7 +90,7 @@ El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar 
 
 Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
-Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
+Incluso, podría valorar más el [diagrama de cajas y bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
 
 En el mismo [artículo desde donde se toma la frase de Nicanor Parra](https://www.etilmercurio.com/em/este-es-un-articulo-promedio) (con cambio de nombre y foto, por el [tono de voz](https://www.nngroup.com/articles/tone-of-voice-dimensions/) del medio), se escribe en la *Moraleja*:
 
@@ -127,7 +127,7 @@ Pero organizando las 18 respuestas de menor a mayor, tenemos:
 | 17 | Totalmente de acuerdo | … |
 | 18 | Totalmente de acuerdo | Q4 |
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que el valor máximo (Q4), el cuartil superior (Q3) y la mediana (Q2) está “completamente de acuerdo”, mientras que el cuartil inferior (Q1) está "un poco de acuerdo". Con un valor mínimo (Q0) que está "totalmente en desacuerdo".
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que valor máximo (Q4), cuartil superior (Q3) y  mediana (Q2) están “completamente de acuerdo”, mientras que el cuartil inferior (Q1) está "un poco de acuerdo". Con un valor mínimo (Q0) que está "totalmente en desacuerdo".
 
 Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
