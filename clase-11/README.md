@@ -2,7 +2,7 @@
 
 ### ~~HTML y CSS: Dos lenguajes de descripción~~ Repaso y trabajo para la recta final
 
-### I. Oficio digital y el cuartil superior
+### I. Oficio digital y cuartil superior
 
 **Lea dos artículos muy breves**: 
 
