@@ -149,7 +149,7 @@ Y lo repetido puede conectarse con lo que sigue: **el modo en que se presenta lo
 
 Pero la vuelta de la clase de hoy, martes 27 de mayo, debe darla con lo que usted y gente como usted ya pudo aprender.
 
-**Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
+**Las instrucciones para esta vuelta se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
 
 **Para esta actividad y las que sigan en la recta final del semestre, convendría mucho saber sobre *operacionalización* y *muestra***, dos asuntos que usted ya pudo aprender en las asignaturas de la línea de investigación. En caso no lo haya hecho, por favor revise lo ofrecido en: 
 
