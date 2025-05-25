@@ -2,6 +2,8 @@
 
 ### ~~HTML y CSS: Dos lenguajes de descripción~~ Repaso y trabajo para la recta final
 
+### I. Oficio digital y el cuartil superior
+
 **Lea dos artículos muy breves**: 
 
 - **https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio**
@@ -84,6 +86,8 @@ El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar 
 
 - - - - - - - 
 
+### II. Lo que cuenta cuando se cuentan promedios
+
 Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
 Incluso, podría valorar más el [Diagrama de Cajas y Bigotes](https://datavizcatalogue.com/ES/metodos/diagrama_cajas_y_bigotes.html), donde se ponen a su vista las cuentas que toman distancia del: «*Hay dos panes. Usted se come dos. Yo ninguno. Consumo promedio: un pan por persona*».
@@ -129,11 +133,13 @@ Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe cone
 
 - - - - - - - 
 
+### III. Última curva y entrando a recta final
+
 **Lo que queda para cerrar el semestre, decidiendo el 40% de su nota final, es darle "más vueltas" al *loop* del método *Lean StartUp***. 
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-Pero la vuelta de la clase de hoy debe darla con lo aprendido de otras propuestas, sin perder de vista lo que aprendió de la conversación con su Prof. ni olvidar que su trabajo podríar ser utilizado por Usted y personas como Usted en marzo de 2026.
+Pero la vuelta de la clase de hoy, martes 27de mayo, debe darla con lo que usted y gente como usted ya pudo aprender.
 
 **Las instrucciones para esta actividad se le entregarán presencialmente, en el laboratorio B-13 entre 15:00 a 18:15 hrs.**
 
