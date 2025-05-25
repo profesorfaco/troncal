@@ -127,7 +127,7 @@ Pero organizando las 18 respuestas de menor a mayor, tenemos:
 | 17 | Totalmente de acuerdo | … |
 | 18 | Totalmente de acuerdo | Q4 |
 
-Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos que valor máximo (Q4), cuartil superior (Q3) y  mediana (Q2) están “completamente de acuerdo”, mientras que el cuartil inferior (Q1) está "un poco de acuerdo". Con un valor mínimo (Q0) que está "totalmente en desacuerdo".
+Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos “completamente de acuerdo” en valor máximo (Q4), cuartil superior (Q3) y  mediana (Q2), con "un poco de acuerdo" sólo en el cuartil inferior (Q1), además de un "totalmente en desacuerdo" en el valor mínimo (Q0).
 
 Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
