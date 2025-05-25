@@ -86,7 +86,7 @@ El peso expresado en MB es mala idea cuando usted [tiene 3 segundos para captar 
 
 - - - - - - - 
 
-### II. Lo que cuenta cuando se cuentan promedios
+### II. Los promedios de lo que se cuenta también cuentan
 
 Con lo que leyó sobre los cálculos para decidir una dimensión de pantalla, también puede volver a examinar los datos cuantitativos con más atención en los cuartiles.
 
