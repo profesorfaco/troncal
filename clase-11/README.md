@@ -28,7 +28,7 @@ Con lo importado se puede calcular:
 
 Si usted quisiera decidir el tamaño más adecuado para las imágenes a toda pantalla: Media y mediana podrían ser insuficientes. 
 
-Por tal insuficiencia, conviene avanzar al primer y tercer cuartil considerando que: 
+Por tal insuficiencia conviene avanzar a los cuartiles inferior y superior, considerando que: 
 
 - El cuartil inferior (primer cuartil; Q1) es la mediana de la mitad inferior del conjunto de datos.
 
