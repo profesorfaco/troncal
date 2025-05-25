@@ -100,7 +100,11 @@ Tal moraleja se puede aplicar a otro caso, más conectado con lo que le queda re
 
 Considere un resultado real y específico de una evaluación docente respondida en el Primer Semestre 2023 por 18 de 18 estudiantes, lo que es un sueño hecho realidad en términos de [representatividad](https://es.surveymonkey.com/mp/sample-size-calculator/):
 
-Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: *El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*. Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
+Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: 
+
+> El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*.
+
+Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
 Con ese 3,5 usted podría pensar que el curso no está totalmente de acuerdo con la afirmación, o, peor, que todo el curso considera que este Profesor pudo, en algún momento, utilizar estereotipos de género o hacer comentarios sexistas.
 
@@ -129,7 +133,9 @@ Pero organizando las 18 respuestas de menor a mayor, tenemos:
 
 Justo aquí es donde el 3,5 se hace insuficiente para interpretar de forma correcta un conjunto de datos; ya convendría complementarlo con los cuartiles: Tenemos “completamente de acuerdo” en valor máximo (Q4), cuartil superior (Q3) y  mediana (Q2), con "un poco de acuerdo" sólo en el cuartil inferior (Q1), además de un "totalmente en desacuerdo" en el valor mínimo (Q0).
 
-Con esto ya se puede repetir: **Lo que cuenta, cuenta**. Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
+Con esto ya se puede repetir: **Lo que cuenta, cuenta**. 
+
+Y lo repetido debe conectarse con lo que sigue: **el modo en que se presenta lo que se cuenta también cuenta… si es que se busca evitar la propagación de información errónea y desinformación**. 
 
 - - - - - - - 
 
