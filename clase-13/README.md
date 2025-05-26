@@ -4,6 +4,8 @@
 
 #### Avance en trabajo individual, con evaluación formativa
 
+La evaluación se basará en su avance respecto del *Produce & refine* en:
+
 https://www.dropbox.com/scl/fi/oe5f1zrxuckejt6u8zjoc/DVHB_Workflow_web.pdf?rlkey=ygnj8g7lvqlu84hclezulnplr&e=1&st=tp7uu4kj&dl=0
 _ _ _ _ 
 
