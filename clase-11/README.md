@@ -34,7 +34,7 @@ Por tal insuficiencia conviene avanzar a los cuartiles inferior y superior, cons
 
 - El cuartil superior (tercer cuartil; Q3) es la mediana de la mitad superior del conjunto de datos.
 
-Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.es/monitor:
+Ahora, de vuelta a las dimensiones de monitores publicadas en https://screensiz.es/
 
 - El cuartil inferior del ancho de pantalla es 945 pixeles
 
