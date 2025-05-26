@@ -45,7 +45,9 @@ Con esto, antes del receso le habrá dado dos vueltas al:
 
 ![loop](https://github.com/user-attachments/assets/3d780d2e-ad9f-47fb-8639-10902117afca)
 
-La primera vuelta la da antes de la clase 10, la segunda la da en la misma clase 10:
+La primera vuelta la da antes de la clase 10, la segunda la da en la misma clase 10.
+
+#### El resultado de las vueltas
 
 | N° | Nombre | GitHub Pages | Rango de nota |
 |:-----:|:------------|:----------------------|:-------:|
