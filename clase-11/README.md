@@ -102,7 +102,7 @@ Considere un resultado real y específico de una evaluación docente respondida 
 
 Una de las afirmaciones en la dimensión de Gestión del Clima de Aula dice: 
 
-> El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas*.
+> El / La docente se relacionó con las y los estudiantes sin utilizar estereotipos de género ni hacer comentarios sexistas.
 
 Para tal afirmación la nota obtenida por el Profesor, en escala de 1 a 4, es de 3,5. 
 
