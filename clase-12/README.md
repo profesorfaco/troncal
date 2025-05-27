@@ -2,8 +2,6 @@
 
 ### ~~JavaScript: Un lenguaje de programación~~ HTML, CSS y JavaScript: Dos lenguajes de descripción y uno de programación
 
-Tendremos presentación de avance a contraparte real. 
-
 Se entregarán pautas para la implementación final.
 
 
