@@ -8,6 +8,7 @@ La evaluación se basará en su avance hasta el *Produce & refine* en:
 
 https://www.dropbox.com/scl/fi/oe5f1zrxuckejt6u8zjoc/DVHB_Workflow_web.pdf?rlkey=ygnj8g7lvqlu84hclezulnplr&e=1&st=tp7uu4kj&dl=0
 
+Tendremos presentación de avance a contraparte real. 
 
 _ _ _ _ 
 
