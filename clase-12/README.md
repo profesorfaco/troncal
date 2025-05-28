@@ -16,8 +16,8 @@ Además, tuvo que considerar a un/a segundo/a Profesor/a para proponer un modo a
 
 Y con todo eso ya pudo proponer: 
 
-| N° | Nombre | Propuesta | 
-|:-----:|:------------|:----------------------|:-------:|
+| N° | Nombre | Nueva iteración | 
+|:-----:|:------------|:----------------------|
 | 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | Pendiente | 
 | 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | Pendiente | 
 | 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase11/profes.html | 
