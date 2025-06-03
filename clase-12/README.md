@@ -44,6 +44,30 @@ Y con todo eso ya pudo proponer:
 
 Con lo mejor logrado entre lo propuesto podremos avanzar a la implementación con los lenguajes HTML, CSS y JavaScript, además de imágenes rasterizadas (JPG, PNG, WebP), gráficos vectoriales escalables (SVG) y formatos ligeros de intercambio de datos (JSON, CSV, XML).
 
+### Corresponde recordar: 
+
+**HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+**CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web. CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma ;. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }` → Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics (no es necesario realizar el ejercicio que allí se propone).
+
+**JavaScript**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar dependiendo de la lógica de cada instrucción, la versión en uso, la library en la que nos apoyemos para resolver algo específico, o el framework de programación con el que se levanta todo el trabajo → Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+
+**JPG (Joint Photographic Experts Group)**. Más información en https://jpeg.org/about.html
+
+**PNG (Portable Network Graphics)**. Más información en https://www.libpng.org/pub/png/ 
+
+**WebP**. Más información en https://developers.google.com/speed/webp?hl=es
+
+**SVG (Scalable Vector Graphics)**. Más información en https://www.w3.org/Graphics/SVG/
+
+**JSON (JavaScript Object Notation)**. Más información en https://www.json.org/json-es.html
+
+**CSV (Coma Separated Values)**. Más información en https://www.adobe.com/es/acrobat/resources/document-files/text-files/csv-file.html 
+
+**XML (eXtensible Markuo Language)**. Más información en https://developer.mozilla.org/es/docs/Web/XML/Guides/XML_introduction
+
+Esta herramienta puede ser muy útil: https://csvjson.com/csv2json 
+
 _ _ _ _ 
 
 [clase-11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md) ⇆ [clase-13](https://github.com/profesorfaco/troncal/blob/main/clase-13/README.md)
