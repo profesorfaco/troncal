@@ -19,12 +19,12 @@ Y con todo eso ya pudo proponer:
 | N° | Nombre | GitHub Pages |
 |:-----:|:------------|:----------------------|
 | 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_11/profes.html |
-| 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | No hay nuevo repositorio |
+| 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Clase11/ |
 | 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase11/profes.html | 
 | 4	| [Catalina Arismendi](https://github.com/caris2) | No hay nuevo repositorio | 
 | 5	| [Lucas Assis](https://github.com/lucasassis) | https://lucasassis7.github.io/clase-11/profes.html | 
 | 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase11/ | 
-| 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | No hay nuevo repositorio | 
+| 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase-11-Real/profes.html | 
 | 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Clases/Clase-11/profes.html | 
 | 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/Clase-11/profes.html | 
 | 10 | [Jacob Gidi](https://github.com/jacob-gidi) | No hay nuevo repositorio | 
