@@ -21,13 +21,13 @@ Y con todo eso ya pudo proponer:
 | 1	| [Rodrigo Albornoz](https://github.com/rodrigoalbornoz3) | https://rodrigoalbornoz3.github.io/clase_11/profes.html |
 | 2	| [Benjamín Alcántar](https://github.com/benjaminalcantar) | https://benjaminalcantar.github.io/Clase11/ |
 | 3	| [Isabel Álvarez](https://github.com/isabelcarolina) | https://isabelcarolina.github.io/Clase11/profes.html | 
-| 4	| [Catalina Arismendi](https://github.com/caris2) | No hay nuevo repositorio | 
+| 4	| [Catalina Arismendi](https://github.com/caris2) |https://caris2.github.io/Clase_11/profes.html | 
 | 5	| [Lucas Assis](https://github.com/lucasassis) | https://lucasassis7.github.io/clase-11/profes.html | 
 | 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/clase11/ | 
 | 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/Clase-11-Real/profes.html | 
 | 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Clases/Clase-11/profes.html | 
 | 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/Clase-11/profes.html | 
-| 10 | [Jacob Gidi](https://github.com/jacob-gidi) | No hay nuevo repositorio | 
+| 10 | [Jacob Gidi](https://github.com/jacob-gidi) | https://jacob-gidi.github.io/Troncal11-entrega-final | 
 | 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/Clase-11/profes.html | 
 | 12 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/NuevoProfe/profes.html | 
 | 13 | [Javiera Parra](https://github.com/JP1702) | https://jp1702.github.io/clase11/profes.html | 
