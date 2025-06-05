@@ -64,9 +64,9 @@ El curso comienza a las 15:00 hrs. del martes 11 de marzo y termina a las 18:15 
 
 Sin clases → 20 de mayo → **Receso de actividades docentes (19 al 23 de mayo)** ✓
 
-[Clase 11](https://github.com/profesorfaco/troncal/tree/main/clase-11) → 27 de mayo → ~~HTML y CSS: Dos lenguajes de descripción~~ Repaso y trabajo para la recta final
+[Clase 11](https://github.com/profesorfaco/troncal/tree/main/clase-11) → 27 de mayo → ~~HTML y CSS: Dos lenguajes de descripción~~ Repaso y trabajo para la recta final ✓
 
-[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 03 de junio → ~~JavaScript: Un lenguaje de programación~~ HTML, CSS y JavaScript: Dos lenguajes de descripción y uno de programación
+[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 03 de junio → ~~JavaScript: Un lenguaje de programación~~ HTML, CSS y JavaScript: Dos lenguajes de descripción y uno de programación ✓
 
 [Clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13) → 10 de junio → Desarrollo de trabajo final → **Avance en trabajo individual, evaluación formativa**
 
