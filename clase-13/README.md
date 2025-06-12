@@ -30,11 +30,11 @@
 | 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/trabajo_final/profes.html | 
 | 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/entrega_final/profes.html | 
 
-La evaluación se basará en su avance hasta el *Produce & refine* en:
+Los detalles de la evaluación formativa están en: https://docs.google.com/spreadsheets/d/1ymHbj6Z2D5mO93k_rKSMqvHCr3Bol4HnDD8nlhPJI4U/edit?usp=sharing
+
+La evaluación se basa en lo que se detalla en la primera fila del documento, atendiendo a su avance hasta el *Produce & refine* en:
 
 https://www.dropbox.com/scl/fi/oe5f1zrxuckejt6u8zjoc/DVHB_Workflow_web.pdf?rlkey=ygnj8g7lvqlu84hclezulnplr&e=1&st=tp7uu4kj&dl=0
-
-Tendremos presentación de avance a contraparte real. 
 
 _ _ _ _ 
 
