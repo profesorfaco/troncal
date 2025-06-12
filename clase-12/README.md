@@ -40,7 +40,7 @@ Y con todo eso ya pudo proponer:
 | 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/trabajofinal/profes.html | 
 | 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/p_w/profes.html | 
 | 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/entrega_final/profes.html | 
-| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/Entrega-final/profes.html | 
+| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/entrega_final/profes.html | 
 
 Con lo mejor logrado entre lo propuesto podremos avanzar a la implementación con los lenguajes HTML, CSS y JavaScript, además de imágenes rasterizadas (JPG, PNG, WebP), gráficos vectoriales escalables (SVG) y formatos ligeros de intercambio de datos (JSON, CSV, XML).
 
