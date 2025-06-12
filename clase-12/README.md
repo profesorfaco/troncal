@@ -35,7 +35,7 @@ Y con todo eso ya pudo proponer:
 | 15 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/Clase_11/profes.html | 
 | 16 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/clase_11/profes.html | 
 | 17 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/clase_11/profes.html | 
-| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/Clase_11/profes.html | 
+| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/clase11/profes.html | 
 | 19 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/Clase-11/profes.html | 
 | 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/trabajofinal/profes.html | 
 | 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/p_w/profes.html | 
