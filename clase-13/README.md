@@ -14,9 +14,9 @@
 | 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/trabajo_final/profes.html | ✓ |
 | 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/trabajo_final/profes.html | ✓ | 
 | 8	| [Gabriel Castillo](https://github.com/gaboodesign) | No tiene carpeta ni repositorio `trabajo_final` | ✗ | 
-| 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/trabajo_final/profes.html | ✗ | 
+| 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/trabajo_final/profes.html | ✓ | 
 | 10 | [Jacob Gidi](https://github.com/jacob-gidi) | No tiene repositorio `trabajo_final` | ✗ | 
-| 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/trabajo_final/profes.html | ✗ | 
+| 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/trabajo_final/profes.html | ✓ | 
 | 12 | [Dani Oñate](https://github.com/pockyjuno) | https://pockyjuno.github.io/trabajo_final/profes.html | ✓ | 
 | 13 | [Javiera Parra](https://github.com/JP1702) | Olvidó activar GitHub Pages en su repositorio `trabajo_final` | ✗ | 
 | 14 | [Martina Pezoa](https://github.com/martinapezoa) | https://martinapezoa.github.io/trabajo_final/profes.html | ✓ | 
