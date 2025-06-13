@@ -28,7 +28,7 @@
 | 20 | [Javiera Paz Torres](https://github.com/pazzzto) | Tiene repositorio `trabajo_final` vacío | ✗ | 
 | 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/trabajo_final/profes.html | ✓ | 
 | 22 | [Iñigo Vasquez](https://github.com/inigovasquez) | https://inigovasquez.github.io/trabajo_final/profes.html | ✓ | 
-| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | https://sofiaaaska.github.io/entrega_final/profes.html | ✓ |
+| 23 | [Sofía Verdugo](https://github.com/sofiaaaska) | No tiene repositorio `trabajo_final` | ✗ |
 
 Los detalles de la evaluación formativa están en: https://docs.google.com/spreadsheets/d/1ymHbj6Z2D5mO93k_rKSMqvHCr3Bol4HnDD8nlhPJI4U/edit?usp=sharing
 
