@@ -14,7 +14,7 @@ También pudo superar las abstracciones, para avanzar a la relación concreta de
 
 Además, tuvo que considerar a un/a segundo/a Profesor/a para proponer un modo adecuado de presentar a más de una/o. 
 
-Y con todo eso ya pudo proponer: 
+### Y con todo eso ya pudo proponer: 
 
 | N° | Nombre | GitHub Pages |
 |:-----:|:------------|:----------------------|
