@@ -52,7 +52,7 @@ Luego, ya trabajando con los 1920 pixeles como máximo, podría mejorar los peso
 
 Puede obtener un WebP, con un ancho máximo de 1920 pixeles y 72 dpi de resolución, usando el “guardar para web” en [Photopea](https://www.photopea.com/), y luego puede reducir el peso de lo guardado con [TinyPNG](https://tinypng.com/). Todo esto sin perder resolución en su imagen ni gastar un peso en licencias.
 
-Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
+### Con lo que ya leyó puede ajustar formato, dimensiones y peso de:
 
 | N° |	Nombre | Imágenes que pueden ajustarse | Peso |
 |:----:|:----------|:---------------------|:----:|
