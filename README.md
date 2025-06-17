@@ -68,9 +68,9 @@ Sin clases → 20 de mayo → **Receso de actividades docentes (19 al 23 de mayo
 
 [Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 03 de junio → ~~JavaScript: Un lenguaje de programación~~ HTML, CSS y JavaScript: Dos lenguajes de descripción y uno de programación ✓
 
-[Clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13) → 10 de junio → Desarrollo de trabajo final → **Avance en trabajo individual, evaluación formativa**
+[Clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13) → 10 de junio → Desarrollo de trabajo final → **Avance en trabajo individual, evaluación formativa** ✓
 
-[Clase 14](https://github.com/profesorfaco/troncal/tree/main/clase-14) → 17 de junio → Desarrollo de trabajo final → **Semana de trabajo autónomo (14 al 20 de junio)**
+[Clase 14](https://github.com/profesorfaco/troncal/tree/main/clase-14) → 17 de junio → Desarrollo de trabajo final → **Semana de trabajo autónomo (14 al 20 de junio)** ✓
 
 [Clase 15](https://github.com/profesorfaco/troncal/tree/main/clase-15) → 24 de junio → Desarrollo de trabajo final → **Entrega de trabajo individual, evaluación sumativa**
 
