@@ -23,7 +23,7 @@
 | 15 | [Isidora Riffo](https://github.com/isidorariffo) | https://isidorariffo.github.io/trabajo_final/ | ✓ | 
 | 16 | [Fernanda Rivera](https://github.com/fernanda2222) | https://fernanda2222.github.io/trabajo_final/ | ✓ | 
 | 17 | [Ámbar Ruiz de Loizaga](https://github.com/ambarruizzz) | https://ambarruizzz.github.io/trabajo_final/ | ✓ | 
-| 18 | [Maroa Tapia](https://github.com/marotapia) | No tiene repositorio `trabajo_final` | ✗ | 
+| 18 | [Maroa Tapia](https://github.com/marotapia) | https://marotapia.github.io/trabajo_final/ | ✓ | 
 | 19 | [Fernanda Tejo](https://github.com/fer1137) | https://fer1137.github.io/trabajo_final/ | ✓ | 
 | 20 | [Javiera Paz Torres](https://github.com/pazzzto) | https://pazzzto.github.io/trabajo_final/ | ✓ | 
 | 21 | [Renata Vargas](https://github.com/bloo-omo) | https://bloo-omo.github.io/trabajo_final/ | ✓ | 
