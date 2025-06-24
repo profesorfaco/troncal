@@ -13,7 +13,7 @@
 | 5	| [Lucas Assis](https://github.com/lucasassis7) | https://lucasassis7.github.io/trabajo_final/profes.html | ✓ | 
 | 6	| [Antonia Cáceres](https://github.com/antoniacaceresn) | https://antoniacaceresn.github.io/trabajo_final/profes.html | ✓ |
 | 7	| [Maximiliano Cantarero](https://github.com/maximilianocantarerog) | https://maximilianocantarerog.github.io/trabajo_final/profes.html | ✓ | 
-| 8	| [Gabriel Castillo](https://github.com/gaboodesign) | No tiene carpeta ni repositorio `trabajo_final` | ✗ | 
+| 8	| [Gabriel Castillo](https://github.com/gaboodesign) | https://gaboodesign.github.io/Troncal/Entregas/trabajo_final/ | ✗ | 
 | 9	| [Valentina Cayuqueo](https://github.com/valech2) | https://valech2.github.io/trabajo_final/profes.html | ✓ | 
 | 10 | [Jacob Gidi](https://github.com/jacob-gidi) | No tiene repositorio `trabajo_final` | ✗ | 
 | 11 | [Isabel Hernández](https://github.com/isabelh235) | https://isabelh235.github.io/trabajo_final/profes.html | ✓ | 
