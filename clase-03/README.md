@@ -38,7 +38,7 @@ Todo esto debe estar resuelto hasta las 17.00 hrs. Para que cada grupo pueda pre
 
 | Grupo | Historia | Teoría | Práctica | Tablero Miro |
 |:-----:|:---------|:-------|:---------|:-------------|
-| 1 | Mapa de cólera en Londres por John Snow | Edward Tufte | Nigel Holmes | Mande mail | 
+| 1 | Mapa de cólera en Londres por John Snow | Edward Tufte | Nigel Holmes | https://miro.com/app/board/uXjVJPydOvM=/ | 
 | 2 | Gapminder de Hans Rosling | Manuel Lima | Giorgia Lupi | Mande mail | 
 | 3 | La mortalidad de la guerra por Florence Nightingale | Alberto Cairo | Adolfo Arranz | Mande mail | 
 | 4 | Marcha hacia Moscú por Charles Minard | Isabel Meirelles | Nadja Popovich | Mande mail | 
