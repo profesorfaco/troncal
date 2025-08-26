@@ -32,7 +32,7 @@ Con la selección grupal hecha: Corresponde buscar todas sus publicaciones –po
 
 Con la selección grupal hecha, corresponde seleccionar un par de videos en YouTube y preparar un resumen que ofrezca una introducción a su trabajo.
 
-**Y la quinta parte se resuelve preparando una pizarra virtual en línea –[Miro](https://miro.com/es/pizarra-virtual/)– en la que el grupo pueda compartir información sobre todo lo seleccionado**.
+**Y la quinta parte se resuelve preparando una pizarra virtual en línea –[Miro](https://miro.com/es/pizarra-virtual/)– en la que el grupo pueda compartir toda la información recolectada con el curso**.
 
 Todo esto debe estar resuelto hasta las 17.00 hrs. Para que cada grupo pueda presentar al curso, en 15 minutos, su Pizarra Virtual.
 
