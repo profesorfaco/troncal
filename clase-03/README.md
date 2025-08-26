@@ -42,7 +42,7 @@ Todo esto debe estar resuelto hasta las 17.00 hrs. Para que cada grupo pueda pre
 | 2 | Gapminder de Hans Rosling | Manuel Lima | Giorgia Lupi | Mande mail | 
 | 3 | La mortalidad de la guerra por Florence Nightingale | Alberto Cairo | Adolfo Arranz | Mande mail | 
 | 4 | Marcha hacia Moscú por Charles Minard | Isabel Meirelles | Nadja Popovich | Mande mail | 
-| 5 | Gráfico de biografía por Joseph Priestley | Sandra Rendgen | Nicholas Felton | Mande mail | 
+| 5 | Gráfico de biografía por Joseph Priestley | Sandra Rendgen | Nicholas Felton | https://miro.com/app/board/uXjVJPycI14=/ | 
 
 _ _ _ _ 
 
