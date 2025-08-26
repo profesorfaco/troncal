@@ -36,6 +36,14 @@ Con la selección grupal hecha, corresponde seleccionar un par de videos en YouT
 
 Todo esto debe estar resuelto hasta las 17.00 hrs. Para que cada grupo pueda presentar al curso, en 15 minutos, su Pizarra Virtual.
 
+| Grupo | Historia | Teoría | Práctica | Tablero Miro |
+|:-----:|:---------|:-------|:---------|:-------------|
+| 1 | Mapa de cólera en Londres por John Snow | Edward Tufte | Nigel Holmes | Mande mail | 
+| 2 | Gapminder de Hans Rosling | Manuel Lima | Giorgia Lupi | Mande mail | 
+| 3 | La mortalidad de la guerra por Florence Nightingale | Alberto Cairo | Adolfo Arranz | Mande mail | 
+| 4 | Marcha hacia Moscú por Charles Minard | Isabel Meirelles | Nadja Popovich | Mande mail | 
+| 5 | Gráfico de biografía por Joseph Priestley | Sandra Rendgen | Nicholas Felton | Mande mail | 
+
 _ _ _ _ 
 
 [clase-02](https://github.com/profesorfaco/troncal/blob/main/clase-02/README.md) ⇆ [clase-04](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md)
