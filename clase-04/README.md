@@ -11,6 +11,11 @@ Lo que seguirá de tales lecturas será tomar, como grupo, una de la siguientes 
   
 - conectar el asunto de "Metadatos, datos, información y conocimiento" con el asunto del "conocimiento situado contra los sesgos y la desinformación", reconociendo los problemas relacionados con [la propagación de información errónea y desinformación](https://minciencia.gob.cl/uploads/filer_public/26/cb/26cb92cb-5614-4e7c-a46e-f001a2b838b1/informe_i_-_el_fenomeno_de_la_desinformacion_global_y_en_chile_1.pdf).
    
+Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente: 
+
+- https://chatgpt.com/s/t_68b74630eaf081918d3cf7c2537e5e26
+
+- https://chatgpt.com/s/t_68b745fed7488191a19e9d0df4e15fcf
 
 _ _ _ _ 
 
