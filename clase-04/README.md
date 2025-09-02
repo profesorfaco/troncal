@@ -21,7 +21,7 @@ Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente:
 |:----:|:-----------------------------|:-------------|
 | 1 | …la recolección cuando sólo cuenta lo que se cuenta | El poder no está distribuido de manera equitativa en el mundo, y los que controlan los datos suelen ser personas blancas, cisgénero, heterosexuales y acomodadas |
 | 2 | …la propagación de información errónea y desinformación | Pendiente |
-| 3 | …la propagación de información errónea y desinformación | Pendiente |
+| 3 | …la propagación de información errónea y desinformación | Aborda tanto los riesgos derivados de la IA generativa en la creación de desinformación (como deepfakes y bots), como las herramientas que la IA puede aportar para detectar y enfrentar el fenómeno |
 | 4 | …la propagación de información errónea y desinformación | Pendiente | 
 | 5 | …la propagación de información errónea y desinformación | Pendiente |
 
