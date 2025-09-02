@@ -36,13 +36,21 @@ Con la selección grupal hecha, corresponde seleccionar un par de videos en YouT
 
 Todo esto debe estar resuelto hasta las 17.00 hrs. Para que cada grupo pueda presentar al curso, en 15 minutos, su Pizarra Virtual.
 
-| Grupo | Historia | Teoría | Práctica | Tablero Miro |
-|:-----:|:---------|:-------|:---------|:-------------|
-| 1 | Mapa de cólera en Londres por John Snow | Edward Tufte | Nigel Holmes | https://miro.com/app/board/uXjVJPydOvM=/ | 
-| 2 | Gapminder de Hans Rosling | Manuel Lima | Giorgia Lupi | https://miro.com/app/board/uXjVJPxjv9w=/ | 
-| 3 | La mortalidad de la guerra por Florence Nightingale | Alberto Cairo | Adolfo Arranz | https://miro.com/app/board/uXjVJPx4d1k=/ | 
-| 4 | Marcha hacia Moscú por Charles Minard | Isabel Meirelles | Nadja Popovich | https://miro.com/app/board/uXjVJPyVuEM=/ | 
-| 5 | Gráfico de biografía por Joseph Priestley | Sandra Rendgen | Nicholas Felton | https://miro.com/app/board/uXjVJPycI14=/ | 
+| Grupo | Historia | Teoría | Práctica | Tablero Miro | Evaluación |
+|:-----:|:---------|:-------|:---------|:-------------|:----------:|
+| 1 | Mapa de cólera en Londres por John Snow | Edward Tufte | Nigel Holmes | https://miro.com/app/board/uXjVJPydOvM=/ | L |
+| 2 | Gapminder de Hans Rosling | Manuel Lima | Giorgia Lupi | https://miro.com/app/board/uXjVJPxjv9w=/ | NL |
+| 3 | La mortalidad de la guerra por Florence Nightingale | Alberto Cairo | Adolfo Arranz | https://miro.com/app/board/uXjVJPx4d1k=/ | L |
+| 4 | Marcha hacia Moscú por Charles Minard | Isabel Meirelles | Nadja Popovich | https://miro.com/app/board/uXjVJPyVuEM=/ | ML |
+| 5 | Gráfico de biografía por Joseph Priestley | Sandra Rendgen | Nicholas Felton | https://miro.com/app/board/uXjVJPycI14=/ | ML |
+
+La evaluación en sexta columna se basa en: 
+
+- Si falta referencias de Historia, Teoría o Práctica, se considera un trabajo no logrado (NL)
+
+- La completa presentación de las referencias recién referidas, implica un trabajo medianamente logrado (ML)
+
+- La separación evidente de las tres referencias, usando elementos típicos de [métodos de visualización](https://www.visual-literacy.org/periodic_table/periodic_table.html), implica un trabajo logrado (L)
 
 _ _ _ _ 
 
