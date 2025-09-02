@@ -19,7 +19,7 @@ Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente:
 
 | N° | Relacionado con el tema | Subtema del grupo |
 |:----:|:-----------------------------|:-------------|
-| 1 | …la recolección cuando sólo cuenta lo que se cuenta | Pendiente |
+| 1 | …la recolección cuando sólo cuenta lo que se cuenta | El poder no está distribuido de manera equitativa en el mundo, y los que controlan los datos suelen ser personas blancas, cisgénero, heterosexuales y acomodadas |
 | 2 | …la propagación de información errónea y desinformación | Pendiente |
 | 3 | …la propagación de información errónea y desinformación | Pendiente |
 | 4 | …la propagación de información errónea y desinformación | Pendiente | 
