@@ -23,7 +23,7 @@ Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente:
 | 2 | …la propagación de información errónea y desinformación | Examina el perfil de los usuarios de redes sociales, los tipos de contenido circulante, el estado del fact-checking, la evolución histórica y jurídica en la regulación —incluyendo leyes vigentes y proyectos legislativos relacionados con noticias falsas— y el rol de instituciones nacionales |
 | 3 | …la propagación de información errónea y desinformación | Aborda tanto los riesgos derivados de la IA generativa en la creación de desinformación (como deepfakes y bots), como las herramientas que la IA puede aportar para detectar y enfrentar el fenómeno |
 | 4 | …la propagación de información errónea y desinformación | Aborda tanto los riesgos derivados de la IA generativa en la creación de desinformación (como deepfakes y bots), como las herramientas que la IA puede aportar para detectar y enfrentar el fenómeno  | 
-| 5 | …la propagación de información errónea y desinformación | Pendiente |
+| 5 | …la propagación de información errónea y desinformación | Analiza ejemplos y estrategias de organizaciones supranacionales (ONU, Unión Europea, OCDE), incluyendo iniciativas como el Digital Services Act, y casos como unidades conjuntas entre gobiernos y plataformas digitales contra bots  |
 
 
 
