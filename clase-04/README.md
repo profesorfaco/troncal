@@ -19,11 +19,11 @@ Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente:
 
 | N° | Relacionado con el tema | Subtema del grupo |
 |:----:|:-----------------------------|:-------------|
-| 1 | Pendiente | Pendiente |
-| 2 | Pendiente | Pendiente |
-| 3 | Pendiente | Pendiente |
-| 4 | Pendiente | Pendiente | 
-| 5 | Pendiente | Pendiente |
+| 1 | …la recolección cuando sólo cuenta lo que se cuenta | Pendiente |
+| 2 | …la propagación de información errónea y desinformación | Pendiente |
+| 3 | …la propagación de información errónea y desinformación | Pendiente |
+| 4 | …la propagación de información errónea y desinformación | Pendiente | 
+| 5 | …la propagación de información errónea y desinformación | Pendiente |
 
 
 
