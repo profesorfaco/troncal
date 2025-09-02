@@ -17,6 +17,16 @@ Para cada documento a relacionar, un resumen de ChatGTP es, respectivamente:
 
 - https://chatgpt.com/s/t_68b745fed7488191a19e9d0df4e15fcf
 
+| N° | Relacionado con el tema | Subtema del grupo |
+|:----:|:-----------------------------|:-------------|
+| 1 | Pendiente | Pendiente |
+| 2 | Pendiente | Pendiente |
+| 3 | Pendiente | Pendiente |
+| 4 | Pendiente | Pendiente | 
+| 5 | Pendiente | Pendiente |
+
+
+
 _ _ _ _ 
 
 [clase-03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md) ⇆ [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md)
