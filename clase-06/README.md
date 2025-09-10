@@ -32,7 +32,7 @@ En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/p
 
 Ahora podemos retomar la explicación respecto de la estructura del JSON consultado considerando, primero, que lo que cuenta, cuenta. Y cómo se registre y comparta lo que se ha contado es el primer paso para evitar la propagación de información falsa.
 
-En la primera clase recordamos y/o aprendimos algunas funciones útiles en las Hojas de cálculo. 
+En la [primera clase](https://github.com/profesorfaco/troncal/blob/main/clase-01/README.md) recordamos y/o aprendimos algunas funciones útiles en las Hojas de cálculo. 
 
 Desde cualquier Hoja de cálculo podemos obtener un [CSV](https://www.adobe.com/es/acrobat/resources/document-files/text-files/csv-file.html), sigla de Comma Separated Values (Valores separados por comas). 
 
