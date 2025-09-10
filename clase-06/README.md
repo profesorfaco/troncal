@@ -1,8 +1,6 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 06 → 23 de septiembre
 
-### Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON
-
-En la clase pasada, adelantamos algo del uso de GitHub, quedando inforamdas las siguientes cuentas:
+Ya adelantamos algo del uso de GitHub, quedando informadas las siguientes cuentas:
 
 |	N°	|	Nombre	|	Cuenta en GitHub	|	Grupo	|
 |:------:|:-------------------------|:-------------------------|:------:|
@@ -29,6 +27,8 @@ En la clase pasada, adelantamos algo del uso de GitHub, quedando inforamdas las 
 En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/primer-ejercicio/) basado en datos de los trabajos desarrollado por los 5 grupos hasta la [clase-05](https://github.com/profesorfaco/troncal/tree/main/clase-05).
 
 - - - - - - - 
+
+### Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON
 
 Ahora podemos retomar la explicación respecto de la estructura del JSON consultado considerando, primero, que lo que cuenta, cuenta. Y cómo se registre y comparta lo que se ha contado es el primer paso para evitar la propagación de información falsa.
 
