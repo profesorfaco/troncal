@@ -26,7 +26,7 @@ En la clase pasada, adelantamos algo del uso de GitHub, quedando inforamdas las 
 |	18	|	Paz Valenzuela	|	…	|	2	|
 |	19	|	Francys Vásquez	|	https://github.com/Francys-vs	|	5	|
 
-En ellas se publicó un primer-ejercicio basado en datos del trabajo de los grupos.
+En sus cuentas publicaron un primer-ejercicio basado en datos de los trabajos desarrollado por los 5 grupos hasta la [clase-05](https://github.com/profesorfaco/troncal/tree/main/clase-05).
 
 Ahora podemos retomar la explicación respecto de la estructura del JSON consultado considerando, primero, que lo que cuenta, cuenta. Y cómo se registre y comparta lo que se ha contado es el primer paso para evitar la propagación de información falsa.
 
