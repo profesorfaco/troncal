@@ -2,7 +2,33 @@
 
 ### Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON
 
-Lo que cuenta, cuenta. Y cómo se registre y comparta lo que se ha contado es el primer paso para evitar la propagación de información falsa.
+En la clase pasada, adelantamos algo del uso de GitHub, quedando inforamdas las siguientes cuentas:
+
+|	N°	|	Nombre	|	Cuenta en GitHub	|	Grupo	|
+|:------:|:-------------------------|:-------------------------|:------:|
+|	1	|	Sofía Aliaga	|	https://github.com/SofiaAliaga	|	3	|
+|	2	|	Constanza Astudillo	|	https://github.com/cinnamonrolllabubu	|	3	|
+|	3	|	Sophia Bahamonde	|	https://github.com/sophibahamonde	|	4	|
+|	4	|	Irenko Blasco	|	https://github.com/Irenk0	|	1	|
+|	5	|	Nicole Cerpa	|	https://github.com/nicoc1404	|	1	|
+|	6	|	Matias Chavez	|	https://github.com/macc965	|	1	|
+|	7	|	Anyela Cid	|	https://github.com/anyelacid	|	4	|
+|	8	|	José Cortez 	|	…	|	4	|
+|	9	|	Valentina Cristi	|	https://github.com/Balee10	|	4	|
+|	10	|	Damien Czugaj	|	…	|	…	|
+|	11	|	Alberto Gallegos	|	https://github.com/Alberto101102	|	1	|
+|	12	|	Constanza Garrido	|	https://github.com/NikoGarrido	|	5	|
+|	13	|	Carla González	|	…	|	3	|
+|	14	|	Pía Muñoz	|	https://github.com/piamunoz	|	3	|
+|	15	|	Martina Muñoz	|	https://github.com/lionmarty	|	2	|
+|	16	|	Belén  Porras	|	…	|	2	|
+|	17	|	Macarena Torres	|	https://github.com/MacNCheese03	|	5	|
+|	18	|	Paz Valenzuela	|	…	|	2	|
+|	19	|	Francys Vásquez	|	https://github.com/Francys-vs	|	5	|
+
+En ellas se publicó un primer ejercicio referido a datos, donde consultamos un JSON.
+
+Ahora podemos retomar la explicación respecto de la estructura del JSON consultado considerando, primero, que lo que cuenta, cuenta. Y cómo se registre y comparta lo que se ha contado es el primer paso para evitar la propagación de información falsa.
 
 En la primera clase recordamos y/o aprendimos algunas funciones útiles en las Hojas de cálculo. 
 
@@ -187,8 +213,9 @@ Para no quedar cortos de formatos ligeros para el intercambio de datos que son d
  </root>
 ```
 
-Convendría recortar este `<markup>…</markup>` al momento de trabajar con `HTML` y `SVG` en las próximas clases.
+Convendría recortar este `<markup>…</markup>` al momento de volver a trabajar con `HTML` y comenzar a trabajar con `SVG`.
 
-_ _ _ _ 
+- - - - 
+
 
 [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md) ⇆ [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md)
