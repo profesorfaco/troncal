@@ -24,7 +24,9 @@ Ya adelantamos algo del uso de GitHub, quedando informadas las siguientes cuenta
 |	18	|	Paz Valenzuela	|	…	|	2	|
 |	19	|	Francys Vásquez	|	https://github.com/Francys-vs	|	5	|
 
-En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/primer-ejercicio/), basado en datos de los trabajos desarrollado por los 5 grupos hasta la [clase-05](https://github.com/profesorfaco/troncal/tree/main/clase-05).
+- - - - - - - 
+
+En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/primer-ejercicio/), basado en datos en https://raw.githubusercontent.com/profesorfaco/datos/refs/heads/main/datos.json 
 
 - - - - - - - 
 
