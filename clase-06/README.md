@@ -26,7 +26,73 @@ Ya adelantamos algo del uso de GitHub, quedando informadas las siguientes cuenta
 
 - - - - - - - 
 
-En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/primer-ejercicio/), basado en datos en https://raw.githubusercontent.com/profesorfaco/datos/refs/heads/main/datos.json 
+En sus cuentas publicaron un [primer-ejercicio](https://profesorfaco.github.io/primer-ejercicio/), basado en los siguientes datos https://raw.githubusercontent.com/profesorfaco/datos/refs/heads/main/datos.json 
+
+El mismo ejercicio puede ser modificado si sólo modificamos el código fuente del `index.html` que ya subieron por lo que sigue: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Trabajando con datos</title>
+        <meta name="description" content="Partiendo con el troncal" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            * {margin: 0; padding: 0;}
+            body {font-family: monospace; color:#333; background:#fafafa; text-align: center; line-height: 1.4;}
+            a{color:#222}
+            a:hover{color:#000; text-decoration: none;}
+            main {width: min(800px, 90%); margin:0 auto; padding: 5%; text-align: left;}
+            main > div#aqui > div {margin: 1rem 0; padding: 1rem; border: 1px solid black; background:white;}
+            p:first-child{margin-bottom:1rem;}
+            img, svg{width:1rem; height:1rem; border-radius: 50%; margin-bottom:-0.25rem; margin-left:0.5rem;}
+        </style>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+            <symbol id="circulo" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="silver"/></symbol>
+        </svg>
+        <main>
+            <h1>Hola mundo!</h1>
+            <div id="aqui"></div>
+        </main>
+        <script>
+            const donde = document.querySelector("#aqui");
+            async function datos(raw) {
+                let consulta = await fetch(raw);
+                let data = await consulta.json();
+                console.log(data);
+                data.forEach((x) => {
+                    donde.innerHTML += `<div><p>El grupo ${x.grupo}, con ${x.integrantes.length} integrantes, hizo este <a href="${x.miro}" target="_blank">tablero en miro</a>. También presentó este <a href="${x.pdf}" target="_blank">trabajo escrito</a>, con su <a href="${x.algor}" target="_blank">resumen en Algor</a>.</p><p><small>Grupo compuesto por ${integrantes(x.integrantes)}<small></p></div>`;
+                });
+            }
+            datos("https://raw.githubusercontent.com/profesorfaco/datos/refs/heads/main/datos.json").catch((error) => console.error(error));
+
+            function integrantes(dato) {
+                let x = "";
+                dato.forEach((d, i) => {
+                    if (i == dato.length - 1) {
+                        if(d.github.length > 1){
+                            x += `<img src="${d.avatar_url}"> <a href="${d.github}" target="_blank"> ${d.nombre}</a>.`;
+                        } else {
+                            x += `<svg><use href="#circulo"></use></svg> ${d.nombre}.`;
+                        }
+                    } else {
+                        if(d.github.length > 1){
+                            x += `<img src="${d.avatar_url}"> <a href="${d.github}" target="_blank">${d.nombre}</a> + `;
+                        } else {
+                            x += `<svg><use href="#circulo"></use></svg> ${d.nombre} + `;
+                        }                    }
+                });
+                return x;
+            }
+        </script>
+    </body>
+</html>
+```
+
+Pero antes de explicar este código fuente, conviene tener mayor claridad respecto de `CSV`, `JSON` y `XML`.
 
 - - - - - - - 
 
