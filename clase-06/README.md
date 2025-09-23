@@ -11,12 +11,12 @@ Ya adelantamos algo del uso de GitHub, quedando informadas las siguientes cuenta
 |	5	|	Nicole Cerpa	|	https://github.com/nicoc1404	|	1	|
 |	6	|	Matias Chavez	|	https://github.com/macc965	|	1	|
 |	7	|	Anyela Cid	|	https://github.com/anyelacid	|	4	|
-|	8	|	José Cortez 	|	…	|	4	|
+|	8	|	José Cortez 	|	https://github.com/marcedzgn	|	4	|
 |	9	|	Valentina Cristi	|	https://github.com/Balee10	|	4	|
 |	10	|	Damien Czugaj	|	…	|	…	|
 |	11	|	Alberto Gallegos	|	https://github.com/Alberto101102	|	1	|
 |	12	|	Constanza Garrido	|	https://github.com/NikoGarrido	|	5	|
-|	13	|	Carla González	|	…	|	3	|
+|	13	|	Carla González	|	https://github.com/carlagonzalezv-del	|	3	|
 |	14	|	Pía Muñoz	|	https://github.com/piamunoz	|	3	|
 |	15	|	Martina Muñoz	|	https://github.com/lionmarty	|	2	|
 |	16	|	Belén  Porras	|	…	|	2	|
