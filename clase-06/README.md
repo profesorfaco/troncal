@@ -326,6 +326,40 @@ Para ir a buscar el JSON que ya dejamos en nuestro repositorio recién creado:
 </html>
 ```
 
+Al JSON que sigue le falta un dato: 
+
+```
+[
+  {
+    "chileno": "Alexis Sánchez",
+    "goles": 51,
+    "partidos": 166
+  },
+  {
+    "chileno": "Eduardo Vargas",
+    "goles": 45,
+    "partidos": 119
+  },
+  {
+    "chileno": "Marcelo Salas",
+    "goles": 37,
+    "partidos": 70
+  },
+  {
+    "chileno": "Iván Zamorano",
+    "goles": 34,
+    "partidos": 69
+  },
+  {
+    "chileno": "Arturo Vidal",
+    "goles": 34,
+    "partidos": 144
+  }
+]
+```
+
+
+
 - - - - 
 
 
