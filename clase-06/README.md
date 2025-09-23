@@ -287,5 +287,46 @@ Convendría recortar este `<markup>…</markup>` al momento de volver a trabajar
 
 - - - - 
 
+Para ir a buscar el JSON que ya dejamos en nuestro repositorio recién creado: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Trabajando solit@ con datos </title>
+        <meta name="description" content="Partiendo con el troncal" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            * {margin: 0; padding: 0;}
+            body {font-family: monospace; color:#333; background:#fafafa; text-align: center; line-height: 1.4;}
+            a{color:#222}
+            a:hover{color:#000; text-decoration: none;}
+            main {width: min(800px, 90%); margin:0 auto; padding: 5%; text-align: left;}
+            main > div#aqui > div {margin: 1rem 0; padding: 1rem; border: 1px solid black; background:white;}
+            p:first-child{margin-bottom:1rem;}
+            img, svg{width:1rem; height:1rem; border-radius: 50%; margin-bottom:-0.25rem; margin-left:0.5rem;}
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Hola mundo!</h1>
+        </main>
+        <script>
+            async function datos(raw) {
+                let consulta = await fetch(raw);
+                let data = await consulta.json();
+                console.log(data);
+                //Asómese a la Consola de JavaScript de su navegador
+            }
+            datos("…").catch((error) => console.error(error));
+
+        </script>
+    </body>
+</html>
+```
+
+- - - - 
+
 
 [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md) ⇆ [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md)
