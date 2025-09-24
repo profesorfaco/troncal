@@ -326,7 +326,9 @@ Para ir a buscar el JSON que ya dejamos en nuestro repositorio recién creado:
 </html>
 ```
 
-Al JSON que sigue le falta un dato: 
+#### Goleadores
+
+Al JSON que sigue le falta un dato (foto del goleador) 
 
 ```
 [
