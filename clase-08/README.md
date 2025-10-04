@@ -17,6 +17,8 @@ Le corresponde aprovechar la información en: https://docs.google.com/document/d
 
 Conviene leer la información hasta el final, con mucha **Atención**.
 
+Una vez leída la información, pueden comentar con la prueba.
+
 _ _ _ _ 
 
 [clase-07](https://github.com/profesorfaco/troncal/blob/main/clase-07/README.md) ⇆ [clase-09](https://github.com/profesorfaco/troncal/blob/main/clase-09/README.md)
