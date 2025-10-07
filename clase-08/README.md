@@ -2,6 +2,8 @@
 
 ### Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
 
+Descargue prueba.zip
+
 Debe ajustar 6 páginas que serán evaluadas del siguiente modo: 
 
 | Página | Puntos por página |
