@@ -41,24 +41,24 @@ En esa cantidad de horas de trabajo, corresponde *asumir la responsabilidad prin
 El curso se imparte los días martes, de 15:00 a 18:15 hrs.
 
 El curso comienza a las 15:00 hrs. del martes 12 de agosto y termina a las 18:15 hrs. del martes 25 de noviembre de 2025.
+ 
+[Clase 01](https://github.com/profesorfaco/troncal/tree/main/clase-01) → 12 de agosto → Presentación del curso y sus datos en hojas de cálculo ✓
 
-[Clase 01](https://github.com/profesorfaco/troncal/tree/main/clase-01) → 12 de agosto → Presentación del curso y sus datos en hojas de cálculo
+[Clase 02](https://github.com/profesorfaco/troncal/tree/main/clase-02) → 19 de agosto → Marco teórico para la visualización de datos e información ✓
 
-[Clase 02](https://github.com/profesorfaco/troncal/tree/main/clase-02) → 19 de agosto → Marco teórico para la visualización de datos e información
+[Clase 03](https://github.com/profesorfaco/troncal/tree/main/clase-03) → 26 de agosto → **Trabajo grupal, con evaluación diagnóstica** → Hitos de historia de la visualización de datos e información ✓  
 
-[Clase 03](https://github.com/profesorfaco/troncal/tree/main/clase-03) → 26 de agosto → **Trabajo grupal, con evaluación diagnóstica** → Hitos de historia de la visualización de datos e información  
+[Clase 04](https://github.com/profesorfaco/troncal/tree/main/clase-04) → 2 de septiembre → Encargo y avance en segundo trabajo grupal, con evaluación sumativa → Sobre sesgos, la propagación de información errónea y la desinformación ✓
 
-[Clase 04](https://github.com/profesorfaco/troncal/tree/main/clase-04) → 2 de septiembre → Encargo y avance en segundo trabajo grupal, con evaluación sumativa → Sobre sesgos, la propagación de información errónea y la desinformación
+[Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 9 de septiembre → **Trabajo grupal, con evaluación sumativa** → Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación ✓
 
-[Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 9 de septiembre → **Trabajo grupal, con evaluación sumativa** → Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación
+**Receso universitario por Fiestas Patrias** → 16 de septiembre ✓
 
-**Receso universitario por Fiestas Patrias** → 16 de septiembre 
+[Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 23 de septiembre → Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON ✓
 
-[Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 23 de septiembre → Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON
+[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 30 de septiembre → Presentando datos con HTML y (un `fetch` de) JavaScript ✓
 
-[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 30 de septiembre → Presentando datos con HTML y (un `fetch` de) JavaScript
-
-[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 7 de octubre → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
+[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 7 de octubre → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript ✓
 
 [Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 14 de octubre → RawGraph *et al*
 
