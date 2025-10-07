@@ -2,7 +2,7 @@
 
 ### Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
 
-Descargue prueba.zip
+Descargue [prueba.zip](https://github.com/profesorfaco/troncal/blob/main/clase-08/prueba.zip)
 
 Debe ajustar 6 páginas que serán evaluadas del siguiente modo: 
 
