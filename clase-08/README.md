@@ -19,7 +19,11 @@ Le corresponde aprovechar la información en: https://docs.google.com/document/d
 
 Conviene leer la información hasta el final, con mucha **Atención**.
 
-Una vez leída la información, pueden comentar con la prueba.
+Una vez leída la información, pueden comenzar con la prueba.
+
+Al terminarla, debe dejarla publicada en su cuenta de GitHub. 
+
+Y en U-Cursos: Deben ingresar la dirección de su página funcionando antes de que se cierre la tarea.
 
 _ _ _ _ 
 
