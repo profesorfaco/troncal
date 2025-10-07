@@ -23,7 +23,7 @@ Una vez leída la información, pueden comenzar con la prueba.
 
 Al terminarla, debe dejarla publicada en su cuenta de GitHub. 
 
-Y en U-Cursos: Deben ingresar la dirección de su página funcionando antes de que se cierre la tarea.
+Y [en U-Cursos](https://www.u-cursos.cl/fau/2025/2/AUD5V027/1/tareas/detalle?id=823989): Deben ingresar la dirección de su página funcionando antes de que se cierre la tarea.
 
 _ _ _ _ 
 
