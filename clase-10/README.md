@@ -12,9 +12,15 @@ Al final del [`index.html`, que les dejo en esta carpeta del repositorio del cur
 
 <img width="600" height="404" alt="resumen" src="https://github.com/user-attachments/assets/691d765c-4021-4b72-9c6a-678714e0b0fb" />
 
-Todos esto se explica en el mismo código del `index.html` que pueden copiar y pegar en sus computadores, y luego publicar en GitHub con las modificaciones que estimen convenientes. 
+Todos esto se explica en el mismo código del `index.html` que pueden copiar y pegar en sus computadores, y luego publicar en GitHub con las modificaciones que puedan resolver, atendiendo a estos tres niveles de desafío:
 
-Si tienen dudas, las podríamos resolver en sala habitual, a partir de las 17.00 hrs.
+**Primer nivel**. Completar todas las tablas y cambiar el `fill` de los `circles` en el SVG.
+
+**Segundo nivel**. Cambiar a México, Japón o Rusia por otro país ubicado en el [cinturón de fuego del Pacífico](https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_fuego_del_Pac%C3%ADfico), y hacer los cambios de nombre donde correspondan, para obtener sus datos e identificarlo.
+
+**Tercer nivel**. Revisar la función `tiempo(x)` para ajustar la manera en que se muestra la fecha. Para resolverlo deben apoyarse en https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date 
+
+Si tienen dudas, las podríamos resolver en sala habitual, pero a partir de las 17.00 hrs.
 
 _ _ _ _ 
 
