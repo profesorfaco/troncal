@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Está temblando…</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <style>
+            * { margin: 0; padding: 0; }
+            body { font-family: "Chivo", sans-serif; font-optical-sizing: auto; font-style: normal; font-weight: 300; line-height: 1.2; background: #fafafa; color: #222;}
+            div.container { width: min(800px, 90%); margin: 2rem auto; }
+            h1 { font-size: calc(2rem + 3vw); font-weight: 900; padding: 0.125rem; }
+            h2 { margin: 2rem 0 1rem 0; border-bottom: 1px solid black; font-weight: 800; padding: 0.25rem;}
+            a {color: #000; font-weight: 400; }
+            a:hover { text-decoration: none; }
+            p { margin: 0.5rem 0; padding: 0.25rem; }
+            code { font-size: 110%; color: rgba(100,0,100,1); background:rgba(100,0,100,0.1); border-radius: 2px; border:1px solid rgba(100,0,100,0.1)}
+            table { width: 100%; text-align: center; }
+            table a { text-decoration: none; }
+            table a:hover:after { content: " ⤴";}
+            th, td { border-bottom: 1px solid black; border-collapse: collapse; padding: 0.25rem; }
+            td { font-size: 90%; }
+            th, td strong { font-weight: 700; }
+            td span { color: #999; }
+            th:nth-child(1), th:nth-child(2), td:nth-child(1), td:nth-child(2) { text-align: left; }
+            footer { border-top: 3px solid black; margin: 2rem 0 0 0; padding: 1rem; text-align: center; font-size:80%; letter-spacing: 1px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Está temblando…</h1>
+            <p>El <abbr title="United States Geological Survey">USGS</abbr> (Servicio Geológico de Estados Unidos) es responsable del <a href="https://www.usgs.gov/programs/earthquake-hazards" target="_blank">Earthquake Hazards Program</a>, que monitorea e informa sobre movimientos telúricos, además de evaluar sus impactos y riesgos. Los resultados de su monitoreo son compartidos mediante <a href="https://earthquake.usgs.gov/earthquakes/feed/" target="_blank">Real-time Notifications</a>, que pueden consultarse en distintos formatos.</p>
+            <p>Entre los compartidos está el GeoJSON Summary Format, que es actualizado a cada minuto y tiene una estructura (Output) que se explica en su página oficial. Aprovechando la <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank">explicación de la estructura (Output)</a>, y lo ya preparado en este código fuente, que entra al <code>features:[]</code> para obtener los datos, podemos visualizar lo que sigue:</p>
+            <h2>En Chile</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>📍 place</th>
+                        <th>⌚ time</th>
+                        <th>🫨 mag</th>
+                        <th>🌊 tsunami</th>
+                    </tr>
+                </thead>
+                <tbody id="chile"></tbody>
+            </table>
+            <h2>En Japón</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>📍 place</th>
+                        <th>⌚ time</th>
+                        <th>🫨 mag</th>
+                        <th>🌊 tsunami</th>
+                    </tr>
+                </thead>
+                <tbody id="japan"></tbody>
+            </table>
+            <h2>En México</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>📍 place</th>
+                        <th>⌚ time</th>
+                        <th>🫨 mag</th>
+                        <th>🌊 tsunami</th>
+                    </tr>
+                </thead>
+                <tbody id="mexico"></tbody>
+            </table>
+            <h2>En Rusia</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>📍 place</th>
+                        <th>⌚ time</th>
+                        <th>🫨 mag</th>
+                        <th>🌊 tsunami</th>
+                    </tr>
+                </thead>
+                <tbody id="russia"></tbody>
+            </table>
+            <h2>Resumen</h2>
+            <p>Registros sobre 2.5 M de la última semana:</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" id="viz"></svg>
+            <footer>
+                <p>Desarrollado por <a href="#" target="_blank">Nombre Apellido</a> &copy; 2025</p>
+            </footer>
+        </div>
+        <script>
+            const chilenos = document.getElementById("chile");
+            const mexicanos = document.getElementById("mexico");
+            const japoneses = document.getElementById("japan");
+            const rusos = document.getElementById("russia");
+
+            var conteoChilenos = 0;
+            var conteoMexicanos = 0;
+            var conteoJaponeses = 0;
+            var conteoRusos = 0;
+
+            async function datos(url) {
+                try {
+                    let consulta = await fetch(url);
+                    let data = await consulta.json();
+                    let temblores = data.features;
+                    console.log(temblores);
+                    temblores.forEach((t) => {
+                        //si es que dice Chile en el place
+                        if (t.properties.place.includes("Chile")) {
+                            chilenos.innerHTML += `<tr>
+                            <td><a href="${t.properties.url}" target="_blank">${t.properties.place}</a></td>
+                            <td>${tiempo(t.properties.time)}</td>
+                            <td>${magnitud(t.properties.mag)}</td>
+                            <td>${tsunami(t.properties.tsunami)}</td>
+                        </tr>`;
+                            conteoChilenos++;
+                        }
+                        //si es que dice Mexico en el place
+                        if (t.properties.place.includes("Mexico")) {
+                            mexicanos.innerHTML += `<tr>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                        </tr>`;
+                            conteoMexicanos++;
+                        }
+                        //si es que dice Japan en el place
+                        if (t.properties.place.includes("Japan")) {
+                            japoneses.innerHTML += `<tr>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                        </tr>`;
+                            conteoJaponeses++;
+                        }
+                        //si es que dice Russia en el place
+                        if (t.properties.place.includes("Russia")) {
+                            rusos.innerHTML += `<tr>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                            <td>…</td>
+                        </tr>`;
+                            conteoRusos++;
+                        }
+                    });
+
+                    document.getElementById("viz").innerHTML = `<g><circle cx="10" cy="25" r="${conteoChilenos / 2}" fill="darkmagenta"></circle><text x="10" y="25" font-size="1.5" dominant-baseline="middle" text-anchor="middle" fill="white">${conteoChilenos}</text><text x="10" y="45" font-size="2" dominant-baseline="middle" text-anchor="middle">Chile</text><g>`;
+
+                    document.getElementById("viz").innerHTML += `<g transform="translate(25)"><circle cx="10" cy="25" r="${conteoJaponeses / 2}" fill="darkmagenta"></circle><text x="10" y="25" font-size="1.5" dominant-baseline="middle" text-anchor="middle" fill="white">${conteoJaponeses}</text><text x="10" y="45" font-size="2" dominant-baseline="middle" text-anchor="middle">Japón</text><g>`;
+
+                    document.getElementById("viz").innerHTML += `<g transform="translate(50)"><circle cx="10" cy="25" r="${conteoMexicanos / 2}" fill="darkmagenta"></circle><text x="10" y="25" font-size="1.5" dominant-baseline="middle" text-anchor="middle" fill="white">${conteoMexicanos}</text><text x="10" y="45" font-size="2" dominant-baseline="middle" text-anchor="middle">México</text><g>`;
+
+                    document.getElementById("viz").innerHTML += `<g transform="translate(75)"><circle cx="10" cy="25" r="${conteoRusos / 2}" fill="darkmagenta"></circle><text x="10" y="25" font-size="1.5" dominant-baseline="middle" text-anchor="middle" fill="white">${conteoRusos}</text><text x="10" y="45" font-size="2" dominant-baseline="middle" text-anchor="middle">Rusia</text><g>`;
+                } catch (error) {
+                    console.error("Error al cargar los datos:", error);
+                }
+            }
+
+            datos("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson");
+
+            function magnitud(x) {
+                var numero = x;
+                if (x > 4.9) { numero = "<strong>" + x + "</strong>"; }
+                return numero;
+            }
+
+            function tiempo(x) {
+                var unix = x;
+                var dato = new Date(unix);
+                return dato.toISOString();
+            }
+
+            function tsunami(x) {
+                var mensaje = "<span>Sin alerta</span>";
+                if (x == 1) { mensaje = "<strong>¡Alerta de tsunami!</strong>"; }
+                return mensaje;
+            }
+        </script>
+    </body>
+</html>
