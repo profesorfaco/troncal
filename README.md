@@ -60,7 +60,7 @@ El curso comienza a las 15:00 hrs. del martes 12 de agosto y termina a las 18:15
 
 [Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 7 de octubre → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript ✓
 
-[Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 14 de octubre → RawGraph *et al*
+[Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 14 de octubre → RawGraph *et al* ✓
 
 [Clase 10](https://github.com/profesorfaco/troncal/tree/main/clase-10) → 21 de octubre → HTML y SVG
 
