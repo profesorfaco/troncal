@@ -6,7 +6,7 @@
 
 Muy parecido al HTML es el SVG, que con `<etiqueta>contenido</etiqueta>` describe gráficas escalables y vectorizadas; **SVG es sigla de Scalable Vector Graphics**.
 
-En el [`index.html`, que les dejo en esta carpeta del repositorio del curso](https://github.com/profesorfaco/troncal/blob/main/clase-10/index.html) podrán ver algo como la visualización que sigue, o quizá una distinta, dependiendo del GeoJSON Summary Format para las Real-time Notifications del USGS: 
+En el [`index.html`, que les dejo en esta carpeta del repositorio del curso](https://github.com/profesorfaco/troncal/blob/main/clase-10/index.html) podrán ver algo como la visualización que sigue, o quizá una distinta, dependiendo de las actualizaciones del GeoJSON Summary Format para las Real-time Notifications del USGS: 
 
 <img width="600" height="404" alt="resumen" src="https://github.com/user-attachments/assets/691d765c-4021-4b72-9c6a-678714e0b0fb" />
 
