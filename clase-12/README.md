@@ -17,7 +17,7 @@
 | 9 | Valentina Cristi | https://github.com/Balee10 | — |
 | 10 | Damien Czugaj | — | — |
 | 11 | Alberto Gallegos | https://github.com/Alberto101102 | Chile (Exclusivo) |
-| 12 | Constanza Garrido | https://github.com/NikoGarrido | China (2)|
+| 12 | Constanza Garrido | https://github.com/NikoGarrido | Haiti |
 | 13 | Carla González | https://github.com/carlagonzalezv-del | Turquía |
 | 14 | Pía Muñoz | https://github.com/piamunoz | Canadá |
 | 15 | Martina Muñoz | https://github.com/lionmarty | Japón (2) |
