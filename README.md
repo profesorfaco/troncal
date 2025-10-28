@@ -72,7 +72,7 @@ El curso comienza a las 15:00 hrs. del martes 12 de agosto y termina a las 18:15
 
 [Clase 14](https://github.com/profesorfaco/troncal/tree/main/clase-14) → 18 de noviembre → **Semana de trabajo autónomo** → Avance en el trabajo final
 
-[Clase 16](https://github.com/profesorfaco/troncal/tree/main/clase-15) → 25 de noviembre → **Cierre de asignaturas obligatorias y electivas** → Entrega del trabajo final
+[Clase 15](https://github.com/profesorfaco/troncal/tree/main/clase-15) → 25 de noviembre → **Cierre de asignaturas obligatorias y electivas** → Entrega del trabajo final
 
 - - - - 
 
