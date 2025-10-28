@@ -12,7 +12,7 @@
 | 4 | Irenko Blasco | https://github.com/Irenk0 | Indonesia |
 | 5 | Nicole Cerpa | https://github.com/nicoc1404 | Filipinas |
 | 6 | Matias Chavez | https://github.com/macc965 | Japón (1) |
-| 7 | Anyela Cid | https://github.com/anyelacid | China (1) |
+| 7 | Anyela Cid | https://github.com/anyelacid | China |
 | 8 | José Cortez | https://github.com/marcedzgn | Perú |
 | 9 | Valentina Cristi | https://github.com/Balee10 | — |
 | 10 | Damien Czugaj | — | — |
