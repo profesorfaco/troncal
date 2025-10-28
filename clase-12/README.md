@@ -4,25 +4,25 @@
 
 | N° | Nombre | GitHub | Está temblando en… |
 |:------------:|:-----------------------------------|:-------------------|:--------------------|
-| 1 | Sofía Aliaga | https://github.com/SofiaAliaga | — |
+| 1 | Sofía Aliaga | https://github.com/SofiaAliaga | Alaska |
 | 2 | Constanza Astudillo | https://github.com/cinnamonrolllabubu | — |
 | 3 | Sophia Bahamonde | https://github.com/sophibahamonde | — |
 | 4 | Irenko Blasco | https://github.com/Irenk0 | Indonesia |
-| 5 | Nicole Cerpa | https://github.com/nicoc1404 | — |
-| 6 | Matias Chavez | https://github.com/macc965 | — |
-| 7 | Anyela Cid | https://github.com/anyelacid | — |
-| 8 | José Cortez | https://github.com/marcedzgn | — |
+| 5 | Nicole Cerpa | https://github.com/nicoc1404 | Filipinas |
+| 6 | Matias Chavez | https://github.com/macc965 | Japón (1) |
+| 7 | Anyela Cid | https://github.com/anyelacid | China (1) |
+| 8 | José Cortez | https://github.com/marcedzgn | Perú |
 | 9 | Valentina Cristi | https://github.com/Balee10 | — |
 | 10 | Damien Czugaj | — | — |
-| 11 | Alberto Gallegos | https://github.com/Alberto101102 | Chile |
-| 12 | Constanza Garrido | https://github.com/NikoGarrido | — |
-| 13 | Carla González | https://github.com/carlagonzalezv-del | — |
-| 14 | Pía Muñoz | https://github.com/piamunoz | — |
-| 15 | Martina Muñoz | https://github.com/lionmarty | — |
+| 11 | Alberto Gallegos | https://github.com/Alberto101102 | Chile (Exclusivo) |
+| 12 | Constanza Garrido | https://github.com/NikoGarrido | China (2)|
+| 13 | Carla González | https://github.com/carlagonzalezv-del | Turquía |
+| 14 | Pía Muñoz | https://github.com/piamunoz | Canadá |
+| 15 | Martina Muñoz | https://github.com/lionmarty | Japón (2) |
 | 16 | Belén Porras | https://github.com/belenporras | — |
-| 17 | Macarena Torres | https://github.com/MacNCheese03 | — |
+| 17 | Macarena Torres | https://github.com/MacNCheese03 | Malasia |
 | 18 | Paz Valenzuela | https://github.com/pazvp | — |
-| 19 | Francys Vásquez | https://github.com/Francys-vs | — |
+| 19 | Francys Vásquez | https://github.com/Francys-vs | Ecuador |
 
 
 
