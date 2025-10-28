@@ -34,7 +34,7 @@ Está en el `index.html`, donde el corte de lo programado con JavaScript se hizo
 
 #### Recordatorios
 
-**Para usar SVG en CSS**: https://www.svgbackgrounds.com/tools/svg-to-css/
+**Para usar SVG en CSS** → https://www.svgbackgrounds.com/tools/svg-to-css/
 
 **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
