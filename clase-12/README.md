@@ -2,6 +2,8 @@
 
 ### Aplicando HTML, SVG y JavaScript
 
+#### Los terremotos
+
 | N° | Nombre | GitHub | Está temblando en… |
 |:------------:|:-----------------------------------|:-------------------|:--------------------|
 | 1 | Sofía Aliaga | https://github.com/SofiaAliaga | Alaska |
@@ -23,7 +25,6 @@
 | 17 | Macarena Torres | https://github.com/MacNCheese03 | Malasia |
 | 18 | Paz Valenzuela | https://github.com/pazvp | — |
 | 19 | Francys Vásquez | https://github.com/Francys-vs | Ecuador |
-
 
 
 
