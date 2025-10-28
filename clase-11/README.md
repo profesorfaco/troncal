@@ -2,6 +2,32 @@
 
 ### HTML, SVG y JavaScript
 
+De modo autónomo pudieron resolver:
+
+| N° | Nombre | GitHub | Está temblando… |
+|:------------:|:-----------------------------------|:-------------------|:--------------------|
+| 1 | Sofía Aliaga | https://github.com/SofiaAliaga | https://sofiaaliaga.github.io/Clase-10/ |
+| 2 | Constanza Astudillo | https://github.com/cinnamonrolllabubu | — |
+| 3 | Sophia Bahamonde | https://github.com/sophibahamonde | — |
+| 4 | Irenko Blasco | https://github.com/Irenk0 | https://irenk0.github.io/Clase10Tarde/ |
+| 5 | Nicole Cerpa | https://github.com/nicoc1404 | https://nicoc1404.github.io/Ejercicio-clase-10/ |
+| 6 | Matias Chavez | https://github.com/macc965 | — |
+| 7 | Anyela Cid | https://github.com/anyelacid | https://anyelacid.github.io/Clase-10/ |
+| 8 | José Cortez | https://github.com/marcedzgn | https://marcedzgn.github.io/clase10/ |
+| 9 | Valentina Cristi | https://github.com/Balee10 | — |
+| 10 | Damien Czugaj | — | — |
+| 11 | Alberto Gallegos | https://github.com/Alberto101102 | — |
+| 12 | Constanza Garrido | https://github.com/NikoGarrido | https://nikogarrido.github.io/clase-10/ |
+| 13 | Carla González | https://github.com/carlagonzalezv-del | — |
+| 14 | Pía Muñoz | https://github.com/piamunoz | https://piamunoz.github.io/clase-10/ |
+| 15 | Martina Muñoz | https://github.com/lionmarty | — |
+| 16 | Belén Porras | https://github.com/belenporras | — |
+| 17 | Macarena Torres | https://github.com/MacNCheese03 | https://macncheese03.github.io/Clase-10/ |
+| 18 | Paz Valenzuela | https://github.com/pazvp | — |
+| 19 | Francys Vásquez | https://github.com/Francys-vs | https://francys-vs.github.io/Clase-10/ |
+
+Aprovechando lo resuelto, subamos un nivel:
+
 ```
 <!DOCTYPE html>
 <html lang="es">
