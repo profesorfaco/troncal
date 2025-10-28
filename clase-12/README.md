@@ -28,7 +28,7 @@
 
 #### La partida
 
-Está en el index.html
+Está en el `index.html`, donde el corte de lo programado con JavaScript se hizo descuidado. Sirve lo de HTML y CSS, pero en lo de JavaScript hagan el ajuste con su trabajo de clase 11, y de modo razonado, para no perder signos en la "poda" del código fuente.
 
 **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
