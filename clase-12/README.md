@@ -28,7 +28,7 @@
 
 #### La partida
 
-Está en el `index.html`, donde el corte de lo programado con JavaScript se hizo descuidado. Sirve lo de HTML y CSS, pero en lo de JavaScript hagan el ajuste con su trabajo de clase 11, y de modo razonado, para no perder signos en la "poda" del código fuente.
+Está en el [`index.html`](https://github.com/profesorfaco/troncal/blob/main/clase-12/index.html), donde el corte de lo programado con JavaScript se hizo descuidado. Sirve lo de `HTML` y `CSS`, pero en lo de JavaScript hagan el ajuste con su trabajo de clase 11, y de modo razonado, para no perder signos en la "poda" del código fuente.
 
 - - - - - - - 
 
