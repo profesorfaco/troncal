@@ -51,7 +51,7 @@ El pantallazo traducido a **puntos**:
 
 0.5 → En cada párrafo deben haber destaques. Uno de los destaques debe indicar la magnitud con el mismo ícono usado arriba, en la tabla. Otro destaque puede aprovechar la etiqueta `<em></em>`, de *emphasis*.
 
-0.5 → En cada imagen deben indicar origen.
+0.5 → En cada imagen deben indicar origen. Debe tener un mínimo de 3 imágenes, y máximo de 5.
 
 0.5 → Corresponde que el último párrafo tenga vínculos a trabajos de compañeras y compañeros, para invitar a informarse de otros países.
 
