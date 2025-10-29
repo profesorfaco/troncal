@@ -70,21 +70,11 @@ El pantallazo traducido a **puntos**:
 
 **JavaScript**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar dependiendo de la lógica de cada instrucción, la versión en uso, la library en la que nos apoyemos para resolver algo específico, o el framework de programación con el que se levanta todo el trabajo → Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-**JPG (Joint Photographic Experts Group)**. Más información en https://jpeg.org/about.html
-
 **PNG (Portable Network Graphics)**. Más información en https://www.libpng.org/pub/png/ 
 
 **WebP**. Más información en https://developers.google.com/speed/webp?hl=es
 
 **SVG (Scalable Vector Graphics)**. Más información en https://www.w3.org/Graphics/SVG/
-
-**JSON (JavaScript Object Notation)**. Más información en https://www.json.org/json-es.html
-
-**CSV (Coma Separated Values)**. Más información en https://www.adobe.com/es/acrobat/resources/document-files/text-files/csv-file.html 
-
-**XML (eXtensible Markuo Language)**. Más información en https://developer.mozilla.org/es/docs/Web/XML/Guides/XML_introduction
-
-Esta herramienta puede ser muy útil: https://csvjson.com/csv2json 
 
 _ _ _ _ 
 
