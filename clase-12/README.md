@@ -37,7 +37,7 @@ Haga lo que sigue con su país:
 ![pauta](https://github.com/user-attachments/assets/d9c9541f-fca0-4fa5-901a-25b75622762e)
 
 
-Todo eso, traducido en puntos. 
+El pantallazo traducido a **puntos**: 
 
 1.0 - Que la tabla muestre registros del último mes superiores a M 3.9 (desde 4.0 en adelante).
 
