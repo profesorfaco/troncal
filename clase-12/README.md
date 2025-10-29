@@ -26,15 +26,41 @@
 | 18 | Paz Valenzuela | https://github.com/pazvp | — |
 | 19 | Francys Vásquez | https://github.com/Francys-vs | Ecuador |
 
-#### La partida
+#### Partida
 
-Está en el [`index.html`](https://github.com/profesorfaco/troncal/blob/main/clase-12/index.html), donde el corte de lo programado con JavaScript se hizo descuidado. Sirve lo de `HTML` y `CSS`, pero en lo de JavaScript hagan el ajuste con su trabajo de clase 11, y de modo razonado, para no perder signos en la "poda" del código fuente.
+Está en el [`index.html`](https://github.com/profesorfaco/troncal/blob/main/clase-12/index.html), donde el corte todo lo de Javascript. Sirve lo de `HTML` y `CSS`, pero en lo de JavaScript hagan el ajuste con su trabajo de clase 11, y de modo razonado, para no perder signos en la "poda" del código fuente.
 
-#### La pauta
+#### Pauta
 
-Pendiente.
+Haga lo que sigue con su país: 
+
+![pauta](https://github.com/user-attachments/assets/d9c9541f-fca0-4fa5-901a-25b75622762e)
+
+
+Todo eso, traducido en puntos. 
+
+1.0 - Que la tabla muestre registros del último mes superiores a M 3.9 (desde 4.0 en adelante).
+
+1.0 - Debajo de la tabla un mapa con el país centrado, y todos los registros que ya se muestran en tabla. 
+
+1.0 - Debajo del mapa la comparación de registros de su país y 2 más. Deben mostrarse 3 círculos en total, cuidando las proporciones con la división más adecuada en la definición del radio.
+
+0.5 - Debajo de la comparación viene una historia, que parte con una introducción de un párrafo. 
+
+0.5 - Todo lo que se cuente en la historia debe ser verídico, y presentado con párrafos breves e imágenes intercaladas.
+
+0.5 - En cada párrafo deben haber destaques. Uno de los destaques debe indicar la magnitud con el mismo ícono usado arriba, en la tabla. Otro destaque puede aprovechar la etiqueta `<em></em>`, de *emphasis*.
+
+0.5 - En cada imagen deben indicar origen.
+
+0.5 - Corresponde que el último párrafo tenga vínculos a trabajos de compañeras y compañeros, para invitar a informarse de otros países.
+
+0.5 - Debajo del párrafo tiene que completarse un recuadro con fuentes o referencias usadas para la historia que escriben y muestran.
+
+1.0 - Punto base.
 
 - - - - - - - 
+
 
 #### Recordatorios
 
