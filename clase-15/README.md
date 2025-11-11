@@ -4,7 +4,7 @@
 
 El trabajo final será evaluado con la media de tres notas que van del 1,0 al 7,0.
 
-### Primera nota, por elementos visuales a evaluar:
+### Primera nota, por elementos visuales:
 
 1,0 - Encabezado producido a partir de una imagen real, transformada en una ilustración vibrante (ej. Sin City de Frank Miller)
 
@@ -20,7 +20,7 @@ El trabajo final será evaluado con la media de tres notas que van del 1,0 al 7,
 
 1.0 - Punto base
 
-### Segunda nota, por contenidos a evaluar 
+### Segunda nota, por contenidos: 
 
 1,0 - Descripción genérica del país
 
@@ -36,7 +36,7 @@ El trabajo final será evaluado con la media de tres notas que van del 1,0 al 7,
 
 1.0 - Punto base
 
-### Tercera nota, por estilo gráfico
+### Tercera nota, por decisiones de diseño (mención visualidad y medios):
 
 De 1,0 a 7,0 -- Ajuste de las definiciones de estilo predefinidas. Mientras más logren parecerse a cualquier de los referentes [vistos en la clase 13](https://github.com/profesorfaco/troncal/blob/main/clase-13/README.md), más cerca quedarán del 7,0.
 
