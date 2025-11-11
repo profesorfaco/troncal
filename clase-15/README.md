@@ -38,17 +38,9 @@ El trabajo final será evaluado con 7 notas a promediar.
 
 ### Tercera nota por estilo gráfico
 
-De 1,0 a 7,0 -- Ajuste de las definiciones de estilo predefinidas. Mientras más logren parecerse a cualquier de los referentes vistos, de nivel global, más cerca quedarán del 7,0
+De 1,0 a 7,0 -- Ajuste de las definiciones de estilo predefinidas. Mientras más logren parecerse a cualquier de los referentes [vistos en la clase 13](https://github.com/profesorfaco/troncal/blob/main/clase-13/README.md), más cerca quedarán del 7,0
 
-Los referentes vistos son: 
 
-- https://www.reuters.com/graphics/
-
-- https://www.scmp.com/infographics
-
-- https://www.reuters.com/authors/adolfo-arranz/ 
-
-- https://www.scmp.com/author/adolfo-arranz
 
 _ _ _ _ 
 
