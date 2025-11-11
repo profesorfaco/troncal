@@ -2,7 +2,7 @@
 
 ### Inicio del trabajo final
 
-Revisamos algunas referencias que son líderes a nivel mundial de la infografía periodística: 
+Un par de líderes, a nivel mundial, de la infografía periodística: 
 
 - https://www.reuters.com/graphics/
 
@@ -14,7 +14,7 @@ Algo sobre el liderazgo de Reuters en lo que respecta a periodismo: https://es.w
 
 Algo sobre el liderazgo de South China Morning Post en lo que respecta a infografía: https://nightingaledvs.com/on-the-success-of-the-south-china-morning-post-infographics-team/
 
-Una coincidencia entre ambos medios: 
+Una coincidencia entre ambos líderes: 
 
 - https://www.reuters.com/authors/adolfo-arranz/
 
@@ -25,6 +25,8 @@ Arranz es el que hace esto a la rápida: https://www.perdigallos.com/sketching-i
 En un [artículo publicado el año 2024 en El País](https://elpais.com/comunicacion/2024-06-03/adolfo-arranz-ilustrador-e-infografista-lo-importante-es-dar-al-lector-la-cantidad-de-informacion-justa.html), se lee:
 
 > Adolfo Arranz (Valladolid, 55 años) se mudó a Hong Kong en 2011 para trabajar como infografista en el South China Morning Post. Sus gráficos, construidos frecuentemente con ilustraciones realizadas a lápiz, han creado un estilo propio que aúna el periodismo y el arte. Desde 2022, trabaja para la agencia Reuters, y la Society of Newspaper Design (SND), la organización de referencia en el campo del diseño editorial, le acaba de elegir Mejor Diseñador Periodístico del mundo.
+
+Realmente no es Society of Newspaper Design, sino [Society for News Design (SND)](https://snd.org/about-us/), pero ese error no desvirtúa el mérito de Arranz.
 
 - - - - - - - -
 
