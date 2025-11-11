@@ -8,7 +8,7 @@ El trabajo final será evaluado con la media de tres notas que van del 1,0 al 7,
 
 1,0 - Encabezado producido a partir de una imagen real, transformada en una ilustración vibrante (ej. Sin City de Frank Miller)
 
-1,0 - Mapa aislado del país, globo minimalista centrado en su país - - vista general sobre el mundo.
+1,0 - Mapa aislado de *país*, globo minimalista centrado en *país* - - vista general sobre el mundo (eso les puede llevar a shutterstock, si es que cambian país por nombre de su país para buscarlo)
 
 1,0 - Ilustración o mapa del mundo con la indicación del anillo de fuego. 
 
