@@ -19,27 +19,24 @@ En el [README.md de la clase que sigue](https://github.com/profesorfaco/troncal/
 
 Son 19 estudiantes en la lista. Pero cuento 17 en la tabla. 
 
-Hay 1 estudiante de intercambio que vino a 1 clase y nada más.
+Hay 1 estudiante de intercambio que vino a 1 clase y nada más. El total real de estudiantes es de 18.
 
-El total real de estudiantes es de 18.
+Se solicitó armar duplas o tríos, y Matías Chávez va sólo.
 
-Se solicitó armar duplas o tríos, y Matías Chávez va sólo. Si se piden duplas o tríos y alguien va solo.
+Les pido resolver lo de los números a la brevedad, considerando que **no se agregarán países a**: 
 
-Les pido resolver este asunto antes de la entrega final, considerando que no se agregarán países a: 
-
-- Indonesia
-- Japón
-- Alaska (no es país, pero se acepta; quizá hablar un poco de la compra de ese terreno al Imperio Ruso por parte de parte de EE.UU., y ahí ya se meten países al ruedo).
-- Rusia (la distancia entre Moscú y la península de Kamchatka es de unos 7.000 km; la península, que forma parte del extremo noroeste del Cinturón de Fuego del Pacífico,  está situada en el extremo oriental de Rusia, podría ser necesario referirse a ese extremo en el título).
-- Perú
-- Ecuador
-- México
-- Filipinas
+- **Indonesia**
+- **Japón**
+- **Alaska** (no es país, pero se acepta; quizá hablar un poco de la compra de ese terreno al Imperio Ruso por parte de parte de EE.UU., y ahí ya se meten países al ruedo).
+- **Rusia** (la distancia entre Moscú y la península de Kamchatka es de unos 7.000 km; la península, que forma parte del extremo noroeste del Cinturón de Fuego del Pacífico,  está situada en el extremo oriental de Rusia, podría ser necesario referirse a ese extremo en el título).
+- **Perú**
+- **Ecuador**
+- **México**
+- **Filipinas**
 
 - - - - -
 
-Me faltó compartirles este video: https://youtu.be/iEB3oILm-qQ?si=ZoM0wGPoazx8U7f3&t=2009 -- Van a partir en el 33:29, y no necesitan ir más allá del 47:07
-
+Aprovecho el ajuste del README.md para sumar este video: https://youtu.be/iEB3oILm-qQ?si=ZoM0wGPoazx8U7f3&t=2009 -- Van a partir en el 33:29, y no necesitan ir más allá del 47:07
 
 - - - - -
 
