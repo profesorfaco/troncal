@@ -23,13 +23,13 @@ Hay 1 estudiante de intercambio que vino a 1 clase y nada más.
 
 El total real de estudiantes es de 18.
 
-Se solicitó armar duplas o tríos, y Matías Chávez va sólo.
+Se solicitó armar duplas o tríos, y Matías Chávez va sólo. Si se piden duplas o tríos y alguien va solo.
 
 Les pido resolver este asunto antes de la entrega final, considerando que no se agregarán países a: 
 
 - Indonesia
 - Japón
-- Alaska (no es país, es estado, pero OK)
+- Alaska (no es país, pero se acepta)
 - Rusia
 - Perú
 - Ecuador
