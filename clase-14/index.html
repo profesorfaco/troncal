@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>[Refiera con precisión a su país o región telúrica]</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <style>
+            /* Reset */
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Colores */
+
+            :root{
+                --figura: #000;
+                --fondo: #fff;
+            }
+
+            /* Body y fuentes base */
+            body {
+                font-family: "Chivo", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 1.2;
+                background: var(--fondo);
+                color: var(--figura);
+            }
+
+            /* Header */
+            header {
+                width: 100%;
+                min-height: 90svh;
+                padding: 0;
+                margin: 0;
+                background:var(--fondo) url('img/fondo.webp') 0 -10vh no-repeat;
+                background-size:100% auto;
+                text-align: center;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            header div {
+                width: min(780px, 90%);
+                margin: 0 auto;
+            }
+
+            header h1,
+            header h5,
+            header h6 {
+                margin: 0;
+            }
+
+            header h1 {
+                line-height: 1.1;
+                font-size: calc(3rem + 2vw);
+                font-weight: 400;
+            }
+
+            header h5,
+            header h6 {
+                line-height: 2;
+            }
+
+            header h5 {
+                font-size: calc(1rem + 0.25vw);
+                letter-spacing: 0.05rem;
+            }
+
+            header h6 {
+                font-size: 1rem;
+                letter-spacing: 0.1rem;
+            }
+
+            /* Main - Layout responsivo */
+            main {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            /* Títulos dentro de main */
+            h2,
+            h3 {
+                font-weight: 800;
+                padding: 0.25rem;
+                text-align: center;
+                margin: 0;
+            }
+
+            /* Enlaces */
+            a {
+                color: #000;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            /* Párrafos */
+            p {
+                margin: 0.5rem 0;
+                padding: 0.25rem;
+            }
+
+            p.lead {
+                font-size: 120%;
+                font-weight: 200;
+            }
+
+            p em {
+                font-weight: 700;
+                font-style: normal;
+            }
+
+            p span {
+                border-radius: 6px 6px;
+                padding: 0 0.5rem 0 1.5rem;
+                background-color: #a5d8f8;
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M5.47,58.58H17A44.19,44.19,0,0,0,5.47,82.93Zm17.84,0h7.62l-3.56-35.8,13.4-5.66V30.65l12.06,4.8-4.06,22A31.82,31.82,0,0,0,18.39,89.08H9.53A40.25,40.25,0,0,1,23.31,58.58ZM50,61.9A27.18,27.18,0,0,1,77.18,89.08h-9a18.27,18.27,0,1,0-36.53,0H22.82A27.18,27.18,0,0,1,50,61.9Zm0,13.28a13.86,13.86,0,0,1,13.78,13.9H54.92a4.92,4.92,0,0,0-9.84,0h-9A14,14,0,0,1,50,75.18Zm8.24-16.6a35.85,35.85,0,0,0-5.29-1L57.5,32.87,45,28V15.28l4.42-1.85L69.56,18.6l3.81,40h3.32a40.25,40.25,0,0,1,13.78,30.5H81.61A31.68,31.68,0,0,0,58.24,58.58Zm24.72,0H94.53V82.93A45.16,45.16,0,0,0,83,58.58Z"></path></svg>');
+                background-position: 0.3rem 0;
+                background-size: 1rem 1rem;
+                background-repeat: no-repeat;
+            }
+
+            /* Imágenes */
+            main img.mapamundi {
+                width: 40%;
+                margin: 5% 30%;
+            }
+
+            main img.cinturon {
+                width: 100%;
+                margin: 3% 0;
+            }
+
+            /* Objects (Timeline SVG) */
+            main object {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            main object.mobile {
+                display: block;
+            }
+
+            main object.desktop {
+                display: none;
+            }
+
+            /* Figuras */
+            figure {
+                width: 100%;
+                margin: 1rem auto;
+                padding: 0.25rem;
+                border: 1px solid #eee;
+                box-shadow: 0 0 5px #fcfcfc;
+            }
+
+            figure img {
+                width: 100%;
+                height: auto;
+            }
+
+            figure figcaption {
+                font-size: 90%;
+                color: gray;
+                padding: 0.5rem;
+            }
+
+            /* Tabla */
+            table {
+                width: 100%;
+                text-align: center;
+            }
+
+            table a {
+                text-decoration: none;
+            }
+
+            table a:hover:after {
+                content: " ⤴";
+            }
+
+            th,
+            td {
+                border-bottom: 1px solid black;
+                border-collapse: collapse;
+                padding: 0.25rem;
+                line-height: 1.5;
+            }
+
+            th,
+            td strong {
+                font-weight: 700;
+            }
+
+            td {
+                font-size: 90%;
+            }
+
+            td span {
+                color: #999;
+            }
+
+            th:nth-child(1),
+            th:nth-child(2),
+            td:nth-child(1),
+            td:nth-child(2) {
+                text-align: left;
+            }
+
+            th svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                margin-bottom: -0.25rem;
+                margin-left: -0.25rem;
+                fill: #2b678c;
+            }
+
+            /* Mapas */
+            div.mapas {
+                width: 100%;
+                height: 400px;
+                margin: 1rem 0 3rem 0;
+                box-shadow: 0 0 4px #eee;
+            }
+
+            .leaflet-control {
+                display: none;
+            }
+
+            /* Fuentes */
+            .fuentes {
+                margin-top: 2rem;
+                border: 1px solid #eee;
+                background: #fafafa;
+                padding: 1rem;
+                font-size: 90%;
+                color: #444;
+            }
+
+            /* Footer */
+            footer {
+                border-top: 1px solid #eee;
+                background:#fafafa;
+                margin: 2rem 0 0 0;
+                padding: 1rem;
+                text-align: center;
+                font-size: 80%;
+                letter-spacing: 1px;
+            }
+
+            /* Utilidades */
+            .escondido {
+                display: none;
+            }
+
+            /* Media Queries - Tablet */
+            @media (min-width: 768px) {
+                main {
+                    width: 70%;
+                }
+            }
+
+            /* Media Queries - Desktop */
+            @media (min-width: 1200px) {
+                main {
+                    width: 50%;
+                }
+            }
+
+            /* Media Queries - Landscape */
+            @media (orientation: landscape) {
+                main object.mobile {
+                    display: none;
+                }
+
+                main object.desktop {
+                    display: block;
+                }
+            }
+
+            /* Media Queries - Desktop objects margins */
+            @media (min-width: 768px) {
+                main object.desktop {
+                    margin-left: -10%;
+                    margin-right: -10%;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                main object.desktop {
+                    margin-left: -25%;
+                    margin-right: -25%;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" class="escondido">
+            <symbol id="location" viewBox="0 0 100 100">
+                <path d="M36.73,36.09a13,13,0,0,0,13,12.67A12.65,12.65,0,0,0,62.44,36.09a13.22,13.22,0,0,0-9.59-12.67v-18A31.37,31.37,0,0,1,81.14,36.58a30.89,30.89,0,0,1-4.55,16.36l-25,41.21H47.93L23,52.94A31.36,31.36,0,0,1,46.7,5.46v18A13.41,13.41,0,0,0,36.73,36.09Z"></path>
+            </symbol>
+
+            <symbol id="time" viewBox="0 0 100 100">
+                <path d="M15.44,49H6.33a43.68,43.68,0,0,1,87.34,0L89.24,52.1,84.56,49a34.57,34.57,0,0,0-69.12,0Zm1.84,29.77A44.16,44.16,0,0,1,6.83,56.65h9.22a33.86,33.86,0,0,0,7.63,15.62Zm5.66,5.41,6.4-6.52A34.17,34.17,0,0,0,46.19,84.2v9.22A42.43,42.43,0,0,1,22.94,84.2ZM86.53,64.64,54.31,47.91V25.16H47.05V52.22l36,18.94ZM77.55,84a43.22,43.22,0,0,1-23.61,9.47V84.2a32.11,32.11,0,0,0,17-6.77Z"></path>
+            </symbol>
+
+            <symbol id="tsunami" viewBox="0 0 100 100">
+                <path d="M91.33,88.22H8.92c-2.22,0-3.57-1.23-3.57-3a4.63,4.63,0,0,1,.61-2L17.77,62.51c5.17-9,16.36-13.9,27.06-13.9,11.57,0,17.35,5.54,17.35,10.46,0,4.3-3.32,7.13-6.77,8.12H53.07a3.49,3.49,0,0,0-3.56-3.82,3.42,3.42,0,0,0-3.32,3.45c0,3.81,4.79,7.5,13.16,7.5,7.75,0,18-3.57,24.6-9.1L94.28,83.3a3.51,3.51,0,0,1,.37,1.84A3,3,0,0,1,91.33,88.22Zm-10.21-28L52.71,10.36a3.19,3.19,0,0,0-5.66,0L26.14,47.51a36.15,36.15,0,0,1,12.67-4.06L49.88,23.89,73.37,64.36A19.72,19.72,0,0,0,81.12,60.17Z"></path>
+            </symbol>
+
+            <symbol id="magnitude" viewBox="0 0 100 100">
+                <path d="M5.47,58.58H17A44.19,44.19,0,0,0,5.47,82.93Zm17.84,0h7.62l-3.56-35.8,13.4-5.66V30.65l12.06,4.8-4.06,22A31.82,31.82,0,0,0,18.39,89.08H9.53A40.25,40.25,0,0,1,23.31,58.58ZM50,61.9A27.18,27.18,0,0,1,77.18,89.08h-9a18.27,18.27,0,1,0-36.53,0H22.82A27.18,27.18,0,0,1,50,61.9Zm0,13.28a13.86,13.86,0,0,1,13.78,13.9H54.92a4.92,4.92,0,0,0-9.84,0h-9A14,14,0,0,1,50,75.18Zm8.24-16.6a35.85,35.85,0,0,0-5.29-1L57.5,32.87,45,28V15.28l4.42-1.85L69.56,18.6l3.81,40h3.32a40.25,40.25,0,0,1,13.78,30.5H81.61A31.68,31.68,0,0,0,58.24,58.58Zm24.72,0H94.53V82.93A45.16,45.16,0,0,0,83,58.58Z"></path>
+            </symbol>
+        </svg>
+
+        <header>
+            <div>
+                <h1>[Refiera con precisión a su país o región telúrica]</h1>
+                <h5>Por <a href="#link_a_cuenta_en_github">Nombre Apellido</a>, <a href="#link_a_cuenta_en_github">Nombre Apellido</a> y <a href="#link_a_cuenta_en_github">Nombre Apellido</a></h5>
+                <h6>25 de noviembre, 2025</h6>
+            </div>
+        </header>
+
+        <main>
+            <img src="img/pais-ejemplo.webp" class="mapamundi" alt="imagen editada por Gemini, le pedí sacar las letras">
+            <p class="lead">
+                Descripción genérica del país. Lorem ipsum dolor sit amet, consectetur adipiscing elit…
+            </p>
+
+            <p>Descripción que vincula al país con el anillo de fuego. Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+
+            <img src="img/cinturon.png" class="cinturon" alt="imagen editada por Gemini, le pedí sacar las letras">
+
+            <p>Vínculo entre el anillo de fuego y la historia a desplegarse en la línea de tiempo. Lorem ipsum dolor sit amet, consectetur adipiscing elit…</p>
+
+            <object data="img/timeline-desktop.svg" class="desktop" type="image/svg+xml"></object>
+            <object data="img/timeline-mobile.svg" class="mobile" type="image/svg+xml"></object>
+
+            <h3>Hito en línea de tiempo</h3>
+            <p>Calidad de la información desplegada en cada párrafo, y complementada por imágenes, ilustraciones o gráficos que sean pertinentes.</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit de <span>7,8</span> en potencia de Magnitud de Momento…</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <h3>Hito en línea de tiempo</h3>
+            <p>Calidad de la información desplegada en cada párrafo, y complementada por imágenes, ilustraciones o gráficos que sean pertinentes.</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit de <span>7,8</span> en potencia de Magnitud de Momento…</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <h3>Hito en línea de tiempo</h3>
+            <p>Calidad de la información desplegada en cada párrafo, y complementada por imágenes, ilustraciones o gráficos que sean pertinentes.</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit de <span>7,8</span> en potencia de Magnitud de Momento…</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <h3>Hito en línea de tiempo</h3>
+            <p>Calidad de la información desplegada en cada párrafo, y complementada por imágenes, ilustraciones o gráficos que sean pertinentes.</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit de <span>7,8</span> en potencia de Magnitud de Momento…</p>
+
+            <figure>
+                <img src="https://degreyd.minsal.cl/wp-content/uploads/2024/01/terremoto-de-chilan-1939.jpg" />
+                <figcaption>Indicar origen</figcaption>
+            </figure>
+
+            <h2>Actividad sísmica actual de su país o región telúrica</h2>
+            <p>Texto de introducción a los registros de actualidad.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <svg><use href="#location"></use></svg> place
+                        </th>
+                        <th>
+                            <svg><use href="#time"></use></svg> time
+                        </th>
+                        <th>
+                            <svg><use href="#magnitude"></use></svg> mag
+                        </th>
+                        <th>
+                            <svg><use href="#tsunami"></use></svg> tsunami
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="cl"></tbody>
+            </table>
+
+            <div class="mapas" id="mapaCL"></div>
+
+            <h3>[País] comparando con otros países</h3>
+            <p>Registros sobre 3.9 M del último mes, comparado con Japón y Rusia</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" id="viz"></svg>
+
+            <p>Texto de conclusión respecto de todo o recién presentado, apuntando a una cultura del riesgos de desastre</p>
+
+            <div class="fuentes">
+                <h4>Fuentes:</h4>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+                <p>Nulla sed elit sapien. Pellentesque ac luctus metus: <a href="#">Link</a>.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desarrollado para <a href="#" target="_blank">Diseño y visualización de información | Universidad de Chile</a> &copy; 2025</p>
+        </footer>
+
+        <script>
+            //Poner aquí lo que corresponda.
+        </script>
+    </body>
+</html>
