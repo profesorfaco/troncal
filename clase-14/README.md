@@ -2,7 +2,7 @@
 
 ### Avance en el trabajo final
 
-Aquí les dejo el "template" para que ustedes modifiquen con su diseño y visualización de información.
+Aquí les dejo el "[template](https://github.com/profesorfaco/troncal/blob/main/clase-14/index.html)" para que ustedes modifiquen con su diseño y visualización de información.
 
 En el [README.md de la clase que sigue](https://github.com/profesorfaco/troncal/blob/main/clase-15/README.md) ya pueden ver la pauta de evaluacion
 
