@@ -117,11 +117,13 @@
                 console.log(data);
 
                 data.forEach((a)=>{
-                    grid.innerHTML += `<div class="grid-item"><img src="${a.image.url.replace("http://www.buscaves.cl/","https://buscaves.cl/")}"/></div>`
+                    grid.innerHTML += `<div class="grid-item"><img src="${a.image.url.replace("http://www.buscaves.cl/","https://buscaves.cl/")}"/><p>${a.names.spanish}</p></div>`
+                    
                 })
                 
             }
             datos("https://raw.githubusercontent.com/NinjasCL/chileanbirds-dataset/refs/heads/master/data/birds.json").catch((error) => console.error(error));
+        
 
         
 
