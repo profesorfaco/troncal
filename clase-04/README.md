@@ -1,17 +1,15 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 04 → 31 de marzo
 
-### Trabajo grupal, con evaluación diagnóstica → Presentación del trabajo sobre hitos en la historia de la visualización de datos e información. Encargo del segundo trabajo grupal
-
-#### Sobre hitos en la historia de la visualización de datos e información
+### Trabajo grupal, con evaluación diagnóstica → Sobre hitos en la historia de la visualización de datos e información
 
 Hoy se presenta el análisis de una visualización de datos influyente utilizando el marco teórico de las clases previas, identificando cómo la estructura de los datos se transforma en información con propósito.
 
-#### Formatos de trabajo
+#### FORMATO DEL TRABAJO
 
 * **Grupos:** 4 o 5 estudiantes.
 * **Soporte de presentación:** Un archivo `index.html` alojado en un repositorio de GitHub y publicado en **GitHub Pages**.
 
-#### Instrucciones del trabajo
+#### INSTRUCCIONES DEL TRABAJO
 
 **1. Selección del caso**: Cada grupo debe elegir **una visualización** de las siguientes fuentes curatoriales:
 
@@ -27,7 +25,7 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 * **Análisis Técnico:** ¿Qué datos personales o sensibles ([Ley 19.628](https://bcn.cl/2eqfn)) podrían haber estado involucrados en su creación?
 * **Legado:** ¿Cómo se ha utilizado ese modo de visualizar (ej: mapa de puntos, gráfico de áreas polares, etc.) en casos contemporáneos?
 
-#### Criterios de evaluación (diagnóstica)
+#### CRITERIOS DE LA EVALUACIÓN (DIAGNÓSTICA)
 
 * **Capacidad de Síntesis:** Ir directo al "corazón" de la visualización.
 * **Aplicación teórica:** Uso correcto de términos como *metadatos*, *datos sensibles*, *DIKW* y *construcción social*.
@@ -42,5 +40,6 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 Pendiente.
 
 _ _ _ _ 
+
 
 [clase-03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md) ⇆ [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md)
