@@ -28,7 +28,7 @@ Así, por ejemplo, están los [metadatos de las fotos](https://www.format.com/es
 
 Luego son los datos los que aportan la primera letra a la pirámide DIKW (*Data*, *Information*, *Knowledge* y *Wisdom*), una pirámide o jerarquía que presenta un supuesto de progreso: 
 
-**Desde los datos se estructura la información, y desde ahí se hace un conocimiento que, acumulado y puesto a prueba contra el tiempo, alcanza a la sabiduría**.
+> Desde los datos se estructura la información, y desde ahí se hace un conocimiento que, acumulado y puesto a prueba contra el tiempo, alcanza a la sabiduría.
 
 Pero tal supuesto de progreso, tan positivista, es criticado ya desde hace algún tiempo:
 
@@ -45,5 +45,41 @@ Criticado incluso antes del surgimiento de desafíos tales como:
 - Peters, M. A., Jandrić, P., & Green, B. J. (2024). *The DIKW model in the age of artificial intelligence* → https://www.researchgate.net/publication/378527476_The_DIKW_Model_in_the_Age_of_Artificial_Intelligence
 
 _ _ _ _ 
+
+La segunda letra en la pirámide DIKW refiere a la *Information*. Si se consideran las 5 referencias recién indicadas, podríamos pensar de distintos modos en la información.
+
+#### 1. La Información como "Verdad Semántica"
+
+* **Definición:** Es contenido que tiene significado y es **verdadero**.
+
+* **Requisito:** Para ser información, los datos deben estar bien formados (reglas de escritura) y ser verídicos. Si el dato es falso, se considera "desinformación".
+
+#### 2. La Información como "Estructura de Interacción"
+
+* **Definición:** Es una **organización de datos** que permite a un sujeto (persona o máquina) entender su entorno.
+
+* **Requisito:** Se entiende como la "diferencia" mínima que detectamos entre dos estados (ejemplo: un interruptor en "encendido" vs. "apagado").
+
+#### 3. La Información como "Dato Útil"
+
+* **Definición:** Es el dato que tiene **relevancia y un propósito** claro.
+
+* **Requisito:** El dato por sí solo es materia prima; la información es ese dato ya procesado para resolver una duda o tomar una decisión.
+
+#### 4. La Información como "Construcción Social"
+
+* **Definición:** No es algo neutral; es un **producto influenciado por el poder** y el contexto.
+
+* **Requisito:** Debemos analizar quién recolectó los datos y para qué, ya que la información siempre refleja los intereses de su creador.
+
+#### 5. La Información como "Respuesta a Preguntas"
+
+* **Definición:** Es el nivel que responde al **Quién, Qué, Dónde y Cuándo**.
+
+* **Requisito:** Se ubica por encima del "Dato" (que no tiene sentido solo) y por debajo del "Conocimiento" (que explica el *cómo* funcionan las cosas).
+
+#### Intentando sintetizar las 5 modos de pensarla, tenemos que la **información** no es solo un conjunto de datos. Es el resultado de **organizar datos de forma verdadera y útil**, pero recordando siempre que esa organización depende de **quién tiene el poder** de contar la historia.
+
+- - - - - 
 
 [clase-02](https://github.com/profesorfaco/troncal/blob/main/clase-02/README.md) ⇆ [clase-04](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md)
