@@ -14,7 +14,7 @@ Hoy se presenta el resultado de analizar una visualización de datos influyente 
 
 #### Instrucciones de la Actividad
 
-**1. Selección del caso**: Cada grupo debe elegir **una (1) visualización** de las siguientes fuentes curatoriales:
+**1. Selección del caso**: Cada grupo debe elegir **una visualización** de las siguientes fuentes curatoriales:
 
 * [5 visualizaciones más influyentes (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
 
