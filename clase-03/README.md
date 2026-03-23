@@ -24,6 +24,17 @@ Así, por ejemplo, están los [metadatos de las fotos](https://www.format.com/es
 
 <img width="800" height="680" alt="matadatos-foto" src="https://github.com/user-attachments/assets/885760bb-c63b-485c-9cfd-4c01728522a6" />
 
+#### El estándar EXIF (*Exchangeable Image File Format*)
+Son metadatos incrustados directamente en archivos (JPEG, RAW) que revelan detalles invisibles a simple vista:
+
+- **Detalles Técnicos**: Marca y modelo de la cámara, apertura (f-stop), velocidad de obturación, ISO y balance de blancos.
+
+- **Información de Imagen**: Resolución (píxeles), tipo de compresión y la **fecha y hora** exacta de la captura.
+
+- **Datos Geográficos**: Coordenadas GPS (si el dispositivo tenía la función activa).
+
+- **Otros**: Software de edición utilizado y derechos de autor.
+
 - - - - - - - - 
 
 Luego son los datos los que aportan la primera letra a la pirámide DIKW (*Data*, *Information*, *Knowledge* y *Wisdom*), una pirámide o jerarquía que presenta un supuesto de progreso: 
@@ -48,35 +59,15 @@ _ _ _ _
 
 La segunda letra en la pirámide DIKW refiere a la *Information*. Si se consideran las 5 referencias recién indicadas, podríamos pensar de distintos modos en la información.
 
-#### 1. La Información como "Verdad Semántica"
+1.  **Como Verdad Semántica**: Contenido bien formado y significativo que **debe ser verdadero**. Si es falso, es desinformación.
 
-* **Definición:** Es contenido que tiene significado y es **verdadero**.
+2.  **Como Estructura de Interacción**: Una organización de datos que permite a un agente (humano o máquina) detectar diferencias y entender su entorno.
 
-* **Requisito:** Para ser información, los datos deben estar bien formados (reglas de escritura) y ser verídicos. Si el dato es falso, se considera "desinformación".
+3.  **Como Dato Útil**: Datos con **relevancia y propósito**, procesados para resolver una duda o tomar una decisión.
 
-#### 2. La Información como "Estructura de Interacción"
+4.  **Como Construcción Social**: Un producto no neutral, influenciado por el contexto y las relaciones de poder de quien lo recolecta.
 
-* **Definición:** Es una **organización de datos** que permite a un sujeto (persona o máquina) entender su entorno.
-
-* **Requisito:** Se entiende como la "diferencia" mínima que detectamos entre dos estados (ejemplo: un interruptor en "encendido" vs. "apagado").
-
-#### 3. La Información como "Dato Útil"
-
-* **Definición:** Es el dato que tiene **relevancia y un propósito** claro.
-
-* **Requisito:** El dato por sí solo es materia prima; la información es ese dato ya procesado para resolver una duda o tomar una decisión.
-
-#### 4. La Información como "Construcción Social"
-
-* **Definición:** No es algo neutral; es un **producto influenciado por el poder** y el contexto.
-
-* **Requisito:** Debemos analizar quién recolectó los datos y para qué, ya que la información siempre refleja los intereses de su creador.
-
-#### 5. La Información como "Respuesta a Preguntas"
-
-* **Definición:** Es el nivel que responde al **Quién, Qué, Dónde y Cuándo**.
-
-* **Requisito:** Se ubica por encima del "Dato" (que no tiene sentido solo) y por debajo del "Conocimiento" (que explica el *cómo* funcionan las cosas).
+5.  **Como Respuesta a Preguntas**: El nivel que organiza los datos para responder al **Quién, Qué, Dónde y Cuándo**.
 
 #### Intentando sintetizar las 5 modos de pensarla, tenemos que la **información** no es solo un conjunto de datos. Es el resultado de **organizar datos de forma verdadera y útil**, pero recordando siempre que esa organización depende de **quién tiene el poder** de contar la historia.
 
