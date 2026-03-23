@@ -2,8 +2,6 @@
 
 ### Marco teórico para la visualización de datos e información  
 
-### Marco teórico para la visualización de datos e información
-
 El latín *datum* refiere a "lo que se da”. Corresponde agregar que el inglés tomó tal [*datum*](https://www.merriam-webster.com/dictionary/datum) como el singular de [*data*](https://www.merriam-webster.com/dictionary/data), razón por la que *data* se traduce como *datos*. En su uso habitual, *lo que se da* es útil para razonamientos, debates o cálculos.
 
 En el ámbito legal local, corresponde diferenciar:
