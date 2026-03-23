@@ -36,11 +36,11 @@ Hoy se presenta el resultado de analizar una visualización de datos influyente 
 
 #### Requerimientos técnicos y de entrega
 
-1. **Sin PowerPoint":** La presentación **es** el `index.html`. Debe ser legible, con buen contraste y uso estratégico de imágenes.
+1. **Sin efectos de PowerPoint:** La presentación **es** el `index.html`. Debe ser legible, con buen contraste y uso estratégico de imágenes.
 
-2. **Aplicación Teórica:** Es obligatorio citar o aplicar conceptos de las [Clases 01, 02 y 03](https://github.com/profesorfaco/troncal/). No se busca una descripción estética, sino un análisis teórico.
+2. **Código limpio:** El archivo `index.html` debe estar correctamente estructurado y vinculado a las imágenes correspondientes.
 
-3. **Código Limpio:** El archivo debe estar correctamente estructurado y vinculado a las imágenes correspondientes.
+3. **Aplicación teórica:** Es obligatorio citar o aplicar conceptos de las [Clases 01, 02 y 03](https://github.com/profesorfaco/troncal/). No se busca una descripción estética, sino un análisis teórico.
 
 #### Criterios de la evaluación diagnóstica
 
