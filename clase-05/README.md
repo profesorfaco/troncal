@@ -1,6 +1,6 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 05 → 7 de abril
 
-#### Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación
+### Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación
 
 Pendiente.
 
