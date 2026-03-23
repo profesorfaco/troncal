@@ -13,7 +13,7 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 
 **1. Selección del caso**: Cada grupo debe elegir **una visualización** de las siguientes fuentes curatoriales:
 
-* [5 visualizaciones más influyentes (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
+* [Las 5 visualizaciones de datos más influyentes de todos los tiempos (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
 * [5 gráficos que cambiaron el mundo... para bien y para mal (BBC)](https://www.bbc.com/mundo/noticias-65055393)
 * [30 visualizaciones que cambiaron el mundo (Othor)](https://blog.othor.ai/30-data-visualizations-that-changed-the-world-261be29bfa88)
 * [Ejemplos de visualizaciones bellas (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
