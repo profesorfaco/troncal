@@ -15,8 +15,8 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 
 * [Las 5 visualizaciones de datos más influyentes de todos los tiempos (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
 * [5 gráficos que cambiaron el mundo... para bien y para mal (BBC)](https://www.bbc.com/mundo/noticias-65055393)
-* [30 visualizaciones que cambiaron el mundo (Othor)](https://blog.othor.ai/30-data-visualizations-that-changed-the-world-261be29bfa88)
-* [Ejemplos de visualizaciones bellas (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
+* [30 Data Visualizations That Changed the World (OthorAI)](https://blog.othor.ai/30-data-visualizations-that-changed-the-world-261be29bfa88)
+* [Los datos son hermosos: 10 de los mejores ejemplos de visualización de datos (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
 
 **2. Contenido de la presentación (Estructura del `index.html`)**: La presentación debe ser sintética, evitando datos biográficos irrelevantes. Debe enfocarse en:
 
