@@ -24,7 +24,7 @@ A continuación, se presentan los conceptos fundamentales para trabajar con GitH
 
 ### GitHub Pages
 
-GitHub ofrece la posibilidad de activar **GitHub Pages** por cada repositorio, permitiendo publicar contenidos de forma gratuita. Antes de activarlo, **asegúrate de tener al menos un archivo llamado `index.html`** o `README.md` en la raíz de tu repositorio; este será la "portada" de tu sitio web.
+GitHub ofrece la posibilidad de activar **GitHub Pages** por cada repositorio, permitiendo publicar contenidos de forma gratuita. Antes de activarlo, **asegúrate de tener al menos un archivo llamado `index.html`** o, por defecto, un `README.md` en la raíz de tu repositorio; este será la "portada" de tu sitio web.
 
 Sigue estos pasos para la activación:
 
