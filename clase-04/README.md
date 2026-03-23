@@ -2,7 +2,7 @@
 
 ### Trabajo grupal, con evaluación diagnóstica → Presentación del trabajo sobre hitos en la historia de la visualización de datos e información. Encargo del segundo trabajo grupal
 
-### Sobre hitos en la historia de la visualización de datos e información
+#### Sobre hitos en la historia de la visualización de datos e información
 
 Hoy se presenta el resultado de analizar una visualización de datos influyente utilizando el marco teórico presentado la clase previa, e identificando cómo la estructura de los datos se transforma en información con propósito.
 
@@ -34,7 +34,7 @@ Hoy se presenta el resultado de analizar una visualización de datos influyente 
 
 * **Legado:** ¿Cómo se ha utilizado ese modo de visualizar (ej: mapa de puntos, gráfico de áreas polares, etc.) en casos contemporáneos?
 
-#### 🛠 Requerimientos técnicos y de entrega
+#### Requerimientos técnicos y de entrega
 
 1. **Sin PowerPoint":** La presentación **es** el `index.html`. Debe ser legible, con buen contraste y uso estratégico de imágenes.
 
@@ -42,14 +42,20 @@ Hoy se presenta el resultado de analizar una visualización de datos influyente 
 
 3. **Código Limpio:** El archivo debe estar correctamente estructurado y vinculado a las imágenes correspondientes.
 
-#### 🎯 Criterios de la evaluación diagnóstica
+#### Criterios de la evaluación diagnóstica
 
 * **Capacidad de Síntesis:** Ir directo al "corazón" de la visualización.
 
 * **Dominio Teórico:** Uso correcto de términos como *metadatos*, *datos sensibles*, *DIKW* y *construcción social*.
 
 * **Referencia Comparativa:** Capacidad de encontrar un ejemplo actual que use la misma lógica visual.
-  
+
+- - - -   
+
+### Encargo del segundo trabajo grupal
+
+Pendiente.
+
 _ _ _ _ 
 
 [clase-03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md) ⇆ [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md)
