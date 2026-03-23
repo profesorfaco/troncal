@@ -1,4 +1,4 @@
-# [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 02 → 19 de agosto
+# [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 02 → 17 de marzo
 
 ### Presentación de herramientas del curso: GitHub y un poco más. 
 
