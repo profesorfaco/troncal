@@ -18,7 +18,7 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 * [30 Data Visualizations That Changed the World (OthorAI)](https://blog.othor.ai/30-data-visualizations-that-changed-the-world-261be29bfa88)
 * [Los datos son hermosos: 10 de los mejores ejemplos de visualización de datos (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
 
-**2. Contenido de la presentación (Estructura del `index.html`)**: La presentación debe ser sintética, evitando datos biográficos irrelevantes. Debe enfocarse en:
+**2. Contenido de la presentación**: La presentación debe ser sintética, evitando datos biográficos irrelevantes. Debe enfocarse en:
 
 * **Contexto de la pieza:** ¿Qué problema intentaba resolver? ¿Qué "preguntas" responde? (Quién, qué, dónde, cuándo).
 * **Análisis de la Información:** Según las 5 definiciones de la [Clase 03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md), ¿qué tipo de información predomina? (¿Verdad semántica, construcción social de poder, dato útil?).
