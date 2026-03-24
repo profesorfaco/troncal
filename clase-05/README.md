@@ -46,7 +46,7 @@ El documento debe mantener rigor académico con la siguiente estructura y extens
 
   * Meirelles, I. (2014). _La información en el diseño: Introducción a las historias, las teorías y las mejores prácticas para la visualización eficaz de información_. Parramon.
 
-  * Schwabish, J. A. (2021). B_etter data visualizations: A guide for scholars, researchers, and designers_. Columbia University Press.
+  * Schwabish, J. A. (2021). _Better data visualizations: A guide for scholars, researchers, and designers_. Columbia University Press.
 
   * Tufte, E. R. (2020). _Seeing with fresh eyes: Meaning, space, data, truth_. Graphics Press.
 
