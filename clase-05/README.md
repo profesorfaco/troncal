@@ -36,11 +36,23 @@ El documento debe mantener rigor académico con la siguiente estructura y extens
 
 3. **Conclusión o Discusión:** (250 a 500 palabras).
 
-4. **Referencias Bibliográficas:** Mínimo de 5, sin "rellenar" con fuentes de baja calidad, todas en formato **APA (7ma edición)**.
+4. **Referencias Bibliográficas:** Mínimo de 5, todas en formato **APA (7ma edición)**. En caso que las fuentes referidas en clases previas no sean suficientes, se evaluará positivamente la inclusión de alguna(s) de las siguientes:
+
+  * Cairo, A. (2020). _How charts lie: Getting smarter about visual information_. W. W. Norton & Company.
+
+  * Cairo, A. (2023). _The art of insight: How great visualization designers think_. Wiley.
+
+  * Lupi, G., & Cox, P. (2024). _Speak data: Artists, scientists, thinkers, and dreamers on how we live our lives in numbers_. Princeton Architectural Press.
+
+  * Meirelles, I. (2014). _La información en el diseño: Introducción a las historias, las teorías y las mejores prácticas para la visualización eficaz de información_. Parramon.
+
+  * Schwabish, J. A. (2021). B_etter data visualizations: A guide for scholars, researchers, and designers_. Columbia University Press.
+
+  * Tufte, E. R. (2020). _Seeing with fresh eyes: Meaning, space, data, truth_. Graphics Press.
 
 #### Criterios de evaluación
 
-* **Profundidad analítica e integración bibliográfica:** No es un resumen de prensa. Se exige un cruce crítico entre el caso de estudio y la bibliografía de las clases 01 a 04.
+* **Profundidad analítica e integración bibliográfica:** No es un resumen de prensa. Se exige un cruce crítico entre el caso de estudio y la bibliografía de las clases 01 a 04, con los complementos recién referidos.
 
 * **Calidad Editorial:** Redacción clara, coherente y ortografía impecable.
 
