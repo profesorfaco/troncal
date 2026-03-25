@@ -24,7 +24,7 @@ Para abordar estos ejes, trabajaremos en una entrega **sumativa (20% de la nota 
 
 * **Soporte:** Artículo web publicado como archivo `index.html` mediante **GitHub Pages**.
 
-* **Código:** Se evaluará el uso semántico de HTML5.
+* **Nota:** Resultará de la media entre una nota por estructura del artículo y otra por criterios de evaluación del artículo.
 
 #### Estructura del artículo
 
@@ -56,7 +56,9 @@ El documento debe mantener rigor académico con la estructura ofrecida en el [in
 
   * Tufte, E. R. (2020). _Seeing with fresh eyes: Meaning, space, data, truth_. Graphics Press.
 
-#### Criterios de evaluación
+Cada indicación de estructura será evaluada hasta con 1,0 si se logra completamente.
+
+#### Criterios de evaluación del artículo
 
 * **Profundidad analítica e integración bibliográfica:** No es un resumen de prensa. Se exige un cruce crítico entre el caso de estudio y la bibliografía de las clases 01 a 04, con los complementos recién referidos.
 
@@ -64,6 +66,7 @@ El documento debe mantener rigor académico con la estructura ofrecida en el [in
 
 * **Estándar Web:** Uso correcto de etiquetas HTML5 para jerarquizar el contenido (`<h1>`, `<h2>`, `<p>`, `<blockquote>`, `<cite>`, `<table>`).
 
+Cada criterio puede ser evaluado hasta con 2,0 si se logra completamente, a lo que se agregará 1,0 de base. 
 _ _ _ _ 
 
 [clase-04](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md) ⇆ [clase-06](https://github.com/profesorfaco/troncal/blob/main/clase-06/README.md)
