@@ -28,15 +28,21 @@ Para abordar estos ejes, trabajaremos en una entrega **sumativa (20% de la nota 
 
 #### Estructura del artículo
 
-El documento debe mantener rigor académico con la siguiente estructura y extensiones:
+El documento debe mantener rigor académico con la estructura ofrecida en el index.html preparado, con: 
 
-1. **Introducción:** (250 a 500 palabras).
+1. **Resumen:** con Introducción, Objetivo, Métodos, Resultados y Conclusiones, presentándose a cada una en 50 palabras aprox. 
 
-2. **Desarrollo:** (1250 a 2500 palabras).
+2. **Introduccion**: 250 a 350 palabras.
 
-3. **Conclusión o Discusión:** (250 a 500 palabras).
+3. **Marco teórico:** 250 a 500 palabras.
 
-4. **Referencias Bibliográficas:** Mínimo de 5, todas en formato **APA (7ma edición)**. En caso que las fuentes referidas en clases previas no sean suficientes, se evaluará positivamente la inclusión de alguna(s) de las siguientes:
+4. **Métodos:** 250 a 350 palabras.
+
+5. **Resultados**: 250 a 350 palabras y un [método de visualización](https://www.visual-literacy.org/periodic_table/periodic_table.html#)
+
+6. **Conclusión**: 250 a 350 palabras.
+
+7. **Referencias Bibliográficas:** Mínimo de 5, todas en formato **APA (7ma edición)**. En caso que las fuentes referidas en clases previas no sean suficientes, se evaluará positivamente la inclusión de alguna(s) de las siguientes:
 
   * Cairo, A. (2020). _How charts lie: Getting smarter about visual information_. W. W. Norton & Company.
 
