@@ -28,7 +28,7 @@ Para abordar estos ejes, trabajaremos en una entrega **sumativa (20% de la nota 
 
 #### Estructura del artículo
 
-El documento debe mantener rigor académico con la estructura ofrecida en el index.html preparado, con: 
+El documento debe mantener rigor académico con la estructura ofrecida en el [index.html](https://github.com/profesorfaco/troncal/blob/main/clase-05/index.html) preparado, con: 
 
 1. **Resumen:** con Introducción, Objetivo, Métodos, Resultados y Conclusiones, presentándose a cada una en 50 palabras aprox. 
 
