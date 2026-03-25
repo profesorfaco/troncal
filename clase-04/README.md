@@ -35,7 +35,7 @@ Hoy se presenta el análisis de una visualización de datos influyente utilizand
 
 - - - -   
 
-La base de su index.html
+La base de su `index.html` para la evaluación diagnóstica:
 
 ```
 <!DOCTYPE html>
