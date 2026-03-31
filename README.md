@@ -50,7 +50,7 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 [Clase 04](https://github.com/profesorfaco/troncal/tree/main/clase-04) → 31 de marzo → **Trabajo grupal, con evaluación diagnóstica** → Presentación del trabajo sobre hitos en la historia de la visualización de datos e información. Encargo del segundo trabajo grupa
 
-[Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 7 de abril → **Trabajo grupal, con evaluación sumativa** → Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación
+[Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 7 de abril → **Trabajo grupal, con evaluación sumativa** → Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación ✓
 
 [Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 14 de abril → Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON
 
