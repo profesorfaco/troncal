@@ -185,8 +185,28 @@ La base de su `index.html` para la evaluación diagnóstica:
 
 </body>
 </html>
+
 ```
 
+- - - - -
 
+Grupo 1:  Eclipse Solares: Integrantes: Amarah López, Martina Sara, Romina Cancino, Valentina Alcota.
+
+Grupo 2: [The Slave Ship Diagram 1788](https://mirrayn.github.io/The-Slave-Ship-Diagram-1788-/): Integrantes: Sofía Romo, Isidora Córdova, Bianca Olivares, Mirrayn Tapia.
+
+Grupo 3: [London Undergound Map 1933](https://ferrberrios.github.io/UNDERGROUND-LONDON-MAP/): Integrantes: Esperanza, Rayen Ramos, Luis Felipe Plaza, Fernanda Berríos.
+
+Grupo 4: Sistema ISOTYPE: Integrantes: Maitte Urrutia, Caroline Herrera, Ignacia Rojas, María Paz Bravo, Anastassia Oyarzún.
+
+Grupo 5: [Rayas de calor](https://milladincea.github.io/TRONCALEV1/): Integrantes: Antonia Solar, María J. Quinteros, Angelina Caviedes, Millaray Dinamarca, Antonia Mardones.
+
+Grupo 6: [Selfiecity](https://trabajo-grupal-troncal.github.io/clase-04/): Integrantes: Vicente Medina, Antonia Lara, Benjamín Antivillo, Francisco Hidalgo.
+
+Grupo 7: [Climate Change Spiral Visualizations 2022](https://yonahkj.github.io/Troncal-Trabajogrupal-7/): Integrantes: Vicente Tapia, Antonia Pizarro, Fabian Valenzuela, Constanza Pavez, Paloma Vargas.
+
+Grupo 8: Diagrama de la rosa: Integrantes: Valentina Abarcia, Annais Bustamante, Erlea Fuentealba.
+
+
+- - - - -
 
 [clase-03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md) ⇆ [clase-05](https://github.com/profesorfaco/troncal/blob/main/clase-05/README.md)
