@@ -10,7 +10,7 @@ En las sesiones previas hemos desglosado la información como una construcción 
 
 Para abordar estos ejes, trabajaremos en una entrega **sumativa (20% de la nota final)**.
 
-#### Temas sugeridos
+#### Temas de ejemplo
 
 * **Sesgo Algorítmico en Políticas Públicas:** Análisis de visualizaciones basadas en IA que discriminan a grupos vulnerables.
 
