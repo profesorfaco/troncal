@@ -190,13 +190,13 @@ La base de su `index.html` para la evaluación diagnóstica:
 
 - - - - -
 
-Grupo 1:  Eclipse Solares: Integrantes: Amarah López, Martina Sara, Romina Cancino, Valentina Alcota.
+Grupo 1:  [Eclipse Solares](https://romicancino.github.io/Trabajo-1_Equipo-1/): Integrantes: Amarah López, Martina Sara, Romina Cancino, Valentina Alcota.
 
 Grupo 2: [The Slave Ship Diagram 1788](https://mirrayn.github.io/The-Slave-Ship-Diagram-1788-/): Integrantes: Sofía Romo, Isidora Córdova, Bianca Olivares, Mirrayn Tapia.
 
 Grupo 3: [London Undergound Map 1933](https://ferrberrios.github.io/UNDERGROUND-LONDON-MAP/): Integrantes: Esperanza, Rayen Ramos, Luis Felipe Plaza, Fernanda Berríos.
 
-Grupo 4: Sistema ISOTYPE: Integrantes: Maitte Urrutia, Caroline Herrera, Ignacia Rojas, María Paz Bravo, Anastassia Oyarzún.
+Grupo 4: [Sistema ISOTYPE](https://mai0025.github.io/isotype-newyork/): Integrantes: Maitte Urrutia, Caroline Herrera, Ignacia Rojas, María Paz Bravo, Anastassia Oyarzún.
 
 Grupo 5: [Rayas de calor](https://milladincea.github.io/TRONCALEV1/): Integrantes: Antonia Solar, María J. Quinteros, Angelina Caviedes, Millaray Dinamarca, Antonia Mardones.
 
