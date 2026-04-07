@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La epidemia de la desinformación hormonal: Análisis de la mentira en la salud reproductiva</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 0 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>La Arquitectura del Engaño: El Diseño de Información como Vector de Desinformación</h1>
+
+    <p class="subtitle"> Ética del diseñador en la construcción (o destrucción) de la confianza pública y la verdad.
+</p>
+<img src="585113957_1270955568408944_2714353642976551231_n.jpg" style="width: 100%; height: auto; display: block;">
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">María Paz Bravo</a><span class="author-sup">1</span></li>
+        <li><a href="#">Anastassia Oyarzún</a><span class="author-sup">2</span></li>
+        <li><a href="#">Ignacia Rojas</a><span class="author-sup">3</span></li>
+        <li><a href="#">Maitte Urrutia</a><span class="author-sup">4</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Estudiante de Diseño con mención en visualidad y medios, Universidad de Chile, Santiago, Chile.</p>
+        <p><span class="aff-num">2</span>Estudiante de Diseño con mención en visualidad y medios, Universidad de Chile, Santiago, Chile.</p>
+        <p><span class="aff-num">3</span>Estudiante de Diseño con mención en visualidad y medios, Universidad de Chile, Santiago, Chile.</p>
+        <p><span class="aff-num">4</span>Estudiante de Diseño con mención en visualidad y medios, Universidad de Chile, Santiago, Chile.</p>
+
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>10 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>31 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>7 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> El diseño de información enfrenta hoy un dilema ético donde la visualidad se instrumentaliza para crear posverdades. El caso de la OMS demuestra la fragilidad del dato ante narrativas estéticas que proyectan autoridad técnica. Proponemos desentrañar cómo la jerarquía y el color generan desinformación, transformando el diseño en una barrera cognitiva.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Analizar críticamente cómo la arquitectura de la información y los sesgos visuales facilitan la viralización de noticias falsas. Se busca desentrañar el uso de jerarquías y estéticas de autoridad que distorsionan datos fácticos, transformando el diseño en una herramienta de manipulación que prioriza el impacto emocional sobre el rigor.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Esta investigación emplea un método cualitativo-analítico para desmantelar la desinformación. Mediante auditorías de integridad visual (Tufte), cruces críticos del modelo DIKW (Frické; D’Ignazio y Klein) y evaluaciones de arquitectura gráfica (Schwabish), se rastrean rupturas en los datos, sesgos de clasificación y manipulaciones estéticas, promoviendo un diseño con transparencia ética.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Los resultados revelan que la desinformación triunfa mediante una "interfaz de autoridad" que simplifica datos científicos en certezas alarmistas. Mientras la verdad utiliza textos densos, la mentira emplea chunking visual para ser más legible. El análisis concluye que es un éxito de diseño UX orientado a la manipulación masiva.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> La desinformación sobre la OMS evidencia que el diseño no es neutral; su estética de autoridad y simplificación alarmista anulan el pensamiento crítico. Nuestra responsabilidad es aplicar rigor ético para transformar el diseño de "consumo rápido" en visualizaciones que fomenten reflexión, contexto y una verdad accesible frente a la posverdad.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Posverdad Visual</span>
+        <span class="keyword">Arquitectura de Información</span>
+        <span class="keyword">Interfaz de Autoridad</span>
+        <span class="keyword">Modelo DIKW</span>
+        <span class="keyword">Alfabetización de Datos</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p>En el ecosistema digital contemporáneo, quienes estudiamos Diseño entendemos que nuestra disciplina se encuentra en una intersección ética sin precedentes. Lo que tradicionalmente se nos enseñó como una labor destinada a "dar forma" a la verdad para hacerla comprensible, hoy es frecuentemente instrumentalizado para la construcción deliberada de post verdades. Como alumnos, ya no podemos mirar la técnica de manera aislada; el caso de la noticia difundida en 2025 sobre la supuesta clasificación de la OMS tildando a los anticonceptivos de cancerígenos no es solo un error de contenido, sino un síntoma de una patología mayor: la alarmante fragilidad del dato duro frente a la seducción de la narrativa visual.</p>
+      <p>Desde nuestra vereda académica, observamos que la mentira no se propaga por una falta de información, sino por un exceso de esta que, aunque estéticamente pulcra, carece de una estructura fáctica. El problema crítico reside en que las audiencias actuales tienden a confundir la "apariencia de dato" con el "dato real". Como diseñadores sabemos que una infografía con colores institucionales y tipografías sans-serif proyecta una autoridad técnica que el usuario promedio consume sin cuestionar. Este artículo busca desentrañar cómo la desinformación utiliza nuestras mismas herramientas (jerarquía, color, síntesis) pero con el fin opuesto: generar ruido y miedo. En este contexto, el diseño deja de ser un puente para el conocimiento y se convierte en una barrera cognitiva, donde la velocidad de la imagen supera peligrosamente a la profundidad del análisis científico. Nuestra responsabilidad es, entonces, rediseñar la confianza.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Teórico</p>
+    <div class="body-text">
+    <p>El análisis de la arquitectura del engaño requiere una base multidisciplinar que abarque desde la gestión de datos hasta la ética del diseño visual. A continuación, se presentan los pilares teóricos que sustentan esta investigación:</p>
+      </div>
+    <h2>2.1 La Jerarquía DIKW y la Corrupción del Dato</h2>
+    <div class="body-text">
+      <p>El modelo DIKW (Datos, Información, Conocimiento, Sabiduría) es fundamental para entender cómo procesamos la realidad. Según Frické (2008) en su evaluación crítica The Knowledge Pyramid: A Critique of the DIKW Hierarchy, esta jerarquía propone una progresión lógica donde los datos son la base. Sin embargo, en el contexto de la desinformación, esta pirámide se subvierte. Como señalan Peters et al. (2024) en The DIKW Model in the Age of Artificial Intelligence, en la era de la posverdad enfrentamos una crisis donde la abundancia de "ruido" impide el paso hacia la sabiduría, permitiendo que datos fabricados sostengan prejuicios preexistentes.</p>
+    </div>
+
+    <h2>2.2 La Claridad Visual como Imperativo Ético</h2>
+    <div class="body-text">
+      <p>Para Edward Tufte (2020), en su obra Seeing with Fresh Eyes: Meaning, Space, Data, Truth, "ver con claridad" es un acto intelectual que requiere eliminar el ruido visual que distorsiona la evidencia. Tufte argumenta que el diseño debe estar al servicio de la verdad y no de la decoración. Complementando esto, Jonathan Schwabish (2021) en Better Data Visualizations enfatiza que una visualización efectiva debe ser "clara y comprensible", advirtiendo que decisiones subjetivas sobre colores y fuentes pueden distorsionar la percepción del espectador, facilitando el engaño.</p>
+    </div>
+
+    <h2>2.3 El "Gráfico Mentiroso" y la Responsabilidad del Diseñador</h2>
+    <div class="body-text">
+      <p>Alberto Cairo (2020), en su libro How Charts Lie, explica cómo un diseño visualmente correcto puede ser semánticamente falso. Un gráfico miente si saca los datos del contexto o si utiliza una estética de autoridad para validar una premisa errónea. Entendemos que el diseño no es solo una capa estética, sino un lenguaje retórico que puede ser instrumentalizado para la construcción de post verdades.</p>
+  </div>
+    
+    <h2>2.4 Feminismo de Datos y Sesgos de Clasificación</h2>
+    <div class="body-text">
+      <p>Finalmente, es crucial entender que los datos no son neutros. D’Ignazio y Klein (2023), en Data Feminism, sostienen que los sistemas de clasificación no son objetivos y suelen perpetuar opresiones. La noticia falsa sobre la OMS explota sesgos de género; al simplificar procesos científicos en categorías binarias de "peligro" o "seguridad", el diseño de la mentira utiliza la visualización para validar una narrativa sobre el cuerpo de las mujeres, ignorando los matices técnicos que la ciencia exige.</p>
+  </div>
+  </section>
+
+  <!-- ── MATERIALES Y MÉTODOS ────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Materiales y Métodos</p>
+
+    <div class="body-text">
+    <p>La presente investigación se despliega mediante un diseño metodológico de carácter cualitativo y analítico, estructurado para desmantelar los mecanismos invisibles que facilitan la propagación de la mentira en la comunicación de datos. El enfoque no se limita a una descripción de hechos, sino que propone una "arqueología de la información" basada en tres fases integradas:</p>
+      </div>
+
+    <h2>3.1 Auditoría de Integridad Visual y Procedencia (Data Provenance):</h2>
+    <div class="body-text">
+      <p>Utilizando los principios de Edward Tufte en Seeing with Fresh Eyes (2020), se rastrea el flujo del dato desde su captura técnica hasta su exposición pública. En el caso de los anticonceptivos, esta fase consistió en identificar los puntos de ruptura en la cadena de custodia de la información, donde el "dato crudo" fue filtrado o invisibilizado, transformándose en una omisión institucional que actúa como mentira por defecto.</p>
+    </div>
+
+    <h2>3.2 Cruce Crítico Interdisciplinar:</h2>
+    <div class="body-text">
+ <p>Se somete el modelo tradicional DIKW a una prueba de tensión frente a las teorías de Frické (2008) y el Data Feminism de D'Ignazio y Klein (2023). El método aquí consiste en mapear cómo la jerarquía piramidal estándar tiende a higienizar los datos, eliminando las "impurezas" o anomalías que, en contextos de salud pública, son precisamente los indicadores de crisis. Se analiza si la visualización original permitía el cuestionamiento o si, por el contrario, imponía una narrativa cerrada y binarista de "funciona/no funciona", desafiando así los sistemas de clasificación que perpetúan la opresión (D'Ignazio & Klein, 2023).</p>
+      </div>
+    
+    <h2>3.3 Evaluación de la Arquitectura de Visualización:</h2>
+    <div class="body-text">
+ <p>Basada en los criterios de Schwabish (2021), se auditan las piezas gráficas bajo la lupa de la transparencia, evaluando si el diseño prioriza la estética del orden sobre la ética de la claridad. Siguiendo a Schwabish (2021), se examina si los elementos visuales —como escalas o etiquetas— fueron manipulados para distorsionar la percepción del riesgo.</p>
+      </div>
+
+    <div class="body-text">
+ <p>Este método permite no solo describir el fenómeno, sino proyectar desde el diseño una metodología de "ojo pensante" que cuestione activamente: ¿Cómo sé realmente esto?</p>
+      </div>
+ 
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+
+    <div class="body-text">
+      <p>Los resultados del análisis demuestran que la mentira sobre la OMS no triunfó por su contenido textual, sino por su "diseño de interfaz de autoridad". Se detectó que la noticia falsa operó bajo un esquema de colapso de niveles de información: tomó una clasificación científica compleja y la redujo a un ícono de peligro. Mientras que la ciencia habla de "probabilidades en condiciones específicas", el diseño de la mentira habla de "certezas universales".
+</p>
+      <p>Un hallazgo crítico es la identificación de la "brecha de legibilidad". La rectificación oficial de la noticia utiliza bloques de texto densos y explicaciones técnicas que requieren un alto nivel de alfabetización científica. Por el contrario, la desinformación utilizó lo que en diseño llamamos chunking: fragmentación de la información en piezas visuales pequeñas, altamente compatibles y fáciles de procesar. Esto genera una ventaja competitiva para la mentira: es visualmente más "amigable" que la verdad.
+</p>
+<img src="Captura de pantalla 2026-04-07 180959.png" style="width: 100%; height: auto; display: block;">
+
+    </div> 
+
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">6 · Conclusiones</p>
+    <div class="body-text">
+      <p>En conclusión, el caso de la noticia falsa sobre la OMS demuestra que la desinformación no es solo un problema únicamente presentado en textos, sino que también en los casos de diseño de información. La mentira logró viralizarse ya que fue capaz de apropiarse de una "apariencia de verdad", utilizando distintos factores como colores, tipografías y estructuras que nuestro cerebro suele asociar automáticamente con la autoridad del área científica. Al simplificar procesos biológicos complejos en gráficos con fines alarmistas, el diseño se convirtió en una herramienta para pasar por alto el pensamiento crítico, privilegiando el impacto emocional y la rapidez del scroll por sobre la precisión y veracidad de los datos.
+Esta investigación es clave para confirmar que el diseño de ninguna manera es neutral: este puede ser un puente que conecta hacia el conocimiento o incluso una barrera que distorsiona la realidad. Más allá de la estética, como diseñadores tenemos el deber de aplicar el rigor de autores como Cairo y Tufte para crear visualizaciones que no solo muestran datos, sino que enseñan al usuario a interpretarlos con calma. Debemos pasar de un diseño de "consumo rápido" a uno que fomente una reflexión profunda y consciente.
+Si la desinformación está ganando es porque está mucho mejor diseñada para los medios actuales; nuestro desafío como estudiantes, académicos y profesionales del área del diseño es rehacer la verdad para que sea igual de resiliente, accesible y, sobre todo, comprensible para una ciudadanía que hoy recibe demasiados datos, pero carece de contexto.
+</p>
+      </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias</p>
+    <ul class="references-list">
+      <li>Cairo, A. (2017). <em>La verdad vergonzosa: Artefactos, datos y el diseño de la mentira</em>. Gestión 2000.</li>
+      <li>D’Ignazio, C., y Klein, L. F. (2023).<em>Feminismo de datos</em>(Trad. T. de la Mora). MIT Press. https://data-feminism.mitpress.mit.edu/</li>
+      <li>Frické, M. (2008). The knowledge pyramid: A critique of the DIKW hierarchy [La pirámide del conocimiento: Una crítica a la jerarquía DIKW].<em>Journal of Information Science, 35</em>, 131-150. https://doi.org/10.1177/0165551508094050</li>
+      <li>Peters, M. A., Jandrić, P., y Green, B. J. (2024). The DIKW model in the age of artificial intelligence [El modelo DIKW en la era de la inteligencia artificial].<em> Postdigital Science and Education.</em> Advance online publication. https://doi.org/10.1007/s42438-024-00462-8</li>
+      <li>Schwabish, J. (2021). <em>Better data visualizations: A guide for scholars, researchers, and wonks</em> [Mejores visualizaciones de datos: Una guía para académicos, investigadores y expertos]. Columbia University Press.</li>
+      <li>Tufte, E. R. (2020).<em>Seeing with fresh eyes: Meaning, space, data, truth</em> [Ver con ojos frescos: Significado, espacio, datos, verdad]. Graphics Press.</li>
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+      Maitte Urrutia · Estudiante de Diseño con mención en visualidad y medios, Universidad de Chile, Santiago, Chile · <a href="mailto:j.gonzalez@bildwiss.uni-frankfurt.de">maitte.urrutia@ug.uchile.cl</a>
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>La Arquitectura del Engaño: El Diseño de Información como Vector de Desinformación © 2026 de Urrutia et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
