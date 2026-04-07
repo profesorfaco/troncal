@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Trampa de la Percepción: Cuando el Diseño Contradice al Dato </title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 0 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>La Trampa de la Percepción: Cuando el Diseño Contradice al Dato </h1>
+
+    <p class="subtitle">Un análisis crítico sobre la "desinformación técnica", donde se explora cómo la manipulación estratégica de un gráfico (en ejes y las escalas) puede invertir la realidad a ojos del espectador. Se estudia la vulnerabilidad del cerebro ante la ruptura de las convenciones visuales tradicionales y cómo un gráfico técnicamente "correcto" en sus cifras puede ser moralmente engañoso en su ejecución.</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">Vicente Medina T.</a><span class="author-sup">1</span></li>
+        <li><a href="#">Antonia Lara H.</a><span class="author-sup">2</span></li>
+        <li><a href="#">Benjamín Antivilo B.</a><span class="author-sup">3</span></li>
+        <li><a href="#">Francisco Hidalgo R.</a><span class="author-sup">4</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Carrera de Diseño, mención Visualidad y Medios, Facultad de Arquitectura y Urbanismo, Universidad de Chile. Santiago, Chile.</p>
+        <p><span class="aff-num">2</span>Carrera de Diseño, mención Visualidad y Medios, Facultad de Arquitectura y Urbanismo, Universidad de Chile. Santiago, Chile.</p>
+        <p><span class="aff-num">3</span>Carrera de Diseño, mención Visualidad y Medios, Facultad de Arquitectura y Urbanismo, Universidad de Chile. Santiago, Chile.</p>
+        <p><span class="aff-num">4</span>Carrera de Diseño, mención Visualidad y Medios, Facultad de Arquitectura y Urbanismo, Universidad de Chile. Santiago, Chile.</p>
+
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>10 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>31 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>7 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> La visualización de datos, mediadora entre la estadística y la cognición, enfrenta hoy la "desinformación técnica". Mediante la manipulación de convenciones visuales y escalas, se fractura la integridad gráfica, transformando datos exactos en arquitecturas engañosas. Esta distorsión no solo induce al error perceptual, sino que erosiona profundamente la confianza pública en la imagen como prueba de verdad.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> El estudio busca desentrañar los mecanismos de distorsión visual que contradicen la evidencia estadística. Se propone analizar cómo la ruptura estratégica de normas cartesianas y jerarquías perceptuales impacta en la construcción de conocimiento, analizando específicamente cómo el diseño puede invalidar la integridad gráfica y manipular la narrativa de un reporte técnico.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Se emplea un enfoque analítico-crítico basado en los principios de Edward Tufte y el modelo DIKW. La metodología incluye la aplicación del "Factor de Mentira" y una auditoría de convenciones cartesianas sobre el caso "Gun deaths in Florida". Se contrastan rankings perceptuales y procesamiento pre-atentivo frente a la arquitectura visual original.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong>  El análisis demuestra una sofisticada manipulación mediante la inversión del eje Y, proyectando un descenso visual donde existe un incremento estadístico real. La estética del "goteo" actúa como distractor emocional. Los hallazgos confirman que la subversión de escalas anula la alfabetización gráfica, induciendo a una interpretación errónea y deliberada del dato.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> La precisión numérica es insuficiente sin integridad gráfica. El caso analizado revela una responsabilidad ética ineludible del diseñador: evitar la "trampa de la percepción". Se concluye que el diseño que contradice al dato no es innovación, sino un acto de desinformación que compromete la justicia informativa y el contrato social.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Integridad Gráfica</span>
+        <span class="keyword">Desinformación</span>
+        <span class="keyword">Misinformation</span>
+        <span class="keyword">Percepción</span>
+        <span class="keyword">Factor de Mentira</span>
+        <span class="keyword">Modelo DIKW</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p>En la era de la saturación informativa, la visualización de datos se erige como el puente crítico entre la complejidad estadística y la comprensión humana. No obstante, este puente es frecuentemente minado por lo que Edward Tufte denomina falta de "integridad gráfica": una distorsión deliberada o inadvertida de la forma que altera el contenido estadístico subyacente. El presente artículo analiza la "desinformación técnica", un fenómeno donde el gráfico, a pesar de mantener una fidelidad numérica estricta, se ejecuta mediante una arquitectura visual moralmente engañosa que invierte la realidad a ojos del espectador.</p>
+      <p>El cerebro humano, condicionado por convenciones visuales tradicionales —como la progresión lineal de los ejes o la proporcionalidad de las áreas—, es intrínsecamente vulnerable ante la ruptura estratégica de estas normas. Cuando un diseñador manipula las escalas o los puntos de origen de forma inconsistente, se produce una disonancia entre lo que los datos dictan y lo que el ojo percibe. Esta "trampa de la percepción" no se limita a un error de interpretación, sino que constituye una herramienta de persuasión que compromete la credibilidad del reporte. Mientras que los errores en la interpretación de datos pueden rectificarse, los gráficos engañosos son difíciles de explicar y siembran sospechas sobre la intención global del autor.</p>
+      <p>A través de un análisis crítico basado en los principios de procesamiento visual y rankings perceptuales, este estudio explora cómo la manipulación de la "mentira estadística" —término popularizado por Darrell Huff y expandido por la teoría del diseño contemporáneo— transforma instrumentos de razonamiento en herramientas de ocultación. El objetivo es desentrañar cómo el diseño, cuando contradice al dato, no sólo deforma la información, sino que erosiona el contrato de confianza entre el emisor y una audiencia que confía en la imagen como una prueba de verdad irrefutable.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Teórico</p>
+    <div class="body-text">
+    <h2>2.1 Concepción de la Desinformación</h2>
+      <p>La base de este análisis descansa en el concepto de <em>integridad gráfica</em> de Edward Tufte, quien sostiene que la representación visual de los datos debe ser proporcional a las cantidades numéricas subyacentes. Cuando un gráfico distorsiona esta relación, comete una "decepción visual" que puede ser tan dañina como una mentira textual. Bajo esta premisa, es fundamental distinguir entre el <em>engaño</em> y la <em>confusion</em> en la visualización de datos: el primero implica una manipulación de la forma para distorsionar la realidad, mientras que la segunda surge de una falta de claridad en el diseño. En muchos casos, esta falla es fruto de la decisión de priorizar el impacto estético o la metáfora visual por sobre el rigor técnico, olvidando que la función primaria del diseño es la legibilidad: "No matter how clever the choice of the information, and no matter how technologically impressive the encoding, a visualization fails if the decoding fails". (Cleveland, 1994, p. 1 citado por Few, 2007, p. 5)</p>
+      <p>Esta ruptura se explica mediante el <em>modelo DIKW</em>. Mientras el "dato" es la cifra bruta, la "información" es ese dato contextualizado mediante una representación visual. Si la visualización distorsiona la tendencia real, el "conocimiento" que el usuario adquiere es falso, lo que imposibilita alcanzar un nivel de "sabiduría" o una toma de decisiones ética basada en la evidencia. Este fenómeno se debe a que el procesamiento visual humano es <em>pre-atentivo</em>: autores como Schwabish (2021) enfatizan que el cerebro capta formas y tendencias antes de leer las etiquetas de los ejes. Al subvertir convenciones aprendidas, se explota la <em>alfabetización gráfica</em> y la <em>jerarquía de percepción</em>, que establece que el ojo humano es más preciso juzgando posiciones en escalas comunes que evaluando áreas o ángulos (Few, 2007). Así, se genera una brecha cognitiva que la desinformación aprovecha para asentar una narrativa errónea antes de que intervenga el análisis racional.</p>
+
+    <h2>2.2 Mecanismos de Distorsión Técnica</h2>
+  
+      <p>Para detallar las formas en las que se manifiesta esta situación, es necesario analizar cómo la alteración de la arquitectura del gráfico redefine el mensaje mediante diversos mecanismos de distorsión técnica que operan de manera simultánea o independiente. El <em>truncamiento del eje vertical</em> actúa eliminando el origen de la escala para exagerar la proporcionalidad visual de las variaciones, mientras que la <em>inversión de ejes</em> reorganiza las coordenadas cartesianas para situar el valor máximo en la base, subvirtiendo la lectura natural del plano y rompiendo el contrato de confianza con la audiencia. A esto se suma la <em>manipulación de dimensiones</em>, donde el uso de escalas logarítmicas mal aplicadas o el ensanchamiento desproporcionado de elementos visuales crea una discrepancia entre el área percibida y el dato estadístico real, priorizando el impacto emocional o estético sobre la precisión informativa necesaria para una correcta interpretación.</p>
+    </div>
+  </section>
+
+  <!-- ── MATERIALES Y MÉTODOS ────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Materiales y Métodos</p>
+    <div class="body-text">
+      <p>El presente estudio emplea un enfoque analítico-crítico de carácter cualitativo, centrado en la deconstrucción de la arquitectura visual de gráficos estadísticos. Para evaluar la integridad gráfica, se adopta la metodología de Edward Tufte, basada en la proporcionalidad entre la superficie física del diseño y la magnitud numérica subyacente. El núcleo de la investigación reside en la aplicación del "Factor de Mentira" (Lie Factor), herramienta que permite cuantificar la distorsión cuando el cambio gráfico no guarda relación directa con el cambio estadístico real.</p>
+    <p>Como unidad de análisis principal, se seleccionó el caso de estudio "Gun deaths in Florida" (Reuters, 2014), un ejemplo paradigmático de "desinformación técnica". La metodología para abordar este caso se desglosa en tres fases:</p>
+
+    <h2>3.1 Auditoría de convenciones cartesianas</h2>
+      <p>Se analiza la subversión de las normas de alfabetización visual, específicamente el impacto cognitivo de la inversión del eje vertical (Y). Se evalúa cómo esta decisión de diseño —colocar el origen en la parte superior— rompe el contrato pre-atentivo con el espectador, quien asocia la altura con la magnitud.</p>
+    
+
+    <h2>3.2 Análisis de Procesamiento Pre-atentivo</h2>
+  
+      <p>Basado en los principios de Schwabish, se examina cómo el cerebro procesa formas y tendencias antes de leer las etiquetas de los ejes. Se busca determinar si la metáfora visual del "goteo" (asociada a la sangre) actúa como un distractor que oculta el incremento real en la cifra de muertes tras la implementación de la ley "Stand Your Ground".</p>
+  
+    
+    <h2>3.3 Evaluación de la Eficacia Comunicativa</h2>
+  
+      <p>Bajo el marco de Stephen Few, se contrasta la eficacia del gráfico original frente a un rediseño que respete los rankings perceptuales de Cleveland y McGill, analizando si el diseño original "balbucea" (mumbles) el dato o si lo oculta deliberadamente bajo una estética de impacto emocional.</p>
+<p>Finalmente, los resultados se integran mediante el modelo DIKW para identificar la brecha exacta donde el diseño contradice al dato, impidiendo que la información se transforme en conocimiento veraz para la toma de decisiones ética.</p>
+
+ 
+  </section>
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+    <div class="body-text">
+      <p>El análisis revela que el gráfico examinado no es un error involuntario, sino una pieza de desinformación técnica altamente sofisticada. La inversión del eje Y, situando el cero en la parte superior, provoca que el área sombreada en rojo "caiga" hacia abajo, simulando un descenso cuando los números reales indican un incremento de 500 a más de 800 muertes tras 2005.</p>
+      <p>El gráfico se hizo con la intención de visualizar las muertes como si fuera sangre derramándose, la misma diseñadora, Christine Chan mencionó en su Twitter “I prefer to show deaths in negative terms (inverted). It's a preference really, can be shown either way." (como se citó en UsVsTh3m, 2014), tomando inspiración del gráfico creado por Simon Scarr sobre las vidas perdidas en Iraq a manos del ejército estadounidense, pero a diferencia de este el entendimiento se ve afectado por hechos tales como que el eje x se encuentre presente en la parte inferior en el gráfico sobre la muertes por armas en Florida mientras que en el gráfico de Simon este solo se ve desde la parte superior, sumando que la cantidad de datos en el eje x era mayor facilitaba su comprensión como sangre cayendo. En el caso de Christine hay una clara confusión al leerse como un gráfico normal si no se le presta atención a que el eje y se encuentra invertido.</p>
+      <p>El gráfico causó controversia en redes sociales debido a lo mencionado anteriormente ya que la gran mayoría de personas que lo vieron asumieron que luego de la implementación de leyes de defensa personal las muertes causadas por armas bajaron, cuando la historia ocurre al revés.</p>
+    </div>
+
+      <figure>
+        <img src="foto-01.webp" alt="gun_deaths_in_florida" width="50%" height="50%">
+        <figcaption><strong>Figura 1.</strong>. Gun deaths in Florida, por C. Chan, 2014, Reuters.</figcaption>
+      </figure>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Categoría Técnica</th>
+            <th>Representación en el Gráfico (Diseño)</th>
+            <th>Realidad del Dato (Estadística)</th>
+            <th>Impacto Cognitivo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Eje Vertical</strong></td>
+            <td>Invertido (0 arriba, 1000 abajo)</td>
+            <td>Estándar (0 abajo, 1000 arriba)</td>
+            <td>Confusión de tendencia</td>
+          </tr>
+          <tr>
+            <td><strong>Tendencia Visual</strong></td>
+            <td>Curva descendente (hacia el fondo)</td>
+            <td>Incremento agudo (hacia el tope)</td>
+            <td>Inversión del mensaje</td>
+          </tr>
+          <tr>
+            <td><strong>Color/Sombra</strong></td>
+            <td>Rojo goteando (asociación a sangre)</td>
+            <td>Área bajo la curva</td>
+            <td>Emocionalidad distractora</td>
+          </tr>
+           <tr>
+             <td><strong>Clasificación</strong></td>
+            <td>Desinformación</td>
+            <td>Información</td>
+           <td>Engaño deliberado</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="table-caption"><strong>Tabla 1.</strong> Comparativa de Percepción vs. Realidad Técnica</p>
+    </div>
+    </figure>
+  </section>
+
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">5 · Conclusiones</p>
+    <div class="body-text">
+      <p>El análisis del caso <em>Gun deaths in Florida</em> demuestra que la precisión técnica de los datos es insuficiente para garantizar la veracidad de una comunicación. El diseño tiene el poder de invertir la realidad mediante la manipulación de las convenciones perceptivas. Como plantea Tufte, la excelencia gráfica consiste en comunicar ideas complejas con claridad, precisión y eficiencia, no en ocultarlas bajo artificios visuales. </p>
+      <p>En el caso de este gráfico no se expresa la idea claramente, la distribución de los datos y el formato utilizado para demostrarlos solo logran que el lector se sienta engañado al ver que medios oficiales dan información que pareciera ser errónea.</p>
+      <p>La ruptura de la norma visual en este gráfico no constituye una innovación estética, sino un acto de "desinformación técnica" que explota el procesamiento pre-atentivo del cerebro. Desde la perspectiva de la justicia en el diseño, este tipo de prácticas profundiza las brechas de poder al despojar al ciudadano de la capacidad de comprender su entorno real a través de los datos. En conclusión, el diseñador de información tiene una responsabilidad ética ineludible: debe actuar como un puente honesto en el modelo DIKW, asegurando que la transición del dato a la sabiduría no sea saboteada por la "trampa de la percepción". </p>
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias</p>
+    <ul class="references-list">
+      <li>Costanza-Chock, S. (2020). <em>Design Justice: Community-Led Practices to Build the Worlds We Need</em>. MIT Press.</li>
+      <li>Few, S. (2007). <em>Save the Pies for Dessert</em> Visual Business Intelligence Newsletter.</li>
+      <li>Frické, M. (2009) <em>The knowledge pyramid: a critique of the DIKW hierarchy</em>. Journal of Information Science, 35(2), 131-159</li>
+      <li>Frické, M. H. (2016). <em>Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum</em>. En Encyclopedia of Knowledge Management. Springer.</li>
+      <li>Peters, M. A., Jandrić, P., & Green, B. J. (2024). <em>The DIKW Model in the Age of Artificial Intelligence</em>. Postdigital Science and Education.</li>
+      <li>Schwabish, J. (2021). <em>Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks</em>. Columbia University Press</li>
+      <li>Texas State Auditor's Office. (1995). <em>Data Analysis: Displaying Data - Deception with Graphs</em>. Methodology Manual.</li>
+      <li>Tufte, E. R. (2001). <em>The Visual Display of Quantitative Information</em> (2nd ed.). Graphics Press.</li>
+      <li>Tufte, E. R. (2020). <em>Seeing with Fresh Eyes: Meaning, Space, Data, Truth</em>. Graphics Press.</li>
+      <li>UsVsTh3m. (2014). Creator defends graph that appears to erroneously show Florida gun deaths dropped after "Stand Your Ground" law. Tumblr. <a href="https://usvsth3m.tumblr.com/post/82779802419/creator-defends-graph-that-appears-to-erroneously">https://usvsth3m.tumblr.com/post/82779802419/creator-defends-graph-that-appears-to-erroneously</a>
+</li>
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>La Trampa de la Percepción: Cuando el Diseño Contradice al Dato © 2026 de Medina et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
