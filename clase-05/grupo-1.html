@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA PROPAGACIÓN DE LA MENTIRA: LA POLÍTICA Y EL MIEDO COMO MÉTODO DE DESINFORMACIÓN Y CONTROL</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f1f1f0;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+    p {
+      font-size: 17px;
+      line-height: 1.75;
+      margin-bottom: 18px;
+      font-weight: 400;
+    }
+
+    /* Pega el código nuevo justo aquí: */
+    ul {
+      margin-bottom: 24px;
+      padding-left: 24px;
+    }
+
+    li {
+      font-size: 17px;
+      line-height: 1.75;
+      margin-bottom: 12px;
+      font-weight: 400;
+    }
+
+    /* FIGURE */
+    figure { margin: 28px -100px 24px; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 1 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>La propagación de la mentira: La política y el miedo como método de desinformación y control</h1>
+
+    <p class="subtitle">Hacia una iconología crítica de la falsedad: regímenes de verdad, imagen técnica y propagación del engaño deliberado en entornos digitales. Un artículo de ejemplo generado con inteligencia artificial.</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">Valentina Alcota</a><span class="author-sup">1</span></li>
+        <li><a href="#">Romina Cancino</a><span class="author-sup">2</span></li>
+        <li><a href="#">Amarah López</a><span class="author-sup">3</span></li>
+        <li><a href="#">Martina Sara</a><span class="author-sup">4</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Estudiante de Pregrado Diseño,Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">2</span>Estudiante de Pregrado Diseño,Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">3</span>Estudiante de Pregrado Diseño,Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">4</span>Estudiante de Pregrado Diseño,Universidad de Chile, Santiago, Chile</p>
+
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>10 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>31 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>7 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> En marzo de 2026, el nuevo gobierno chileno instala la narrativa de la <em>"quiebra técnica"</em> del Estado. Este fenómeno no es sólo político, sino un problema de construcción de información donde el dato financiero se descontextualiza para generar una percepción de emergencia y control social por medio del miedo, evidenciando a su vez una falta de transparencia hacia la ciudadanía.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> El presente artículo analiza cómo la manipulación de visualizaciones presupuestarias y el uso del miedo actúan como métodos de desinformación. Se busca deconstruir la transición del <em>"dato"</em> de la cuenta fiscal hacia un <em>“conocimiento"</em> de austeridad impuesta, evaluando el impacto de estos sesgos en la percepción pública.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Se utiliza un análisis crítico del discurso visual y una revisión bibliográfica basada en la crítica de Frické al modelo <em>“DIKW”</em> y <em>“el Feminismo de Datos"</em>. Se comparan las gráficas oficiales de <em>"déficit"</em> con la complejidad real de los activos públicos y flujos macroeconómicos.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Los hallazgos indican que la visualización del <em>"cero"</em> fiscal es una simplificación deliberada que oculta la solvencia a largo plazo. Esta desinformación instrumentaliza y potencia el miedo para justificar diversos recortes de presupuesto en programas sociales, evidenciando que la <em>"limpieza"</em> del dato es, en realidad, una poda de la verdad sin tener en cuenta las repercusiones que estas declaraciones tienen sobre la imagen del país frente al mundo.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> Se concluye que la manipulación de las visualizaciones presupuestarias y la omisión deliberada de contexto económico operan como un inminente mecanismo sistemático de desinformación. El uso estratégico del miedo, validado a través de una representación sesgada y alarmista del dato fiscal, se consolida como una táctica de control político que restringe el debate público y legitima la imposición de medidas de austeridad.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Gobierno de Chile 2026</span>
+        <span class="keyword">Desinformación</span>
+        <span class="keyword">Misinformation</span>
+        <span class="keyword">Legitimidad informativa</span>
+        <span class="keyword">Política y miedo</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p> El inicio del ciclo político en marzo de 2026 estuvo marcado por la premisa gubernamental de que el Estado se encuentra en "quiebra" con una "caja fiscal vacía". Lejos de ser un diagnóstico técnico, esta narrativa utiliza la visualización del déficit como una herramienta de desinformación <em>(disinformation)</em> y control emocional. Al reducir la complejidad macroeconómica a una simple cuenta de ahorros descontextualizada, se busca instaurar artificialmente un clima de urgencia nacional.
+La falsedad de este relato de escasez absoluta quedó expuesta rápidamente cuando un informe técnico reveló la existencia de US$3.600 millones dejados por la administración saliente (La Cuarta, 2026). Esta discrepancia confirma que la supuesta "caja vacía" es un recurso retórico fabricado para consolidar la opacidad frente a la ciudadanía.
+En consecuencia, este análisis aborda cómo la política instrumenta el miedo mediante la alteración visual y semántica de los datos. Se explorará cómo la presentación de cifras aisladas y gráficos sesgados opera para justificar recortes estructurales y la precarización social, funcionando como un mecanismo de control incluso cuando la evidencia técnica desmiente la supuesta crisis.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Metodológico/Teórico</p>
+
+    <h2>1. La importancia de la legitimidad de los datos</h2>
+    <div class="body-text">
+      <p> El análisis de este fenómeno exige cuestionar cómo los datos adquieren validez pública. El modelo tradicional DIKW <em>(Data-Information-Knowledge-Wisdom)</em> sugiere que la "sabiduría" emerge al depurar datos neutrales. Sin embargo, Frické (2009) critica esta premisa, advirtiendo que la selección inicial del dato ya contiene una intención. Al mostrar una contabilidad parcial y omitir miles de millones disponibles, el gobierno no informa, sino que construye una "sabiduría" artificial de crisis basada en una decisión política.
+En la actual era digital, esta ilusión de objetividad se agrava. Peters, Jandrić y Green (2024) señalan que la asimilación del modelo DIKW mediante algoritmos y tableros de control <em>(dashboards)</em> camufla los sesgos ideológicos de austeridad, presentándolos ante la ciudadanía como verdades matemáticas irrefutables.
+A esta manipulación estructural se aplica la óptica del Feminismo de Datos (D’Ignazio y Klein, 2023), que insta a "examinar el poder" y evidenciar los datos faltantes <em>(missing data)</em>. Reducir la macroeconomía al binomio absoluto de "hay plata / no hay plata" invisibiliza el costo humano y a las comunidades vulnerables, convirtiendo la omisión deliberada de recursos en una tecnología de opresión.
+Finalmente, esta estrategia se materializa a través del diseño. Meirelles (2014) exige un rigor irrestricto para no distorsionar visualmente la realidad, mientras que Cairo (2020) y Tufte (2020) coinciden en que alterar u ocultar el contexto en un gráfico no es informar, sino mentir retóricamente. El uso de tipografías alarmantes y visualizaciones simplificadas constituye una violación a la integridad informativa, transformando un balance fiscal en propaganda fundamentada en el miedo.
+ </p>
+    </div>
+  </section>
+
+  <!-- ── MATERIALES Y MÉTODOS ────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Materiales y Métodos</p>
+
+    <h2>2. Métodos </h2>
+    <div class="body-text">
+      <p>El procedimiento analítico constó de tres etapas secuenciales: </p>
+
+<ul>
+  <li>
+    <strong>Identificación de datos faltantes:</strong> En primer lugar, se aplicó el principio de "examinar el poder" y evidenciar la omisión del dato propuesto por el Feminismo de Datos. Se documentó la supresión deliberada de los US$3.600 millones disponibles, junto a otros activos macroeconómicos del Estado, como reservas soberanas y líneas de crédito.
+  </li>
+  <li>
+    <strong>Deconstrucción lógica:</strong> En segundo lugar, utilizando la crítica de Frické al modelo DIKW, se evaluó cómo la supresión de estos datos positivos fue utilizada para forzar lógicamente la construcción de un "conocimiento" artificial de colapso inminente en la opinión pública.
+  </li>
+  <li>
+    <strong>Contraste visual:</strong> Finalmente, se analizaron los métodos de representación utilizados por la oficialidad. Se determinó que la complejidad del presupuesto nacional no puede representarse mediante simples gráficos de barras descendentes teñidos de rojo, sino a través de un mapeo de flujos a travez de un Diagra <em>iceberg</em>. Este último modelo permite evidenciar el discurso estatal sobre el capital fiscal, desarticulando así lo dicho por el gobierno de turno.
+  </li>
+</ul>
+ </p>
+    </div>
+      
+  <section>
+ <figure>
+  <img 
+    src="https://i.imgur.com/QQcMFZS.jpeg" 
+    alt="Diagrama iceberg asimetría informativa"
+    style="width: 100%; border: 1px solid #ccc; border-radius: 4px;"
+  />
+  <figcaption><strong>Figura 1.</strong> Representación estructural de la asimetría informativa impuesta por el gobierno. Nótese la radical desproporción entre la fracción visible sobre la línea de flotación y la inmensa masa de datos ocultos bajo el nivel de escrutinio público.</figcaption>
+</figure>
+</section>
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+
+    <h2>3. Resultados de la investigación </h2>
+    <div class="body-text">
+      <p>La aplicación de la metodología sobre el corpus oficial evidenció que la narrativa de la "quiebra técnica" no respondió a un error contable, sino a una estrategia sistemática de desinformación articulada en tres dimensiones:</p>
+
+      <p><strong>3.1. La manufactura de la crisis mediante "datos faltantes":</strong> El análisis empírico confirma que el gobierno operó mediante la política de la omisión (D'Ignazio y Klein, 2023). Al extirpar deliberadamente los activos a favor y las reservas de las representaciones gráficas, la compleja macroeconomía estatal fue reducida a una línea de insolvencia unidimensional, demostrando que lo que el diseño oficial decidió no mostrar fue el principal articulador del engaño.</p>
+
+      <p><strong>3.2. El diseño visual como dispositivo retórico del miedo:</strong> Se comprobó una transgresión deliberada a los estándares de integridad visual (Meirelles, 2014; Cairo, 2020). El uso de gráficos que aislaban el déficit a corto plazo, sumado a una estética de emergencia (saturación de rojos y tipografías de alarma), transformó la representación visual en un recurso puramente retórico (Tufte, 2020). Esta saturación bloqueó la transición lógica hacia el conocimiento (modelo DIKW), sustituyendo el análisis racional de la ciudadanía por un estado de pánico inducido.</p>
+
+      <p><strong>3.3. Consecuencias materiales:</strong> Los hallazgos revelan que el objetivo último de esta "poda de la verdad" fue operar como un mecanismo profiláctico contra las demandas sociales. Al instalar visualmente la premisa absolutista de la escasez, se logró:</p>
+ 
+      <ul>      
+        <li>Justificar de manera anticipada e incuestionable la aplicación de recortes estructurales.</li>
+        <li>Invisibilizar el costo humano de la austeridad, desplazando el debate desde la vulnerabilidad social hacia la salvación macroeconómica.</li>
+        <li>Desactivar la presión ciudadana y gremial a través del control emocional.</li>
+      </ul>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Régimen icónico</th>
+            <th>Tipo de falsedad</th>
+            <th>Intención</th>
+            <th>Mecanismo de <em>Bildakt</em></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I · La manufactura de la crisis mediante "datos faltantes"</td>
+            <td><em>Suppressio Veri</em></td>
+            <td>Desestabilización Cognitiva</td>
+            <td>Acto esquemático</td>
+          </tr>
+           <tr>
+            <td>II · Manipulación semántica</td>
+            <td><em>Suppressio Veri</em></td>
+            <td>Desestabilización Cognitiva</td>
+            <td>Acto esquemático</td>
+           </tr>
+          <tr>
+            <td>III · Déficit como arma de coacción</td>
+            <td><em>Suppressio Veri</em></td>
+            <td>Desestabilización Cognitiva</td>
+            <td>Acto esquemático</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="table-caption"><strong>Tabla 1.</strong> Distribución del corpus según régimen icónico de falsedad, tipo de falsedad en la taxonomía de Wardle y Derakhshan (2017), intencionalidad del agente productor y mecanismo de <em>Bildakt</em> predominante según Bredekamp (2010).</p>
+    </div>
+
+    <h2>4. Caso específico</h2>
+    <div class="body-text">
+      <p>Como se mencionó anteriormente, el actual ministro de Hacienda, Jorge Quiroz, alertaba que el Gobierno del ex-presidente Gabriel  Boric dejó al fisco “sin caja”, por lo que el Lunes 16 de Marzo firmará un oficio para reducir el gasto de los ministerios en un 3%. Lo cual respondería de manera directa el por qué de las gráficas que luego se compartieron en las respectivas redes sociales oficiales del Gobierno.
+</p>
+      <img src="https://media-front.elmostrador.cl/2026/03/WhatsApp-Image-2026-03-25-at-8.44.58-AM-1.jpeg">
+      <p>Luego de unos días, se realiza una entrevista con Mesa Central del canal T13 con dicha autoridad de Gobierno que mostró una gráfica en la que revela que mientras los antiguos ministros de Hacienda dejaron cifras altas, por ejemplo en Diciembre del año 2021, el monto fue de 4.098 millones de dólares. Esta vez, considerando el mismo mes, fueron 46 millones de dólares.</p> 
+         <p>"Esto se encuentra hoy día con un gobierno que ha tenido que heredar del anterior un fisco sin caja. La caja con que cerró la administración anterior fue de 40 millones de dólares al 31 de diciembre del 2025. Normalmente, las cajas terminan en administraciones normales entre 3000 y 4000 millones de dólares. Por lo tanto, hemos heredado una caja que es un 1% de lo normal"(Woo, 2026, 1:58-2:39) </p>
+      <p>El problema existente, al final, es el hecho de que esos datos eran de Diciembre de 2025, mientras que mediante una actualización según un informe oficial de la DIPRES, los datos desglosados indican:</p>
+      <ul>
+<li><span class="list-label">31 de Diciembre de 2025:</span> cerca de US$46 millones (cifra confirmada como históricamente baja).</li>
+<li><span class="list-label">31 de Enero de 2026:</span>  US$1.406 millones (incremento tras emisión de deuda).</li>
+<li><span class="list-label">28 de Febrero de 2026:</span>US$3.617 millones, que muestra una recuperación sustancial. 
+</li>
+</ul>
+    </div>
+     <figure>
+  <img 
+    src="https://i.imgur.com/BayiioO.png" 
+    alt="Gráfico cifras DIPRES"
+    style="width: 100%; border: 1px solid #ccc; border-radius: 4px;"
+  />
+  <figcaption><strong>Figura 2.</strong> Tabla de valores sobre los Reportes Activos Consolidados en el Tesoro Público</figcaption>
+</figure>
+
+
+  </section>
+
+  <!-- ── DISCUSIÓN ────────────────────────────────────────────── -->
+ <section>
+    <p class="section-label">5 · Discusión</p>
+    <div class="body-text">
+      <p>Los resultados confirman que la narrativa de la "caja vacía" es una estrategia de <em>disinformation</em> deliberada y no un simple error contable (<em>misinformation</em>). La extirpación visual de los US$3.600 millones demuestra que el diseño de información fue instrumentalizado como arma epistémica. Siguiendo a Frické (2009) en su crítica al modelo DIKW, se evidencia que la selección del dato oficial no es el origen neutro del "conocimiento", sino que codifica una intención política de austeridad bajo una apariencia de objetividad matemática irrefutable.</p>
+      
+      <p>Para comprender esta mecánica, el concepto de "datos faltantes" (D'Ignazio y Klein, 2023) es fundamental: el engaño oficial opera no solo por lo que grafica, sino por lo que omite sistemáticamente (activos a largo plazo y costo social). En concordancia con Cairo (2020) y Tufte (2020), esta mentira visual es un efecto retórico que, al alterar el contexto mediante una estética de emergencia, anula el raciocinio ciudadano e instala un pánico que justifica recortes estructurales anticipados.</p>
+      
+      <p>Finalmente, el estudio presenta como limitación su enfoque temporal acotado a la coyuntura de marzo de 2026 (La Cuarta, 2026). Investigaciones futuras deberán abordar cómo estas distorsiones se perpetúan a largo plazo a través de tableros digitales e IA predictiva (Peters, Jandrić y Green, 2024), evaluando el impacto material y sostenido de esta opacidad informativa sobre las comunidades más vulnerables.</p>
+    </div>
+  </section>
+
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">6 · Conclusiones</p>
+    <div class="body-text">
+      <p>La presente investigación ha demostrado que la información económica, instrumentalizada políticamente, se convierte en un dispositivo de control social de alta eficacia. Al aislar los pasivos y suprimir deliberadamente los activos —como se evidenció empíricamente con la omisión de los US$3.600 millones en el relato oficial—, se consolida una estética visual alarmista que explota el sesgo cognitivo humano hacia las amenazas. Esta "poda de la verdad" no es un accidente técnico ni una mera simplificación pedagógica, sino una tecnología de opresión que utiliza el diseño para silenciar el debate público, invisibilizar a los sectores vulnerables y justificar medidas de austeridad de forma unilateral.</p>
+      
+      <p>En este sentido, la visualización del "cero fiscal" opera como un arma epistémica. Interrumpe la asimilación racional de la información, sustituyendo el conocimiento ciudadano por la urgencia y el miedo. Contrarrestar este método de control exige, por tanto, un doble compromiso: ético desde la disciplina del diseño y crítico desde la sociedad civil. Implica rechazar decididamente las simplificaciones absolutas y demandar representaciones informativas que asuman la complejidad real, los flujos integrales y los datos faltantes de la administración pública.</p>
+      
+      <p>En definitiva, desenmascarar el uso del déficit como un arma de coacción política requiere fomentar una alfabetización visual crítica. Solo a través del escrutinio constante al poder y la exigencia de transparencia estructural será posible proteger el ecosistema informativo democrático frente a las narrativas de crisis fabricadas, asegurando que los balances financieros sirvan verdaderamente para iluminar la realidad del Estado y no para someter a sus ciudadanos a través del miedo.</p>
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS Bibliográficas ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias utilizadas</p>
+    <ul class="references-list">
+      <li>Cairo, A. (2020) <em> How charts lie: Getting smarter about visual information. W. W. Norton & Company. </em></li>
+      <li>D'Ignazio, C., & Klein, L. (2023). <em>Data feminism: Capítulos 4: "Lo que se cuenta, cuenta". MIT Press.</em></li>
+      <li>Frické, M. (2009). <em>The knowledge pyramid: A critique of the DIKW hierarchy. Journal of Information Science, 35(2), 131-159.</em>. Suhrkamp Verlag.</li>
+      <li>La Cuarta. (2026, 31 de marzo). <em>¿Hay o no hay plata? Nuevo informe revela que Boric dejó caja de US$3.600 millones y oposición se lo enrostra al gobierno. La Cuarta.</em>.</li>
+      <li>Meirelles, I. (2014). <em>La información en el diseño: Introducción a las historias, las teorías y las mejores prácticas para la visualización eficaz de información. Parramon.</em> </li>
+      <li>Woo, E. (2026, 13 de marzo). <em>Ministro Quiroz denuncia que se heredó “un fisco sin caja” de apenas un “1% de lo normal” [Video]. The Clinic. https://www.theclinic.cl/2026/03/13/quiroz-gobierno-caja-fiscal-kast-boric/</em> </li>
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+     Valentina Alcota, Romina Cancino, Amarah López, Martina Sara· Estudiantes de Pregrado Diseño, Universidad de Chile, Santiago, Chile · <a href="mailto:Amarah.lopez@ug.uchile.cl">Amarah.lopez@ug.uchile.cl</a>
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>LA PROPAGACIÓN DE LA MENTIRA © 2026 de Valentina Alcota, Romina Cancino, Amarah López, Martina Sara et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
