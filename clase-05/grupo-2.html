@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicación del modelo DIKW en el análisis de la gráfica de Kansas sobre COVID-19</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 0 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>Aplicación del modelo DIKW en el análisis de la gráfica de Kansas sobre COVID-19</h1>
+
+    <p class="subtitle">Del dato a la desinformación: Rupturas en la jerarquía DIKW mediante la manipulación visual de indicadores epidemiológicos.</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">Isidora Cordova</a><span class="author-sup">1</span></li>
+        <li><a href="#">Grace Lopez</a><span class="author-sup">2</span></li>
+        <li><a href="#">Sofia Romo</a><span class="author-sup">3</span></li>
+        <li><a href="#">Bianca Olivares</a><span class="author-sup">4</span></li>
+        <li><a href="#">Mirrayn Tapia</a><span class="author-sup">5</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Estudiante de pregrado de la carrera de Diseño, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">2</span>Estudiante de pregrado de la carrera de Diseño, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">3</span>Estudiante de pregrado de la carrera de Diseño, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">4</span>Estudiante de pregrado de la carrera de Diseño, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">5</span>Estudiante de pregrado de la carrera de Diseño, Universidad de Chile, Santiago, Chile</p>
+
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>10 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>31 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>7 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> La pandemia del COVID-19 consolidó a las visualizaciones digitales como fuentes de verdad en los contextos de incertidumbre. Allí el diseño de información tomó un rol crítico donde representaciones distorsionadas fueron capaces de perturbar la percepción del riesgo social e influenciar en decisiones apresuradas basadas en datos manipulados.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Este artículo tiene como objetivo analizar la manipulación visual de datos epidemiológicos realizada por el Departamento de Salud de Kansas en 2020. Se busca deconstruir cómo el uso intencionado de escalas inconsistentes y jerarquías visuales engañosas funciona como un mecanismo de desinformación que traiciona la confianza pública y la ética del diseño.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Para esto se empleó un paradigma cualitativo-analítico mediante deconstrucción semiótica y análisis de contenido visual. Basándose en los principios de Schwabish (2021), se ejecutó una auditoría de escalas en el eje de ordenadas, un examen de jerarquías visuales y una evaluación ética bajo los conceptos de la jerarquía DIKW y Cheap Fakes.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Se identificó una distorsión deliberada en el eje vertical (Y), el cual carece de progresión aritmética constante para favorecer una narrativa política específica. Esta técnica generó una ilusión óptica de eficacia en ciertas medidas sanitarias. Se propone un gráfico de líneas normalizado con escala lineal continua para restaurar la integridad informativa. La visualización en crisis es un acto político y ético.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> El caso Kansas demuestra que la manipulación de escalas distorsiona el flujo de la pirámide DIKW, impidiendo que el dato se transforme en sabiduría colectiva.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Visualización de Datos</span>
+        <span class="keyword">Desinformación</span>
+         <span class="keyword">DIKW</span>
+        <span class="keyword">Covid-19</span>
+         <span class="keyword">Kansas</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    
+    <div class="body-text">
+   <p>La pandemia del COVID-19 ocurrida desde finales del año 2019, transformó significativamente la manera en la que nos relacionamos con el mundo digital y los datos que nos proporciona este mismo. En un contexto de incertidumbre donde el enemigo era invisible, la gente empezó a tomar medidas de prevención conforme a los datos proporcionados por los medios de visualización digitales, puesto estos eran la única fuente de información disponible en el momento. Estas visualizaciones permitieron a millones de personas interpretar y entender la situación actual para poder tomar decisiones de cuidado personales y de sus familias.</p>
+      <p>Conforme con el avance de la pandemia la población en general comenzó a visualizar cada vez más representaciones visuales de datos epidemiológicos, asumiendo su veracidad por los medios en los que se compartían. El diseño empezó a tomar un rol crítico en cómo se mostraban estos datos a la población, ya que una representación gráfica distorsionada podía perturbar gravemente la visualización de riesgo y generar percepciones erróneas de datos.</p>
+      <p>Es por esto que en el presente artículo se mostrará una noticia donde la representación visual de los datos fue manipulada por quienes la presentaron, el departamento de salud y medioambiente de Kansas.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Teórico</p>
+    <div class="body-text">
+      <p>Para comprender la distorsión de los datos en el caso de Kansas, es de suma importancia establecer un marco conceptual que vincule la ciencia de la información con la ética del diseño visual. La construcción del conocimiento de información no es un proceso automático ni mucho menos sencillo, sino un camino vulnerable a distorsiones deliberadas por manos que buscan su conveniencia.</p>
+    <h2>2.1 La Jerarquía DIKW y el Flujo de la Información</h2>
+    <div class="body-text">
+      <p>El modelo <b>DIKW</b> (sigla en inglés para Data, Information, Knowledge, Wisdom / Datos, Información, Conocimiento, Sabiduría) propone una estructura piramidal donde los <b>Datos</b> constituyen la base primordial de símbolos y registros. Según Martin Frické , "The vision is that of a human asking a question beginning with, perhaps, 'who,' 'what,' 'where,' 'when,' or 'how many' and the data is processed into an answer to an enquiry. When this happens, the data becomes 'information'" (Frické, 2019, p. 34). Por lo que la <b>Información</b> surge cuando estos datos se contextualizan para responder preguntas fundamentales. El <b>Conocimiento</b> aparece al integrar esa información en marcos de aplicación práctica, y finalmente la <b>Sabiduría</b> representa el nivel superior de discernimiento ético y juicio crítico. En el contexto de la pandemia, una visualización de datos defectuosa no solo entrega mala información, sino que corrompe la capacidad de la persona para alcanzar la sabiduría necesaria en la gestión de su propio riesgo.</p>
+    </div>
+       <h2>2.2 Alfabetización Estadística y Retórica Visual</h2>
+    <div class="body-text">
+      <p>La visualización de datos no es una herramienta neutral; es un acto de <b>retórica visual</b>, es decir el uso de imágenes y elementos gráficos para comunicar mensajes persuasivos, poéticos o impactantes que van más allá del significado literal. Como señala Schwabish (2021, p. 16) “-thinking carefully about how data is presented is just as important as the data itself.” El diseño de información implica decisiones críticas sobre escalas, ejes y jerarquías que determinan la recepción del mensaje. La efectividad de estas gráficas descansa en la <b>alfabetización estadística</b> de la población: la capacidad de interpretar y analizar críticamente los datos. La evidencia sugiere que, ante la complejidad de los datos epidemiológicos, la audiencia tiende a confiar en la "autoridad de la imagen", lo que permite que decisiones de diseño, como el recorte de ejes o la alteración de escalas, pasen desapercibidas, transformando la visualización en un instrumento de persuasión más que de instrucción.</p>
+    </div>
+     <h2>2.3 De la Post-verdad a los "Cheap Fakes"en el Diseño</h2>
+    <div class="body-text">
+      <p>En el ecosistema digital actual, el concepto de <b>Post-verdad</b> significa sencillamente que los hechos objetivos de una dada situación influyen menos en la opinión pública que las emociones o las creencias personales. Bajo este marco emergen los <b>Cheap Fake</b>, a diferencia de las manipulaciones tecnológicas complejas, los cheap fakes consisten en alteraciones de bajo costo técnico pero de alto impacto cognitivo. En el ámbito de la estadística, esto se manifiesta mediante el uso de escalas inconsistentes, la omisión de variables de control o la presentación de datos sin contexto. Estas prácticas crean una línea difusa entre la información y la desinformación, aprovechando la apariencia de objetividad técnica para dirigir la opinión pública hacia una dirección clara, comprometiendo así la responsabilidad social que el diseño de información debe garantizar en la esfera pública.</p>
+    </div>
+      <h2>2.4  La Ética en el Diseño de Información</h2>
+    <div class="body-text">
+      <p>Finalmente, el diseño de información debe entenderse como un acto ético. El diseñador no es un decorador de cifras, sino un mediador de información sensible. La elección de un color, el grosor de una línea o el punto de origen de un eje son decisiones con implicaciones políticas. La transparencia y la honestidad visual son, por tanto, requisitos para el ejercicio de un diseño que aspire al compromiso social y la salud pública.</p>
+    </div>
+    <div class="body-text">
+      <p>Este enfoque permite identificar no solo los errores técnicos, sino las intencionalidades subyacentes en la manipulación de la percepción pública mediante el diseño.</p>
+    </div>
+  </section>
+
+  <!-- ── MATERIALES Y MÉTODOS ────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Materiales y Métodos</p>
+    <div class="body-text">
+      <p>La presente investigación se inscribe en el paradigma cualitativo-analítico, empleando el <b>análisis de contenido visual</b> y la <b>deconstrucción semiótica</b> como herramientas principales para evaluar la integridad comunicativa en la visualización de datos. El objeto de estudio es el gráfico "Kansas COVID-19 7-Day Rolling Average of Daily Cases Per 100K Population", publicado por el Departamento de Salud y Medio Ambiente de Kansas (KDHE) en 2020. (Figura 1).</p>
+      <p>Para el análisis, se aplicaron los cinco principios fundamentales de visualización de datos propuestos por Schwabish (2021): mostrar los datos de forma íntegra, reducir el ruido visual, integrar texto y gráfica, evitar estructuras confusas y utilizar el color de manera estratégica. La metodología se dividió en tres fases:</p>
+
+    <h2>1. Auditoría de Escalas y Ejes:</h2>
+    <div class="body-text">
+      <p>Evaluación de la coherencia entre los valores numéricos de los datos epidemiológicos y su representación espacial en el eje de las ordenadas (Y).</p>
+    </div>
+
+    <h2>2. Análisis de Jerarquías Visuales:</h2>
+    <div class="body-text">
+      <p>Como el uso de colores y etiquetas influye en la atención del espectador.</p>
+    </div>
+
+       <h2>3. Evaluación Ética y Fenomenológica:</h2>
+    <div class="body-text">
+      <p>Reflexión sobre la construcción de la "verdad visual" en el contexto de la pandemia, analizando si la gráfica cumple con la función de transformar datos en conocimiento útil o si, por el contrario, fomenta la desinformación bajo la categoría de Cheap Fake.</p>
+    </div>
+
+    <figure>
+    <img src="kansas.png" alt="kansasgrafico" width="600" >
+  <figcaption><strong>Figura 1.</strong> Grafico compartido por Rachel Maddow en Twitter y emitido en directo en el programa The Rachel Maddow Show el 6 de agosto de 2020.</figcaption>
+    </figure>
+      <div class="body-text">
+      <p>Este enfoque permite identificar no solo los errores técnicos, sino las intencionalidades subyacentes en la manipulación de la percepción pública mediante el diseño.</p>
+    </div>
+    </section>
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+
+    <div class="body-text">
+      <p>El análisis del gráfico de Kansas revela una distorsión deliberada de la realidad epidemiológica mediante el uso de <b>ejes y escalas inconsistentes.</b> Se observa que el eje vertical (Y) no mantiene una progresión aritmética constante; mientras que en la parte inferior los intervalos representan incrementos menores, en la sección superior se comprimen valores significativamente mayores sin una justificación estadística. Esta técnica visual genera la ilusión óptica de que la curva de contagios en los condados con mandato de mascarilla se encuentra por debajo de aquellos sin mandato, cuando los valores absolutos sugieren una realidad distinta.</p>
+      <p>Ante este caso, se presenta una propuesta de visualización en forma de “Gráfico de líneas”, el cual posee una escala continua la cual emerge desde un punto cero, evitando así exageraciones de los datos y confusiones al momento de interpretar el gráfico, permitiendo al usuario discernir la efectividad de las políticas sanitarias sin enfrentar sesgos proyectados por el emisor.</p>
+    </div>
+
+    <figure>
+      <img src="propuestagrafico.jpg" alt="propuestagrafico" width="500" >
+      <figcaption><strong>Figura 2.</strong> El comentario de Steven Strogatz en Twitter muestra una recreación de un gráfico que representa el número de casos diarios de COVID-19 por cada 100.000 habitantes en Kansas. </figcaption>
+    </figure>
+  </section>
+
+  <!-- ── DISCUSIÓN ────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">5 · Discusión</p>
+    <div class="body-text">
+      <p>Al contrastar los resultados con el modelo <b>DIKW (Data-Information-Knowledge-Wisdom)</b>, se observa una ruptura deliberada en la cadena de valor del dato. Según Frické (2009), la información debe ser capaz de proporcionar respuestas a preguntas de "quién", "qué", "dónde" y "cuándo". Sin embargo, en este caso, la manipulación de la escala en el eje Y transforma el dato en lo que la literatura contemporánea denomina un Cheap Fake: una alteración de bajo costo técnico, pero que genera un impacto cuyo propósito es generar una respuesta en el espectador ya pensada por quienes realizaron el diseño.</p>
+      <p>Desde la teoría del diseño de información, la elección de una escala no aritmética para comparar dos grupos (condados con y sin mandato de mascarilla) no es un error de visualización, sino una <b>estrategia de oscurecimiento</b>. Como señala Schwabish (2021), la integridad de una gráfica reside en su capacidad de permitir comparaciones visuales que reflejen fielmente las magnitudes numéricas. Al comprimir visualmente los datos de los condados con mandato, se genera una "mentira gráfica" que subvierte la función social del diseño: en lugar de reducir la incertidumbre en un contexto de pandemia, se utiliza la autoridad de la visualización técnica para validar un sesgo político-administrativo.</p>
+      <p>Esta práctica plantea un dilema ético profundo sobre la <b>alfabetización estadística</b>. La población, en su búsqueda de certezas ante un enemigo invisible, otorga una confianza heurística a las representaciones gráficas emitidas por organismos oficiales. Cuando estas instituciones utilizan jerarquías visuales engañosas, no solo desinforman, sino que erosionan la confianza en la ciencia y el diseño como herramientas de verdad. Por tanto, la discusión no debe limitarse a la corrección técnica de los ejes, sino a la necesidad de un compromiso deontológico del diseñador, quien debe actuar como un guardián de la transparencia informativa en la era de la post-verdad.</p>
+    </div>
+  </section>
+
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">6 · Conclusiones</p>
+    <div class="body-text">
+      <p>La visualización de datos en tiempos de crisis no es un acto técnico neutral, sino un ejercicio de responsabilidad ética y política. El caso analizado demuestra que el diseño, cuando se aleja de su compromiso ético con la verdad, se convierte en un instrumento de propaganda capaz de comprometer la salud pública a través de la desinformación visual o Cheap Fakes. La manipulación de escalas en el gráfico de Kansas no es un error de ejecución, sino una falla en la ética del diseño que distorsiona el flujo en la pirámide DIKW (Datos, Información, Conocimiento, Sabiduría). Impidiendo facilitar la transición del dato al conocimiento, la gráfica analizada ancla al espectador en una interpretación errónea, impidiendo alcanzar la sabiduría necesaria para la toma de decisiones colectivas.</p>
+      <p>Desde la perspectiva del diseño como disciplina crítica, es necesario que las instituciones públicas adopten estándares de transparencia visual. La alfabetización visual de la población debe ser una prioridad de comunicación social, permitiendo que la ciudadanía actúe como un ente reflexivo frente a la información que consume. En conclusión, la democratización de los datos sólo es posible si el diseño actúa como un mediador honesto, garantizando que la representación de la realidad sea sino una herramienta de conocimiento y sabiduría.</p>
+     
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias</p>
+    <ul class="references-list">
+  <li>Engledowl, C., & Weiland, T. (2021). Visualizing COVID-19 Data from Kansas: Case Studies in Data Literacy. <em>Journal of Statistics and Data Science Education,</em> 29(sup1), S100–S107. https://doi.org/10.1080/26939169.2021.1915215 </li>
+  <li>Frické, M. H. (s.f.). <em>Data-Information-Knowledge-Wisdom (DIKW) Pyramid, Framework, Continuum</em>. University of Arizona.</li>
+  <li>Frické, M. (2009). The knowledge pyramid: a critique of the DIKW hierarchy. <em>Journal of Information Science</em>, <em>35</em>(2), 131-142. https://doi.org/10.1177/0165551508094050</li>
+  <li>Frické, M. (2019). The knowledge pyramid: The DIKW hierarchy. <em>Knowledge Organization</em>, <em>46</em>(1), 33–46. https://doi.org/10.5771/0943-7444-2019-1-33</li>
+ <li>Google. (2024). <em>Gemini</em> (Versión 3 Flash) [Modelo de lenguaje extenso]. IA entrenada y usada para la realización de este articulo https://gemini.google.com/gem/1odQZ0CGPJFV8WYLW2w1KQfdVtwz_tNon?usp=sharing
+</li>
+  <li><em>Kansas COVID-19 7-Day Rolling Average of Daily Cases/Per 100K Population: Mask Counties Vs. No-Mask Mandate Counties</em> [Gráfico de visualización de datos]. (2020).</li>
+  <li>Peters, M. A., Jandrić, P., &amp; Green, B. J. (2024). The DIKW Model in the Age of Artificial Intelligence. <em>Postdigital Science and Education</em>. https://doi.org/10.1007/s42438-024-00462-8</li>
+  <li>Schwabish, J. (2021). <em>Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks</em>. Columbia University Press. 16-47.</li>
+ 
+      
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+      Isidora Cordova, Universidad de Chile ; Grace Lopez, Universidad de Chile ; Sofia Romo, Universidad de Chile ; Bianca Olivares, Universidad de Chile ; Mirrayn Tapia, Universidad de Chile <a href=""></a>
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>Aplicación del modelo DIKW en el análisis de la gráfica de Kansas sobre COVID-19 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
