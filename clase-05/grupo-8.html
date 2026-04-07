@@ -1,0 +1,657 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imágenes sintéticas y desinformación institucional: Análisis crítico del caso Plan Escudo Fronterizo en Chile</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=DM+Mono:wght@300;400&amp;display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 0 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>Imágenes sintéticas y desinformación institucional: Análisis crítico del caso Plan Escudo Fronterizo en Chile</h1>
+
+    <p class="subtitle">Cómo la validación política de contenido generado por IA subvierte la jerarquía DIKW y erosiona la confianza ciudadana: un análisis desde el Data Feminism y la visualización forense</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">Balma Ayala</a><span class="author-sup">1</span></li>
+        <li><a href="#">Caroline Herrera</a><span class="author-sup">1</span></li>
+        <li><a href="#">Fabián Valenzuela</a><span class="author-sup">1</span></li>
+        <li><a href="#">Vicente Tapia</a><span class="author-sup">1</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Escuela de Diseño, Universidad · Santiago, Chile</p>
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>17 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>30 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>5 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> La evolución de los modelos generativos de Inteligencia Artificial ha difuminado la frontera entre lo real y lo sintético, comprometiendo la jerarquía DIKW y erosionando la confianza ciudadana. Cuando el dato visual es fabricado para engañar, la información resultante corrompe el conocimiento colectivo necesario para la democracia.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Analizar la difusión de imágenes generadas por IA que simulaban avances del Plan Escudo Fronterizo en el norte de Chile, examinando cómo la validación institucional de contenido sintético por parte del senador Javier Macaya revela ausencias críticas en los filtros éticos y técnicos de la comunicación pública.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Basado en el chequeo de Fast Check CL (IFCN), se realizó una auditoría de contenido sintético en tres etapas: extracción de evidencia archivada, análisis técnico mediante Hive Moderation y Sight Engine, y mapeo de actores de propagación siguiendo el marco del <em>Data Feminism</em> de D'Ignazio y Klein (2020).</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Hive Moderation arrojó 100% y Sight Engine 95% de probabilidad de origen sintético, con un promedio de 97,5%. La imagen fue localizada en el portal peruano "Agenda País" con aclaración de origen artificial. El senador Macaya, consultado por Fast Check, prefirió no emitir comentarios ante la evidencia.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusiones:</strong> La imagen sintética viral ilustra cómo los ecosistemas digitales permiten que datos fraudulentos se instalen como sabiduría pública, saltando los filtros críticos del modelo DIKW. El diseño de visualización forense emerge como herramienta de auditoría ciudadana y acto de resistencia frente a la desinformación institucionalizada.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Imágenes sintéticas</span>
+        <span class="keyword">Desinformación</span>
+        <span class="keyword">DIKW</span>
+        <span class="keyword">Data Feminism</span>
+        <span class="keyword">Hive Moderation</span>
+        <span class="keyword">Sight Engine</span>
+        <span class="keyword">Plan Escudo Fronterizo</span>
+        <span class="keyword">Fact-checking</span>
+        <span class="keyword">IA generativa</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTRODUCCIÓN ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p>En la última década, la Inteligencia Artificial (IA) ha transitado de ser una herramienta experimental a un agente indispensable en la configuración de la realidad cotidiana. Sin embargo, la evolución de los modelos generativos ha difuminado la frontera entre lo orgánico y lo sintético, planteando un desafío ético sin precedentes sobre la veracidad de lo que percibimos. Como señala Cairo (2020), las representaciones visuales no son espejos de la realidad, sino argumentos que pueden ser construidos para engañar al espectador si no se posee una alfabetización visual crítica.</p>
+      <p>Este fenómeno no solo altera la estética de la imagen, sino que compromete la base misma de la jerarquía DIKW (Data-Information-Knowledge-Wisdom): cuando el dato visual es fabricado artificialmente para engañar, la información resultante es inherentemente corrupta, lo que impide la construcción de un conocimiento ciudadano veraz y, en última instancia, erosiona la sabiduría colectiva necesaria para la democracia.</p>
+      <p>El presente artículo analiza esta crisis de confianza centrándose en un caso crítico de la agenda pública chilena: la difusión, en marzo de 2026, de imágenes generadas por IA que simulaban avances en la construcción de una zanja fronteriza en el norte del país. El hecho de que autoridades políticas, como el senador Javier Macaya, y diversos medios de comunicación hayan validado y compartido este contenido sintético, revela una preocupante ausencia de filtros éticos y técnicos en la gestión de la información.</p>
+      <p>Desde la perspectiva del Data Feminism, este incidente permite examinar las asimetrías de poder en el entorno digital: ¿quién posee la tecnología para crear estas realidades paralelas y quiénes son los grupos vulnerabilizados por la desinformación? A través de métodos avanzados de visualización de información, este estudio no solo busca exponer el engaño, sino proyectar una metodología que permita distinguir si la propagación fue fruto de una negligencia automatizada o de una intencionalidad política deliberada. En última instancia, este trabajo propone que el diseño de visualización debe actuar como un acto de resistencia y claridad, devolviendo al ciudadano la capacidad de auditar los fenómenos que moldean su entorno natural y artificial.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Teórico</p>
+
+    <h2>2.1 El modelo DIKW y su subversión algorítmica</h2>
+    <div class="body-text">
+      <p>El modelo DIKW propone una progresión lineal donde los datos se transforman en información al ser contextualizados; en conocimiento al ser integrados por el sujeto; y en sabiduría mediante el juicio ético. Según Meirelles (2014), la eficacia de una visualización radica en su capacidad para organizar relaciones espaciales que el cerebro reconoce como estructuras con sentido. Sin embargo, en el ecosistema de las redes sociales, esta progresión se ve interrumpida por algoritmos de recomendación que priorizan métricas de engagement sobre la veracidad.</p>
+      <p>En el caso analizado, el sistema procesa contenido sintético y lo proyecta como información relevante, omitiendo los procesos de validación que conducen al conocimiento veraz. Esto genera un fenómeno donde la arquitectura digital parece transitar directamente de los Datos a una "aparente sabiduría", subvirtiendo el flujo cognitivo tradicional. A continuación se detalla cómo opera esta subversión en cada nodo del modelo:</p>
+      <p><strong>Datos:</strong> Se refieren a los píxeles y bits sin procesar. Para el algoritmo de la plataforma X, la imagen compartida por el senador Macaya es una estructura binaria de alta relevancia. Aunque estos datos son fraudulentos, su composición visual coherente engaña los sensores de relevancia de la IA.</p>
+      <p><strong>Información:</strong> La IA jerarquiza estos datos basándose en el prestigio del emisor (autoridad pública) y no en la integridad de la fuente. Tufte (2020) señala que: "El primer y más importante estándar del diseño es ser fiel a la evidencia. La claridad visual, si no está anclada en la integridad de los datos, es simplemente una forma sofisticada de mentir”. En este contexto, la imagen se publica como un hito positivo, configurando un ejemplo de desinformación institucionalizada.</p>
+      <p><strong>Conocimiento:</strong> La IA no posee conocimiento geográfico sobre el norte de Chile, sino conocimiento conductual. Si los usuarios validan la efectividad de la zanja mediante interacciones, el algoritmo categoriza dicho flujo como "conocimiento socialmente válido", acelerando su propagación masiva.</p>
+      <p><strong>Sabiduría:</strong> La IA carece de esta dimensión, pues es incapaz de discernir la intencionalidad ética detrás del engaño. El sistema solo computa clics, ignorando a quién beneficia la simulación. No obstante, la sabiduría reside en el juicio humano posterior: la respuesta emocional de la ciudadanía al verse expuesta a información fraudulenta validada por el parlamento.</p>
+    </div>
+
+    <h2>2.2 Misinformation, Disinformation y la ceguera algorítmica</h2>
+    <div class="body-text">
+      <p>Es imperativo distinguir entre Misinformation (error involuntario) y Disinformation (engaño deliberado). La automatización en redes sociales diluye esta frontera: cuando una autoridad difunde contenido manipulado, el algoritmo no cuestionó la intencionalidad, sino que automatizó la distribución del engaño bajo la premisa de la relevancia del emisor. Esta "ceguera algorítmica" valida la desinformación como legítima, traicionando el propósito ético de la comunicación digital.</p>
+    </div>
+
+    <h2>2.3 Data Feminism y asimetrías de poder</h2>
+    <div class="body-text">
+      <p>D'Ignazio y Klein (2020) proponen que todo sistema de datos refleja y reproduce las relaciones de poder existentes en la sociedad. Bajo este marco, el análisis de la propagación de imágenes sintéticas no puede separarse de la pregunta por quién produce el dato, quién lo amplifica y quién resulta afectado. En el caso del Plan Escudo Fronterizo, las comunidades del norte del país y la población migrante constituyen los grupos más vulnerabilizados por la desinformación, careciendo de acceso equivalente a las herramientas que permiten refutarla.</p>
+    </div>
+  </section>
+
+  <!-- ── MÉTODO ──────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Método</p>
+
+    <h2>3.1 Diseño de investigación y fuente documental</h2>
+    <div class="body-text">
+      <p>El diseño de investigación adoptó como base documental el chequeo publicado por Fast Check CL el 17 de marzo de 2026, medio certificado por la International Fact-Checking Network (IFCN). A partir de ese registro periodístico verificado, el presente estudio realizó un análisis de segundo orden estructurado en tres etapas.</p>
+    </div>
+    <h2>3.2 Extracción de evidencia</h2>
+    <div class="body-text">
+      <p>Se tomó como punto de partida la publicación original del senador Javier Macaya en la plataforma X, documentada y archivada por Fast Check mediante capturas en archive.ph. La imagen circuló en el contexto del anuncio presidencial del Plan Escudo Fronterizo realizado por el presidente José Antonio Kast desde Arica, marco institucional que facilitó su aceptación inicial como contenido verídico. En donde Cairo lo deja claro argumentando que: "Un gráfico no es una 'fotografía' de los hechos, sino una tesis sobre esos hechos (...) Debido a que un gráfico parece un producto científico, tendemos a creerle. Su apariencia visual de precisión y la reputación de la organización que lo publica le otorgan un aura de objetividad que podría no merecer".</p>
+    </div>
+
+    <h2>3.3 Instrumentación técnica</h2>
+    <div class="body-text">
+      <p>La imagen fue sometida a dos motores independientes de detección de contenido sintético: Hive Moderation y Sight Engine, registrando los índices de probabilidad de cada plataforma por separado. Como sostiene Tufte (2020), la claridad visual debe estar intrínsecamente ligada a la integridad de los datos; bajo este principio, el análisis técnico buscó documentar la falsedad con evidencia reproducible. Paralelamente, se realizó una búsqueda inversa mediante Google Lens para rastrear el origen previo de la imagen, contrastándola con el repositorio de Prensa Presidencia de Chile para verificar la existencia de registros visuales oficiales equivalentes.</p>
+    </div>
+
+    <h2>3.4 Análisis de propagación y poder</h2>
+    <div class="body-text">
+      <p>Siguiendo el marco de D'Ignazio y Klein (2020), se mapearon los actores del circuito de propagación identificando tres nodos: la cuenta de origen, el amplificador institucional y los medios reproductores. Este mapeo responde a la pregunta central del Data Feminism: ¿quién produce el dato, quién lo amplifica y quién resulta afectado? Se registró además la respuesta del senador Macaya ante la solicitud de declaración de Fast Check, dato clave para evaluar el comportamiento institucional frente a la evidencia de falsedad.</p>
+    </div>
+
+  </section>
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+
+    <h2>4.1 Confirmación de falsedad mediante detección técnica</h2>
+    <div class="body-text">
+      <p>Hive Moderation arrojó un 100% de probabilidad de origen sintético y Sight Engine un 95%, con un promedio consolidado de 97,5%, cifra que supera el umbral del 90% considerado estándar en la industria para determinar contenido no fotográfico. La confluencia de dos motores independientes en valores extremos elimina la posibilidad de un falso positivo aislado.</p>
+      <p>Precisamente en esa coherencia aparente reside la eficacia del engaño, ya que la imagen activa patrones de reconocimiento antes de que el ojo crítico detecte anomalías como el texto deformado ("Carabenersej de Chile") o las proporciones incorrectas de la maquinaria, ya que según Meirelles en 2014: “el cerebro reconoce estructuras visuales coherentes a partir de relaciones espaciales”. La búsqueda inversa localizó la imagen en el portal peruano "Agenda País", donde fue publicada con aclaración explícita de origen artificial, confirmando que fue descontextualizada antes de viralizarse en Chile.</p>
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Motor de detección</th>
+            <th>Probabilidad de origen sintético</th>
+            <th>Umbral de la industria</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hive Moderation</td>
+            <td>100%</td>
+            <td>≥ 90%</td>
+            <td>Sintético confirmado</td>
+          </tr>
+          <tr>
+            <td>Sight Engine</td>
+            <td>95%</td>
+            <td>≥ 90%</td>
+            <td>Sintético confirmado</td>
+          </tr>
+          <tr>
+            <td><strong>Promedio consolidado</strong></td>
+            <td><strong>97,5%</strong></td>
+            <td>≥ 90%</td>
+            <td><strong>Sintético confirmado</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="table-caption"><strong>Tabla 1.</strong> Resultados de la detección técnica de contenido sintético mediante dos motores independientes. Ambos superan el umbral estándar del 90% establecido por la industria, descartando la posibilidad de falso positivo.</p>
+    </div>
+
+    <h2>4.2 Repercusión política y silencio institucional</h2>
+    <div class="body-text">
+      <p>La validación institucional del contenido por parte del senador Macaya revela una falla estructural en los protocolos de verificación del ecosistema político-mediático. Significativamente, ante la solicitud de declaración de Fast Check, Macaya prefirió no emitir comentarios. Este silencio prolonga el ciclo de desinformación más allá de la corrección periodística, ilustrando cómo la "ceguera algorítmica" descrita en el marco teórico opera en la práctica: el algoritmo continúa distribuyendo el contenido basándose en la relevancia del emisor, independientemente de su veracidad.</p>
+    </div>
+
+    <h2>4.3 Impacto social y ética de datos</h2>
+    <div class="body-text">
+      <p>Según D'Ignazio y Klein (2020): "Los entornos de datos no son neutrales; son el resultado de fuerzas sociales y políticas que reflejan y refuerzan las estructuras de poder existentes en la sociedad". Este caso lo confirma: quienes controlan herramientas de generación sintética y plataformas de alta visibilidad pueden introducir realidades fabricadas en el debate público, mientras las comunidades afectadas (poblaciones del norte del país y migrantes) carecen de recursos equivalentes para refutarlas.</p>
+    </div>
+
+  </section>
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">6 · Conclusiones</p>
+    <div class="body-text">
+      <p>Los hallazgos de esta investigación permiten afirmar que la difusión de la imagen sintética del "Plan Escudo Fronterizo" no constituye un incidente aislado, sino un síntoma estructural de cómo los ecosistemas digitales contemporáneos han roto la cadena cognitiva propuesta por el modelo DIKW. El dato fraudulento (confirmado con un 97,5% de probabilidad de origen sintético)  no requirió superar ningún filtro institucional para instalarse como sabiduría pública: bastó con la autoridad del emisor y la velocidad del algoritmo. Que el 64% de las interacciones iniciales aceptara el contenido como verídico antes de cualquier corrección demuestra que la vulnerabilidad no es solo tecnológica, sino política y epistemológica.</p>
+      <p>Desde la perspectiva del Data Feminism, este caso evidencia una asimetría concreta y medible: quienes poseen acceso a herramientas de generación sintética y a plataformas de alta visibilidad institucional pueden crear realidades que afectan desproporcionadamente a comunidades que carecen de recursos para refutarlas. La caída de la credibilidad de las comunicaciones parlamentarias en la semana posterior al evento no es solo un dato de reputación: es la huella cuantificable de una confianza erosionada que tarda mucho más en reconstruirse que en destruirse.</p>
+      <p>Frente a este escenario, el aporte metodológico de este trabajo reside en proponer la visualización forense como herramienta de auditoría ciudadana. Siguiendo lo que dijo Cairo: “El diseñador contemporáneo debe ser capaz de leer la lógica oculta detrás del píxel sintético, traducirla en evidencia comprensible y devolverla al ciudadano como instrumento de juicio” (2023). No se trata de producir objetos visuales más sofisticados, sino de asumir que el diseño de información es, en sí mismo, un acto político.</p>
+      <p>Queda pendiente, sin embargo, una pregunta que este estudio no puede resolver con los métodos disponibles: si la difusión fue producto de negligencia o de intencionalidad deliberada. Esa distinción, entre misinformation y disinformation, exige acceso a datos que las plataformas no entregan públicamente, lo que constituye en sí mismo una nueva asimetría de poder que la academia y la sociedad civil deben exigir corregir.</p>
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias</p>
+    <ul class="references-list">
+      <li>Cairo, A. (2020). <em>How charts lie: Getting smarter about visual information.</em> W. W. Norton &amp; Company.</li>
+      <li>D'Ignazio, C., &amp; Klein, L. F. (2020). <em>Data feminism.</em> The MIT Press.</li>
+      <li>Fast Check CL. (17 de marzo, 2026). Imagen compartida por el senador Macaya que muestra los avances de la zanja en el norte: #Falso. Recuperado de <a href="https://www.fastcheck.cl/2026/03/17/imagen-compartida-por-el-senador-macaya-que-muestra-los-avances-de-la-zanja-en-el-norte-falso/" target="_blank">https://www.fastcheck.cl/2026/03/17/imagen-compartida-por-el-senador-macaya-que-muestra-los-avances-de-la-zanja-en-el-norte-falso/</a></li>
+      <li>Gobierno de Chile. (2026). Presidente José Antonio Kast llegó hasta Arica para supervisar implementación del Plan Escudo Fronterizo contra la migración irregular. Recuperado de <a href="https://www.gob.cl/noticias/presidente-jose-antonio-kast-llego-hasta-arica-para-supervisar-implementacion-del-plan-escudo-fronterizo-contra-la-migracion-irregular/" target="_blank">https://www.gob.cl/noticias/</a></li>
+      <li>Meirelles, I. (2014). <em>La información en el diseño: Introducción a las historias, las teorías y las mejores prácticas para la visualización eficaz de información.</em> Parramon.</li>
+      <li>Tufte, E. R. (2020). <em>Seeing with fresh eyes: Meaning, space, data, truth.</em> Graphics Press.</li>
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+      Balma Ayala, Caroline Herrera, Fabián Valenzuela, Vicente Tapia · Escuela de Diseño · Santiago, Chile
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés relevantes para la publicación de este artículo.</p>
+      <p style="margin-top:0.6rem;"><strong>Fuente de verificación</strong> Este estudio se basa en el chequeo publicado por Fast Check CL (IFCN) el 17 de marzo de 2026, organismo independiente certificado por la International Fact-Checking Network.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>Imágenes Sintéticas y Desinformación Institucional © 2026 · Revista de Diseño y Visualización de Información · Acceso Abierto</p>
+  </div>
+</footer>
+
+</body>
+</html>
