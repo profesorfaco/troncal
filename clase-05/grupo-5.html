@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desinformación en la Cartografía del Gerrymandering: Una Crítica desde el Conocimiento Situado y el Data Feminism</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 0 · Núm. 0 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section id="encabezado" class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>Desinformación en la Cartografía del Gerrymandering: Una Crítica desde el Conocimiento Situado y el Data Feminism</h1>
+
+    <p class="subtitle">Análisis crítico de cómo la recolección sesgada y el procesamiento de datos electorales operan como ejercicios de poder que producen desinformación, invisibilizando comunidades mediante la cartografía electoral.</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="1">Angelina Caviedes </a><span class="author-sup">1</span></li>
+        <li><a href="2">Millaray Dinamarca </a><span class="author-sup">2</span></li>
+        <li><a href="3">Antonia Mardones </a><span class="author-sup">3</span></li>
+        <li><a href="4">María José Quinteros</a><span class="author-sup">4</span></li>
+        <li><a href="5"> Antonia Solar</a><span class="author-sup">5</span></li>
+      </ul>
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
+        <p><span class="aff-num">2</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
+        <p><span class="aff-num">3</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
+        <p><span class="aff-num">4</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
+        <p><span class="aff-num">5</span>Estudiante de diseño con Mención V y M - FAU Universidad de Chile — Santiago, Chile</p>
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>31 de Marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>7 de Abril, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>Abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section id="resumen">
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> El <em>gerrymandering</em> es la manipulación estratégica de límites electorales para favorecer facciones políticas, distorsionando la representatividad democrática. Esta práctica subvierte el principio de soberanía popular al permitir que el poder político predetermine sus propios sujetos de representación.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Analizar cómo la recolección sesgada y el procesamiento de datos electorales operan como ejercicios de poder que producen desinformación. Se busca examinar la invisibilización de comunidades mediante la cartografía electoral, utilizando la lente crítica del <em>Data Feminism</em> y las epistemologías feministas para revelar estructuras de opresión.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Se emplea un análisis cualitativo e iconográfico basado en el modelo DIKW y los principios del <em>Data Feminism</em>. Se evalúan sistemáticamente las técnicas de <em>packing</em> y <em>cracking</em> como manifestaciones de silencios archivísticos, contrastando la retórica visual de precisión técnica frente a la realidad de la fragmentación territorial.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Se identificó que la alteración de datos electorales genera sesgos que perjudican sistemáticamente a grupos subyugados. La visualización de mapas "técnicos" naturaliza realidades políticas artificiales, donde la Inteligencia Artificial a menudo automatiza desigualdades históricas al alimentarse de bases de datos que omiten la diversidad racial y socioeconómica de los territorios.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> El dato estadístico no es una unidad neutra, sino una construcción social influenciada por relaciones de poder. Combatir esta manipulación requiere adoptar una visualización ética que privilegie el conocimiento situado, transformando la cartografía de una herramienta de control burocrático en un dispositivo de equidad y justicia de datos.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Gerrymandering</span>
+        <span class="keyword">Data Feminism</span>
+        <span class="keyword">Conocimiento Situado</span>
+        <span class="keyword">Cartografía Electoral</span>
+        <span class="keyword">DIKW</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTRODUCCIÓN ────────────────────────────────────────── -->
+  <section id="introduccion">
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p>El <em>gerrymandering</em> representa una de las prácticas más antidemocráticas en la gestión de datos públicos. Su propósito es manipular el territorio para que la clase política elija a sus electores, y no los votantes a sus representantes. Esta práctica rompe con la aspiración de John Adams (1776) de que las asambleas sean un “retrato exacto, una miniatura” del pueblo. En lugar de una miniatura fiel, <em> el gerrymandering</em>   produce una caricatura distorsionada donde el poder se distribuye de forma desigual.</p>
+      <p>En la producción contemporánea de información, es necesario reconocer que los datos no son objetivos. La recolección sesgada evidencia cómo las decisiones sobre qué datos se registran u omiten responden a estructuras de poder consolidadas. Dicha distorsión no sólo deforma la realidad, sino que institucionaliza la invisibilización de comunidades que no encajan en las lógicas dominantes.</p>
+      <p>Bajo la óptica de Donna Haraway (1988), el concepto de "conocimiento situado" establece que toda visión es parcial y dependiente de la posición de quien observa. El mapa electoral, por tanto, no es una representación objetiva, sino un artefacto producido desde posiciones de privilegio. Esto se vincula con el <em> Data Feminism</em>  de D'Ignazio y Klein, que exige examinar cómo el poder se consolida mediante los datos.</p>
+      <p>En el <em>gerrymandering</em>, la cartografía se utiliza como herramienta de control por parte de élites — generalmente blancas y conservadoras — para mantener su hegemonía a expensas de grupos subyugados. La representación de los datos, en este contexto, constituye una toma de posición ética y política sobre qué historias merecen visibilidad y cuáles deben ser silenciadas.</p>
+
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section id="marco-teorico">
+    <p class="section-label">2 · Marco Teórico</p>
+
+    <h2>2.1 El modelo DIKW y la corrupción del conocimiento</h2>
+    <div class="body-text">
+      <p>Esta investigación cuestiona la pretendida neutralidad técnica del modelo DIKW. Autores como Frické (2008) y Weinberger (2010) argumentan que la jerarquía que transita de Datos a Sabiduría es engañosa. En el  <em>gerrymandering</em>, la corrupción del sistema se origina en la base: si los datos censales o su agrupación están sesgados, la "sabiduría" política resultante será inherentemente falsa. Aquí, la información deja de ser "verdad semántica" (Floridi, 2011) para convertirse en desinformación que guía la gobernanza de un país.</p>
+      <p>La manipulación se operativiza mediante dos técnicas: el fraccionamiento (<em>cracking</em>) que divide en grupos a votantes desfavorecidos diluyendo su fuerza electoral; y el amontonamiento (<em>packing</em>), que los concentra para limitar su influencia territorial. Estas prácticas engendran lo que Lauren Klein (2021) denomina "silencios archivísticos" o “imágenes de la ausencia”, donde la visualización de un distrito decide qué comunidades poseen peso político. Como afirma Haraway (1988), mientras los grupos dominantes generan conocimientos "perversos" y parciales, las posiciones subyugadas ofrecen una perspectiva más nítida de las desigualdades del sistema.</p>
+    </div>
+
+    <h2>2.2 Data Feminism y estructuras de poder</h2>
+    <div class="body-text">
+      <p>El <em>Data Feminism</em> añade una dimensión crítica al señalar que el poder no se distribuye de forma equitativa; quienes gestionan los datos suelen ser aquellos en posesión de privilegios estructurales, por lo que diseñan sistemas a su imagen y semejanza. En consecuencia, el <em>gerrymandering</em> se manifiesta como una cartografía sistémicamente discriminatoria que utiliza la burocracia para administrar la opresión. En este sentido, la práctica con datos debe evolucionar hacia una metodología crítica que denuncie estos mecanismos ocultos, transformando la visualización en un acto de justicia que cuestione activamente la validez de los mapas impuestos por el poder.</p>
+    </div>
+  </section>
+
+  <!-- ── MÉTODOS ─────────────────────────────────────────────── -->
+  
+  
+  <section id="metodos">
+    <p class="section-label">3 · Métodos</p>
+    
+    <div class="body-text">
+      <p>Se realiza un análisis crítico-visual sobre casos históricos de gerrymandering en Estados Unidos, tratando el fenómeno como un sistema de producción de conocimiento intrínsecamente sesgado. El procedimiento se divide en tres fases analíticas:</p>
+      <ol>
+        <li><strong>Deconstrucción del Dato Social:</strong> Se evalúa exhaustivamente la naturaleza de los datos electorales. Bajo esta premisa, se reconoce que los datos censales no constituyen unidades neutras, sino productos culturales profundamente influenciados por el sujeto en poder que los recolecta. Se identifican y mapean las variables demográficas y geográficas que permiten la ejecución técnica del <em>packing</em> y el <em>cracking</em>. Al analizar estas variables, se revela cómo la selección intencionada de datos actúa como el primer eslabón en la cadena de invisibilización de comunidades específicas y minorías políticas.</li>
+        <li><strong>Análisis de la Retórica Visual:</strong> Siguiendo a Cairo (2020) y Schwabish (2021), se examina cómo los mapas electorales emplean una estética de "objetividad científica" —caracterizada por líneas de contorno nítidas, colores institucionales y escalas precisas— para validar resultados que carecen de representatividad real. Se analiza el uso de la forma y el color no como elementos puramente informativos, sino como herramientas de persuasión y ocultamiento que naturalizan la fragmentación arbitraria del territorio ante el ojo del espectador.</li>
+        <li><strong>Aplicación de la Lente Crítica del Data Feminism:</strong>  En esta etapa final se reflexiona sobre el impacto sistémico de las variaciones cartográficas en la soberanía de las comunidades subyugadas. Se cuestiona cómo la visualización de datos, al servicio de estructuras de poder establecidas, perpetúa la marginación y erosiona la agencia política de los grupos históricamente vulnerados mediante la manipulación técnica del espacio geográfico.</li>
+      </ol>
+    </div>
+
+    <figure>
+       <img src="chart1.webp" alt="Figura Métodos 2" style="width:100%;border-radius:4px;" />
+      <figcaption><strong>Figura 1.</strong> Mapa térmico de Estados Unidos que representa los puntajes del índice de gerrymandering para el 113º Congreso (2013-2015). </figcaption>
+    </figure>
+  
+    <figure>
+      <img src="chart.webp" alt="Figura Métodos 2" style="width:100%;border-radius:4px;" />
+      <figcaption><strong>Figura 2.</strong> Mapas electorales de Wisconsin para las elecciones de la Asamblea Estatal de 2008, 2010 y 2012.</figcaption>
+    </figure>
+  </section>
+  
+  
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section id="resultados">
+    <p class="section-label">4 · Resultados</p>
+    <div class="body-text">
+      <p>Los hallazgos de esta investigación confirman que el gerrymandering opera como un mecanismo de control imperceptible que corrompe el modelo DIKW desde su base. Se identificó que la alteración deliberada de los datos electorales no es un error técnico, sino una estrategia de diseño que genera sesgos sistemáticos para perjudicar a grupos subyugados. Al manipular la recolección y agrupación de los datos brutos, se produce una "información" fragmentada que impide que la sociedad alcance una sabiduría democrática real, validando en su lugar una gobernanza basada en datos que Floridi (2011) clasificaría como desinformación.</p>
+      <p>Un resultado fundamental es la identificación de cómo la visualización de mapas "técnicos" naturaliza realidades políticas artificiales. El uso de una estética de precisión actúa como un velo que oculta la arbitrariedad del trazado. En este contexto, se observó que el uso de Inteligencia Artificial para la redistribución de distritos tiende a automatizar desigualdades históricas. Esto ocurre porque los algoritmos se alimentan de bases de datos que ya omiten la diversidad racial y socioeconómica de los territorios, convirtiendo el sesgo del pasado en una norma tecnológica incuestionable.</p>
+     
+      <figure>
+        <img src="chart33.webp" alt="Diagrama" style="width:100%;border-radius:4px;" />
+      <figcaption><strong>Figura 3.</strong> Diagrama de Flujo de Decisiones</figcaption>
+    </figure>
+      
+      <p>Para evidenciar este proceso de manipulación, se utilizó un Diagrama de Flujo de Decisiones que ilustra la lógica tras el <em>packing</em> y el <em>cracking</em>. Este diagrama permite ver el <em>gerrymandering</em> no como un mapa estático, sino como una serie de decisiones intencionadas que deciden qué comunidades son visibilizadas y cuáles son silenciadas.</p>
+      <p>Finalmente, basándonos en la Tabla Periódica de Métodos de Visualización, se validó la eficacia del Cartograma de Áreas no Contiguas frente al mapa de coropletas tradicional. Mientras que el mapa oficial rellena el territorio de forma homogénea sugiriendo una falsa unidad, el cartograma deforma la geometría según el peso del voto real. Este método expone físicamente los "silencios archivísticos" de Lauren Klein, revelando las cicatrices que la fragmentación territorial deja en el tejido social. El resultado es una herramienta que transforma la visualización de un artefacto de ocultamiento en un dispositivo de transparencia y justicia de datos.</p>
+ </div>
+    
+     <figure>
+        <img src="chart2.webp" alt="Figura Métodos 2" style="width:100%;border-radius:4px;" />
+      <figcaption><strong>Figura 4.</strong>Infografía que explica el concepto de gerrymandering (manipulación de distritos electorales). .</figcaption>
+    </figure>
+    
+    <h2>4.1 Métodos de Visualización</h2>
+     <div class="body-text">
+      <p>Se propone el uso de Cartogramas de Áreas no Contiguas. A diferencia del mapa tradicional (coropleta) que rellena todo el espacio y da una falsa sensación de homogeneidad, este método altera el tamaño y la posición de los distritos basándose en el peso del voto real. Al dejar huecos o "silencios" visuales donde la representación es nula, se expone la manipulación del <em>packing</em> y <em>cracking</em>, forzando al espectador a ver no solo lo que está en el mapa, sino también lo que ha sido deliberadamente excluido.</p>
+    </div>
+    
+  
+  </section>
+
+  <!-- ── CONCLUSIÓN ──────────────────────────────────────────── -->
+  <section id="conclusion">
+    <p class="section-label">5 · Conclusiones</p>
+    <div class="body-text">
+      <p>Esta investigación permite concluir que el <em>gerrymandering</em> no debe ser abordado como un problema de geometría cartográfica, sino como un conflicto de justicia de datos. Cuando la visualización (en este caso, los mapas) es sesgada, se fractura el contrato democrático fundamental: los resultados electorales dejan de reflejar la preferencia de la ciudadanía para proyectar la voluntad de quienes trazan las líneas. La capacidad de decidir quién es contado y quién es silenciado constituye el ejercicio de poder definitivo en la era de la información.</p>
+      <p>La integración del conocimiento situado y el <em>Data Feminism</em> demuestra que la visión tras estos mapas nunca es inocente. Los sistemas diseñados por grupos con privilegios estructurales generan ventajas arbitrarias que se presentan como tecnicismos neutrales. Para el diseñador de información, esto implica un desafío ético, no basta con representar magnitudes numéricas; es imperativo desafiar la desigualdad y adoptar la pluralidad como principio rector.</p>
+      <p>Reconocer el mapa como una construcción social es el primer paso para transformar la cartografía electoral en un instrumento de equidad. Solo mediante la visibilización deliberada de lo excluido y el cuestionamiento de la objetividad algorítmica, será posible recuperar el ideal de instituciones que sean un "retrato fiel" de la totalidad del pueblo. La visualización crítica debe, por tanto, transitar de la mera exposición de datos a la provocación de una reflexión profunda sobre la espacialidad del poder.</p>
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section id="referencias">
+    <p class="section-label">Referencias Bibliográficas</p>
+    <ul class="references-list">
+      <li>Adams, J. (1979). Thoughts on Government. En R. J. Taylor (Ed.), The Adams Papers: Papers of John Adams: Vol. 4. February–August 1776 (pp. 86–93). Harvard University Press. (Obra original publicada en 1776).</li>
+      <li>Brennan Center for Justice. (s.f.). Explicación del gerrymandering o manipulación de distritos electorales.</li>
+      <li>Cairo, A. (2020). How charts lie: Getting smarter about visual information. W. W. Norton & Company.</li>
+      <li>D’Ignazio, C., y Klein, L. F. (2023). Data feminism. MIT Press.</li>
+      <li>Floridi, L. (2011). The Philosophy of Information. Oxford University Press.</li>
+      <li>Frické, M. (2008). The knowledge pyramid: a critique of the DIKW hierarchy. Journal of Information Science..</li>
+      <li>Haraway, D. (1988). Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective. Feminist Studies.</li>
+      <li>Klein, L. F. (2021). The Image of Absence: Archival Silence, Data Visualization, and James Hemings. American Literature, Duke University Press.</li>
+      <li>Schwabish, J. A. (2021). Better data visualizations: A guide for scholars, researchers, and designers. Columbia University Press.</li>
+      <li>Tufte, E. R. (2020). Seeing with fresh eyes: Meaning, space, data, truth. Graphics Press.</li>
+      <li>Weinberger, D. (2010). The problem with the data-information-knowledge-wisdom hierarchy. Harvard Business Review.</li>
+
+    </ul>
+  </section>
+  
+  
+ <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+      Angelina Caviedes · Departamento de Diseño e Información, Universidad, Santiago, Chile · <a href="angelina.caviedes@ug.uchile.cl">angelina.caviedes@ug.uchile.cl</a>
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p> Desinformación en la Cartografía del Gerrymandering de Caviedes et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p> 
+  </div>
+</footer>
+
+</body>
+</html>
