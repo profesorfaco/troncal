@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perdidos en el cableado</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1714;
+      --ink-light:  #4a443e;
+      --ink-faint:  #9a928a;
+      --paper:      #f5f2ec;
+      --rule:       #d8d0c5;
+      --accent:     #8b1c1c;
+      --accent-dim: #b94444;
+      --mono:       'DM Mono', monospace;
+      --serif:      'EB Garamond', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER / MASTHEAD ───────────────────────────────────── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .masthead-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .journal-name {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+    .journal-meta {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.06em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────────── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section { padding: 2.8rem 0; }
+    section + section { border-top: 1px solid var(--rule); }
+
+    /* ── ARTICLE HEADER ──────────────────────────────────────── */
+    .article-header { padding-top: 4rem; padding-bottom: 3rem; }
+
+    .article-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .article-type::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.4rem;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink-light);
+      margin-bottom: 2.5rem;
+      max-width: 660px;
+    }
+
+    /* ── AUTHORS ─────────────────────────────────────────────── */
+    .authors-block { margin-bottom: 2rem; }
+
+    .authors-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+
+    .authors-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.8rem;
+    }
+    .authors-list li {
+      font-size: 1rem;
+      color: var(--ink);
+    }
+    .authors-list li a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .authors-list li a:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .author-sup {
+      font-size: 0.65em;
+      vertical-align: super;
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-left: 1px;
+    }
+
+    /* affiliations */
+    .affiliations {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .affiliations p { margin-bottom: 0.2rem; }
+    .aff-num {
+      font-family: var(--mono);
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.72em;
+    }
+
+    /* ── META BADGES ─────────────────────────────────────────── */
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.4rem;
+      padding: 1.2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 1.8rem;
+    }
+    .meta-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .meta-item span {
+      color: var(--ink-light);
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.78rem;
+    }
+
+    /* ── SECTION HEADINGS ────────────────────────────────────── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    /* ── ABSTRACT ────────────────────────────────────────────── */
+    .abstract-box {
+      background: rgba(139, 28, 28, 0.04);
+      border-left: 2px solid var(--accent);
+      padding: 1.6rem 2rem;
+      margin-top: 0.4rem;
+    }
+    .abstract-box p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    /* ── KEYWORDS ────────────────────────────────────────────── */
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+    .keyword {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.7rem;
+      border: 1px solid var(--rule);
+      color: var(--ink-light);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .keyword:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+    /* ── BODY TEXT ───────────────────────────────────────────── */
+    .body-text p {
+      text-align: justify;
+      hyphens: auto;
+      margin-bottom: 1.1rem;
+      color: var(--ink);
+    }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    /* ── FIGURES ─────────────────────────────────────────────── */
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .fig-placeholder {
+      width: 100%;
+      height: 220px;
+      background: repeating-linear-gradient(
+        45deg,
+        var(--rule) 0px,
+        var(--rule) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+      border: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+    }
+    figcaption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      margin-top: 0.6rem;
+      font-style: italic;
+      text-align: left;
+    }
+    figcaption strong {
+      font-style: normal;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-light);
+    }
+
+    /* ── TABLE ───────────────────────────────────────────────── */
+    .table-wrapper { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    thead tr {
+      border-bottom: 2px solid var(--ink);
+    }
+    thead th {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+    }
+    tbody tr { border-bottom: 1px solid var(--rule); }
+    tbody td { padding: 0.6rem 0.8rem; color: var(--ink); }
+    .table-caption {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── REFERENCES ──────────────────────────────────────────── */
+    .references-list {
+      list-style: none;
+      counter-reset: none;
+    }
+    .references-list li {
+      display: block;
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 0.9rem;
+      font-size: 0.88rem;
+      color: var(--ink-light);
+      line-height: 1.55;
+      white-space: normal;
+    }
+    .references-list li a {
+      color: var(--accent-dim);
+      text-decoration: none;
+    }
+    .references-list li a:hover { text-decoration: underline; }
+
+    /* ── CORRESPONDENCE ──────────────────────────────────────── */
+    .correspondence {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 1.2rem 1.6rem;
+      font-size: 0.85rem;
+      color: var(--ink-light);
+      margin-top: 1.4rem;
+    }
+    .correspondence strong {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── CONFLICT / FUNDING ──────────────────────────────────── */
+    .disclosure p {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 0.5rem;
+    }
+    .disclosure p strong {
+      color: var(--ink-light);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 0 3rem;
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    footer a { color: inherit; text-decoration: none; }
+
+    /* ── ANIMATIONS ──────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .article-header > * {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .article-header > *:nth-child(1) { animation-delay: 0.05s; }
+    .article-header > *:nth-child(2) { animation-delay: 0.15s; }
+    .article-header > *:nth-child(3) { animation-delay: 0.25s; }
+    .article-header > *:nth-child(4) { animation-delay: 0.35s; }
+    .article-header > *:nth-child(5) { animation-delay: 0.45s; }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 0 1.2rem; }
+      .abstract-box { padding: 1.2rem 1.2rem; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="journal-name">Revista de Diseño y Visualización de Información</div>
+    <div class="journal-meta">Vol. 1 · Núm. 7 · 2026</div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+  <!-- ── ENCABEZADO DEL ARTÍCULO ─────────────────────────────── -->
+  <section class="article-header">
+
+    <div class="article-type">Artículo de Investigación Original</div>
+
+    <h1>Perdidos en el cableado: Cuando el engaño le cierra la puerta a la innovación</h1>
+
+    <p class="subtitle">Desarticulación de la jerarquía informativa y crisis de soberanía digital: un análisis de la transferencia de potencial tecnológico en el eje Chile-China-Perú.</p>
+
+    <!-- AUTHORS -->
+    <div class="authors-block">
+      <p class="authors-label">Autoría</p>
+      <ul class="authors-list">
+        <li><a href="#">Paloma Vargas</a><span class="author-sup">1</span></li>
+        <li><a href="#">Constanza Pavez</a><span class="author-sup">2</span></li>
+        <li><a href="#">Antonia Pizarro</a><span class="author-sup">3</span></li>
+      </ul>
+
+      <div class="affiliations">
+        <p><span class="aff-num">1</span>Facultad de Arquitectura y Urbanismo, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">2</span>Facultad de Arquitectura y Urbanismo, Universidad de Chile, Santiago, Chile</p>
+        <p><span class="aff-num">3</span>Facultad de Arquitectura y Urbanismo, Universidad de Chile, Santiago, Chile</p>
+
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="meta-row">
+      <div class="meta-item">Recibido&nbsp;<span>10 de marzo, 2026</span></div>
+      <div class="meta-item">Aceptado&nbsp;<span>31 de marzo, 2026</span></div>
+      <div class="meta-item">Publicado&nbsp;<span>7 de abril, 2026</span></div>
+      <div class="meta-item">Acceso&nbsp;<span>Abierto</span></div>
+    </div>
+
+  </section>
+
+  <!-- ── RESUMEN ─────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Resumen</p>
+    <div class="abstract-box">
+      <p><strong>Introducción:</strong> La investigación examina cómo el despliegue de infraestructura crítica en el <em>Pacífico Sur</em> se ha transformado en un síntoma de la degradación de la verdad. El caso del <em>cable Chile-China</em> evidencia una ruptura en la jerarquía informativa, donde la disputa política convirtió un hito tecnológico en un laboratorio de desinformación estratégica.</p>
+      <p style="margin-top:0.9rem;"><strong>Objetivo:</strong> Analizar cómo el engaño deliberado y las presiones geopolíticas externas fracturaron la <em>soberanía digital chilena</em>. Se busca demostrar que la manipulación de flujos de conocimiento impidió la sabiduría institucional, provocando una parálisis en la toma de decisiones y el desplazamiento de la hegemonía tecnológica hacia nodos regionales como Perú.</p>
+      <p style="margin-top:0.9rem;"><strong>Métodos:</strong> Se aplicó una <em>metodología cualitativa de Análisis de Flujos Críticos</em> en tres fases: primero, una triangulación de evidencia mediante matrices de contraste entre bitácoras oficiales y reportes técnicos; segundo, un mapeo de la degradación cognitiva bajo el modelo DIKW; y finalmente, un análisis de la lógica de la imagen.</p>
+      <p style="margin-top:0.9rem;"><strong>Resultados:</strong> Se confirma una desconexión deliberada entre datos y conocimiento, impulsada por un <em>"ruido estratégico"</em> vinculado a presiones diplomáticas. Esta distorsión permitió que la narrativa de la sospecha prevaleciera sobre los registros técnicos, provocando un <em>desplazamiento geoestratégico</em> donde la inversión rechazada por Chile fue absorbida por el nodo de Chancay.</p>
+      <p style="margin-top:0.9rem;"><strong>Conclusión:</strong> El triunfo de la desinformación constituye una pérdida de <em>soberanía digital</em> sin precedentes. Esta ruptura informativa fue una arquitectura que sacrificó el conocimiento estratégico por alineaciones externas. El fenómeno generó una transferencia de potencial hacia Perú, demostrando que la incapacidad de gestionar la veracidad redibuja el poder en el Pacífico.</p>
+    </div>
+
+    <div style="margin-top:1.2rem;">
+      <p class="authors-label">Palabras clave</p>
+      <div class="keywords">
+        <span class="keyword">Jerarquía DIKW</span>
+        <span class="keyword">Soberanía Digital</span>
+        <span class="keyword">Geopolítica del Pacífico</span>
+        <span class="keyword">Sabiduría Institucional</span>
+        <span class="keyword">Arquitectura del Engaño</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">1 · Introducción</p>
+    <div class="body-text">
+      <p>El despliegue de infraestructura crítica en el Pacífico Sur ha dejado de ser un desafío exclusivamente técnico para transformarse en un síntoma de la degradación de la verdad en la esfera pública. El caso del cable submarino entre Chile y China trasciende la anécdota política para convertirse en un laboratorio sobre la gestión de flujos de conocimiento. Para analizar este fenómeno, es vital diseccionar la transición fallida entre la <em>información</em> y la <em>desinformación</em>, esta última entendida como el uso del engaño deliberado con fines estratégicos. Como bien dice Ackoff en From data to wisdom, la sabiduría se tiene que entender con juicio "Information, knowledge and understanding all focus on efficiency. Wisdom adds value, which requires the mental function we call <em>judgement</em>" [información, conocimiento y entendimiento están todos enfocados en la eficiencia. La sabiduria le agrega valor, lo que requiere la función mental que llamamos <em>juicio</em>.] (Ackoff, 1989, p.9). En ese marco, el caso del cable ilustra precisamente este quiebre, el altercado entre Gabriel Boric y José Antonio Kast no fue solo un roce diplomático, sino una ruptura en la <em>jerarquía DIKW</em>, donde los <em>datos objetivos</em> de la negociación fueron secuestrados por una narrativa de omisión.</p>
+      <p>La crisis estalló cuando la administración de Kast alegó desconocimiento sobre el proyecto, una afirmación que el gobierno saliente desmintió mediante bitácoras de comunicación. Aquí, la distinción técnica es crucial: no nos encontramos ante una <em>información errónea</em>, producto de un error involuntario, sino ante una arquitectura de desinformación que buscaba deslegitimar la soberanía tecnológica del Estado. Esta distorsión impidió que la sociedad y los actores políticos procesaran el <em>conocimiento</em> necesario para evaluar el impacto del cable, resultando en una ausencia total de <em>sabiduría institucional</em>. Al no haber un consenso sobre la realidad de los hechos, la capacidad de tomar decisiones prudentes para el futuro nacional quedó anulada.</p>
+      <p>Bajo la presión de <em>Washington</em>, Chile sacrificó su autonomía ante una narrativa de sospecha, creando un vacío de confianza que <em>Beijing</em> ha comenzado a redirigir. Si Chile, atrapado en este ciclo de desinformación y consultas externas, rechaza finalmente el proyecto, Perú emerge como el receptor estratégico. Con la infraestructura de <em>Chancay</em> lista, <em>Lima</em> se posiciona para transformar los datos en poder regional.</p>
+    </div>
+  </section>
+
+  <!-- ── MARCO TEÓRICO ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">2 · Marco Teórico</p>
+
+      <p>Para comprender el impacto del conflicto en torno al cable submarino entre <em>Chile y China</em>, es imperativo establecer un andamiaje conceptual que articule la infraestructura física con los procesos cognitivos y políticos de toma de decisiones. Este marco se fundamenta en <em>tres pilares</em>: la jerarquía del conocimiento, el trastorno de la información y la soberanía digital.</p>
+    <h2>2.1 La <em>Jerarquía DIKW</em> y la ruptura de la <em>Sabiduría</em></h2>
+    <div class="body-text">
+      <p>El análisis se sostiene sobre el <em>modelo DIKW</em> (Datos, Información, Conocimiento y Sabiduría) propuesto por Ackoff (1989). En este esquema, los datos (registros de negociación) deben ser procesados en información relevante para generar conocimiento estratégico. Sin embargo, como advierte la crítica a esta jerarquía, la transición hacia la sabiduría (entendida como la capacidad de emitir juicios de valor a largo plazo para el bienestar nacional) se ve truncada cuando el flujo informativo es intervenido (Rowley, 2007).</p>
+      <p>En el caso chileno, la "omisión" de bitácoras oficiales de comunicación mencionadas por Silva (2026) representa una fractura en la base de la pirámide; sin datos consensuados, la <em>sabiduría institucional</em> que debería guiar la infraestructura crítica se disuelve en el ruido político.</p>
+    </div>
+
+    <h2>2.2 Arquitecturas de <em>Desinformación</em> e Infra Soberanía</h2>
+    <div class="body-text">
+      <p>La distinción técnica entre <em>información errónea</em> (misinformation) y <em>desinformación</em> (disinformation) es fundamental. Mientras la primera carece de dolo, la <em>desinformación</em> constituye un uso deliberado del engaño para fines estratégicos (Wardle & Derakhshan, 2017; UNESCO, 2020). El rechazo o cuestionamiento de la infraestructura bajo presión externa (The China-Global South Project, 2026) ilustra lo que Pohle y Thiel (2020) definen como una crisis de <em>soberanía digital</em>. Al permitir que narrativas de desconfianza externa (provenientes de Washington) dicten la viabilidad de un proyecto, el Estado no solo pierde autonomía técnica, sino que sufre una degradación de su capacidad de agencia global.</p>
+    </div>
+	
+	<h2>2.3 Visualización y Lógica de la Evidencia</h2>
+    <div class="body-text">
+      <p>Siguiendo a Tufte (2020), la verdad en el ámbito público depende de la claridad de los datos y su representación. Cuando el gobierno saliente presenta "bitácoras de comunicación" para desmentir la narrativa de ignorancia de la administración entrante (BioBioChile, 2026), se apela a una lógica de la imagen y la evidencia (Boehm, 2007) que busca restaurar la realidad frente a la distorsión. El fracaso en la internalización de estos datos por parte del espectro político sugiere que el <em>"diseño de la mentira"</em> ha sido más efectivo que la visualización de la gestión técnica (Koponen & Hildén, 2019).</p>
+    </div>
+	
+	<h2>2.4 <em>Desplazamiento Geoestratégico</em>: El Modelo de Chancay</h2>
+    <div class="body-text">
+      <p>Finalmente, el marco incorpora la noción de <em>hegemonía tecnológica</em> regional. La migración del interés infraestructural hacia Perú (Arcasi, 2026) demuestra que la <em>desinformación</em> en un nodo (Chile) genera un vacío que es capitalizado por actores adyacentes. El puerto y cable de Chancay actúan como el receptáculo de la <em>sabiduría</em> técnica rechazada, transformando los datos ignorados en Santiago en poder geopolítico en Lima.</p>
+    </div>
+	
+  </section>
+
+  <!-- ── MATERIALES Y MÉTODOS ────────────────────────────────── -->
+  <section>
+    <p class="section-label">3 · Materiales y Métodos</p>
+
+      <p>Para abordar la problemática planteada, la presente investigación aplica una metodología de <em>Análisis de Flujos Críticos de Información</em> con un enfoque cualitativo. El diseño metodológico se estructura en tres fases que buscan evidenciar la ruptura de la <em>jerarquía DIKW</em> y la efectividad del <em>"diseño de la mentira"</em> (Koponen & Hildén, 2019) en el discurso público.</p>
+    <h2>3.1 <em>Fase 1</em>: Triangulación de Evidencia y Contraste de Veracidad</h2>
+    <div class="body-text">
+      <p>Se recolectó un corpus documental compuesto por diez fuentes clave, clasificadas según su naturaleza: fuentes primarias de gestión (bitácoras de comunicación de La Moneda), reportes técnicos (China Mobile en Emol) y análisis de prensa internacional (The China-Global South Project). Mediante una matriz de contraste, se cotejaron las fechas de los hitos técnicos del proyecto con las declaraciones de "desconocimiento" emitidas por la administración entrante (Silva, 2026; Diaz & Diaz, 2026). Este paso permite distinguir técnicamente entre <em>información errónea</em> (error sin dolo) y <em>desinformación</em> (engaño estratégico), validando la hipótesis de una arquitectura deliberada de desconfianza.</p>
+    </div>
+
+    <h2>3.2 <em>Fase 2</em>: Mapeo de la Degradación Cognitiva (<em>Modelo DIKW</em>)</h2>
+    <div class="body-text">
+      <p>Utilizando la propuesta de Rowley (2007), se realizó un seguimiento del proceso de transferencia de datos. Se analizó en qué punto el "Dato" (la existencia del cable y las llamadas registradas) falló en convertirse en "<em>Conocimiento</em>" para la nueva administración. Se identificaron los "ruidos" o interferencias, específicamente las presiones diplomáticas de Washington reportadas por BNamericas (2026), que actuaron como filtros desinformantes, impidiendo que el sistema político chileno alcanzara la "<em>Sabiduría</em>" institucional necesaria para proteger su <em>soberanía digital</em>.</p>
+    </div>
+	
+	<h2>3.3 <em>Fase 3</em>: Análisis de la Lógica de la Imagen y Visualización</h2>
+    <div class="body-text">
+      <p>Basándose en la Lógica de las Imágenes de Boehm (2007), se analizaron las narrativas visuales y retóricas construidas por los actores. Se examinó cómo la presentación de "evidencia física" (las bitácoras de Boric) chocó con la "imagen de sospecha" proyectada por Kast. Finalmente, se diseñó un modelo de visualización de datos que ilustra el desplazamiento geoestratégico, graficando cómo el flujo de datos rechazado en el nodo Chile es absorbido por el nodo estratégico de Chancay en Perú (Arcasi, 2026), transformando la desinformación local en una pérdida de hegemonía regional tangible.</p>
+    </div>
+
+    <figure>
+      <img src="chart_flujo.svg" alt="Flujo de datos - chart">
+      <figcaption><strong>Figura 1.</strong> Diagrama de flujo y degradación de la jerarquía DIKW: Se observa el desplazamiento del potencial tecnológico desde el nodo Chile (bloqueado por una arquitectura de desinformación estratégica) hacia el nodo Perú, donde la sabiduría técnica rechazada se transforma en hegemonía regional y capitalización geopolítica.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ── RESULTADOS ──────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">4 · Resultados</p>
+
+      <p>Los resultados de la investigación, derivados de la <em>triangulación de evidencia</em> y el <em>mapeo cognitivo</em>, revelan que el conflicto por el cable submarino no fue un fallo de comunicación, sino una operación de desinformación exitosa que fracturó la <em>jerarquía DIKW</em> en el Estado chileno.</p>
+    <h2>4.1 El Colapso de la <em>Pirámide DIKW</em></h2>
+    <div class="body-text">
+      <p>A través de la matriz de contraste (<em>Fase 1</em>), se determinó una desconexión deliberada entre los Datos y el <em>Conocimiento</em>. Mientras que las bitácoras de La Moneda confirman la existencia de <em>flujos informativos</em> técnicos (datos duros), la narrativa de la administración entrante operó como un filtro de "ruido estratégico". Este ruido, alimentado por la presión diplomática de Washington (BNamericas, 2026), impidió que la información se consolidara en <em>Sabiduría institucional</em>. Como resultado, Chile no pudo procesar el proyecto como una oportunidad de <em>soberanía</em>, sino como un riesgo reputacional, validando la teoría de la "infra soberanía" digital.</p>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Dimensión Técnica</th>
+            <th>Manifestación en el Conflicto (Fase 1)</th>
+            <th>Tipo de falsedad</th>
+            <th>Intención</th>
+            <th>Mecanismo de Inconsistencia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I.A · Error de Registro</td>
+            <td>Discrepancias en fechas de las bitácoras o fallos en la transcripción de actas oficiales.</td>
+            <td><em>Misinformation</em></td>
+            <td>No dolosa</td>
+            <td><strong>Inexactitud empírica:</strong> Fallo en la captura del dato bruto que distorsiona la base de la verdad.</td>
+          </tr>
+          <tr>
+            <td>I.B · Ruido de Datos</td>
+            <td>Saturación de información técnica irrelevante para ocultar la ausencia de datos críticos.</td>
+            <td><em>Misinformation</em></td>
+            <td>No dolosa</td>
+            <td><strong>Entropía:</strong> Exceso de señales que impide la identificación del dato relevante para la toma de decisiones.</td>
+          </tr>
+          <tr>
+            <td>I.C · Sesgo de Selección</td>
+            <td>Publicación parcial de datos de inversión de China Mobile omitiendo los plazos de tramitación.</td>
+            <td><em>Disinformation</em></td>
+            <td>Dolosa</td>
+            <td><strong>Fragmentación:</strong> Presentar el dato como un hecho aislado para inducir a una conclusión errónea.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="table-caption"><strong>Tabla 1.</strong> Distribución del corpus en Fase 1 según el nivel de desorden informativo de Wardle y Derakhshan (2017), la intencionalidad del agente y la afectación en la base de la jerarquía DIKW (Ackoff, 1989).</p>
+    </div>
+
+    <h2>4.2 Eficacia del Diseño de la Mentira</h2>
+    <div class="body-text">
+      <p>El análisis de la lógica de la imagen (Fase 3) demuestra que la "imagen de sospecha" proyectada por la oposición fue semánticamente más potente que la "evidencia física" de las bitácoras gubernamentales. La visualización de los datos ilustra un fenómeno de <em>desplazamiento geoestratégico</em>: el flujo de datos y la inversión tecnológica que el nodo Chile rechazó debido a la distorsión informativa, es absorbido automáticamente por el nodo Perú.</p>
+    </div>
+
+  <!-- ── DISCUSIÓN ────────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">5 · Discusión</p>
+    <div class="body-text">
+      <p>Los hallazgos de esta investigación sugieren una correlación directa y alarmante entre el éxito de las arquitecturas de desinformación local y la erosión de la hegemonía regional. La crisis del cable submarino demuestra que la <em>desinformación</em> no opera únicamente como un fenómeno de opinión pública, sino como una barrera técnica que altera la física de los datos en el Cono Sur.</p>
+      <p>Mientras el procesamiento de conocimiento se truncaba en Santiago debido a una narrativa de omisión deliberada, el proyecto de <em>China Mobile</em> encontró su salida lógica en el complejo portuario y tecnológico de Chancay. Esta "Paradoja de la Hegemonía" como pdriamos llamarlo de manera propia, revela que, en la era de la infraestructura crítica, el vacío informativo en un nodo soberano es succionado gravitacionalmente por actores adyacentes. La <em>desinformación</em>, por tanto, no solo clausuró un proyecto técnico; redibujó el mapa del poder digital en el Pacífico Sur, posicionando a Lima como el nuevo centro de gravedad de datos (Arcasi, 2026) en perjuicio directo de la autonomía estratégica chilena.</p>
+      <p><em>Proyecciones y Futuras Líneas de Investigación</em> Los hallazgos de este artículo abren una agenda de investigación necesaria sobre la intersección entre el <em>diseño de información</em> y la estabilidad democrática. <em>Futuros estudios</em> deberán profundizar en la creación de interfaces de transparencia soberana que permitan auditar bitácoras de gestión técnica en tiempo real, neutralizando la instalación de narrativas de "desconocimiento" en proyectos de infraestructura crítica. Asimismo, es imperativo analizar comparativamente cómo la estabilidad de los <em>flujos informativos</em> en nodos regionales como Perú actúa como un predictor de inversión, transformando la veracidad en un activo de competitividad geopolítica frente a las arquitecturas de <em>desinformación</em> estratégicas.</p>
+    </div>
+  </section>
+
+  <!-- ── CONCLUSIONES ────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">6 · Conclusiones</p>
+    <div class="body-text">
+      <p>La crisis del cable transpacífico entre Chile y China trasciende la coyuntura política para consolidarse como un hito de advertencia sobre la fragilidad de la soberanía digital en la era de la posverdad. A través del análisis realizado, se evidencia que la ruptura de la <em>jerarquía DIKW</em> en el Estado chileno no fue un accidente procedimental, sino la consecuencia directa de una arquitectura de <em>desinformación</em> que priorizó el rédito político inmediato y la alineación externa sobre la <em>Sabiduría institucional</em>. Al transformar datos técnicos y bitácoras de comunicación verídicas en una narrativa de sospecha y desconocimiento deliberado, la administración entrante de José Antonio Kast, bajo la presión de Washington, logró erosionar el conocimiento estratégico necesario para proteger la infraestructura crítica nacional.</p>
+      <p>Como ilustra la <em>visualización del flujo de datos</em>, el bloqueo informativo en el nodo Chile ha generado un fenómeno de "<em>transferencia de potencial</em>" sin precedentes hacia la región. La gráfica de flujo de datos demuestra cómo el Bloqueo de Información en Santiago actúa como un dique que, lejos de anular la inversión de Asia, la redirige orgánicamente hacia un receptor más pragmático. En este escenario, Perú emerge como el beneficiario estratégico de la miopía diplomática chilena. La consolidación del eje Chancay-Callao representa la materialización de esa Transferencia de Potencial, donde los activos tecnológicos rechazados por Chile se convierten en el motor de la <em>hegemonía digital</em> peruana.</p>
+      <p>En última instancia, el caso chileno demuestra que en el siglo XXI, la pérdida de soberanía no siempre ocurre por invasiones territoriales, sino por la incapacidad de gestionar la veracidad de la información. Mientras Chile se queda atrapado en un ciclo de desconfianza y consultas a terceros países, el mapa del poder en el Pacífico Sur se redibuja. La lección es categórica: cuando la <em>desinformación</em> triunfa sobre los datos, el progreso tecnológico simplemente cambia de puerto, dejando a la nación rezagada en la periferia de la nueva ruta de la seda digital.</p>
+    </div>
+  </section>
+
+  <!-- ── REFERENCIAS ─────────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Referencias</p>
+    <ul class="references-list">
+      <li>Ackoff, R. L. (1989). From data to wisdom. <em>Journal of Applied Systems Analysis</em>, 16(1), 3-9.</li>
+	  <li>Arcasi, G. (2026, January 14). ¿Trump o China? La puja geopolítica en el trasfondo de las elecciones presidenciales de Perú. <em>Bloomberg Línea.</em> https://www.bloomberglinea.com/latinoamerica/peru/trump-o-china-la-puja-geopolitica-en-el-trasfondo-de-las-elecciones-presidenciales-de-peru/</li>
+      <li>BNamericas. (2026, March 7). US pressure over cable to Hong Kong sparks political crisis in Chile. <em>BNamericas.com.</em>
+	   https://www.bnamericas.com/en/analysis/us-pressure-over-cable-to-hong-kong-sparks-political-crisis-in-chile</li>
+	  <li>Boehm, G. (2007). <em>Jenseits der Sprache? Anmerkungen zur Logik der Bilder. En su: Wie Bilder Sinn erzeugen (pp.34-53). Berlin University Press.</em></li>
+	  <li>Boehm, G. (2011). ¿Más allá del lenguaje? Apuntes sobre la lógica de las imágenes. En: Ana García Varas (Ed.). Filosofía de la imagen (pp.87-106). Ediciones Universidad Salamanca.</li>
+	  <li>Diaz, W., & Diaz, W. (2026, March 3). <em>Qué ocurrió antes y después de la conversación Boric-Kast. Ex-Ante. </em>
+	  https://www.ex-ante.cl/que-ocurrio-antes-y-despues-de-la-conversacion-telefonica-boric-kast-por-el-cable-chino/</li>
+	  <li>Jborinoco. (2026, February 18). <em>Chile caught between US and China over submarine cable project.</em> Orinoco Tribune. https://orinocotribune.com/chile-caught-between-us-and-china-over-submarine-cable-project/ </li>
+	  <li>Koponen, J. & Hildén, J. (2019). <em>Data Visualization Handbook</em>. Aalto korkeakoulusäätiö.</li>
+	  <li>Pohle, J., y Thiel, T. (2020). Digital sovereignty. <em>Internet Policy Review</em>, 9(4). https://doi.org/10.14763/2020.4.1532 </li>
+	  <li><em>Polémica por cable submarino quiebra bilaterales entre Boric y Kast en la antesala del cambio de mando tras declaraciones cruzadas. </em>(2026, March 4). Interferencia. 
+	  https://interferencia.cl/articulos/polemica-por-cable-submarino-quiebra-bilaterales-entre-boric-y-kast-en-la-antesala-del</li>
+	  <li>SAP, E. M. (2026, February 26). <em>China Mobile: La estatal china de mil millones de usuarios que consiguió tramitar su proyecto en Chile en 61 días.</em> Emol. https://www.emol.com/noticias/Economia/2026/02/26/1192698/china-mobile-cable-submarino-chile.html</li>
+	  <li>Silva, C. C. (2026, March 3). Quiebre absoluto: Boric acusa a Kast de mentir sobre intercambio de información por cable chino. <em>BioBioChile - La Red De Prensa Más Grande De Chile.</em> https://www.biobiochile.cl/noticias/nacional/chile/2026/03/03/quiebre-absoluto-boric-acusa-a-kast-de-mentir-sobre-intercambio-de-informacion-por-cable-chino.shtml</li>
+	  <li>The China-Global South Project. (2026, March 19). <em>What’s behind the submarine cables tying up Chile’s presidential transition - the China-Global South Project.</em>
+	  https://chinaglobalsouth.com/analysis/chile-submarine-cable-china-us-kast-transition/</li>
+	  <li>Frické, M. (2009). The knowledge pyramid: a critique of the DIKW hierarchy. <em>Journal of Information Science</em>, 35(2), 131-142.</li>
+	  <li>Tufte, E. R. (2020). <em>Seeing with fresh eyes: Meaning, space, data, truth.</em> Graphics Press.</li>
+	  <li>Wardle, C., & Derakhshan, H. (2017). <em>Information disorder: Toward an interdisciplinary framework for research and policy making. (n.d.).</em> Council of Europe Publishing. https://edoc.coe.int/en/media/7495-information-disorder-toward-an-interdisciplinary-framework-for-research-and-policy-making.html</li>
+	  
+    </ul>
+  </section>
+
+  <!-- ── DECLARACIONES ───────────────────────────────────────── -->
+  <section>
+    <p class="section-label">Declaraciones</p>
+
+    <div class="correspondence">
+      <strong>Correspondencia</strong>
+      Paloma Vargas · Facultad de Arquitectura y Urbanismo, Universidad de Chile, Santiago, Chile · <a href="paloma.vargas@ug.uchile.cl">paloma.vargas@ug.uchile.cl</a>
+    </div>
+
+    <div class="disclosure" style="margin-top:1.5rem;">
+      <p><strong>Conflicto de intereses</strong> Los autores declaran no tener conflictos de interés, solo una profunda estima por el equipo docente; no obstante, son plenamente conscientes de que dicha estima no constituye una variable computable en la rúbrica de evaluación, la cual se rige por criterios objetivos.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>Perdidos en el cableado © 2026 de Vargas et al. es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

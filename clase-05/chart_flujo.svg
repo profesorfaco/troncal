@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 692.04 407.03">
+  <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #00ac5f;
+      }
+
+      .st0, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st4, .st6, .st7 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st2, .st6, .st7 {
+        font-size: 14px;
+      }
+
+      .st2, .st8 {
+        fill: #ff903d;
+      }
+
+      .st3, .st5 {
+        opacity: .6;
+      }
+
+      .st4 {
+        fill: #0056b3;
+        font-size: 12px;
+      }
+
+      .st5 {
+        fill: #ffdf47;
+      }
+
+      .st6, .st9 {
+        fill: #0047d4;
+      }
+
+      .st7, .st10 {
+        fill: #ea4846;
+      }
+
+      .st11 {
+        fill: url(#Degradado_sin_nombre_64);
+      }
+
+      .st12 {
+        fill: url(#Degradado_sin_nombre_29);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_29" data-name="Degradado sin nombre 29" x1="346.87" y1="111.38" x2="621.47" y2="111.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea4846"/>
+      <stop offset="1" stop-color="#f94151" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_64" data-name="Degradado sin nombre 64" x1="346.87" y1="250.09" x2="621.47" y2="250.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c1e153"/>
+      <stop offset="1" stop-color="#00ac5f"/>
+    </linearGradient>
+  </defs>
+  <rect class="st5" x="121.47" y="33.52" width="204.6" height="340"/>
+  <text class="st2" transform="translate(9.65 227.24)"><tspan x="0" y="0">Flujo de Datos</tspan></text>
+  <rect class="st9" x="326.07" y="33.52" width="20.8" height="340"/>
+  <text class="st6" transform="translate(244.29 23.79)"><tspan x="0" y="0">BLOQUEO DE INFORMACIÓN</tspan></text>
+  <text class="st7" transform="translate(631.13 62.62)"><tspan x="0" y="0">CHILE</tspan></text>
+  <g class="st3">
+    <path class="st12" d="M346.87,33.75l274.6-.23v49.8s-83.46,1.15-127.67,30.94c-32.05,21.6-71.5,55.32-109.06,65.52-12.61,3.5-25.2,6.53-37.88,9.47,0,0,0-155.5,0-155.5h0Z"/>
+  </g>
+  <g class="st3">
+    <path class="st11" d="M346.87,189.25c111.26-9.5,126.19-43.45,193.11-57.55,16.43-3.46,33.21-5.05,50-5.05h31.49v246.88l-274.6-.02v-46.56s0-106.32,0-137.71Z"/>
+  </g>
+  <text class="st0" transform="translate(631.79 253.41)"><tspan x="0" y="0">PERÚ</tspan></text>
+  <text class="st4" transform="translate(405.6 298.05)"><tspan x="0" y="0">Transferencia de Potencial</tspan></text>
+  <text class="st2" transform="translate(72.04 206.89)"><tspan x="0" y="0">ASIA</tspan></text>
+  <rect class="st8" x="110.28" y="33.52" width="18.3" height="340"/>
+  <rect class="st1" x="615.87" y="126.65" width="11.19" height="246.86"/>
+  <rect class="st10" x="615.87" y="33.52" width="11.19" height="49.8"/>
+</svg>
