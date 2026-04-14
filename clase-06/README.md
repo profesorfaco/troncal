@@ -74,7 +74,7 @@ Los mismos datos del CSV de más arriba, se verían como sigue en un JSON:
 ]
 ```
 
-Pero, para evitar problemas al momentos de programar, conviene evitar el uso de "ñ" y "ó", que son dos caracteres incompatibles con el _programming_:
+Pero, para evitar problemas al momentos hacer _programming_, conviene evitar el uso de "ñ" y "ó", caracteres incompatibles con la limitada caja de caracteres inglesa:
 
 ```
 [
