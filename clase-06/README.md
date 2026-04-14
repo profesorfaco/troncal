@@ -176,6 +176,28 @@ Lo que queda definir es el contenido de la URL. Para ello vamos a utilizar:
 
 - https://myjson.online/
 
+```
+fetch(URL)
+    .then((respuesta) => {
+        if (!respuesta.ok) {
+            throw new Error("Error HTTP: " + respuesta.status);
+        }
+        return respuesta.json();
+    })
+    .then((datos) => {
+        var trabajo = datos.data;
+        console.log("Datos recibidos:", trabajo);
+        trabajo.forEach((x) => {
+            if (x.ok == 1) {
+                t.innerHTML += `<tr><td>${x.name}</td></tr>`;
+            }
+        });
+    })
+    .catch((error) => {
+        console.error("Algo salió mal:", error);
+    });
+```
+
 - - - - 
 
 
