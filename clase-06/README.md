@@ -170,7 +170,7 @@ Ahora, si tenemos un JSON validado, podríamos utilizar los datos que nos ofrezc
 
 Lo que queda definir es el contenido de la URL. Para ello vamos a utilizar: 
 
-- Material en la Carpeta Drive del curso.
+- [Material en la Carpeta Drive del curso](https://docs.google.com/spreadsheets/d/1Lena8eAA0i7ZjQmbDCuXH7673YBb3_R1TsiFKF_eDZE/copy)
 
 - https://csvjson.com/csv2json
 
