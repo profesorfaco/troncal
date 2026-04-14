@@ -123,7 +123,58 @@ De tal página conviene tomar:
 
 - A diferencia del código JavaScript en que las propiedades del objeto pueden no estar entre comillas, en JSON, sólo las cadenas entre comillas pueden ser utilizadas como propiedades.
 
+- - - - - 
 
+
+Ahora, si tenemos un JSON validado, podríamos utilizar los datos que nos ofrezca en una página web si es que la iniciamos con algo como lo que sigue: 
+
+```
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Un fetch</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hola mundo</h1>
+        <ol id="estudiantes"></ol>
+
+        <script>
+            const URL = "…";
+            fetch(URL)
+                .then((respuesta) => {
+                    if (!respuesta.ok) {
+                        throw new Error("Error HTTP: " + respuesta.status);
+                    }
+                    return respuesta.json();
+                })
+
+                .then((datos) => {
+                    var trabajo = datos;
+                    console.log("Datos recibidos:", trabajo);
+                })
+
+                .catch((error) => {
+                    console.error("Algo salió mal:", error);
+                });
+        </script>
+    </body>
+</html>
+```
+
+Lo que queda definir es el contenido de la URL. Para ello vamos a utilizar: 
+
+- Material en la Carpeta Drive del curso.
+
+- https://csvjson.com/csv2json
+
+- https://myjson.online/
 
 - - - - 
 
