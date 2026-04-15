@@ -2,7 +2,9 @@
 
 ### Presentando datos con HTML y (un `fetch` de) JavaScript
 
-Vamos directo a la práctica. Corresponde usar lo que ya fue publicado en [myjson](https://myjson.online/) para reemplazar los puntos suspensivos (…) en el valor asignado a la `const URL`:
+Vamos directo a la práctica. 
+
+Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjson.online/) para reemplazar los puntos suspensivos (…) en el valor asignado a la `const URL`:
 
 ```
 <!doctype html>
