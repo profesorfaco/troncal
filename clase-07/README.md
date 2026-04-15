@@ -131,8 +131,8 @@ Vamos directo a la práctica. Corresponde usar lo que ya fue publicado en [myjso
 
         <script>
             const t = document.querySelector("#este");
-
             const URL = "…";
+
             fetch(URL)
                 .then((respuesta) => {
                     if (!respuesta.ok) {
