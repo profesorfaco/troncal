@@ -132,7 +132,7 @@ Vamos directo a la práctica. Corresponde usar lo que ya fue publicado en [myjso
         <script>
             const t = document.querySelector("#este");
 
-            const URL = "https://api.myjson.online/v1/records/520d3676-e35b-469b-9be6-9175b4908ad7";
+            const URL = "…";
             fetch(URL)
                 .then((respuesta) => {
                     if (!respuesta.ok) {
