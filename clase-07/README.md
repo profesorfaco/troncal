@@ -168,6 +168,18 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
 </html>
 ```
 
+- - - - - - - - -
+
+Partamos por comprender el CSS, para después avanzar a otras cosas más complejas: 
+
+`*, *::before, *::after {…}`: Es el borrón y cuenta nueva que fuerza al navegador a abandonar sus reglas arbitrarias en favor de un sistema de medidas uniforme. Al aplicar `border-box`, neutralizamos el modelo de caja por defecto (donde el padding y el border añadían tamaño extra), estableciendo un entorno de renderizado predecible en toda la interfaz.
+
+`:root {}`: Es el espacio ideal para definir variables CSS (propiedades personalizadas). Centralizar aquí valores repetitivos como colores o tipografías permite realizar cambios globales instantáneos —como activar un modo oscuro— y garantiza la escalabilidad del proyecto.
+
+`background-image: url('data:image/svg+xml;utf8,<svg></svg>')`: Permite incrustar iconos o formas directamente en el CSS sin depender de archivos externos. Para que funcione, el código SVG (como los de [Bootstrap Icons](https://icons.getbootstrap.com/icons/search-heart-fill/)) debe ser procesado por un [codificador URL (URL encoder)](https://www.svgbackgrounds.com/tools/svg-to-css/) para "escapar" caracteres especiales. Por ejemplo, un color #ffffff debe convertirse en %23ffffff para que el navegador no lo interprete como un error de sintaxis.
+
+`:nth-child(n)`: Esta pseudoclase permite seleccionar elementos basándose en su posición exacta dentro de un contenedor padre. Podremos reemplazar a la `n` por un número, como en `:nth-child(2)` y seleccionar solo al segundo hijo. Así también podemos usar patrones tales como `:nth-child(odd)` para tomar los impartes, o `:nth-child(3n)`para tomar cada tres elementos.
+
 
 _ _ _ _ 
 
