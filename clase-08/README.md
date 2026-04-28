@@ -10,10 +10,11 @@
 
 1.0 DATOS: En su propia cuenta de myjson.online genere un nuevo registro, con los datos del JSON. Usted debe usar su propio registro y no uno ajeno para obtener este punto.
 
-Lo que sigue quedará pendiente para las 15.00h hrs. del 28 de abril.
+Después de la imagen de referencia, siguen instrucciones para sumar puntos hasta el 7.0
 
 <img width="1300" height="899" alt="ejemplo" src="https://github.com/user-attachments/assets/19574b37-4319-436d-a51e-c8c791144242" />
 
+Pendiente…
 
 _ _ _ _ 
 
