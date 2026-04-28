@@ -54,7 +54,7 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 [Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 14 de abril → Recogiendo y compartiendo datos: Desde las hojas de cálculo al CSV y JSON ✓
 
-[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 21 de abril → Presentando datos con HTML y (un `fetch` de) JavaScript
+[Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 21 de abril → Presentando datos con HTML y (un `fetch` de) JavaScript ✓
 
 [Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 28 de abril → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
 
