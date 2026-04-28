@@ -2,11 +2,13 @@
 
 ### Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
 
-1.0 Genere su propia copia de este documento: https://docs.google.com/spreadsheets/d/18t1UAEzCetVr7oCzuVQ1tC0svGR50ldqJoGumYIuo7s/copy
+1.0. PUNTO BASE: Crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la TAREA DE **EL PUNTO BASE DE LA SEGUNDA NOTA** antes de que den las 15:30 hrs. 
 
-1.0 Descargue su copia como *.CSV para luego poder pasar sus datos a JSON con el servicio de https://csvjson.com/csv2json
+1.0 DATOS: Genere su propia copia de este documento: https://docs.google.com/spreadsheets/d/18t1UAEzCetVr7oCzuVQ1tC0svGR50ldqJoGumYIuo7s/copy
 
-1.0 En su propia cuenta de myjson.online genere un nuevo registro, con los datos del JSON. Usted debe usar su propio registro y no uno ajeno para obtener este punto.
+1.0 DATOS: Descargue su copia como *.CSV para luego poder pasar sus datos a JSON con el servicio de https://csvjson.com/csv2json
+
+1.0 DATOS: En su propia cuenta de myjson.online genere un nuevo registro, con los datos del JSON. Usted debe usar su propio registro y no uno ajeno para obtener este punto.
 
 Lo que sigue quedará pendiente para las 15.00h hrs. del 28 de abril.
 
