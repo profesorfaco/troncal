@@ -10,6 +10,8 @@
 
 Lo que sigue quedará pendiente para las 15.00h hrs. del 28 de abril.
 
+<img width="1300" height="899" alt="ejemplo" src="https://github.com/user-attachments/assets/19574b37-4319-436d-a51e-c8c791144242" />
+
 
 _ _ _ _ 
 
