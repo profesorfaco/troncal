@@ -14,6 +14,7 @@ Después de la imagen de referencia, siguen instrucciones para sumar puntos hast
 
 <img width="1300" height="899" alt="ejemplo" src="https://github.com/user-attachments/assets/19574b37-4319-436d-a51e-c8c791144242" />
 
+
 **1.0 HTML**: Reutilice el trabajo de la clase recién pasada, ajustando todos los textos que antes referían a electivos, para referir ahora a proyectos de título de diseño.
 
 **1.0 CSS**: Borre todo el CSS del trabajo de la clase recién pasada (el código contenido entre etiquetas `<style>` y `</style>`, sin borrar las etiquetas). Pegue en su lugar lo que sigue, y después de pegarlo, cambie únicamente los colores definidos en `:root{} ` y el SVG de imagen de fondo en el `input{}`
