@@ -2,21 +2,21 @@
 
 ### Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
 
-1.0. PUNTO BASE: Crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la TAREA DE **EL PUNTO BASE DE LA SEGUNDA NOTA** antes de que den las 15:30 hrs. 
+**1.0. PUNTO BASE**: Crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la TAREA DE **EL PUNTO BASE DE LA SEGUNDA NOTA** antes de que den las 15:30 hrs. 
 
-1.0 DATOS: Genere su propia copia de este documento: https://docs.google.com/spreadsheets/d/18t1UAEzCetVr7oCzuVQ1tC0svGR50ldqJoGumYIuo7s/copy
+**1.0 DATOS**: Genere su propia copia de este documento: https://docs.google.com/spreadsheets/d/18t1UAEzCetVr7oCzuVQ1tC0svGR50ldqJoGumYIuo7s/copy
 
-1.0 DATOS: Descargue su copia como *.CSV para luego poder pasar sus datos a JSON con el servicio de https://csvjson.com/csv2json
+**1.0 DATOS**: Descargue su copia como *.CSV para luego poder pasar sus datos a JSON con el servicio de https://csvjson.com/csv2json
 
-1.0 DATOS: En su propia cuenta de myjson.online genere un nuevo registro, con los datos del JSON. Usted debe usar su propio registro y no uno ajeno para obtener este punto.
+**1.0 DATOS**: En su propia cuenta de myjson.online genere un nuevo registro, con los datos del JSON. Usted debe usar su propio registro y no uno ajeno para obtener este punto.
 
 Después de la imagen de referencia, siguen instrucciones para sumar puntos hasta el 7.0
 
 <img width="1300" height="899" alt="ejemplo" src="https://github.com/user-attachments/assets/19574b37-4319-436d-a51e-c8c791144242" />
 
-1.0 HTML: Reutilice el trabajo de la clase recién pasada, ajustando todos los textos que antes referían a electivos, para referir ahora a proyectos de título de diseño.
+**1.0 HTML**: Reutilice el trabajo de la clase recién pasada, ajustando todos los textos que antes referían a electivos, para referir ahora a proyectos de título de diseño.
 
-1.0 CSS: Borre todo el CSS del trabajo de la clase recién pasada (el código contenido entre etiquetas `<style>` y `</style>`, sin borrar las etiquetas). Pegue en su lugar lo que sigue, y después de pegarlo, cambie únicamente los colores definidos en `:root{} ` y el SVG de imagen de fondo en el `input{}`
+**1.0 CSS**: Borre todo el CSS del trabajo de la clase recién pasada (el código contenido entre etiquetas `<style>` y `</style>`, sin borrar las etiquetas). Pegue en su lugar lo que sigue, y después de pegarlo, cambie únicamente los colores definidos en `:root{} ` y el SVG de imagen de fondo en el `input{}`
 
 ```
 *,
@@ -142,7 +142,9 @@ td:nth-child(3) {
 }
 ```
 
-1.0 JAVASCRIPT: Haga funcionar la tabla para mostrar, al menos nombre de Titulad@, nombre de Proyecto, nota, categoría del proyecto y Prof. Guía; ideal sería sumar numeración, y hacer que cada nombre de Proyecto vincule a su dirección en el repositorio académico de la universidad de Chile. Pero llegar al ideal sólo bonificaría su nota en caso de que otro punto esté débil, si logra lo mínimo, con una tabla bien ordenada, ya tiene el punto completo.
+**1.0 JAVASCRIPT**: Haga funcionar la tabla para mostrar, al menos nombre de Titulad@, nombre de Proyecto, nota, categoría del proyecto y Prof. Guía; ideal sería sumar numeración, y hacer que cada nombre de Proyecto vincule a su dirección en el repositorio académico de la universidad de Chile. Pero llegar al ideal sólo bonificaría su nota en caso de que otro punto esté débil, si logra lo mínimo, con una tabla bien ordenada, ya tiene el punto completo.
+
+Buena suerte.
 
 _ _ _ _ 
 
