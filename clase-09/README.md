@@ -49,7 +49,7 @@ Busquemos qué datos cruzar para luego probar un [Gráfico de barras](https://ww
             h1 {
                 font-weight: 400;
                 font-size: calc(100% + 3vw + 3vh);
-                margin-left:-0.2rem;
+                margin-left: -0.2rem;
             }
 
             h2 {
@@ -60,10 +60,10 @@ Busquemos qué datos cruzar para luego probar un [Gráfico de barras](https://ww
                 color: var(--color-oscuro);
             }
 
-            canvas#myChart{
-                margin:3rem 0;
-                background:#eee;
-                padding:1rem;
+            canvas#myChart {
+                margin: 3rem 0;
+                background: #eee;
+                padding: 1rem;
             }
         </style>
     </head>
@@ -74,6 +74,12 @@ Busquemos qué datos cruzar para luego probar un [Gráfico de barras](https://ww
             <p>Un breve texto que explique el origen de lo que sigue</p>
             <canvas id="myChart"></canvas>
             <p>Y otro breve texto que invite e reflexionar sobre lo que se presenta arriba.</p>
+
+
+            <object data="monos/viz.svg" type="image/svg+xml"></object>
+
+
+
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -82,19 +88,37 @@ Busquemos qué datos cruzar para luego probar un [Gráfico de barras](https://ww
             new Chart(document.getElementById("myChart"), {
                 type: "bar",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+                    labels: [
+                        "Pablo Domínguez G.",
+                        "Verónica Ode S.",
+                        "Eduardo Castillo E.",
+                        "Rodrigo Dueñas S.",
+                        "Jenny Abud C."
+                    ],
+
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
+                            label: ":-(",
+                            data: [29, 12, 17, 18, 2],
                             borderWidth: 1,
+                            backgroundColor:"#c00"
                         },
+                        {
+                            label: ":-)",
+                            data: [43, 25, 19, 17, 11],
+                            borderWidth: 2,
+                            backgroundColor:"#22f"
+                        }
                     ],
                 },
                 options: {
                     scales: {
+                        x: {
+                            stacked: true,
+                        },
                         y: {
                             beginAtZero: true,
+                            stacked: true,
                         },
                     },
                 },
