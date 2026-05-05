@@ -56,7 +56,7 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 [Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 21 de abril → Presentando datos con HTML y (un `fetch` de) JavaScript ✓
 
-[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 28 de abril → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript
+[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 28 de abril → **Trabajo individual, con evaluación sumativa** → Aplicando la presentación de datos con HTML y (un `fetch` de) JavaScript ✓
 
 [Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 5 de mayo → RawGraph *et al*
 
@@ -78,9 +78,9 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 ### Calificaciones para el promedio final
 
-Clase 05 → trabajo grupal → 20% de la nota final
+Clase 05 → trabajo grupal → 20% de la nota final ✓
 
-Clase 08 → trabajo individual → 20% de la nota final
+Clase 08 → trabajo individual → 20% de la nota final ✓
 
 Clase 12 → trabajo individual → 20% de la nota final
 
