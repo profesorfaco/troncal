@@ -8,7 +8,7 @@ Utilizaremos tres servicios oficiales para buscar información sobre la oferta a
 
 * **Mi Futuro:** [Buscador de Carreras](https://mifuturo.cl/buscador-de-carreras/)
 
-* **Acceso Mineduc:** Buscador [Universitario](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-cu) y [Técnico](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-ctp)
+* **Acceso Mineduc:** Buscador de carreras [universitarias](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-cu) y [técnico profesionales](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-ctp)
 
 * **Elige Carrera:** [Sitio oficial](https://www.eligecarrera.cl/)
 
