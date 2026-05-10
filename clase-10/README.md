@@ -24,7 +24,7 @@ Los resultados brutos de estas consultas han sido recopilados en las siguientes 
 
 En el análisis de datos, la **triangulación** es el proceso de validar una misma información a través de múltiples fuentes. Al igual que en la navegación costera o el uso de GPS, si tres puntos distintos coinciden en una ubicación, podemos tener una alta certeza de que el dato es correcto.
 
-**¿Para qué sirve la triangulación de datos?** Fundamentalmente para confirmar la veracidad de la información, reducir el sesgo de una fuente única y asegurar que nuestra visualización final sea confiable y ética.
+**¿Para qué sirve la triangulación de datos?** Fundamentalmente para confirmar la veracidad de la información, reducir el sesgo de una fuente única y asegurar que la base de nuestra visualización final sea confiable.
 
 Para triangular con éxito, seguiremos estos pasos críticos antes de pasar a la etapa de diseño visual:
 
