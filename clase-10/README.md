@@ -44,7 +44,7 @@ Recordemos lo aprendido en la [clase 2](https://github.com/profesorfaco/troncal/
 
 2. **¿Cómo se ve? (CSS):** Las *Cascading Style Sheets* describen la **presentación**. Su bloque básico es la **regla**, compuesta por un **selector** y pares de `propiedad: valor;`.
 
-3. **¿Qué hace? (JavaScript):** El lenguaje de programación que controla el **comportamiento** y la interactividad. Lo hemos estado usando para hacer [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch) de un [JSON](https://www.json.org/json-es.html) que preparamos, luego [validamos](https://jsonlint.com/) y finalmente alojamos en [myJson](https://myjson.online/).
+3. **¿Qué hace? (JavaScript):** El lenguaje de programación que controla el **comportamiento** y la interactividad. Lo hemos estado usando para hacer [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch) de un [JSON](https://www.json.org/json-es.html) que preparamos, [validamos](https://jsonlint.com/) y finalmente alojamos en [myJson](https://myjson.online/). Con el resultado del [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), manipulamos el [DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model) para generar e inyectar dinámicamente elementos de HTML (o formas de SVG) que no estaban escritos originalmente en el código fuente de la página.
 
 4. **¿Cómo representamos los gráficos? (SVG):** A diferencia de las imágenes rasterizadas (JPG/PNG), el *Scalable Vector Graphics* es un dialecto de XML que describe **gráficos vectoriales**. No pierde calidad al escalarse y puede ser manipulado directamente con etiquetas como `<circle>` o `<path>`.
 
