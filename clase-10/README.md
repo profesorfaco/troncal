@@ -71,7 +71,7 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 |:-----|:-----:|
 | Universidad de Chile (UCh) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
-| Universidad de Santiago de Chile (USACH)* | 448 |
+| Universidad de Santiago de Chile (USACh)* | 448 |
 | Universidad de Valparaíso (UV) | 383 |
 | Pontificia Universidad Católica de Valparaíso (PUCV) | 298 |
 | Universidad del Bío-Bío (UBB) | 223 |
@@ -80,7 +80,7 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 | Universidad de Playa Ancha (UPLA) | 70 |
 | **Subtotal instituciones catastradas** | **3.154** |
 
-**Desglose Usach: 227 en Diseño en Comunicación Visual y 221 en Diseño Industrial.*
+**Desglose USACh: 227 en Diseño en Comunicación Visual y 221 en Diseño Industrial.*
 
 **Nota:** El remanente de **2.546 estudiantes** para completar el universo estimado corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectos representantes.
 
