@@ -38,7 +38,7 @@ Para triangular con éxito, seguiremos estos pasos críticos antes de pasar a la
 
 * **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a volver a la fuente original para determinar el dato verídico y garantizar la integridad de la visualización.
 
-También podría ser necesario buscar más fuentes, y para ayudar en tal búsqueda puede considerarse el siguiente Catastro de Matrícula ReDis.
+También podría ser necesario buscar más fuentes, y para ayudar en tal búsqueda puede considerarse el siguiente Catastro de Matrícula [ReDis](https://www.redis.cl/index.php/quienes-somos/).
 
 La **Red de Escuelas de Diseño de Universidades del Consejo de Rectores (ReDis)** constituye la instancia de coordinación académica que agrupa a las siguientes instituciones:
 
