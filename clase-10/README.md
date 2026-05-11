@@ -65,10 +65,10 @@ La formación en diseño representa el **1,66%** de la matrícula total del sist
 
 Dentro del segmento universitario, las instituciones pertenecientes al CRUCH **podrían concentrar a cerca de 5.800 estudiantes**. Esto sitúa la representatividad de la Red ReDis en un **30,9%** de la matrícula total nacional de la disciplina.
 
-En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis se detalla a continuación:
+En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis es la que se detalla a continuación:
 
 | Institución | Matrícula Reportada |
-|:----|:----:|
+| --- | --- |
 | Universidad de Chile (UCH) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
 | Universidad de Santiago de Chile (Usach)* | 448 |
@@ -82,7 +82,7 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 
 **Desglose Usach: 227 en Diseño en Comunicación Visual y 221 en Diseño Industrial.*
 
-**Nota:** El remanente de aproximadamente **2.647 estudiantes** para completar el universo estimado, corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectivas secretarías académicas.
+**Nota:** El remanente de **2.546 estudiantes** para completar el universo estimado corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectos representantes.
 
 
 #### HTML y SVG para visualizar los datos
