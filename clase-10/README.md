@@ -71,7 +71,7 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 
 | Institución | Matrícula Reportada |
 |:-----|:-----:|
-| Pontificia Universidad Católica de Chile (PUC) | 1062 |
+| Pontificia Universidad Católica de Chile (PUC) | 1.062 |
 | Universidad de Chile (UCh) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
 | Universidad del Bío-Bío (UBB) | 483 |
