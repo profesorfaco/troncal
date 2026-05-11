@@ -68,7 +68,7 @@ Dentro del segmento universitario, las instituciones pertenecientes al CRUCH **p
 En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis es la que se detalla a continuación:
 
 | Institución | Matrícula Reportada |
-| --- | --- |
+|:-----|:-----:|
 | Universidad de Chile (UCH) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
 | Universidad de Santiago de Chile (Usach)* | 448 |
