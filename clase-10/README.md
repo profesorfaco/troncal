@@ -4,17 +4,19 @@
 
 - - - - - - - - 
 
-#### Datos para visualizar
+#### Datos para visualizar: La Realidad de la Carrera de Diseño en Chile
 
-Utilizaremos tres servicios oficiales para buscar información sobre la oferta académica en la carrera de **“Diseño”**:
+Este ejercicio tiene como objetivo analizar y visualizar la oferta académica de la carrera de “Diseño” a nivel nacional, utilizando fuentes oficiales y metodologías de validación de datos.
 
-* **Mi Futuro:** [Buscador de Carreras](https://mifuturo.cl/buscador-de-carreras/)
+Utilizaremos tres servicios oficiales para recopilar información sobre la oferta académica:
+
+* **Mi Futuro (Mineduc):** [Buscador de Carreras](https://mifuturo.cl/buscador-de-carreras/)
 
 * **Acceso Mineduc:** Buscador de carreras [universitarias](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-cu) y [técnico profesionales](https://acceso-sup.mineduc.cl/acceso-buscador/buscador-ctp)
 
 * **Elige Carrera:** [Sitio oficial](https://www.eligecarrera.cl/)
 
-Los resultados brutos de estas consultas han sido recopilados en las siguientes hojas de cálculo para su análisis:
+Para facilitar el análisis, los resultados brutos de estas consultas han sido consolidados en las siguientes hojas de cálculo:
 
 * **Fuente 1:** [Mi Futuro](https://docs.google.com/spreadsheets/d/1uvcH8RWy_IIintY6mYKdDGM5LyZ33CvlVL7NcC5ajHI/)
 
@@ -22,33 +24,31 @@ Los resultados brutos de estas consultas han sido recopilados en las siguientes 
 
 * **Fuente 3:** [Elige Carrera](https://docs.google.com/spreadsheets/d/1MriBowxXOUrFZwbtKZOcxdMNoRhDjIJzqyJj662S6Hw/)
 
-**¿Por qué 3? Por la triangulación de datos**
+**¿Por qué trabajar con tres fuentes? Por la triangulación**
 
-En el análisis de datos, la **triangulación** es el proceso de validar una misma información a través de múltiples fuentes. Al igual que en la navegación costera o el uso de GPS, si tres puntos distintos coinciden en una ubicación, podemos tener una alta certeza de que el dato es correcto.
+En el diseño de información, la triangulación es el proceso de validar un dato a través de múltiples fuentes independientes. Al igual que en la navegación o el uso de GPS, si tres puntos distintos coinciden en una coordenada, la certeza sobre ese dato es significativamente mayor.
 
-**¿Para qué sirve la triangulación de datos?** Fundamentalmente para confirmar la veracidad de la información, reducir el sesgo de una fuente única y asegurar que la base de nuestra visualización final sea confiable.
+¿Para qué sirve? Fundamentalmente para asegurar la veracidad, reducir el sesgo de una fuente única y garantizar que la base de nuestra visualización sea confiable y ética.
 
-Para triangular con éxito, seguiremos estos pasos críticos antes de pasar a la etapa de diseño visual:
+Para lograr una triangulación exitosa, realizaremos los siguientes pasos de curatoría de datos antes de la etapa de diseño visual:
 
-* **Limpieza (*Data Cleansing*):** Eliminar ruidos, formatos inconsistentes o caracteres especiales que impidan el cruce de datos entre tablas.
+* **Limpieza (*Data Cleansing*):** Corregir inconsistencias, formatos erróneos o caracteres especiales que impidan el cruce de tablas.
 
-* **Mapeo:** Identificar columnas equivalentes (ej: ¿el campo "Institución" en la Fuente 1 es el mismo que "Nombre IES" en la Fuente 2?).
+* **Mapeo:** Identificar columnas equivalentes (ej: verificar si "Institución" en la Fuente 1 corresponde a "Nombre IES" en la Fuente 2).
 
-* **Deduplicación:** Detectar y gestionar registros que aparecen repetidos en las distintas fuentes para evitar inflar las cifras.
+* **Deduplicación:** Detectar y gestionar registros repetidos entre fuentes para evitar la inflación artificial de cifras.
 
-* **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a volver a la fuente original para determinar el dato verídico y garantizar la integridad de la visualización.
+* **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a contrastar con la fuente original para asegurar la integridad de lo que se visualizará.
 
-También podría ser necesario buscar más fuentes, y para ayudar en tal búsqueda puede considerarse el siguiente Catastro de Matrícula [ReDis](https://www.redis.cl/index.php/quienes-somos/).
+Como fuente complementaria, utilizaremos el catastro de matrícula que está desarrollando la **Red de Escuelas de Diseño de Universidades del Consejo de Rectores ([ReDis](https://www.redis.cl/index.php/quienes-somos/))**. Esta instancia de coordinación académica agrupa a las siguientes instituciones:
 
-La **Red de Escuelas de Diseño de Universidades del Consejo de Rectores (ReDis)** constituye la instancia de coordinación académica que agrupa a las siguientes instituciones:
-
-* Pontificia Universidad Católica de Chile
+* Pontificia Universidad Católica de Chile (PUC)
 * Universidad Austral de Chile (UACh)
-* Universidad Católica de Temuco
-* Universidad Católica de Valparaíso (UV)
+* Universidad Católica de Temuco (UCT)
+* Pontificia Universidad Católica de Valparaíso (PUCV)
 * Universidad de Antofagasta
 * Universidad de Chile (UCh)
-* Universidad de la Serena
+* Universidad de La Serena
 * Universidad de Playa Ancha (UPLA)
 * Universidad de Santiago de Chile (USACh)
 * Universidad de Talca
@@ -58,19 +58,19 @@ La **Red de Escuelas de Diseño de Universidades del Consejo de Rectores (ReDis)
 * Universidad Diego Portales (UDP)
 * Universidad Tecnológica Metropolitana (UTEM)
 
-El actual director de la ReDis, **Javier Lorca** (Académico de la Universidad de Talca), trabajando para cuantificar la realidad de la matrícula de diseño a nivel nacional, **aporta los siguientes datos**:
+El actual director de la ReDis, **Javier Lorca** (Académico de la Universidad de Talca), trabajando para cuantificar la realidad de la matrícula de diseño a nivel nacional, aporta los siguientes datos:
 
 La formación en diseño representa el **1,66%** de la matrícula total del sistema superior, con un universo de **18.772 estudiantes** distribuidos en 208 programas. La participación por tipo de institución es:
 
-* **Instituciones no universitarias (IP/CFT):** 51,1% (9.592 estudiantes).
-* **Universidades:** 48,9% (9.180 estudiantes).
+* **Institutos Profesionales y Centros de Formación Técnica**: 51,1% (9.592 estudiantes).
+* **Universidades**: 48,9% (9.180 estudiantes).
 
-Dentro del segmento universitario, las instituciones pertenecientes al CRUCH **podrían concentrar a cerca de 5.800 estudiantes**. Esto sitúa la representatividad de la Red ReDis en un **30,9%** de la matrícula total nacional de la disciplina.
+Dentro del segmento universitario, las instituciones pertenecientes al CRUCH concentran a cerca de 5.800 estudiantes, situando la representatividad de la Red ReDis en un 30,9% de la matrícula total nacional de la disciplina.
 
-En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis es la que se detalla a continuación:
+En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis es la siguiente:
 
 | Institución | Matrícula Reportada |
-|:-----|:-----:|
+|:----|:----:|
 | Pontificia Universidad Católica de Chile (PUC) | 1.062 |
 | Universidad de Chile (UCh) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
@@ -78,12 +78,12 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 | Universidad de Santiago de Chile (USACh) | 448 |
 | Universidad de Valparaíso (UV) | 383 |
 | Pontificia Universidad Católica de Valparaíso (PUCV) | 298 |
-| Universidad Austral de Chile (USACh) | 216 |
+| Universidad Austral de Chile (UACh) | 216 |
 | Universidad de Antofagasta | 171 |
 | Universidad de Playa Ancha (UPLA) | 70 |
 | **Subtotal instituciones referidas** | **4.476** |
 
-**Nota:** El remanente de **1.324 estudiantes** para completar el universo estimado corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectos representantes (Universidad Católica de Temuco, Universidad de la Serena, Universidad de Talca, Universidad de Tarapacá y Universidad Diego Portales).
+**Nota:** El remanente de **1.324 estudiantes** para completar el universo estimado corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectivos representantes (Universidad Católica de Temuco, Universidad de La Serena, Universidad de Talca, Universidad de Tarapacá y Universidad Diego Portales).
 
 - - - - - - - - 
 
