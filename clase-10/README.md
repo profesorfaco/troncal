@@ -43,9 +43,9 @@ Para lograr una triangulación exitosa, realizaremos los siguientes pasos de cur
 Como fuente complementaria, utilizaremos el catastro de matrícula que está desarrollando la **Red de Escuelas de Diseño de Universidades del Consejo de Rectores ([ReDis](https://www.redis.cl/index.php/quienes-somos/))**. Esta instancia de coordinación académica agrupa a las siguientes instituciones:
 
 * Pontificia Universidad Católica de Chile (PUC)
+* Pontificia Universidad Católica de Valparaíso (PUCV)
 * Universidad Austral de Chile (UACh)
 * Universidad Católica de Temuco (UCT)
-* Pontificia Universidad Católica de Valparaíso (PUCV)
 * Universidad de Antofagasta
 * Universidad de Chile (UCh)
 * Universidad de La Serena
