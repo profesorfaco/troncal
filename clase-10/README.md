@@ -65,7 +65,7 @@ La formación en diseño representa el **1,66%** de la matrícula total del sist
 
 Dentro del segmento universitario, las instituciones pertenecientes al CRUCH **podrían concentrar a cerca de 5.800 estudiantes**. Esto sitúa la representatividad de la Red ReDis en un **30,9%** de la matrícula total nacional de la disciplina.
 
-La distribución de la matrícula en las instituciones que componen la ReDis se detalla a continuación:
+En mayo de 2026, la distribución de la matrícula en las instituciones que componen la ReDis se detalla a continuación:
 
 | Institución | Matrícula Reportada |
 |:----|:----:|
