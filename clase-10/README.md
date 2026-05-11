@@ -41,20 +41,20 @@ También podría ser necesario buscar más fuentes, y para ayudar en tal búsque
 La **Red de Escuelas de Diseño de Universidades del Consejo de Rectores (ReDis)** constituye la instancia de coordinación académica que agrupa a las siguientes instituciones:
 
 * Pontificia Universidad Católica de Chile
-* Universidad Austral de Chile
+* Universidad Austral de Chile (UACh)
 * Universidad Católica de Temuco
-* Universidad Católica de Valparaíso
+* Universidad Católica de Valparaíso (UV)
 * Universidad de Antofagasta
-* Universidad de Chile
+* Universidad de Chile (UCh)
 * Universidad de la Serena
-* Universidad de Playa Ancha
-* Universidad de Santiago de Chile
+* Universidad de Playa Ancha (UPLA)
+* Universidad de Santiago de Chile (USACh)
 * Universidad de Talca
 * Universidad de Tarapacá
-* Universidad de Valparaíso
-* Universidad del Bío-Bío
-* Universidad Diego Portales
-* Universidad Tecnológica Metropolitana
+* Universidad de Valparaíso (UV)
+* Universidad del Bío-Bío (UBB)
+* Universidad Diego Portales (UDP)
+* Universidad Tecnológica Metropolitana (UTEM)
 
 El actual director de la ReDis, **Javier Lorca** (Académico de la Universidad de Talca), trabajando para cuantificar la realidad de la matrícula de diseño a nivel nacional, **aporta los siguientes datos**:
 
@@ -69,13 +69,13 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 
 | Institución | Matrícula Reportada |
 |:-----|:-----:|
-| Universidad de Chile (UCH) | 834 |
+| Universidad de Chile (UCh) | 834 |
 | Universidad Tecnológica Metropolitana (UTEM) | 511 |
-| Universidad de Santiago de Chile (Usach)* | 448 |
+| Universidad de Santiago de Chile (USACH)* | 448 |
 | Universidad de Valparaíso (UV) | 383 |
 | Pontificia Universidad Católica de Valparaíso (PUCV) | 298 |
 | Universidad del Bío-Bío (UBB) | 223 |
-| Universidad Austral de Chile (UACh) | 216 |
+| Universidad Austral de Chile (USACh) | 216 |
 | Universidad de Antofagasta | 171 |
 | Universidad de Playa Ancha (UPLA) | 70 |
 | **Subtotal instituciones catastradas** | **3.154** |
