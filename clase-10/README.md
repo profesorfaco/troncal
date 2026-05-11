@@ -36,6 +36,55 @@ Para triangular con éxito, seguiremos estos pasos críticos antes de pasar a la
 
 * **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a volver a la fuente original para determinar el dato verídico y garantizar la integridad de la visualización.
 
+También podría ser necesario buscar más fuentes, y para ayudar en tal búsqueda puede considerarse el siguiente Catastro de Matrícula ReDis.
+
+La **Red de Escuelas de Diseño de Universidades del Consejo de Rectores (ReDis)** constituye la instancia de coordinación académica que agrupa a las siguientes instituciones:
+
+* Pontificia Universidad Católica de Chile
+* Universidad Austral de Chile
+* Universidad Católica de Temuco
+* Universidad Católica de Valparaíso
+* Universidad de Antofagasta
+* Universidad de Chile
+* Universidad de la Serena
+* Universidad de Playa Ancha
+* Universidad de Santiago de Chile
+* Universidad de Talca
+* Universidad de Tarapacá
+* Universidad de Valparaíso
+* Universidad del Bío-Bío
+* Universidad Diego Portales
+* Universidad Tecnológica Metropolitana
+
+El actual director de la ReDis, **Javier Lorca** (Académico de la Universidad de Talca), trabajando para cuantificar la realidad de la matrícula de diseño a nivel nacional, **aporta los siguientes datos**:
+
+La formación en diseño representa el **1,66%** de la matrícula total del sistema superior, con un universo de **18.772 estudiantes** distribuidos en 208 programas. La participación por tipo de institución es:
+
+* **Instituciones no universitarias (IP/CFT):** 51,1% (9.592 estudiantes).
+* **Universidades:** 48,9% (9.180 estudiantes).
+
+Dentro del segmento universitario, las instituciones pertenecientes al CRUCH **podrían concentrar a cerca de 5.800 estudiantes**. Esto sitúa la representatividad de la Red ReDis en un **30,9%** de la matrícula total nacional de la disciplina.
+
+La distribución de la matrícula en las instituciones que componen la ReDis se detalla a continuación:
+
+| Institución | Matrícula Reportada |
+| --- | --- |
+| Universidad de Chile (UCH) | 834 |
+| Universidad Tecnológica Metropolitana (UTEM) | 511 |
+| Universidad de Santiago de Chile (Usach)* | 448 |
+| Universidad de Valparaíso (UV) | 383 |
+| Pontificia Universidad Católica de Valparaíso (PUCV) | 298 |
+| Universidad del Bío-Bío (UBB) | 223 |
+| Universidad Austral de Chile (UACh) | 216 |
+| Universidad de Antofagasta | 171 |
+| Universidad de Playa Ancha (UPLA) | 70 |
+| **Subtotal instituciones catastradas** | **3.154** |
+
+**Desglose Usach: 227 en Diseño en Comunicación Visual y 221 en Diseño Industrial.*
+
+**Nota:** El remanente de aproximadamente **2.647 estudiantes** para completar el universo estimado, corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectivas secretarías académicas.
+
+
 #### HTML y SVG para visualizar los datos
 
 Recordemos lo aprendido en la [clase 2](https://github.com/profesorfaco/troncal/tree/main/clase-02) sobre las capas de la web:
