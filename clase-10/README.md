@@ -2,6 +2,8 @@
 
 ### HTML y SVG
 
+- - - - - - - - 
+
 #### Datos para visualizar
 
 Utilizaremos tres servicios oficiales para buscar información sobre la oferta académica en la carrera de **“Diseño”**:
@@ -84,6 +86,7 @@ En mayo de 2026, la distribución de la matrícula en las instituciones que comp
 
 **Nota:** El remanente de **2.546 estudiantes** para completar el universo estimado corresponde a las instituciones de la ReDis cuyos datos específicos se encuentran en proceso de actualización o validación por sus respectos representantes.
 
+- - - - - - - - 
 
 #### HTML y SVG para visualizar los datos
 
