@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-#### Datos para visualizar: La Realidad de la Carrera de Diseño en Chile
+#### Datos para visualizar: La Carrera de Diseño en Chile
 
 Este ejercicio tiene como objetivo analizar y visualizar la oferta académica de la carrera de “Diseño” a nivel nacional, utilizando fuentes oficiales y metodologías de validación de datos.
 
