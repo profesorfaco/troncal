@@ -38,7 +38,7 @@ Para lograr una triangulación exitosa, realizaremos los siguientes pasos de cur
 
 * **Deduplicación:** Detectar y gestionar registros repetidos entre fuentes para evitar la inflación artificial de cifras.
 
-* **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a contrastar con la fuente original para asegurar la integridad de lo que se visualizará.
+* **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a contrastar con cada fuente original, o con una fuente complementaria, para asegurar la integridad de lo que se visualizará.
 
 Como fuente complementaria, utilizaremos el catastro de matrícula que está desarrollando la **Red de Escuelas de Diseño de Universidades del Consejo de Rectores ([ReDis](https://www.redis.cl/index.php/quienes-somos/))**. Esta instancia de coordinación académica agrupa a las siguientes instituciones:
 
