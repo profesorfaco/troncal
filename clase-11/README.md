@@ -1,17 +1,17 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 11 → 26 de mayo
 
-### HTML, SVG y JavaScript: La cocina invisible de los datos
+### HTML, SVG y JavaScript
 
-Antes de la etapa de implementación de lo que se ve en la pantalla (con uso de HTML, CSS, SVG y JavaScript), existe un trabajo que, a veces, consume el mayor tiempo de cualquier proyecto de información:
+#### El "trabajo invisible" con los datos
+
+Antes de la etapa de implementación de lo que se muestra en la ventana del navegador (con el uso de HTML, SVG y JavaScript, junto con CSS), existe un trabajo que, a veces, consume el mayor tiempo de cualquier proyecto de información:
 
 * **Limpieza (*Data Cleansing*):** Corregir inconsistencias, formatos erróneos o caracteres especiales que impidan el cruce de tablas.
 * **Mapeo:** Identificar columnas equivalentes (ej: verificar si "Institución" en la Fuente 1 corresponde a "Nombre IES" en la Fuente 2).
 * **Deduplicación:** Detectar y gestionar registros repetidos entre fuentes para evitar la inflación artificial de cifras.
 * **Detección de *Outliers* (Anomalías):** Identificar datos extraños o errores de captura. Estos hallazgos nos obligan a contrastar con cada fuente original, o con una fuente complementaria, para asegurar la integridad de lo que se visualizará.
 
----
-
-### El "trabajo invisible" y la ilusión de la automatización
+#### La ilusión de la automatización de aquel "trabajo invisible"
 
 Si este trabajo manual de picar piedra con los datos les parece tedioso o carente de vuelo creativo, conviene entender su trasfondo político y metodológico volviendo a un pionero. 
 
