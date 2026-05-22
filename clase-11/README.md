@@ -21,7 +21,7 @@ Alan Turing pensó el trabajo de la máquina de computación automática dividie
 
 La cita se toma de pp.15-16 de [_El ojo del amo: Una historia social de la inteligencia artificial_](https://fondodeculturaeconomica.cl/products/el-ojo-del-amo-una-historia-social-de-la-inteligencia-artificial-9789562893893) (FCE, 2025). Se recomienda su lectura.
 
-Volviendo a la idea central: cuando limpiamos, mapeamos y corregimos una base de datos para poder visualizarla, estamos asumiendo ese rol de "servidores de la máquina": realizamos el trabajo vivo, crítico e invisible que "otra inteligencia" no puede resolver por sí sola. No hay visualización de datos "inteligente" sin esta mano de obra previa.
+Volviendo a la idea central: cuando limpiamos, mapeamos y corregimos una base de datos para poder visualizarla, estamos asumiendo ese rol de "servidores de la máquina": realizamos el trabajo vivo, crítico e invisible que "otra inteligencia" no puede resolver por sí sola. No hay visualización de información "inteligente" sin esta mano de obra previa.
 
 - - - - - - - 
 
