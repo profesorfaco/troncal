@@ -4,13 +4,13 @@
 
 Estra trabajo individual con evaluación sumativa depende de dos notas. Ambas notas comparten un punto base, que se compone de la siguiente manera: 
 
-**0,5** por crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la MEDIO PUNTO BASE DE LA TERCERA NOTA antes de que den las 15:30 hrs.
+→ **0,5** por crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la MEDIO PUNTO BASE DE LA TERCERA NOTA antes de que den las 15:30 hrs.
 
-**0,5** por defender su propuesta individual, ya operativa en la dirección informada, a partir de las 17:00 hrs.
+→ **0,5** por defender su propuesta individual, ya operativa en la dirección informada, a partir de las 17:00 hrs.
 
 - - - - - 
 
-Primera nota (6.0 + 1.0 base): 
+**Primera nota (6.0 + 1.0 base)**: 
 
 | Criterio y logro esperado | Puntaje |
 |:---------|:-----:|
@@ -22,7 +22,7 @@ Primera nota (6.0 + 1.0 base):
 
 - - - - -
 
-Segunda nota (6.0 + 1.0 base): 
+**Segunda nota (6.0 + 1.0 base)**: 
 
 | Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
 |:----|:----|:----:|
