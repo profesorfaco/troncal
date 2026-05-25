@@ -14,11 +14,11 @@ La evaluación sumativa depende de dos notas. Ambas notas comparten un punto bas
 
 | Criterio y logro esperado | Puntaje |
 |:---------|:-----:|
-| En el lugar correspondiente, un subtítulo plantea una pregunta clara, directa y bien formulada sobre la temática elegida | **1,0** |
-| Se responde a la pregunta con una visualización de datos bien implementada con Chart.js | **1,0** |
+| En el lugar correspondiente, un subtítulo plantea una segunda pregunta clara, directa y bien formulada sobre la temática elegida | **1,0** |
+| Se responde a esta segunda pregunta con una segunda visualización de datos bien implementada con Chart.js | **1,0** |
 | Se explica la pertinencia del tipo de visualización elegida (gráfico de barras, líneas, etc.) con apoyo en el Catálogo de Visualización de Datos o la Tabla Periódica de Métodos de Visualización, que está debidamente vinculado. | **1,0** | 
 | Se cierra con un comentario para la respuesta visualizada. | **1,0** | 
-| Ambas preguntas y respuestas en la página se complementan para presentar un único relato, con encabezado correspondiente en lo visual y textual. | **2,0** |
+| Las dos preguntas y respuestas en la página se complementan para presentar un único relato, con encabezado correspondiente en lo visual y textual. | **2,0** |
 
 - - - - -
 
