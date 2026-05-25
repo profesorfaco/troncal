@@ -14,11 +14,11 @@ Estra trabajo individual con evaluación sumativa depende de dos notas. Ambas no
 
 | Criterio y logro esperado | Puntaje |
 |:---------|:-----:|
-| En el lugar correspondiente, un subtítulo plantea una pregunta clara, directa y bien formulada sobre la temática elegida | 0.5 |
-| Se responde a la pregunta con una visualización de datos bien implementada con chart.js | 1.0 |
-| Se explica la pertinencia del tipo de gráfico elegido (barras, líneas, etc.) con apoyo en el Catálogo de Visualización de Datos o la Tabla Periódica de Métodos de Visualización, que está debidamente vinculado. | 1.0 | 
-| Se cierra con un comentario para la respuesta visualizada. | 1.5 | 
-| Ambas preguntas y respuestas en la página se complementan para presentar un único relato, con encabezado correspondiente en lo visual y textual. | 2.0 |
+| En el lugar correspondiente, un subtítulo plantea una pregunta clara, directa y bien formulada sobre la temática elegida | **1.0** |
+| Se responde a la pregunta con una visualización de datos bien implementada con chart.js | **1.0** |
+| Se explica la pertinencia del tipo de gráfico elegido (barras, líneas, etc.) con apoyo en el Catálogo de Visualización de Datos o la Tabla Periódica de Métodos de Visualización, que está debidamente vinculado. | **1.0** | 
+| Se cierra con un comentario para la respuesta visualizada. | **1.0** | 
+| Ambas preguntas y respuestas en la página se complementan para presentar un único relato, con encabezado correspondiente en lo visual y textual. | **2.0** |
 
 - - - - -
 
@@ -26,9 +26,9 @@ Estra trabajo individual con evaluación sumativa depende de dos notas. Ambas no
 
 | Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
 |:----|:----|:----:|
-| **Respeto a las restricciones de CSS** | El código dentro de la etiqueta `<style>` mantiene su orden y definiciones iniciales. Se aceptan modificaciones cuando son funcionales a la presentación de estructura y semántica | **1.0** |
+| **Respeto a las restricciones de CSS** | El código dentro de la etiqueta `<style>` mantiene su orden y definiciones iniciales. Se aceptan modificaciones cuando son funcionales a la presentación de estructura y semántica | **0.5** |
 | **Estructura y Semántica HTML** | Integra el nuevo contenido respetando la jerarquía (`<h4>`, `<p>`, `<ul>`). La visualización en este nuevo contenido está envuelta en una estructura `<figure>` que incluye su `<canvas>` con una ID única y su respectivo `<figcaption>` con vinculos a la fuente original de los datos. | **1.0** |
-| **Calidad de los Datos y Fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **1.0** |
+| **Calidad de los Datos y Fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **1.5** |
 | **Implementación Técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **3.0** |
 
 _ _ _ _ 
