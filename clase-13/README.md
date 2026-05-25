@@ -12,8 +12,8 @@ En este trabajo final, integraremos lo explorado a lo largo del semestre en una 
 
 * **Textualidad apoyada en lo que se visualiza:** Una redacción completa, lógica y [concisa](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) conducente a preguntas a las que se responde con lo visualizado. Esto vuelve sobre la primera evaluación sumativa, resuelta grupalmente.
 * **Visualizaciones en SVG:** Considera dos (2) visualizaciones generadas con [https://app.rawgraphs.io/](https://app.rawgraphs.io/) y luego ordenadas en un programa de edición vectorial. Esto vuelve sobre clases recientes.
-* **Visualización en Chart.js:** Considera dos (2) visualizaciones generadas con Chart.js, cada una a desplegarse en su propio `<canvas></canvas>`. Esto vuelve sobre las clases más recientes.
-* **Buscador y tabla dinámica:** Cierra con un buscador y su tabla, donde el primero actúa como sistema de filtrado para que la tabla de datos reaccione en tiempo real ante la presencia o ausencia de los términos buscados. Esto vuelve sobre la segunda evaluación sumativa, resuelta individualmente.
+* **Visualización en Chart.js:** Considera dos (2) visualizaciones generadas con Chart.js, cada una a desplegarse en su propio `<canvas></canvas>`. Esto vuelve sobre las clases más recientes y su tercera evaluación sumativa.
+* **Buscador y tabla dinámica:** Cierra con un buscador y su tabla, donde el primero actúa como sistema de filtrado para que la tabla de datos reaccione en tiempo real ante la presencia o ausencia de los términos buscados. Esto vuelve sobre la segunda evaluación sumativa.
 
 #### 🎨 Referente visual
 
