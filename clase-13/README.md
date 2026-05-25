@@ -27,7 +27,7 @@ Manteniendo las buenas prácticas de desarrollo, el proyecto debe estructurarse 
 
 1. `index.html` para la estructura y semántica del contenido.
 2. `style.css` para el diseño visual funcional.
-3. `script.js` para la lógica de las visualizaciones en Chart.js y el comportamiento del buscador junto a su tabla dinámica (puede ser uno o dos archivos, según acomode a su desarrollo).
+3. `script.js` para la lógica de las visualizaciones en Chart.js y el comportamiento del buscador junto a su tabla dinámica (puede ser uno o varios archivos, según acomode a su desarrollo).
 
 ---
 
