@@ -18,7 +18,7 @@ En este trabajo final, se debe desarrollar una página web que considere de form
 
 La página debe seguir el modelo de nuestro último ejercicio, tomando como **"inspiración" directa** el estándar de diseño de [Reuters Graphics](https://www.reuters.com/graphics/).
 
-💡 **Recordatorio clave:** Recuerden el principio de **diseño funcional** de la evaluación sumativa recién pasada, donde los estilos applied deben tener un propósito claro, evitando la decoración superflua. Cada decisión visual debe estar al servicio de la legibilidad, la estructura y la semántica de la información.
+💡 **Recordatorio clave:** Recuerden el principio de **diseño funcional** de la evaluación sumativa recién pasada, donde los estilos aplicados deben estar al servicio de la legibilidad, la estructura y la semántica de la información.
 
 #### 🛠️ Estructura técnica esperada
 
