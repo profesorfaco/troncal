@@ -24,7 +24,7 @@ La evaluación sumativa depende de dos notas. Ambas notas comparten un punto bas
 
 **Segunda nota (6.0 + 1.0 base)**: 
 
-| Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
+| Criterio | Logro esperado | Puntaje |
 |:----|:----|:----:|
 | **Modularidad y separación del código fuente** | Separa correctamente el código fuente del proyecto, aislando la estructura en `index.html`, los estilos en `style.css` y la lógica del gráfico en `script.js`. Vincula los archivos de forma externa sin dejar código embebido. | **1,0** | 
 | **Diseño funcional en CSS** | Los estilos mantienen su orden y definiciones iniciales. Se aceptan modificaciones cuando ofrecen un propósito claro y orientado a la función, evitando la decoración superflua y aportando directamente a la legibilidad, estructura y semántica visual. | **1,0** |
