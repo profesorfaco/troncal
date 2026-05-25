@@ -2,7 +2,7 @@
 
 ### Entrega del trabajo final
 
-Pendiente.
+Pauta pendiente. Considerará proceso, no solo resultado.
 
 
 _ _ _ _ 
