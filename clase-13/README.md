@@ -1,8 +1,8 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal/) → Clase 13 → 9 de junio
 
-### Inicio del trabajo final en duplas: Visualización de Datos con Propósito
+### Inicio del trabajo final en duplas: Visualización de datos con propósito
 
-Hemos trabajado analizando datos sobre nuestras asignaturas electivas, proyectos de título y la realidad de otras carreras de Diseño con un enfoque similar al nuestro. 
+Hemos trabajado analizando datos sobre nuestras asignaturas electivas, proyectos de título y la "realidad" de otras carreras de Diseño con un enfoque similar al nuestro. 
 
 Ahora es momento de cerrar con un trabajo en duplas, donde dos cabezas, ayudadas con IA, deberán profundizar en alguna de estas temáticas (o una combinación de ellas) y proponer una página web interactiva orientada a la toma de decisiones o la divulgación de estos hallazgos.
 
@@ -10,15 +10,16 @@ Ahora es momento de cerrar con un trabajo en duplas, donde dos cabezas, ayudadas
 
 En este trabajo final, se debe desarrollar una página web que considere de forma obligatoria:
 
-* **Visualizaciones en SVG:** Dos visualizaciones generadas con https://app.rawgraphs.io/ y luego ordenadas en un programa de edición vectorial.
-* **Visualización en Chart.js:** Una visualización interactiva a desplegar en un elemento de canvas, que complemente a las dos visualizaciones previas.
-* **Buscador y tabla dinámica:** Un sistema de filtrado donde la tabla de datos reaccione en tiempo real ante la presencia o ausencia de los términos buscados.
+* **Textualidad apoyada en lo que se visualiza:** Una redacción completa, lógica y [concisa](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) nos conduce a preguntas a las que se responde con lo visualizado.
+* **Visualizaciones en SVG:** Considera dos (2) visualizaciones generadas con https://app.rawgraphs.io/ y luego ordenadas en un programa de edición vectorial.
+* **Visualización en Chart.js:** Considera una (1) visualización interactiva a desplegar en un elemento de canvas, que complemente a las dos visualizaciones previas.
+* **Buscador y tabla dinámica:** Cierra con un (1) sistema de filtrado donde la tabla de datos reaccione en tiempo real ante la presencia o ausencia de los términos buscados.
 
 #### 🎨 Referente visual
 
 La página debe seguir el modelo de nuestro último ejercicio, tomando como **"inspiración" directa** el estándar de diseño de [Reuters Graphics](https://www.reuters.com/graphics/).
 
-💡 **Recordatorio clave:** Recuerden el principio de **diseño funcional** de la evaluación sumativa recién pasada, donde los estilos aplicados deben estar al servicio de la legibilidad, la estructura y la semántica de la información.
+💡 **Recordatorio clave:** Recuerden el principio de **diseño funcional** de la evaluación sumativa recién pasada, donde los estilos aplicados deben tener un propósito claro, evitando la decoración superflua. Cada decisión visual debe estar al servicio de la legibilidad, la estructura y la semántica de la información.
 
 #### 🛠️ Estructura técnica esperada
 
