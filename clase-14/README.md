@@ -2,7 +2,7 @@
 
 ### Avance en el trabajo final
 
-Pendiente.
+Esta se semana de trabajo autónomo.
 
 - - - - -
 
