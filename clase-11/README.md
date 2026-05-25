@@ -25,11 +25,11 @@ Volviendo a la idea central: cuando limpiamos, mapeamos y corregimos una base de
 
 #### Ahora a la visualización
 
-Si llegamos a datos como los que se comparten en: https://docs.google.com/spreadsheets/d/1F-VYJs4U2K9SK7w-igzsAjvTKKLsyAoHcTAQuBuw_0E/copy
+- Si llegamos a datos como los que se comparten en: https://docs.google.com/spreadsheets/d/1F-VYJs4U2K9SK7w-igzsAjvTKKLsyAoHcTAQuBuw_0E/copy
 
-Podremos luego armar una página web como la que pueden copiar: https://github.com/profesorfaco/troncal/blob/main/clase-11/index.html
+- Podremos luego armar una página web como la que pueden copiar: https://github.com/profesorfaco/troncal/blob/main/clase-11/index.html
 
-Comenzaremos a trabajar con esta copia para la evaluación de la próxima semana.
+- Comenzaremos a trabajar con esta copia para la evaluación de [la próxima semana](https://github.com/profesorfaco/troncal/blob/main/clase-12/README.md).
 
 - - - - - - - 
 
