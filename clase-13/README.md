@@ -12,7 +12,7 @@ En este trabajo final, se debe desarrollar una página web que considere de form
 
 * **Textualidad apoyada en lo que se visualiza:** Una redacción completa, lógica y [concisa](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) nos conduce a preguntas a las que se responde con lo visualizado.
 * **Visualizaciones en SVG:** Considera dos (2) visualizaciones generadas con https://app.rawgraphs.io/ y luego ordenadas en un programa de edición vectorial.
-* **Visualización en Chart.js:** Considera una (1) visualización interactiva a desplegar en un elemento de canvas, que complemente a las dos visualizaciones previas.
+* **Visualización en Chart.js:** Considera una (1) visualización interactiva a desplegar en un `<canvas></canvas>`, que complemente a las dos visualizaciones previas.
 * **Buscador y tabla dinámica:** Cierra con un (1) sistema de filtrado donde la tabla de datos reaccione en tiempo real ante la presencia o ausencia de los términos buscados.
 
 #### 🎨 Referente visual
