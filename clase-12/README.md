@@ -10,12 +10,12 @@ Ambas notas comparten un punto base, que se compone de la siguiente manera:
 
 **0,5** por defender su propuesta individual, ya operativa en la dirección informada, a partir de las 17:00 hrs.
 
-Primera nota:
+Primera nota (6.0 + 1.0 base): 
 
 | **Coherencia Editorial y de Datos** | El nuevo texto redactado plantea una pregunta clara, explica la pertinencia del tipo de gráfico elegido (barras, líneas, etc.) y concluye de forma coherente con lo que la visualización muestra en pantalla. | **5** |
 
 
-Segunda nota: 
+Segunda nota (6.0 + 1.0 base): 
 
 | Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
 |:----|:----|:----:|
