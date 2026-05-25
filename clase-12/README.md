@@ -26,10 +26,11 @@ La evaluación sumativa depende de dos notas. Ambas notas comparten un punto bas
 
 | Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
 |:----|:----|:----:|
+| **Modularidad y Separación de Código** | Separa correctamente el código fuente del proyecto, aislando la estructura en `index.html`, los estilos en `style.css` y la lógica del gráfico en `script.j`s. Vincula los archivos de forma externa sin dejar código embebido. | **1,0** | 
 | **Respeto a las restricciones de CSS** | El código dentro de la etiqueta `<style>` mantiene su orden y definiciones iniciales. Se aceptan modificaciones cuando son funcionales a la presentación de estructura y semántica | **0,5** |
 | **Estructura y Semántica HTML** | Integra el nuevo contenido respetando la jerarquía (`<h4>`, `<p>`, `<ul>`). La visualización en este nuevo contenido está envuelta en una estructura `<figure>` que incluye su `<canvas>` con una ID única y su respectivo `<figcaption>` con vinculos a la fuente original de los datos. | **1,0** |
 | **Calidad de los Datos y Fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **1,5** |
-| **Implementación Técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **3,0** |
+| **Implementación Técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **2,0** |
 
 _ _ _ _ 
 
