@@ -2,21 +2,27 @@
 
 ### Aplicando HTML, SVG y JavaScript
 
-#### Trabajo individual, con evaluación sumativa 
+Estra trabajo individual con evaluación sumativa depende de dos notas.
 
-**Puntaje Base (Nota 1.0):** 10 puntos.
-**Puntaje de la Rúbrica:** 60 puntos.
-**Puntaje Total Máximo:** 70 puntos (Equivale a Nota 7.0).
+Ambas notas comparten un punto base, que se compone de la siguiente manera: 
 
-#### Rúbrica de 60 Puntos
+**0,5** por crear un repositorio en github con un README.md, activar GitHub Pages. Tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md). Ingresarla a la MEDIO PUNTO BASE DE LA TERCERA NOTA antes de que den las 15:30 hrs.
+
+**0,5** por defender su propuesta individual, ya operativa en la dirección informada, a partir de las 17:00 hrs.
+
+Primera nota:
+
+| **Coherencia Editorial y de Datos** | El nuevo texto redactado plantea una pregunta clara, explica la pertinencia del tipo de gráfico elegido (barras, líneas, etc.) y concluye de forma coherente con lo que la visualización muestra en pantalla. | **5** |
+
+
+Segunda nota: 
 
 | Criterio de Evaluación | Descriptor de logro esperado | Puntaje |
 |:----|:----|:----:|
-| **Respeto a las restricciones de CSS** | El código dentro de la etiqueta `<style>` mantiene su orden y definiciones iniciales. Se aceptan modificaciones cuando son funcionales a la presentación de estructura y semántica | **5** |
-| **Estructura y Semántica HTML** | Integra el nuevo contenido respetando la jerarquía (`<h4>`, `<p>`, `<ul>`). El segundo gráfico está envuelto en una estructura `<figure>` que incluye su `<canvas>` con una ID única y su respectivo `<figcaption>`. | **10** |
-| **Coherencia Editorial y de Datos** | El nuevo texto redactado plantea una pregunta clara, explica la pertinencia del tipo de gráfico elegido (barras, líneas, etc.) y concluye de forma coherente con lo que la visualización muestra en pantalla. | **5** |
-| **Calidad de los Datos y Fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **5** |
-| **Implementación Técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **35** |
+| **Respeto a las restricciones de CSS** | El código dentro de la etiqueta `<style>` mantiene su orden y definiciones iniciales. Se aceptan modificaciones cuando son funcionales a la presentación de estructura y semántica | **1.0** |
+| **Estructura y Semántica HTML** | Integra el nuevo contenido respetando la jerarquía (`<h4>`, `<p>`, `<ul>`). El segundo gráfico está envuelto en una estructura `<figure>` que incluye su `<canvas>` con una ID única y su respectivo `<figcaption>`. | **1.0** |
+| **Calidad de los Datos y Fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **1.0** |
+| **Implementación Técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **3.0** |
 
 _ _ _ _ 
 
