@@ -60,7 +60,7 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 [Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 5 de mayo → RawGraph *et al* ✓
 
-[Clase 10](https://github.com/profesorfaco/troncal/tree/main/clase-10) → 12 de mayo → HTML y SVG
+[Clase 10](https://github.com/profesorfaco/troncal/tree/main/clase-10) → 12 de mayo → HTML y SVG ✓
 
 **Receso de actividades docentes**
 
