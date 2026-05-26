@@ -25,9 +25,9 @@ Recuerden el criterio de **Diseño funcional en CSS** de la evaluación sumativa
 
 Manteniendo las buenas prácticas de desarrollo, el proyecto debe estructurarse de manera modular, separando estrictamente:
 
-1. `index.html` para la estructura y semántica del contenido.
-2. `style.css` para el diseño visual funcional.
-3. `script.js` para la lógica de las visualizaciones en Chart.js y el comportamiento del buscador junto a su tabla dinámica (puede ser uno o varios archivos, según acomode a su desarrollo).
+1. `index.html` para la descripción de estructura.
+2. `style.css` para la descripción de estilo.
+3. `script.js` para la programación (puede ser uno o varios archivos, según acomode a su desarrollo).
 
 ---
 
