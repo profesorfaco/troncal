@@ -17,7 +17,7 @@ En este trabajo final, integraremos lo explorado a lo largo del semestre en una 
 
 #### 🎨 Referente visual
 
-La página debe seguir el modelo de nuestro último ejercicio, tomando como **"inspiración" directa** el estándar de diseño de [Reuters Graphics](https://www.reuters.com/graphics/), de reconocimiento global.
+La página debe seguir el modelo de nuestro último ejercicio, tomando como **"inspiración" el estándar de diseño de [Reuters Graphics](https://www.reuters.com/graphics/)**, de reconocimiento global.
 
 Recuerden el principio de **diseño funcional** de la evaluación sumativa recién pasada, donde los estilos aplicados deben tener un propósito claro, evitando la decoración superflua; cada decisión visual debe estar al servicio de la legibilidad, la estructura y la semántica de la información.
 
