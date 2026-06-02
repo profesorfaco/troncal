@@ -59,7 +59,7 @@ _ _ _ _
 | Antonia Pizarro Labraña | https://antopizza07.github.io/Troncal-clase-12/ |
 | Luis Plaza Vergara | https://luisplazav.github.io/Clase-12/ |
 | María José Quinteros | https://akyumii.github.io/Tercera-Nota/ |
-| Rayen Ramos Rozas | https://rayenramos-jpg.github.io/Clase-11/ |
+| Rayen Ramos Rozas | https://rayenramos-jpg.github.io/Clase-12/ |
 | Ignacia Rojas Carrasco | https://nachirojasc.github.io/CLASE_12_PRUEBA/ |
 | Sofía Romo Rodríguez | https://romosofia.github.io/Clase-12-Troncal/ |
 | Martina Sara Witto | https://martinaideas.github.io/Evaluacion-Clase-12/ |
