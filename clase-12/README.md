@@ -34,4 +34,42 @@ La evaluación sumativa depende de dos notas. Ambas notas comparten un punto bas
 
 _ _ _ _ 
 
+| NOMBRE | VINCULO |
+|:-------|:--------|
+| Valentina Alcota Rojas |	https://valealcota.github.io/Clase-12-Control/ | 
+| Esperanza Alvarado Núñez |	https://eslialnu.github.io/Clase-11/ |
+| Benjamín Antivilo Badilla |	https://beanttt.github.io/clase12/ |
+| Balma Ayala Lara | https://balmaal.github.io/clase12/ |
+| Fernanda Berríos Casmo | https://ferrberrios.github.io/clase-12/ |
+| María Paz Bravo López | https://mpazbravo.github.io/clase_12_prueba/ |
+| Romina Cancino Muñoz | https://romicancino.github.io/Clase_12/ |
+| Angelina Caviedes Núñez | https://gilicvnz.github.io/Clase_12/ |
+| Isidora Córdova Espinosa | https://isococo.github.io/CLASE_12/ |
+| Millaray Dinamarca Cea | https://milladincea.github.io/TERCERANOTA/ |
+| Caroline Herrera Sanhueza | https://karo-394.github.io/clase-11/ |
+| Francisco Hidalgo Rebolledo | https://ppxtox.github.io/Troncal-clase-12/ |
+| Antonia Lara Hernández | https://antonialarah.github.io/tercera_nota/ |
+| Grace López Maldonado | https://gracevines.github.io/EV3_0206/ |
+| Amarah López Vilches | INASISTENCIA JUSTIFICADA |
+| Antonia Mardones Vergara | https://antoniamardones.github.io/troncal-ev3/ |
+| Vicente Medina Torres | https://vicentemedinat.github.io/clase-12/ |
+| Bianca Olivares Melgar | https://bianolivares.github.io/ev.3_0306/ |
+| Paz Oyarzún Rojas | https://anastassiapaz.github.io/troncal-ev3/ |
+| Constanza Pavez Rodríguez | https://constanzapavezr-hash.github.io/Clase_12/ |
+| Antonia Pizarro Labraña | https://antopizza07.github.io/Troncal-clase-12/ |
+| Luis Plaza Vergara | https://luisplazav.github.io/Clase-12/ |
+| María José Quinteros | https://akyumii.github.io/Tercera-Nota/ |
+| Rayen Ramos Rozas | https://rayenramos-jpg.github.io/Clase-11/ |
+| Ignacia Rojas Carrasco | https://nachirojasc.github.io/CLASE_12_PRUEBA/ |
+| Sofía Romo Rodríguez | https://romosofia.github.io/Clase-12-Troncal/ |
+| Martina Sara Witto | https://martinaideas.github.io/Evaluacion-Clase-12/ |
+| Antonia Solar Astorga | https://antoniasolar.github.io/ev3-troncal/ |
+| Vicente Tapia Flores | https://vicentillotf.github.io/clase-11-apuntes/ |
+| Mirrayn Tapia Vásquez | https://mirrayn.github.io/clase-12-prueba/ |
+| Maitte Urrutia Valenzuela | https://mai0025.github.io/Clase12/ |
+| Fabián Valenzuela Araya | https://fabianva-630.github.io/Clase-11/ |
+| Paloma Vargas Fuentealba | https://yonahkj.github.io/Nota-sumativa-3/ |
+
+- - - -
+
 [clase-11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md) ⇆ [clase-13](https://github.com/profesorfaco/troncal/blob/main/clase-13/README.md)
