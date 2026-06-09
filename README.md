@@ -66,7 +66,7 @@ El curso comienza a las 15:00 hrs. del martes 10 de marzo y termina a las 18:15 
 
 [Clase 11](https://github.com/profesorfaco/troncal/tree/main/clase-11) → 26 de mayo → HTML, SVG y JavaScript ✓
 
-[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 2 de junio → **Trabajo individual, con evaluación sumativa** → Aplicando HTML, SVG y JavaScript
+[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 2 de junio → **Trabajo individual, con evaluación sumativa** → Aplicando HTML, SVG y JavaScript ✓
 
 [Clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13) → 9 de junio → Inicio del trabajo final en duplas
 
@@ -82,7 +82,7 @@ Clase 05 → trabajo grupal → 20% de la nota final ✓
 
 Clase 08 → trabajo individual → 20% de la nota final ✓
 
-Clase 12 → trabajo individual → 20% de la nota final
+Clase 12 → trabajo individual → 20% de la nota final ✓
 
 Clase 15 → trabajo duplas → 40% de la nota final
 
