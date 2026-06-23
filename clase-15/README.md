@@ -17,7 +17,7 @@
 | **Aprovechamiento del feedback** | Incorporación activa, oportuna y pertinente de las correcciones, comentarios y sugerencias entregadas durante el proceso de desarrollo. | 0,5 |
 
 
-Se agregan 1,0 por proceso: Con 0,5 de _Selección de temática eficiente y pertinente_, además de 0,5 por _Aprovechamiento del feedback_.
+La pauta considera 1,0 por proceso: Con 0,5 de _Selección de temática eficiente y pertinente_, además de 0,5 por _Aprovechamiento del feedback_.
 
 _ _ _ _ 
 
