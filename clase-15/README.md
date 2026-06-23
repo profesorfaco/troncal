@@ -5,7 +5,7 @@
 ### Pauta de Cotejo: Trabajo Final en Duplas, basada estrictamente en el [README.md de clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13).
 
 |Cuestión a Evaluar | Criterio / Detalle Técnico | Puntaje |
-| --- | --- | --- |
+|:------ |:--------|:---:|
 | **Selección de temática eficiente y pertinente** | Definición del tema de forma oportuna y adecuada dentro de los plazos, sin rodeos innecesarios ni requerir aclaraciones extra. | 0,5 |
 | **Textualidad articulada con la información** | Redacción completa, lógica y concisa basada en estándares UX. Conduce al usuario a través de preguntas explicadas mediante las visualizaciones. | 0,5 |
 | **Dos (2) visualizaciones vectoriales en SVG** | Gráficos generados inicialmente en RAWGraphs y refinados/ordenados mediante un software de edición vectorial. | 1,0 |
@@ -17,7 +17,7 @@
 | **Aprovechamiento del feedback** | Incorporación activa, oportuna y pertinente de las correcciones, comentarios y sugerencias entregadas durante el proceso de desarrollo. | 0,5 |
 
 
-Se agregan 1,0 por proceso: Con 0,5 de Selección de temática eficiente y pertinente, además de 0,5 por Aprovechamiento del feedback.
+Se agregan 1,0 por proceso: Con 0,5 de _Selección de temática eficiente y pertinente_, además de 0,5 por _Aprovechamiento del feedback_.
 
 _ _ _ _ 
 
