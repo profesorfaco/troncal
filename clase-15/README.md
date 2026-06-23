@@ -7,7 +7,7 @@
 |Cuestión a Evaluar | Criterio / Detalle Técnico | Puntaje |
 |:------ |:--------|:---:|
 | **Selección de temática eficiente y pertinente** | Definición del tema de forma oportuna y adecuada dentro de los plazos, sin rodeos innecesarios ni requerir aclaraciones extra. | 0,5 |
-| **Textualidad articulada con la información** | Redacción completa, lógica y concisa basada en estándares UX. Conduce al usuario a través de preguntas explicadas mediante las visualizaciones. | 0,5 |
+| **Textualidad articulada con la información** | Redacción completa, lógica y concisa. Conduce al usuario a través de preguntas explicadas mediante las visualizaciones. | 0,5 |
 | **Dos (2) visualizaciones vectoriales en SVG** | Gráficos generados inicialmente en RAWGraphs y refinados/ordenados mediante un software de edición vectorial. | 1,0 |
 | **Dos (2) visualizaciones con Chart.js** | Gráficos interactivos generados dinámicamente. Cada uno debe renderizarse en su propio elemento `<canvas>`. | 1,0 |
 | **Buscador y tabla dinámica interactiva** | Implementación de un sistema de filtrado en tiempo real donde la tabla de datos reaccione ante los términos ingresados. | 1,0 |
