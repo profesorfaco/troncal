@@ -84,7 +84,7 @@ Clase 08 → trabajo individual → 20% de la nota final ✓
 
 Clase 12 → trabajo individual → 20% de la nota final ✓
 
-Clase 15 → trabajo duplas → 40% de la nota final
+Clase 15 → trabajo duplas → 40% de la nota final ✓
 
 Este electivo troncal se aprueba con nota final igual o superior a 4.0 y asistencia igual o mayor al 75%.
 
