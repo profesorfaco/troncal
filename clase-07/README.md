@@ -1,0 +1,194 @@
+# [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 07 → 02 de octubre
+
+## UNIDAD 2: Introducción a la estructura y captura de datos
+
+### Introducción al desarrollo front-end: Captura e inyección dinámica de datos estructurados en interfaces HTML mediante `fetch` en JavaScript.
+
+Hoy conectamos el diseño con el código interactivo. Comenzaremos a explorar las bases del desarrollo front-end, analizando cómo una estructura HTML básica puede adquirir dinamismo cuando las programadoras y los programadores consumen datos externos de forma asíncrona. Utilizaremos la función `fetch` en JavaScript para capturar los archivos de datos estructurados e inyectarlos de manera dinámica dentro de la interfaz. Al finalizar la sesión, se les entregará el enunciado de la segunda evaluación sumativa a todas y todos los estudiantes.
+
+-----
+
+### Presentando datos con HTML y (un `fetch` de) JavaScript
+
+Vamos directo a la práctica. 
+
+Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjson.online/) para reemplazar los puntos suspensivos (…) en el valor asignado a la `const URL`:
+
+```
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ELECTIVOS DE DISEÑO</title>
+        <style>
+            *, *::before, *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            :root {
+                --color-oscurisimo: #800a49;
+                --color-oscuro: #bf0f6d;
+                --color-normal: deeppink;
+                --color-iluminado: pink;
+                --color-iluminadisimo: lightpink;
+            }
+
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                color: var(--color-normal);
+                text-align: center;
+                font-size: 100%;
+            }
+            div#contenedor {
+                margin: 1rem auto;
+                width: 90%;
+                max-width: 780px;
+            }
+
+            h1 {
+                margin: 1rem 0;
+                font-weight: 400;
+                font-size: calc(100% + 3vw + 3vh);
+            }
+
+            h2 {
+                margin: 3rem 0;
+                font-weight: 400;
+                letter-spacing: 0.25rem;
+                font-size: calc(100% + 1vw + 1vh);
+                color: var(--color-oscuro);
+            }
+
+            input {
+                border: 0.1rem solid var(--color-iluminado);
+                padding: 0.5rem 1rem;
+                font-family: inherit;
+                font-size: 15px;
+                color: var(--color-oscuro);
+                outline: none;
+                margin-bottom: 1.5rem;
+                width: 100%;
+                display: block;
+                background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="pink" viewBox="0 0 16 16"><path d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"/></svg>');
+                background-repeat: no-repeat;
+                background-size: 1rem;
+                background-position: 99% center;
+            }
+
+            input::placeholder {
+                color: var(--color-iluminado);
+            }
+
+            input:focus {
+                border-color: var(--color-normal);
+            }
+
+            div#contenedordetabla {
+                overflow-x: auto;
+                font-size: 90%;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: left;
+                margin-bottom: 3rem;
+            }
+
+            thead {
+                background: var(--color-iluminado);
+            }
+
+            td,
+            th {
+                border: 1px solid var(--color-normal);
+                padding: 0.75rem;
+            }
+
+            td:nth-child(1),
+            th:nth-child(1),
+            td:nth-child(3),
+            th:nth-child(3) {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1>ᕙ( •̀ ᗜ •́ )ᕗ</h1>
+            <h2>ELECTIVOS DE DISEÑO</h2>
+
+            <input type="text" id="elInput" placeholder="Filtrar electivos…" />
+            <div id="contenedordetabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Asignatura electiva</th>
+                            <th>Mención</th>
+                            <th>Grupo</th>
+                            <th>Enfoque</th>
+                        </tr>
+                    </thead>
+                    <tbody id="este"></tbody>
+                </table>
+            </div>
+            <small>Diseño y visualización de información</small>
+        </div>
+
+        <script>
+            const t = document.querySelector("#este");
+            const URL = "…";
+
+            fetch(URL)
+                .then((respuesta) => {
+                    if (!respuesta.ok) {
+                        throw new Error("Error HTTP: " + respuesta.status);
+                    }
+                    return respuesta.json();
+                })
+                .then((datos) => {
+                    var trabajo = datos.data;
+                    console.log(trabajo);
+                    trabajo.forEach((x) => {
+                        t.innerHTML += `<tr style="${x.ok == 1 ? "background-color: var(--color-iluminadisimo); color: var(--color-oscurisimo)" : ""}"><td>${x.id}</td><td>${x.name}</td><td>${x.track}</td><td>${x.group}</td><td>${x.focus}</td></tr>`;
+                    });
+                })
+                .catch((error) => {
+                    console.error("Algo salió mal:", error);
+                });
+
+            function sinAcentos(str) {
+                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
+
+            document.getElementById("elInput").addEventListener("keyup", function () {
+                const valor = sinAcentos(this.value.toLowerCase());
+                document.querySelectorAll("#este tr").forEach(function (fila) {
+                    fila.style.display = sinAcentos(fila.textContent.toLowerCase()).includes(valor) ? "" : "none";
+                });
+            });
+        </script>
+    </body>
+</html>
+```
+
+- - - - - - - - -
+
+Partamos por comprender el CSS, para después avanzar a otras cosas más complejas: 
+
+`*, *::before, *::after {…}`: Es el borrón y cuenta nueva que fuerza al navegador a abandonar sus reglas arbitrarias en favor de un sistema de medidas uniforme. Al aplicar `border-box`, neutralizamos el modelo de caja por defecto (donde el padding y el border añadían tamaño extra), estableciendo un entorno de renderizado predecible en toda la interfaz.
+
+`:root {}`: Es el espacio ideal para definir variables CSS (propiedades personalizadas). Centralizar aquí valores repetitivos como colores o tipografías permite realizar cambios globales instantáneos —como activar un modo oscuro— y garantiza la escalabilidad del proyecto.
+
+`background-image: url('data:image/svg+xml;utf8,<svg></svg>')`: Permite incrustar iconos o formas directamente en el CSS sin depender de archivos externos. Para que funcione, el código SVG (como los de [Bootstrap Icons](https://icons.getbootstrap.com/icons/search-heart-fill/)) debe ser procesado por un [codificador URL (URL encoder)](https://www.svgbackgrounds.com/tools/svg-to-css/) para "escapar" caracteres especiales. Por ejemplo, un color #ffffff debe convertirse en %23ffffff para que el navegador no lo interprete como un error de sintaxis.
+
+`:nth-child(n)`: Esta pseudoclase permite seleccionar elementos basándose en su posición exacta dentro de un contenedor padre. Podremos reemplazar a la `n` por un número, como en `:nth-child(2)` y seleccionar solo al segundo hijo. Así también podemos usar patrones tales como `:nth-child(odd)` para tomar los impartes, o `:nth-child(3n)`para tomar cada tres elementos.
+
+
+_ _ _ _ 
+
+[clase-06](https://github.com/profesorfaco/troncal/blob/main/clase-06/README.md) ⇆ [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md)

@@ -1,0 +1,84 @@
+# [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 12 → 06 de noviembre
+
+## UNIDAD 3: Herramientas, lenguajes y producción de interfaces web de complejidad media-alta
+
+### **Evaluación Sumativa 3 (Individual - 20%):** Encargo práctico de resolución autónoma en sala de laboratorio.
+
+Les corresponde abordar la tercera evaluación sumativa del semestre. En este encargo práctico en tiempo real se pondrá a prueba la autonomía técnica de cada una y cada uno de ustedes en el laboratorio. Las estudiantes y los estudiantes deberán demostrar el dominio en la manipulación lógica, animación y estilización avanzada (CSS3) de elementos vectoriales SVG utilizando exclusivamente código JavaScript nativo. Al tratarse de una instancia de resolución autónoma, la profesora, el profesor o el cuerpo de ayudantes no prestará asistencia en la programación ni en el control de errores de código.
+
+---
+
+
+### Aplicando HTML, SVG y JavaScript
+
+La evaluación sumativa depende de dos notas. Ambas notas comparten un punto base, que se compone de la siguiente manera: 
+
+→ **0,5** por crear un repositorio en github con un README.md, activar GitHub Pages y tomar la dirección donde se despliega la página (que mientras tanto sólo muestra el contenido en su README.md) para ingresarla a la tarea de "MEDIO PUNTO BASE DE LA TERCERA NOTA" antes de que den las 15:30 hrs.
+
+→ **0,5** por defender su propuesta individual, ya operativa en la dirección informada, a partir de las 17:00 hrs.
+
+- - - - - 
+
+**Primera nota (6,0 + 1,0 base)**: 
+
+| Criterio y logro esperado | Puntaje |
+|:---------|:-----:|
+| En el lugar correspondiente, un subtítulo plantea una segunda pregunta clara, directa y bien formulada sobre la temática elegida | **1,0** |
+| Se responde a esta segunda pregunta con una segunda visualización de datos bien implementada con Chart.js | **1,0** |
+| Se explica la pertinencia del tipo de visualización elegida (gráfico de barras, líneas, etc.) con apoyo en el Catálogo de Visualización de Datos o la Tabla Periódica de Métodos de Visualización, que está debidamente vinculado. | **1,0** | 
+| Se cierra con un comentario para la respuesta visualizada. | **1,0** | 
+| Las dos preguntas y respuestas en la página se complementan para presentar un único relato, con encabezado correspondiente en lo visual y textual. | **2,0** |
+
+- - - - -
+
+**Segunda nota (6.0 + 1.0 base)**: 
+
+| Criterio | Logro esperado | Puntaje |
+|:----|:----|:----:|
+| **Modularidad y separación del código fuente** | Separa correctamente el código fuente del proyecto, aislando la descripción de estructura en `index.html`, la descripción de estilo en `style.css` y la programación en `script.js`. Vincula los archivos de forma externa sin dejar código embebido. | **1,0** | 
+| **Diseño funcional en CSS** | Los estilos mantienen su orden y definiciones iniciales. Se aceptan modificaciones cuando ofrecen un propósito claro y orientado a la función, evitando la decoración superflua y aportando directamente a la legibilidad, estructura y semántica visual. | **1,0** |
+| **Estructura y semántica HTML** | Integra el nuevo contenido respetando la jerarquía (`<h4>`, `<p>`, `<ul>`). La visualización en este nuevo contenido está envuelta en una estructura `<figure>` que incluye su `<canvas>` con una ID única y su respectivo `<figcaption>` con vinculos a la fuente original de los datos. | **1,0** |
+| **Calidad de los datos y fuentes** | Reemplaza los nombres de la autoría original, actualiza las fuentes al final del documento con datos reales (ej. SIES, Mifuturo, CNA) e incluye hipervínculos válidos y funcionales hacia ellas. |  **1,0** |
+| **Implementación técnica de Chart.js** | Inicializa un segundo objeto `new Chart()` apuntando a la nueva ID del `<canvas>`. Configura correctamente el tipo de gráfico, los datasets y adapta las opciones (escalas, tooltips) sin generar errores en la consola. | **2,0** |
+
+_ _ _ _ 
+
+| NOMBRE | VINCULO |
+|:-------|:--------|
+| Valentina Alcota Rojas |	https://valealcota.github.io/Clase-12-Control/ | 
+| Esperanza Alvarado Núñez |	https://eslialnu.github.io/Clase-11/ |
+| Benjamín Antivilo Badilla |	https://beanttt.github.io/clase12/ |
+| Balma Ayala Lara | https://balmaal.github.io/clase12/ |
+| Fernanda Berríos Casmo | https://ferrberrios.github.io/clase-12/ |
+| María Paz Bravo López | https://mpazbravo.github.io/clase_12_prueba/ |
+| Romina Cancino Muñoz | https://romicancino.github.io/Clase_12/ |
+| Angelina Caviedes Núñez | https://gilicvnz.github.io/Clase_12/ |
+| Isidora Córdova Espinosa | https://isococo.github.io/CLASE_12/ |
+| Millaray Dinamarca Cea | https://milladincea.github.io/TERCERANOTA/ |
+| Caroline Herrera Sanhueza | https://karo-394.github.io/clase-11/ |
+| Francisco Hidalgo Rebolledo | https://ppxtox.github.io/Troncal-clase-12/ |
+| Antonia Lara Hernández | https://antonialarah.github.io/tercera_nota/ |
+| Grace López Maldonado | https://gracevines.github.io/EV3_0206/ |
+| Amarah López Vilches | INASISTENCIA JUSTIFICADA |
+| Antonia Mardones Vergara | https://antoniamardones.github.io/troncal-ev3/ |
+| Vicente Medina Torres | https://vicentemedinat.github.io/clase-12/ |
+| Bianca Olivares Melgar | https://bianolivares.github.io/ev.3_0306/ |
+| Paz Oyarzún Rojas | https://anastassiapaz.github.io/troncal-ev3/ |
+| Constanza Pavez Rodríguez | https://constanzapavezr-hash.github.io/Clase_12/ |
+| Antonia Pizarro Labraña | https://antopizza07.github.io/Troncal-clase-12/ |
+| Luis Plaza Vergara | https://luisplazav.github.io/Clase-12/ |
+| María José Quinteros | https://akyumii.github.io/Tercera-Nota/ |
+| Rayen Ramos Rozas | https://rayenramos-jpg.github.io/Clase-12/ |
+| Ignacia Rojas Carrasco | https://nachirojasc.github.io/CLASE_12_PRUEBA/ |
+| Sofía Romo Rodríguez | https://romosofia.github.io/Clase-12-Troncal/ |
+| Martina Sara Witto | https://martinaideas.github.io/Evaluacion-Clase-12/ |
+| Antonia Solar Astorga | https://antoniasolar.github.io/ev3-troncal/ |
+| Vicente Tapia Flores | https://vicentillotf.github.io/clase-11-apuntes/ |
+| Mirrayn Tapia Vásquez | https://mirrayn.github.io/clase-12-prueba/ |
+| Maitte Urrutia Valenzuela | https://mai0025.github.io/Clase12/ |
+| Fabián Valenzuela Araya | https://fabianva-630.github.io/Clase-11/ |
+| Paloma Vargas Fuentealba | https://yonahkj.github.io/Nota-sumativa-3/ |
+
+- - - -
+
+[clase-11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md) ⇆ [clase-13](https://github.com/profesorfaco/troncal/blob/main/clase-13/README.md)
