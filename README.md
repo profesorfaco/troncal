@@ -43,9 +43,9 @@ UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
 
 [Clase 01](https://github.com/profesorfaco/troncal/tree/main/clase-01) → 14 de agosto → UNIDAD 1: Presentación del curso, lineamientos del aula-laboratorio y exploración de datos en hojas de cálculo. Introducción a los entornos de documentación y control de versiones: GitHub y ecosistema del curso.
 
-[Clase 02](https://github.com/profesorfaco/troncal/tree/main/clase-02) → 21 de agosto → UNIDAD 1: **Evaluación Diagnóstica (Grupal):** Presentación y análisis crítico de hitos en la historia de la visualización de datos e información.
+[Clase 02](https://github.com/profesorfaco/troncal/tree/main/clase-02) → 21 de agosto → UNIDAD 1: **Evaluación Diagnóstica (Grupal)**: Presentación y análisis crítico de hitos en la historia de la visualización de datos e información.
 
-[Clase 03](https://github.com/profesorfaco/troncal/tree/main/clase-03) → 28 de agosto → UNIDAD 1: **Evaluación Sumativa 1 (Grupal - 20%):** Presentación e investigación crítica sobre metadatos, sesgos y desinformación.
+[Clase 03](https://github.com/profesorfaco/troncal/tree/main/clase-03) → 28 de agosto → UNIDAD 1: **Evaluación Sumativa 1 (Grupal - 20%)**: Presentación e investigación crítica sobre metadatos, sesgos y desinformación.
 
 [Clase 04](https://github.com/profesorfaco/troncal/tree/main/clase-04) → 04 de septiembre → UNIDAD 1: Retroalimentación grupal y corrección de las primeras entregas.
 
@@ -57,7 +57,7 @@ UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
 
 [Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 02 de octubre → UNIDAD 2: Introducción al desarrollo front-end: Captura e inyección dinámica de datos estructurados en interfaces HTML mediante `fetch` en JavaScript.
 
-[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 09 de octubre → UNIDAD 2: **Evaluación Sumativa 2 (Individual - 20%): Encargo práctico de resolución autónoma en sala de laboratorio.**
+[Clase 08](https://github.com/profesorfaco/troncal/tree/main/clase-08) → 09 de octubre → UNIDAD 2: **Evaluación Sumativa 2 (Individual - 20%)**: Encargo práctico de resolución autónoma en sala de laboratorio.
 
 [Clase 09](https://github.com/profesorfaco/troncal/tree/main/clase-09) → 16 de octubre → UNIDAD 3: Prototipado rápido y taxonomías visuales: Uso de *RawGraphs et al.*
 
@@ -65,7 +65,7 @@ UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
 
 [Clase 11](https://github.com/profesorfaco/troncal/tree/main/clase-11) → 30 de octubre → UNIDAD 3: Integración del trinomio front-end: Interacción y dinamismo mediante HTML, SVG y JavaScript.
 
-[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 06 de noviembre → UNIDAD 3: **Evaluación Sumativa 3 (Individual - 20%): Encargo práctico de resolución autónoma en sala de laboratorio.**
+[Clase 12](https://github.com/profesorfaco/troncal/tree/main/clase-12) → 06 de noviembre → UNIDAD 3: **Evaluación Sumativa 3 (Individual - 20%)**: Encargo práctico de resolución autónoma en sala de laboratorio.
 
 [Clase 13](https://github.com/profesorfaco/troncal/tree/main/clase-13) → 13 de noviembre → UNIDAD 4: Laboratorio de Co-creación en Duplas: Arquitectura de información y diseño de interfaces narrativas complejas publicadas en línea. Sesión de mentoría y corrección de maquetas.
 
