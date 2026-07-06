@@ -51,7 +51,9 @@ UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
 
 [Clase 05](https://github.com/profesorfaco/troncal/tree/main/clase-05) → 11 de septiembre → UNIDAD 1: Marco teórico para la visualización de datos desde la percepción.
 
-**⛔ SEMANA DE RECESO** [Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 25 de septiembre → UNIDAD 2: Recopilación y estructuración de datos: de la matriz de la hoja de cálculo a los formatos de intercambio ligero (CSV y JSON).
+**⛔ SEMANA DE RECESO** 
+
+[Clase 06](https://github.com/profesorfaco/troncal/tree/main/clase-06) → 25 de septiembre → UNIDAD 2: Recopilación y estructuración de datos: de la matriz de la hoja de cálculo a los formatos de intercambio ligero (CSV y JSON).
 
 [Clase 07](https://github.com/profesorfaco/troncal/tree/main/clase-07) → 02 de octubre → UNIDAD 2: Introducción al desarrollo front-end: Captura e inyección dinámica de datos estructurados en interfaces HTML mediante `fetch` en JavaScript.
 
