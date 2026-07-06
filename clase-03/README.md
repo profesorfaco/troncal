@@ -1,6 +1,6 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 03 → 28 de agosto
 
-## UNIDAD 1: Historia, actualidad y variables de percepción en la visualización
+## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización.
 
 ### **Evaluación Sumativa 1 (Grupal - 20%):** Presentación e investigación crítica sobre metadatos, sesgos y desinformación.
 
