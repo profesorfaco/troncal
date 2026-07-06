@@ -1,8 +1,8 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 04 → 04 de septiembre
 
-## UNIDAD 1: Historia, actualidad y variables de percepción en la visualización
+## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización
 
-### Retroalimentación grupal y corrección de las primeras entregas.
+### Retroalimentación grupal y corrección de las primeras entregas
 
 La sesión de hoy se define como un espacio de taller puro y revisión colectiva. Tras examinar las primeras entregas evaluadas, las profesoras, los profesores, las ayudantes y los ayudantes abriremos una jornada dedicada por completo a resolver dudas, corregir errores de interpretación comunes y nivelar los estándares de análisis que la asignatura exige. Nos abocaremos a la revisión metodológica mediante el estudio de casos, asegurando que todas y todos ustedes asimilen una base sólida antes de transitar hacia las unidades técnicas de código que se aproximan.
 
