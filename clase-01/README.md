@@ -83,12 +83,9 @@ GitHub nos permite activar **GitHub Pages** en cada repositorio para publicar co
 
 
 2. **Contenido de la presentación:** Debe ser sintético, omitir datos biográficos irrelevantes y enfocarse en:
-* **Contexto de la pieza:** ¿Qué problema resolvía? ¿Qué preguntas responde? (Quién, qué, dónde, cuándo).
-* **Análisis de la Información:** Según las definiciones que revisaremos en la [Clase 03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md), ¿qué tipo de información predomina? (¿Verdad semántica, construcción social de poder, dato útil?).
-* **Análisis Técnico:** ¿Qué datos personales o sensibles ([Ley 19.628](https://bcn.cl/2eqfn)) pudieron estar involucrados en su creación?
+* **Contexto de la pieza:** Es el "marco de la historia" visualizada. Consiste en explicar cuándo, dónde y por qué se creó la pieza (el entorno social, político o económico del momento).
+* **Función de la pieza:** ¿Qué problema resolvía? ¿Qué preguntas responde? (Quién, qué, dónde, cuándo).
 * **Legado:** ¿Cómo se utiliza esa misma lógica visual en casos contemporáneos?
-
-
 
 #### Criterios de evaluación
 
