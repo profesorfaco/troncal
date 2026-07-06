@@ -260,7 +260,7 @@ Utilicen la siguiente estructura semántica y de estilos para desarrollar su pre
 
             <article>
                 <p>
-                    <em>Preámbulo. Evite caer en lo biográfico. Basta con entregar un contexto</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed fringilla eros. Donec blandit lectus non est condimentum finibus. Sed mollis erat vel massa blandit, eget sagittis urna dictum. Etiam vitae lectus eu metus rutrum pulvinar. Nunc sagittis ante non volutpat egestas. Nunc placerat pharetra diam, quis facilisis ex. Nulla volutpat in mi a tincidunt.
+                    <em>Contexto de la pieza: Es el "marco de la historia" visualizada. Consiste en explicar cuándo, dónde y por qué se creó la pieza (el entorno social, político o económico del momento)</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed fringilla eros. Donec blandit lectus non est condimentum finibus. Sed mollis erat vel massa blandit, eget sagittis urna dictum.
                 </p>
 
                 <figure>
@@ -269,7 +269,7 @@ Utilicen la siguiente estructura semántica y de estilos para desarrollar su pre
                 </figure>
 
                 <p>
-                    <em>Contexto de la pieza: ¿Qué problema resolvía? ¿Qué preguntas responde? (Quién, qué, dónde, cuándo)</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed fringilla eros. Donec blandit lectus non est condimentum finibus. Sed mollis erat vel massa blandit, eget sagittis urna dictum. Etiam vitae lectus eu metus rutrum pulvinar. Nunc sagittis ante non volutpat egestas. Nunc placerat pharetra diam, quis facilisis ex. Nulla volutpat in mi a tincidunt.
+                    <em>Función de la pieza: ¿Qué problema resolvía? ¿Qué preguntas responde? (Quién, qué, dónde, cuándo).</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed fringilla eros. Donec blandit lectus non est condimentum finibus. Sed mollis erat vel massa blandit, eget sagittis urna dictum. Etiam vitae lectus eu metus rutrum pulvinar. Nunc sagittis ante non volutpat egestas. Nunc placerat pharetra diam, quis facilisis ex. Nulla volutpat in mi a tincidunt.
                 </p>
 
                 <p>
