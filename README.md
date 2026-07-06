@@ -77,13 +77,13 @@ UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
 
 ### Calificaciones para el promedio final
 
-| Hito | Formato | Ponderación |
-| --- | --- | --- |
-| **Clase 02** | Grupal | Diagnóstica (0%) |
-| **Clase 03** | Grupal | **20%** |
-| **Clase 08** | Individual | **20%** |
-| **Clase 12** | Individual | **20%** |
-| **Clase 15** | Duplas | **40%** |
+| Clase | Formato | Ponderación |
+|:-----:|:-------:|:-----------:|
+| **02** | Grupal | Diagnóstica (0%) |
+| **03** | Grupal | **20%** |
+| **08** | Individual | **20%** |
+| **12** | Individual | **20%** |
+| **15** | Duplas | **40%** |
 
 📌 Este electivo troncal se aprueba con nota final igual o superior a 4.0 y asistencia igual o mayor al 75%.
 
