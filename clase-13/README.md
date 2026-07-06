@@ -1,8 +1,8 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 13 → 13 de noviembre
 
-## UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano
+## Desarrollo de Narrativa Visual Interactiva
 
-### Laboratorio de Co-creación en Duplas: Arquitectura de información y diseño de interfaces narrativas complejas publicadas en línea. Sesión de mentoría y corrección de maquetas.
+### Laboratorio de Co-creación en Duplas: Arquitectura de información y diseño de interfaces narrativas complejas publicadas en línea. Sesión de mentoría y corrección de maquetas
 
 Damos inicio a la última unidad del semestre mediante el lanzamiento oficial del encargo del Proyecto Final. Hoy se organizarán en duplas de trabajo para conceptualizar la arquitectura de información y comenzar el diseño de sus interfaces. Esta jornada funcionará bajo la dinámica de taller abierto y mentoría directa con las profesoras y los profesores, espacio en el cual revisaremos sus primeras propuestas y maquetas, asegurando que las infografías apunten a datos reales de utilidad pública para las ciudadanas y los ciudadanos.
 
