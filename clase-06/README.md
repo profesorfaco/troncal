@@ -2,7 +2,7 @@
 
 ## UNIDAD 2: Introducción a la estructura y captura de datos
 
-### Recopilación y estructuración de datos: de la matriz de la hoja de cálculo a los formatos de intercambio ligero (CSV y JSON).
+### Recopilación y estructuración de datos: de la matriz de la hoja de cálculo a los formatos de intercambio ligero (CSV y JSON)
 
 A la vuelta del receso institucional, nos adentramos en la arquitectura de los datos digitales. Hoy aprenderán a tomar la información ordenada por las analistas y los analistas en filas y columnas tradicionales para transformarla en formatos de intercambio ligeros y estandarizados para la web, enfocándonos principalmente en las estructuras CSV y JSON. Comprender cómo se anidan y se relacionan estos datos constituye el paso fundamental para que las desarrolladoras y los desarrolladores del taller puedan automatizar su lectura y consumo en el navegador.
 
