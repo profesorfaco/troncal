@@ -4,8 +4,8 @@ Este es **1 de 3 electivos troncales de la mención Visual y Medios**.
 
 Su condición "troncal" implica que:
 
-* los créditos SCT-Chile que le corresponden son 6, no 3 como otros electivos (ver [https://sct-chile.consejoderectores.cl/que_es_sct_chile.php](https://sct-chile.consejoderectores.cl/que_es_sct_chile.php))
 * los contenidos abordados en estas asignaturas se consideran, hoy por hoy, esenciales y basales para el desarrollo profesional de un/a Diseñador/a con mención Visual y Medios (ver [https://ucampus.uchile.cl/m/fau_catalogo/programa?bajar=1&id=162258](https://ucampus.uchile.cl/m/fau_catalogo/programa?bajar=1&id=162258))
+* los créditos SCT-Chile que le corresponden son 6, no 3 como otros electivos.
 
 Por lo definido en su programa, los contenidos abordados en **Diseño y visualización de información** permitirán a cada estudiante
 
