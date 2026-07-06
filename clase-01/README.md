@@ -1,7 +1,3 @@
-Aquí tiene la versión de la Clase 01 editada minuciosamente para asegurar un trato de usted riguroso y consistente en todo el texto, manteniendo el código HTML base intacto:
-
----
-
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 01 → 14 de agosto
 
 ## UNIDAD 1: Historia, actualidad y variables de percepción en la visualización
