@@ -1,8 +1,8 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 01 → 14 de agosto
 
-## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización.
+## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización
 
-### Presentación del curso, lineamientos del aula-laboratorio y exploración de datos en hojas de cálculo. Introducción a los entornos de documentación y control de versiones: GitHub y ecosistema del curso.
+### Presentación del curso, lineamientos del aula-laboratorio y exploración de datos en hojas de cálculo. Introducción a los entornos de documentación y control de versiones: GitHub y ecosistema del curso
 
 Hoy ponemos en marcha la asignatura y fijamos los lineamientos normativos de nuestra aula-laboratorio. Antes de escribir código o abocarse al diseño, es indispensable que cada una y cada uno de ustedes comprenda cómo se gestionan los datos crudos en una hoja de cálculo tradicional. Asimismo, configuraremos nuestro entorno de trabajo utilizando GitHub, plataforma que servirá para la entrega de sus evaluaciones y constituirá el ecosistema real de su portafolio profesional a lo largo del curso.
 
