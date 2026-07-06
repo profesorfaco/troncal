@@ -31,7 +31,7 @@ UNIDAD 2: Introducción a la estructura y captura de datos.
 
 UNIDAD 3: Herramientas, lenguajes y producción de interfaces web de complejidad media-alta.
 
-UNIDAD 4: Proyecto Final de síntesis, con impacto ciudadano.
+UNIDAD 4: Desarrollo de Narrativa Visual Interactiva.
 
 ---
 
