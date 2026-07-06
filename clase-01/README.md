@@ -19,7 +19,6 @@ Es necesario que usted ya conozca y maneje las siguientes fórmulas para contar 
 =CONTAR.SI.CONJUNTO()
 =CONTAR.UNICO()
 =CONTAR.BLANCOS()
-
 ```
 
 📺 Si no las conoce, por favor tómese 12 minutos para revisar este video sobre [Contar en Google Sheets](https://www.youtube.com/watch?v=Z3B_B76HOAM).
