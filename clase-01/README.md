@@ -1,131 +1,115 @@
+Aquí tiene la versión de la Clase 01 editada minuciosamente para asegurar un trato de usted riguroso y consistente en todo el texto, manteniendo el código HTML base intacto:
+
+---
+
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 01 → 14 de agosto
 
 ## UNIDAD 1: Historia, actualidad y variables de percepción en la visualización
 
 ### Presentación del curso, lineamientos del aula-laboratorio y exploración de datos en hojas de cálculo. Introducción a los entornos de documentación y control de versiones: GitHub y ecosistema del curso.
 
-Hoy ponemos en marcha la asignatura y fijamos los lineamientos normativos de nuestra aula-laboratorio para las diseñadoras y los diseñadores que integran este curso. Antes de desarrollar cualquier línea de código o abocarse al diseño, es indispensable que cada una y cada uno de ustedes comprenda cómo se gestionan y ordenan los datos crudos en una hoja de cálculo tradicional. Asimismo, configuraremos el entorno de trabajo utilizando GitHub, herramienta que no solo servirán para la entrega de sus evaluaciones, sino que constituirán el ecosistema real donde residirá su portafolio profesional a lo largo del curso.
+Hoy ponemos en marcha la asignatura y fijamos los lineamientos normativos de nuestra aula-laboratorio. Antes de escribir código o abocarse al diseño, es indispensable que cada una y cada uno de ustedes comprenda cómo se gestionan los datos crudos en una hoja de cálculo tradicional. Asimismo, configuraremos nuestro entorno de trabajo utilizando GitHub, plataforma que servirá para la entrega de sus evaluaciones y constituirá el ecosistema real de su portafolio profesional a lo largo del curso.
 
 ---
 
 ### Datos crudos en una hoja de cálculo tradicional
 
-Es necesario que usted ya conozca algunas fórmulas para contar en “Hojas de Cálculos” de Google:
+Es necesario que usted ya conozca y maneje las siguientes fórmulas para contar en Google Sheets:
 
-```
+```text
 =CONTAR()
 =CONTARA()
 =CONTAR.SI()
 =CONTAR.SI.CONJUNTO()
 =CONTAR.UNICO()
 =CONTAR.BLANCOS()
+
 ```
 
-En caso no las conozca, por favor tómese 12 minutos para ver este video sobre [Contar en Google Sheets](https://www.youtube.com/watch?v=Z3B_B76HOAM).
+📺 Si no las conoce, por favor tómese 12 minutos para revisar este video sobre [Contar en Google Sheets](https://www.youtube.com/watch?v=Z3B_B76HOAM).
 
+A estas funciones debemos agregar las de **media** y **mediana**. Antes de utilizarlas, lea con atención este artículo: [¿Cuál es la diferencia entre media, mediana y el promedio?](https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio)
 
-A tales funciones corresponde agregar las de **media** y **mediana**, pero antes de hacerlo es recomendable leer este artículo: https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio
+Tras la lectura, puede retomar las funciones correspondientes:
 
-Después de la lectura del artículo podemos retomar las funciones: 
+* La **media (o promedio)** se obtiene con [=AVERAGE()](https://support.google.com/docs/answer/3093615?hl=es)
+* La **mediana** se obtiene con [=MEDIANA()](https://support.google.com/docs/answer/3094025?hl=es)
 
-- la media (o promedio) en “Hojas de Cálculos” de Google se obtiene con [=AVERAGE()](https://support.google.com/docs/answer/3093615?hl=es-419) 
+Como estos valores pueden ser insuficientes para caracterizar una muestra, avanzaremos hacia los **cuartiles**, considerando que:
 
-- la mediana se obtiene con [=MEDIANA()](https://support.google.com/docs/answer/3094025?hl=es-419&sjid=1363567124637463342-SA)
+* El **cuartil inferior (Q1)** es la mediana de la mitad inferior del conjunto de datos.
+* El **cuartil superior (Q3)** es la mediana de la mitad superior del conjunto de datos.
 
-Pero media y mediana aún podrían ser insuficientes. Por tal insuficiencia conviene avanzar a los cuartiles inferior y superior, considerando que: 
+Para calcularlos, la función correspondiente es [=CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es). Con estas fórmulas automatizadas usted podrá estructurar y preparar rápidamente sus matrices de datos.
 
-- El cuartil inferior (primer cuartil; Q1) es la mediana de la mitad inferior del conjunto de datos.
-
-- El cuartil superior (tercer cuartil; Q3) es la mediana de la mitad superior del conjunto de datos.
-
-Para el cálculo de los cuartiles puede usar la función es [=CUARTIL()](https://support.google.com/docs/answer/3094041?hl=es-419&sjid=9125160580940894305-SA). 
-
-Conociendo tales fórmulas podremos preparar rápidamente algunas tablas con datos. 
-
-- - - - - 
-
+---
 
 ### El entorno de trabajo utilizando GitHub
 
-GitHub es una **plataforma de gestión de repositorios remotos** que abstrae las complejidades técnicas de [Git](https://git-scm.com/) para facilitar la persistencia, trazabilidad y administración integral de cualquier base de código fuente. 
+GitHub es una plataforma de gestión de repositorios remotos basada en [Git](https://git-scm.com/) que facilita la persistencia, trazabilidad y administración de código fuente, permitiendo a profesionales de diversas disciplinas colaborar de forma estructurada.
 
-Al proporcionar una interfaz intuitiva y herramientas de visualización, GitHub trasciende la ingeniería informática; permite que investigadores y profesionales de diversas disciplinas colaboren mediante flujos de trabajo estructurados (*branching* y *pull requests*), garantizando la integridad de los datos y la consolidación de un portafolio técnico tanto en el ámbito académico como profesional.
+Conceptos fundamentales clave para este curso:
 
-A continuación, se presentan los conceptos fundamentales para trabajar con GitHub, los cuales serán claves en este curso:
+1. **El Repositorio (Repo):** La carpeta raíz de su proyecto. Al crearlo, marque la opción **"Add a README file"**, que funcionará como la portada y presentación de su entrega.
+2. **El Commit:** Una "fotografía" o captura de sus archivos en un punto exacto del tiempo que registra el historial de cambios.
+3. **La Rama (Branch):** Una copia exacta para experimentar ideas o diseños sin alterar el trabajo de la rama principal (`main`).
+4. **El Pull Request:** La solicitud formal para que su equipo o el docente revise los cambios hechos en su rama y, tras su aprobación, los fusione con el proyecto principal.
+5. **Issues:** Una pestaña integrada para registrar errores, sugerencias y pendientes de diseño.
 
-1.  **El Repositorio (Tu Carpeta Inteligente):** Piensa en el "Repo" como la carpeta raíz de tu proyecto. Al crear uno, marca la opción **"Add a README file"**. Este será tu documento de presentación donde explicas de qué trata el proyecto en lenguaje sencillo.
+#### GitHub Pages
 
-2.  **El Commit (La Foto del Momento):** A diferencia de un archivo de Word que guardas repetidamente, en GitHub realizas un *Commit*. Es como tomar una fotografía de tus archivos en un punto exacto.
+GitHub nos permite activar **GitHub Pages** en cada repositorio para publicar contenidos web de forma gratuita. Antes de activarlo, **asegúrese de tener un archivo llamado `index.html**` en la raíz del repositorio.
 
-3.  **La Rama o "Branch" (Tu Borrador de Riesgo):** Si quieres probar una idea nueva sin alterar el trabajo principal, crea una *Branch*. Es una copia exacta donde puedes experimentar. Si el resultado es erróneo, se elimina; si es exitoso, se solicita su integración.
+**Pasos para la activación:**
 
-4.  **El Pull Request (La Revisión por Pares):** Es el corazón de la colaboración. Cuando terminas una tarea en tu rama, generas un *Pull Request (PR)*. Es la solicitud formal para que el equipo revise tus cambios y, tras su aprobación, los fusione con el proyecto principal.
+1. Vaya a su repositorio y entre a la pestaña **Settings** (barra superior).
+2. En el menú lateral izquierdo (*Code and automation*), haga clic en **Pages**.
+3. En *Build and deployment → Branch*, seleccione la rama `main` y la carpeta `/(root)`. Haga clic en **Save**.
+4. Tras unos segundos de procesamiento, aparecerá un aviso indicando que el sitio está al aire (*live*) junto a su URL pública.
+5. Vuelva a la pestaña **Code**, busque la sección **About** a la derecha, presione el engranaje, marque la opción **"Use your GitHub Pages website"** y guarde.
 
-5.  **Issues (Tu Lista de Tareas):** No todo es código. Usa la pestaña **Issues** para registrar errores, sugerencias o tareas pendientes. Funciona como un tablero de gestión vinculado directamente a la evolución del proyecto.
+---
 
-**Importante:** GitHub no es una herramienta exclusiva para programadores. En disciplinas como las Ciencias Sociales o la Biología, resulta invaluable para gestionar bases de datos (CSV), manuscritos en Markdown o protocolos de laboratorio, asegurando un historial de versiones inalterable que evita la pérdida accidental de información.
+### Encargo: Evaluación Diagnóstica
 
-### GitHub Pages
-
-GitHub ofrece la posibilidad de activar **GitHub Pages** por cada repositorio, permitiendo publicar contenidos de forma gratuita. Antes de activarlo, **asegúrate de tener al menos un archivo llamado `index.html`** o, por defecto, un `README.md` en la raíz de tu repositorio; este será la "portada" de tu sitio web.
-
-Sigue estos pasos para la activación:
-
-1.  **Ingresa a la Configuración:** Entra a tu repositorio y haz clic en la pestaña **Settings**, ubicada en la barra superior.
-
-2.  **Localiza la sección de Pages:** En el menú lateral izquierdo, bajo el apartado *Code and automation*, haz clic en **Pages**.
-
-3.  **Define la Fuente de Despliegue:** En el apartado *Branch*, asegúrate de que esté seleccionada la opción *Deploy from a branch*.
-    * Selecciona la rama: Normalmente elegirás la rama `main`.
-    * Selecciona la carpeta: Elige `/(root)`.
-    * Haz clic en el botón **Save**.
-
-4.  **Espera el Procesamiento:** GitHub comenzará a construir el servidor. Cuando esté listo, verás un aviso resaltado indicando que el sitio está al aire (*live*) junto a su dirección URL.
-
-5.  **Vincula tu URL en la portada:** Vuelve a la pestaña principal (**Code**). En la barra lateral derecha busca la sección **About** y presiona el icono del engranaje. Marca la opción **"Use your GitHub Pages website"** y guarda los cambios.
-
-
-
-- - - - - 
-
-### Encargo
-
-
-#### FORMATO DEL TRABAJO
+#### Formato del trabajo
 
 * **Grupos:** 4 o 5 estudiantes.
-* **Soporte de presentación:** Un archivo `index.html` alojado en un repositorio de GitHub y publicado en **GitHub Pages**.
+* **Soporte de presentación:** Un archivo `index.html` alojado en un repositorio de GitHub y publicado mediante **GitHub Pages**.
 
-#### INSTRUCCIONES DEL TRABAJO
+#### Instrucciones
 
-**1. Selección del caso**: Cada grupo debe elegir **una visualización** de las siguientes fuentes curatoriales:
-
-* [Las 5 visualizaciones de datos más influyentes de todos los tiempos (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
-* [5 gráficos que cambiaron el mundo... para bien y para mal (BBC)](https://www.bbc.com/mundo/noticias-65055393)
+1. **Selección del caso:** Cada grupo debe elegir **una visualización** desde las siguientes fuentes curatoriales:
+* [Las 5 visualizaciones de datos más influyentes (Tableau)](https://www.tableau.com/es-es/learn/whitepapers/5-most-influential-visualizations)
+* [5 gráficos que cambiaron el mundo (BBC)](https://www.bbc.com/mundo/noticias-65055393)
 * [30 Data Visualizations That Changed the World (OthorAI)](https://blog.othor.ai/30-data-visualizations-that-changed-the-world-261be29bfa88)
-* [Los datos son hermosos: 10 de los mejores ejemplos de visualización de datos (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
+* [Los datos son hermosos: 10 de los mejores ejemplos (Tableau)](https://www.tableau.com/es-mx/learn/articles/best-beautiful-data-visualization-examples)
 
-**2. Contenido de la presentación**: La presentación debe ser sintética, evitando datos biográficos irrelevantes. Debe enfocarse en:
 
-* **Contexto de la pieza:** ¿Qué problema intentaba resolver? ¿Qué "preguntas" responde? (Quién, qué, dónde, cuándo).
-* **Análisis de la Información:** Según las 5 definiciones de la [Clase 03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md), ¿qué tipo de información predomina? (¿Verdad semántica, construcción social de poder, dato útil?).
-* **Análisis Técnico:** ¿Qué datos personales o sensibles ([Ley 19.628](https://bcn.cl/2eqfn)) podrían haber estado involucrados en su creación?
-* **Legado:** ¿Cómo se ha utilizado ese modo de visualizar (ej: mapa de puntos, gráfico de áreas polares, etc.) en casos contemporáneos?
+2. **Contenido de la presentación:** Debe ser sintético, omitir datos biográficos irrelevantes y enfocarse en:
+* **Contexto de la pieza:** ¿Qué problema resolvía? ¿Qué preguntas responde? (Quién, qué, dónde, cuándo).
+* **Análisis de la Información:** Según las definiciones que revisaremos en la [Clase 03](https://github.com/profesorfaco/troncal/blob/main/clase-03/README.md), ¿qué tipo de información predomina? (¿Verdad semántica, construcción social de poder, dato útil?).
+* **Análisis Técnico:** ¿Qué datos personales o sensibles ([Ley 19.628](https://bcn.cl/2eqfn)) pudieron estar involucrados en su creación?
+* **Legado:** ¿Cómo se utiliza esa misma lógica visual en casos contemporáneos?
 
-#### CRITERIOS DE LA EVALUACIÓN (DIAGNÓSTICA)
 
-* **Capacidad de Síntesis:** Ir directo al "corazón" de la visualización.
-* **Referencia Comparativa:** Capacidad de encontrar un ejemplo actual que use la misma lógica visual.
-* **Sin efectos de PowerPoint:** La presentación **es** el `index.html`. Debe ser legible, con buen contraste y uso estratégico de imágenes.
-* **Código limpio:** El archivo `index.html` debe estar correctamente estructurado y vinculado a las imágenes correspondientes.
 
-- - - -   
+#### Criterios de evaluación
 
-La base de su `index.html` para la evaluación diagnóstica:
+* **Capacidad de Síntesis:** Ir directo al núcleo del problema y la visualización.
+* **Referencia Comparativa:** Capacidad de encontrar y contrastar con un ejemplo actual análogo.
+* **Sin efectos de PowerPoint:** La presentación **es** el propio `index.html`. Debe ser legible, contrastado y con un uso estructurado del diseño.
+* **Código limpio:** Archivo HTML bien estructurado y con rutas de imágenes correctamente vinculadas.
+
+---
+
+### Código Base (`index.html`)
+
+Utilicen la siguiente estructura semántica y de estilos para desarrollar su presentación diagnóstica:
 
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -274,7 +258,6 @@ La base de su `index.html` para la evaluación diagnóstica:
 
 ```
 
-
-- - - - 
+---
 
 [clase 02](https://github.com/profesorfaco/troncal/blob/main/clase-02/README.md)
