@@ -1,6 +1,6 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 01 → 14 de agosto
 
-## UNIDAD 1: Historia, actualidad y variables de percepción en la visualización
+## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización.
 
 ### Presentación del curso, lineamientos del aula-laboratorio y exploración de datos en hojas de cálculo. Introducción a los entornos de documentación y control de versiones: GitHub y ecosistema del curso.
 
