@@ -1,8 +1,8 @@
 # [Diseño y visualización de información](https://github.com/profesorfaco/troncal) → Clase 02 → 21 de agosto
 
-## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización.
+## UNIDAD 1: Historia, actualidad y variables retinianas en la visualización
 
-### **Evaluación Diagnóstica (Grupal):** Presentación y análisis crítico de hitos en la historia de la visualización de datos e información.
+### **Evaluación Diagnóstica (Grupal):** Presentación y análisis crítico de hitos en la historia de la visualización de datos e información
 
 En la sesión de hoy nos corresponde revisar el terreno de estudio a través de sus grandes hitos históricos. Esta actividad diagnóstica nos permitirá entender desde dónde estamos examinando los datos y evaluar la capacidad de las estudiantes y los estudiantes para analizar críticamente cómo se ha estructurado la información visual a lo largo del tiempo. Cada equipo presentará su análisis, abriendo el debate en torno a lo que consideramos una visualización efectiva, honesta y con valor público. Al cierre de la jornada, se entregará el encargo para la primera evaluación sumativa.
 
