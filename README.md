@@ -37,7 +37,7 @@ UNIDAD 4: Desarrollo de Narrativa Visual Interactiva.
 
 ### Clase a clase del segundo semestre de 2026
 
-**Horario:** Viernes, de 15:00 a 18:15 hrs. En laboratorio de computación por confirmar.
+**Horario:** Viernes, de 15:00 a 18:15 hrs. En laboratorio B-14.
 
 **Duración:** 15 clases desde el viernes 14 de agosto hasta el viernes 27 de noviembre de 2026.
 
