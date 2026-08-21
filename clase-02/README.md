@@ -6,6 +6,15 @@
 
 En la sesión de hoy nos corresponde revisar el terreno de estudio a través de sus grandes hitos históricos. Esta actividad diagnóstica nos permitirá entender desde dónde estamos examinando los datos y evaluar la capacidad de las estudiantes y los estudiantes para analizar críticamente cómo se ha estructurado la información visual a lo largo del tiempo. Cada equipo presentará su análisis, abriendo el debate en torno a lo que consideramos una visualización efectiva, honesta y con valor público. Al cierre de la jornada, se entregará el encargo para la primera evaluación sumativa.
 
+- Marcha hacia Moscú por Charles Minard: https://stuxenh.github.io/JJ/
+
+- Film Dialogue by Gender — The Pudding (2016): https://emipereda.github.io/troncal_2026/
+
+- Diagrama de la rosa: https://lenapereoso.github.io/Evaluacion-Diagnostica/
+
+- SELFIECITY: https://bastich03.github.io/mi_primera_vez/
+
+- Warming Stripes: https://ronnistp.github.io/TRONCAL_E1/
 
 ---
 
