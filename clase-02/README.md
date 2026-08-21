@@ -15,6 +15,8 @@ En la sesión de hoy nos corresponde revisar el terreno de estudio a través de 
 - SELFIECITY: https://bastich03.github.io/mi_primera_vez/
 
 - Warming Stripes: https://ronnistp.github.io/TRONCAL_E1/
+  
+- Harry Beck’s London Underground Map (1931): https://martinadolly-casas.github.io/TRONCAL/
 
 ---
 
