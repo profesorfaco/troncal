@@ -26,6 +26,8 @@ Cuando los ojos de un usuario escanean una pantalla, la retina reacciona instant
 6. **Orientación:** El ángulo de la marca respecto a un eje visual de referencia (horizontal, vertical, diagonal).
 7. **Forma:** El contorno geométrico o figurativo que define la marca (un círculo, un cuadrado, una cruz).
 
+[!afdsa](https://metrhispanico.com/wp-content/uploads/2013/03/biblio-33-bertin.jpg)
+
 ---
 
 #### Niveles de Organización y Eficiencia Perceptiva
