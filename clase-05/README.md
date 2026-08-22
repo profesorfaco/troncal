@@ -10,7 +10,7 @@ Cerramos la primera unidad del curso concentrándonos en el factor humano: el mo
 
 #### Jacques Bertin y la Semiología Gráfica
 
-Para estructurar la información de manera eficiente, debemos recurrir a las bases teóricas de la visualización de datos. El cartógrafo francés **Jacques Bertin** publicó en 1967 su obra fundacional *Sémiologie Graphique* (Semiología Gráfica), donde propuso el primer sistema unificado para describir cómo los elementos visuales transmiten significado en una superficie bidimensional.
+Para estructurar la información de manera eficiente, debemos recurrir a las bases teóricas de la visualización de datos. El cartógrafo francés [**Jacques Bertin**](https://inria.hal.science/hal-01786606/document) publicó en 1967 su obra fundacional *Sémiologie Graphique* ([Semiology of Graphics](https://es.scribd.com/document/412565176/Semiology-of-Graphics-Jacques-Bertin#google_vignette), en inglés), donde propuso el primer sistema unificado para describir cómo los elementos visuales transmiten significado en una superficie bidimensional.
 
 Bertin identificó que cualquier representación visual opera sobre un **plano** (definido por dos dimensiones espaciales: ejes $X$ e $Y$) en el cual disponemos **marcas** (puntos, líneas o áreas). Para asociar estas marcas con datos numéricos o categóricos, modificamos sus propiedades físicas mediante lo que denominó las **Variables Retinianas** o propiedades visuales.
 
