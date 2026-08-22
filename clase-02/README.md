@@ -100,7 +100,7 @@ Sobre esta base es que se presenta el segundo trabajo grupal. Esta vez con evalu
 
 ### Presentación del trabajo sobre sesgos, la propagación de información errónea y la desinformación
 
-En las sesiones previas hemos desglosado la información como una construcción que **no es neutral**. En esta etapa, enfrentamos dos problemas críticos del ecosistema digital actual:
+Podemos entender la información como una construcción que **no es neutral**. También podemos enfrentar dos problemas críticos del ecosistema digital actual:
 
 1.  **La recolección sesgada:** Cuando "solo cuenta lo que se cuenta", los datos reflejan el poder de quien los recolecta, invisibilizando realidades. Aquí aplicamos el concepto de **conocimiento situado** (Donna Haraway) y los principios del **Data Feminism** (Catherine D'Ignazio y Lauren Klein).
 
