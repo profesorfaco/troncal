@@ -140,7 +140,7 @@ El documento debe mantener rigor académico con la estructura ofrecida en el [in
 
 6. **Conclusión**: 250 a 350 palabras.
 
-7. **Referencias Bibliográficas:** Mínimo de 5, todas en formato **APA (7ma edición)**. En caso que las fuentes referidas en clases previas no sean suficientes, se evaluará positivamente la inclusión de alguna(s) de las siguientes:
+7. **Referencias Bibliográficas:** Mínimo de 5, todas en formato **APA (7ma edición)**. Puede complementar las referidas más arriba (Frické, Weinberger, D’Ignazio & Klein, Peters, Jandrić & Green) con artículos encontrados en [Google Académico](https://scholar.google.com/), además de:
 
   * Cairo, A. (2020). _How charts lie: Getting smarter about visual information_. W. W. Norton & Company.
 
@@ -158,7 +158,7 @@ Cada indicación de estructura será evaluada hasta con 1,0 si se logra completa
 
 #### Criterios de evaluación del artículo
 
-* **Profundidad analítica e integración bibliográfica:** No es un resumen de prensa. Se exige un cruce crítico entre el caso de estudio y la bibliografía de las clases 01 a 04, con los complementos recién referidos.
+* **Profundidad analítica e integración bibliográfica:** No es un resumen de prensa. Se exige un cruce crítico entre el caso de estudio y la bibliografía referida más arriba.
 
 * **Calidad Editorial:** Redacción clara, coherente y ortografía impecable.
 
