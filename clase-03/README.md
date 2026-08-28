@@ -17,19 +17,19 @@ Nos enfrentamos al primer hito calificado del semestre. Hoy abordamos la respons
 - Dayana Rojas
 - Santiago Tuxen-Bang
 
+#### [Influencers virtuales robandose contenido real](https://bastich03.github.io/Articulo_Troncal/)
+
+- Ayline Marìn
+- Giulia Pepe
+- Esteban Petric
+- Constanza Venegas
+
 #### [La última princesa Romanov](https://emipereda.github.io/troncal_2026/)
 
 - Maximiliano Frigerio
 - Paulina Alonso Loredo
 - Serena Loi
 - Emilia Pereda
-
-#### [Desinformación en la Representación Geoespacial: Una crítica desde la Mirada Apolínea y la Ética de la Visualización](https://ronnistp.github.io/TRONCAL_EV.02/)
-
-- Catalina Aceituno
-- Luisa Angulo
-- Sayen Padilla
-- Veronica Soto
 
 #### [La construcción y propagación del discurso tradwife en redes sociales](https://lenapereoso.github.io/articulo-web-troncal/)
 
@@ -38,6 +38,20 @@ Nos enfrentamos al primer hito calificado del semestre. Hoy abordamos la respons
 - Millarray Villagra
 - Renata Pereira
 
+#### [Desinformación en la Representación Geoespacial: Una crítica desde la Mirada Apolínea y la Ética de la Visualización](https://ronnistp.github.io/TRONCAL_EV.02/)
+
+- Catalina Aceituno
+- Luisa Angulo
+- Sayen Padilla
+- Veronica Soto
+
+#### [La teoría del Internet Muerto, sesgo algorítmico y la deshumanización de los datos](https://karprincho.github.io/TRONCAL/)
+
+- Fernanda Valenzuela
+- Martina Casas
+- Marthin Rivera
+- Gonzalo Monsalves
+- Violeta Santander
 
 
 - - - - - 
