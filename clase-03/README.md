@@ -9,8 +9,6 @@ Nos enfrentamos al primer hito calificado del semestre. Hoy abordamos la respons
 
 ---
 
-Las entregas: 
-
 #### [El mito 13/50: manipulación estadística y discurso racista en Estados Unidos](https://rodrigoalbornozr.github.io/troncal_clase2/)
 
 - Rodrigo Albornoz
