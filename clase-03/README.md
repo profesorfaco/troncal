@@ -31,7 +31,14 @@ Nos enfrentamos al primer hito calificado del semestre. Hoy abordamos la respons
 - Sayen Padilla
 - Veronica Soto
 
-…
+#### [La construcción y propagación del discurso tradwife en redes sociales](https://lenapereoso.github.io/articulo-web-troncal/)
+
+- Carol Álvarez
+- Francisca Concha
+- Millarray Villagra
+- Renata Pereira
+
+
 
 - - - - - 
 
