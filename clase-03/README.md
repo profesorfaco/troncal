@@ -9,7 +9,31 @@ Nos enfrentamos al primer hito calificado del semestre. Hoy abordamos la respons
 
 ---
 
-Se utilizará el primer bloque de la clase para terminar el trabajo, y el segundo para presentarlo.
+Las entregas: 
+
+#### [El mito 13/50: manipulación estadística y discurso racista en Estados Unidos](https://rodrigoalbornozr.github.io/troncal_clase2/)
+
+- Rodrigo Albornoz
+- Amalia Pontigo
+- Andres Arenas
+- Dayana Rojas
+- Santiago Tuxen-Bang
+
+#### [La última princesa Romanov](https://emipereda.github.io/troncal_2026/)
+
+- Maximiliano Frigerio
+- Paulina Alonso Loredo
+- Serena Loi
+- Emilia Pereda
+
+#### [Desinformación en la Representación Geoespacial: Una crítica desde la Mirada Apolínea y la Ética de la Visualización](https://ronnistp.github.io/TRONCAL_EV.02/)
+
+- Catalina Aceituno
+- Luisa Angulo
+- Sayen Padilla
+- Veronica Soto
+
+…
 
 - - - - - 
 
