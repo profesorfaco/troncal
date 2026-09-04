@@ -4,7 +4,7 @@
 
 ### Retroalimentación grupal y corrección de las primeras entregas
 
-No se lleva a cabo. Se asume que toda calificación es aceptada por el estudiantado.
+No se lleva a cabo (respetando el paro estudiantil). Pero se asume que toda calificación fue aceptada por el estudiantado, omitiéndose una segunda revisión, cuando no hubo solicitud fundada.
 
 ---
 
