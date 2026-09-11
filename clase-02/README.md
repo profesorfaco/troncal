@@ -33,7 +33,7 @@ En el ámbito legal local, corresponde diferenciar:
 
 - **Datos sensibles**, aquellos datos personales que se refieren a las características físicas o morales de las personas o a hechos o circunstancias de su vida privada o intimidad, tales como los hábitos personales, el origen racial, las ideologías y opiniones políticas, las creencias o convicciones religiosas, los estados de salud físicos o psíquicos y la vida sexual.
 
-Esta definiciones corresponden a la [LEY 19.628 | SOBRE PROTECCION DE LA VIDA PRIVADA](https://bcn.cl/2eqfn). 
+Esta definiciones corresponden a la [Ley 19628 SOBRE PROTECCION DE LA VIDA PRIVADA](https://bcn.cl/2eqfn). 
 
 - - - - - - - 
 
