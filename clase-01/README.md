@@ -23,7 +23,7 @@ Es necesario que usted ya conozca y maneje las siguientes fórmulas para contar 
 
 📺 Si no las conoce, por favor tómese 12 minutos para revisar este video sobre [Contar en Google Sheets](https://www.youtube.com/watch?v=Z3B_B76HOAM).
 
-A estas funciones debemos agregar las de **media** y **mediana**. Antes de utilizarlas, lea con atención este artículo: [¿Cuál es la diferencia entre media, mediana y el promedio?](https://www.productminds.io/blog-post/cual-es-la-diferencia-entre-media-mediana-y-el-promedio)
+A estas funciones debemos agregar las de **media** y **mediana**. Antes de utilizarlas, lea con atención este artículo: [¿Cuál es la diferencia entre media, mediana y el promedio?](https://www.datacamp.com/es/tutorial/mean-vs-median)
 
 Tras la lectura, puede retomar las funciones correspondientes:
 
