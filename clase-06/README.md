@@ -145,67 +145,75 @@ Ahora, si tenemos un JSON validado, podríamos utilizar los datos que nos ofrezc
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Un fetch</title>
         <style>
-            body {
-                font-family: Helvetica, Arial, sans-serif;
-            }
+            body { font-family: Helvetica, Arial, sans-serif; }
         </style>
     </head>
     <body>
         <h1>Hola mundo</h1>
-        <ol id="estudiantes"></ol>
+
+        <!-- Este <ol> (lista ordenada) empieza vacío. Lo vamos a llenar con JavaScript una vez tengamos la respueta al fetch -->
+        <ol id="instituciones"></ol>
 
         <script>
+            // 1) Guardamos una referencia al elemento <ol> del DOM.
+
+            const llenar = document.querySelector("#instituciones");
+
+            // 2) La URL del "endpoint": el lugar de internet donde están los datos. En este caso, es una API que devuelve JSON.
             const URL = "…";
+
+            // 3) fetch() hace una petición HTTP a esa URL.
+
             fetch(URL)
+                // 4) Primer .then(): se ejecuta cuando el servidor responde
                 .then((respuesta) => {
+                    // 5) respuesta.ok es true solo si el código de estado HTTP
                     if (!respuesta.ok) {
                         throw new Error("Error HTTP: " + respuesta.status);
                     }
+
+                    // 6) respuesta.json() lee el cuerpo de la respuesta y lo convierte
                     return respuesta.json();
                 })
 
+                // 7) Segundo .then(): se ejecuta cuando ya tenemos los datos
                 .then((datos) => {
-                    var trabajo = datos;
-                    console.log("Datos recibidos:", trabajo);
+                    // 8) Según cómo esté armada esta API, los registros vienen
+                    var qs = datos.data;
+
+                    // 9) console.log() no muestra nada en la página: aparece en la
+                    console.log("Datos recibidos:", qs);
+
+                    // 10) qs es un array. forEach() recorre cada elemento uno por uno.
+
+                    qs.forEach((x) => {
+                        // Nota: usar += con innerHTML dentro de un forEach funciona por ahora, pero en listas grandes es poco eficiente y seguro. 
+                        llenar.innerHTML += `<li>${x.name}</li>`;
+                    });
                 })
 
+                // 11) .catch(): atrapa CUALQUIER error que haya ocurrido en la cadena de arriba (fallo de red, respuesta.ok falso, JSON mal formado, etc.).
                 .catch((error) => {
                     console.error("Algo salió mal:", error);
                 });
+
+            // RESUMEN del flujo:
+            // fetch(URL)              -> pide los datos al servidor
+            //   .then(respuesta)      -> llega la respuesta (aún no son los datos finales)
+            //   .then(datos)          -> ya tenemos los datos listos para usar
+            //   .catch(error)         -> si algo falló en cualquier paso anterior, cae aquí
         </script>
     </body>
 </html>
 ```
 
-Lo que queda definir es el contenido de la URL. Para ello vamos a utilizar: 
+Lo que queda por modificar son los puntos suspensivos, donde dice `const URL = "…";`. Para ello vamos a utilizar: 
 
 - [Material en la Carpeta Drive del curso](https://docs.google.com/spreadsheets/d/1p8GCNRKneagede_DL0HkavLf8n6WXkYyFmHMM5jjPs8/copy)
 
 - https://csvjson.com/csv2json
 
 - https://myjson.online/
-
-```
-fetch(URL)
-    .then((respuesta) => {
-        if (!respuesta.ok) {
-            throw new Error("Error HTTP: " + respuesta.status);
-        }
-        return respuesta.json();
-    })
-    .then((datos) => {
-        var trabajo = datos.data;
-        console.log("Datos recibidos:", trabajo);
-        trabajo.forEach((x) => {
-            if (x.ok == 1) {
-                t.innerHTML += `<tr><td>${x.name}</td></tr>`;
-            }
-        });
-    })
-    .catch((error) => {
-        console.error("Algo salió mal:", error);
-    });
-```
 
 - - - - 
 
