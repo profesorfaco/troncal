@@ -20,157 +20,203 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>ELECTIVOS DE DISEÑO</title>
+        <title>Ranking QS: Arte y Diseño 2026</title>
         <style>
+            :root {
+                --color-bg: #eaeaea;
+                --color-heading: #2b2b2b;
+                --color-text: #33383b;
+                --color-label: #767676;
+                --color-borde: #cfcfcf;
+                --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-body: Georgia, "Times New Roman", serif;
+            }
+
             *, *::before, *::after {
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
             }
 
-            :root {
-                --color-oscurisimo: #800a49;
-                --color-oscuro: #bf0f6d;
-                --color-normal: deeppink;
-                --color-iluminado: pink;
-                --color-iluminadisimo: lightpink;
-            }
-
             body {
-                font-family: Helvetica, Arial, sans-serif;
-                color: var(--color-normal);
-                text-align: center;
-                font-size: 100%;
+                font-family: var(--font-body);
+                color: var(--color-text);
+                background: var(--color-bg);
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 1.5rem;
+                line-height: 1.6;
             }
-            div#contenedor {
-                margin: 1rem auto;
+
+            .container {
+                margin: 0 auto;
                 width: 90%;
-                max-width: 780px;
+                max-width: 700px;
             }
 
-            h1 {
-                margin: 1rem 0;
-                font-weight: 400;
-                font-size: calc(100% + 3vw + 3vh);
+            h1, h2, h3, h4 {
+                font-family: var(--font-heading);
+                font-weight: 700;
+                color: var(--color-heading);
+                line-height: 1.2;
+                margin-bottom: 0.6rem;
             }
 
-            h2 {
-                margin: 3rem 0;
-                font-weight: 400;
-                letter-spacing: 0.25rem;
-                font-size: calc(100% + 1vw + 1vh);
-                color: var(--color-oscuro);
-            }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.4rem; margin-top: 2rem; }
+            h3 { font-size: 1.1rem; margin-top: 1.5rem; }
 
-            input {
-                border: 0.1rem solid var(--color-iluminado);
-                padding: 0.5rem 1rem;
-                font-family: inherit;
-                font-size: 15px;
-                color: var(--color-oscuro);
-                outline: none;
-                margin-bottom: 1.5rem;
-                width: 100%;
-                display: block;
-                background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="pink" viewBox="0 0 16 16"><path d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"/></svg>');
-                background-repeat: no-repeat;
-                background-size: 1rem;
-                background-position: 99% center;
-            }
+            p { margin-bottom: 1rem; }
 
-            input::placeholder {
-                color: var(--color-iluminado);
-            }
+            strong { color: var(--color-heading); }
 
-            input:focus {
-                border-color: var(--color-normal);
-            }
+            a { color: var(--color-heading); }
 
-            div#contenedordetabla {
-                overflow-x: auto;
-                font-size: 90%;
-            }
-
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                text-align: left;
-                margin-bottom: 3rem;
-            }
-
-            thead {
-                background: var(--color-iluminado);
-            }
-
-            td,
             th {
-                border: 1px solid var(--color-normal);
-                padding: 0.75rem;
+                text-align: left;
+                font-family: var(--font-heading);
+                color: var(--color-label);
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                letter-spacing: 0.03em;
             }
-
-            td:nth-child(1),
-            th:nth-child(1),
-            td:nth-child(3),
-            th:nth-child(3) {
-                text-align: center;
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin-bottom: 1.5rem;
+                font-family: var(--font-body);
+            }
+            th,
+            td {
+                border-bottom: 1px solid var(--color-borde);
+                padding: 0.4rem 0.6rem;
+            }
+            .nota {
+                background: #dedede;
+                border-left: 4px solid var(--color-label);
+                padding: 0.8rem 1rem;
+                font-size: 0.95rem;
             }
         </style>
     </head>
     <body>
-        <div id="contenedor">
-            <h1>ᕙ( •̀ ᗜ •́ )ᕗ</h1>
-            <h2>ELECTIVOS DE DISEÑO</h2>
+        <div class="container">
+            <h1>Ranking QS: Las mejores universidades del mundo en Arte y Diseño</h1>
 
-            <input type="text" id="elInput" placeholder="Filtrar electivos…" />
-            <div id="contenedordetabla">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>N°</th>
-                            <th>Asignatura electiva</th>
-                            <th>Mención</th>
-                            <th>Grupo</th>
-                            <th>Enfoque</th>
-                        </tr>
-                    </thead>
-                    <tbody id="este"></tbody>
-                </table>
+            <p>El <strong>QS World University Rankings by Subject</strong> evalúa anualmente el desempeño académico por disciplinas específicas. Elaborado por la consultora británica Quacquarelli Symonds (QS), el proyecto nació en 2004 en alianza con <em>Times Higher Education</em> (THE) bajo el nombre <em>THE-QS World University Rankings</em>. Tras la separación de ambas entidades en 2009, QS consolidó tanto su clasificación institucional general (<em>QS World University Rankings</em>) como sus mediciones específicas por materias. Puedes explorar la tabla completa y actualizada en el <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">sitio oficial de QS Top Universities</a>.</p>
+
+            <p>En la entrega correspondiente a <strong>Arte y Diseño <span id="anio"><script>document.write(new Date().getFullYear())</script></span></strong>, la evaluación abarca a más de 300 instituciones alrededor del mundo. A diferencia de otras disciplinas del ranking, en Arte y Diseño no se miden citas de investigación ni el <a href="https://uchile.cl/informacion-y-bibliotecas/ayudas-y-tutoriales/indice-h" target="_blank" rel="noopener">índice H</a>: la clasificación se apoya únicamente en dos encuestas de reputación, una entre académicos y otra entre empleadores.</p>
+
+            <h3>Claves de la edición 2026</h3>
+
+            <ul>
+                <li><strong>Liderazgo especializado:</strong> El <em>Royal College of Art</em> (RCA, Reino Unido) ocupa el primer lugar mundial, seguido por la <em>University of the Arts London</em> (UAL), también británica.</li>
+                <li><strong>Presencia continental europea en el Top 10:</strong> El <em>Politecnico di Milano</em> (Italia) ocupa el puesto 7 y la <em>Aalto University</em> (Finlandia) el puesto 9, confirmando que la élite del ranking no se limita a Inglaterra.</li>
+                <li><strong>Metodología basada en reputación:</strong> El puntaje de Arte y Diseño se construye exclusivamente con encuestas de reputación académica y de empleadores, sin componentes bibliométricos. Esto genera debate, ya que introduce una carga de subjetividad mayor que en otras disciplinas del ranking.</li>
+            </ul>
+
+            <h2>Distribución regional (Top 100)</h2>
+
+            <h3>América</h3>
+            <p>Instituciones de países americanos presentes en el listado obtenido vía fetch, ordenadas según su aparición en la API.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ranking</th>
+                        <th>Institución</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody id="america"></tbody>
+            </table>
+
+            <h3>Europa</h3>
+            <p>Instituciones europeas presentes en el listado obtenido vía fetch.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ranking</th>
+                        <th>Institución</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody id="europa"></tbody>
+            </table>
+
+            <h3>Asia, Oceanía y otras regiones</h3>
+            <p>Todas las demás instituciones del listado que no calzan con las dos listas anteriores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ranking</th>
+                        <th>Institución</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody id="otros"></tbody>
+            </table>
+
+            <h2>Oportunidades de movilidad para estudiantes de Diseño en la Universidad de Chile</h2>
+
+            <p>Para el estudiantado de la Escuela de Diseño de la Facultad de Arquitectura y Urbanismo (FAU) de la Universidad de Chile, la nómina de convenios vigentes incluye alternativas en Europa y América posicionadas en el Top 100 mundial de Arte y Diseño según el Ranking QS:</p>
+
+            <ul>
+                <li><strong>Politecnico di Milano (Italia)</strong>: Es la principal opción europea del ranking con convenio directo disponible.</li>
+                <li><strong>Universidade de São Paulo (Brasil)</strong>: Referente regional destacado en la clasificación mundial de Arte y Diseño.</li>
+                <li><strong>Universidad de Buenos Aires (Argentina)</strong>: una de las instituciones históricas más prominentes de Sudamérica dentro del índice.</li>
+                <li><strong>Tecnológico de Monterrey (México)</strong>: presente en el ranking de Arte y Diseño, con convenio de movilidad vigente.</li>
+                <li><strong>Universidad Nacional Autónoma de México (México)</strong>: una de las macro-universidades más reconocidas de la región en artes y humanidades.</li>
+            </ul>
+
+            <div class="nota">
+                <p><strong>Nota:</strong> La disponibilidad de cupos, requisitos de idioma y llamados a postulación para las oportunidades de movilidad deben verificarse cada año, así como el resultado del Ranking QS.</p>
             </div>
-            <small>Diseño y visualización de información</small>
         </div>
 
         <script>
-            const t = document.querySelector("#este");
+
+            const tbodyAmerica = document.querySelector("#america");
+            const tbodyEuropa = document.querySelector("#europa");
+            const tbodyOtros = document.querySelector("#otros");
+
             const URL = "…";
+
+            const paisesAmerica = ["Argentina", "Brazil", "Canada", "Chile", "Colombia", "Mexico", "United States"];
+
+            const paisesEuropa = ["Austria", "Belgium", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Ireland", "Italy", "Netherlands", "Sweden", "Switzerland", "United Kingdom"];
 
             fetch(URL)
                 .then((respuesta) => {
+
                     if (!respuesta.ok) {
                         throw new Error("Error HTTP: " + respuesta.status);
                     }
+
                     return respuesta.json();
                 })
                 .then((datos) => {
-                    var trabajo = datos.data;
-                    console.log(trabajo);
-                    trabajo.forEach((x) => {
-                        t.innerHTML += `<tr style="${x.ok == 1 ? "background-color: var(--color-iluminadisimo); color: var(--color-oscurisimo)" : ""}"><td>${x.id}</td><td>${x.name}</td><td>${x.track}</td><td>${x.group}</td><td>${x.focus}</td></tr>`;
+                    const universidades = datos.data;
+                    console.log("Datos recibidos:", universidades);
+
+                    universidades.forEach((u) => {
+
+                        const esAmericana = paisesAmerica.some((pais) => u.location.includes(pais));
+                        const esEuropea = paisesEuropa.some((pais) => u.location.includes(pais));
+
+                        const pais = u.location.split(", ").pop();
+
+                        if (esAmericana) {
+                            tbodyAmerica.innerHTML += `<tr><td>${u.rank}</td><td>${u.name}</td><td>${pais}</td></tr>`;
+                        } else if (esEuropea) {
+                            tbodyEuropa.innerHTML += `<tr><td>${u.rank}</td><td>${u.name}</td><td>${pais}</td></tr>`;
+                        } else {
+                            tbodyOtros.innerHTML += `<tr><td>${u.rank}</td><td>${u.name}</td><td>${pais}</td></tr>`;
+                        }
                     });
                 })
                 .catch((error) => {
                     console.error("Algo salió mal:", error);
                 });
-
-            function sinAcentos(str) {
-                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            }
-
-            document.getElementById("elInput").addEventListener("keyup", function () {
-                const valor = sinAcentos(this.value.toLowerCase());
-                document.querySelectorAll("#este tr").forEach(function (fila) {
-                    fila.style.display = sinAcentos(fila.textContent.toLowerCase()).includes(valor) ? "" : "none";
-                });
-            });
         </script>
     </body>
 </html>
