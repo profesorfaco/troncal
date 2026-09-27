@@ -66,7 +66,21 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
             h2 { font-size: 1.4rem; margin-top: 2rem; }
             h3 { font-size: 1.1rem; margin-top: 1.5rem; }
 
+            h2.fau{
+                text-indent: 1.5rem;
+                background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-luggage" viewBox="0 0 16 16"><path d="M2.5 1a.5.5 0 0 0-.5.5V5h-.5A1.5 1.5 0 0 0 0 6.5v7a1.5 1.5 0 0 0 1 1.415v.335a.75.75 0 0 0 1.5 0V15H4v-1H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5V7h1v-.5A1.5 1.5 0 0 0 6.5 5H6V1.5a.5.5 0 0 0-.5-.5zM5 5H3V2h2z"/><path d="M3 7.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0zM11 6a1.5 1.5 0 0 1 1.5 1.5V8h2A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 14.5v-5A1.5 1.5 0 0 1 6.5 8h2v-.5A1.5 1.5 0 0 1 10 6zM9.5 7.5V8h2v-.5A.5.5 0 0 0 11 7h-1a.5.5 0 0 0-.5.5M6 9.5v5a.5.5 0 0 0 .5.5H7V9h-.5a.5.5 0 0 0-.5.5m7 5.5V9H8v6zm1.5 0a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5H14v6z"/></svg>');
+                background-repeat: no-repeat;
+                background-position-y: 0.25rem;
+            }
+
             p { margin-bottom: 1rem; }
+
+            ul{
+                list-style-position: inside;
+            }
+            ul li{
+                margin-bottom: 1rem;
+            }
 
             strong { color: var(--color-heading); }
 
@@ -91,6 +105,9 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
                 border-bottom: 1px solid var(--color-borde);
                 padding: 0.4rem 0.6rem;
             }
+            th:nth-child(1), td:nth-child(1){
+                text-align: center;
+            }
             .nota {
                 background: #dedede;
                 border-left: 4px solid var(--color-label);
@@ -105,7 +122,7 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
 
             <p>El <strong>QS World University Rankings by Subject</strong> evalúa anualmente el desempeño académico por disciplinas específicas. Elaborado por la consultora británica Quacquarelli Symonds (QS), el proyecto nació en 2004 en alianza con <em>Times Higher Education</em> (THE) bajo el nombre <em>THE-QS World University Rankings</em>. Tras la separación de ambas entidades en 2009, QS consolidó tanto su clasificación institucional general (<em>QS World University Rankings</em>) como sus mediciones específicas por materias. Puedes explorar la tabla completa y actualizada en el <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">sitio oficial de QS Top Universities</a>.</p>
 
-            <p>En la entrega correspondiente a <strong>Arte y Diseño <span id="anio"><script>document.write(new Date().getFullYear())</script></span></strong>, la evaluación abarca a más de 300 instituciones alrededor del mundo. A diferencia de otras disciplinas del ranking, en Arte y Diseño no se miden citas de investigación ni el <a href="https://uchile.cl/informacion-y-bibliotecas/ayudas-y-tutoriales/indice-h" target="_blank" rel="noopener">índice H</a>: la clasificación se apoya únicamente en dos encuestas de reputación, una entre académicos y otra entre empleadores.</p>
+            <p>En la entrega correspondiente a <strong>Arte y Diseño <script>document.write(new Date().getFullYear())</script></strong>, la evaluación abarca a más de 300 instituciones alrededor del mundo. A diferencia de otras disciplinas del ranking, en Arte y Diseño no se miden citas de investigación ni el <a href="https://uchile.cl/informacion-y-bibliotecas/ayudas-y-tutoriales/indice-h" target="_blank" rel="noopener">índice H</a>: la clasificación se apoya únicamente en dos encuestas de reputación, una entre académicos y otra entre empleadores.</p>
 
             <h3>Claves de la edición 2026</h3>
 
@@ -156,7 +173,7 @@ Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjs
                 <tbody id="otros"></tbody>
             </table>
 
-            <h2>Oportunidades de movilidad para estudiantes de Diseño en la Universidad de Chile</h2>
+            <h2 class="fau">Oportunidades de movilidad para estudiantes de Diseño en la Universidad de Chile</h2>
 
             <p>Para el estudiantado de la Escuela de Diseño de la Facultad de Arquitectura y Urbanismo (FAU) de la Universidad de Chile, la nómina de convenios vigentes incluye alternativas en Europa y América posicionadas en el Top 100 mundial de Arte y Diseño según el Ranking QS:</p>
 
