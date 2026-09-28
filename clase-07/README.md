@@ -4,7 +4,7 @@
 
 ### Introducción al desarrollo front-end: Captura e inyección dinámica de datos estructurados en interfaces HTML mediante `fetch` en JavaScript.
 
-Hoy conectamos el diseño con el código interactivo. Comenzaremos a explorar las bases del desarrollo front-end, analizando cómo una estructura HTML básica puede adquirir dinamismo cuando las programadoras y los programadores consumen datos externos de forma asíncrona. Utilizaremos la función `fetch` en JavaScript para capturar los archivos de datos estructurados e inyectarlos de manera dinámica dentro de la interfaz. Al finalizar la sesión, se les entregará el enunciado de la segunda evaluación sumativa a todas y todos los estudiantes.
+El desarrollo front-end no se limita a maquetar pantallas, sino a construir sistemas de visualización capaces de responder con fluidez a la información que procesan. Para comprender cómo la tecnología web se pone al servicio de la comunicación pública, en esta sesión abordaremos la captación e inyección dinámica de datos estructurados mediante `fetch` en JavaScript, conectando las bases de la maquetación `HTML`/`CSS` con la fluidez de la web interactiva. A través de este ejercicio, nos adentraremos en la construcción de interfaces informativas capaces de articular contexto, rigor periodístico y responsabilidad social para las comunidades contemporáneas.
 
 -----
 
