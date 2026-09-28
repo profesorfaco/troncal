@@ -405,8 +405,7 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
             const tbodyOtros = document.querySelector("#otros");
 
             // Dirección desde donde vamos a pedir los datos (JSON).
-            // Ojo: no la llamamos "URL" porque ese nombre ya existe en el navegador
-            const ENDPOINT = "https://api.myjson.online/v1/records/946f3c0e-0c5f-4afc-9ce9-9257d906a894";
+            const ENDPOINT = "…";
 
             // Listas de países para clasificar cada universidad por continente.
             // "some()" revisará, dentro del forEach, si AL MENOS UNO de estos strings aparece en u.location
@@ -428,7 +427,6 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
                     if (!respuesta.ok) {
                         throw new Error("Error HTTP: " + respuesta.status);
                     }
-
                     // .json() también devuelve una promesa: hay que leer/parsear el body
                     return respuesta.json();
                 })
