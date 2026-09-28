@@ -12,7 +12,7 @@ Hoy conectamos el diseño con el código interactivo. Comenzaremos a explorar la
 
 Vamos directo a la práctica. 
 
-Corresponde a cada estudiante usar que ya pudo publicar en [myjson](https://myjson.online/) para reemplazar los puntos suspensivos (…) en el valor asignado a la `const URL`:
+Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https://myjson.online/) para reemplazar los puntos suspensivos (…) en el valor asignado a la `const ENDPOINT`:
 
 ```
 <!doctype html>
