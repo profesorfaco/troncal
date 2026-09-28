@@ -4,7 +4,7 @@
 
 ### **Evaluación Sumativa 2 (Individual - 20%):** Encargo práctico de resolución autónoma en sala de laboratorio.
 
-Corresponde enfrentar la primera evaluación práctica de manera estrictamente individual y en tiempo real, utilizando las estaciones de trabajo del laboratorio. Cada estudiante recibirá un conjunto de datos y un requerimiento técnico específico, debiendo demostrar su capacidad para estructurar una interfaz HTML y automatizar el consumo dinámico de datos. Deberán resolver el encargo de manera completamente autónoma, puesto que la sesión no contempla la asistencia de las profesoras, los profesores, las ayudantes ni los ayudantes del equipo docente.
+Corresponde enfrentar la primera evaluación práctica de manera estrictamente individual y en tiempo real, utilizando las estaciones de trabajo del laboratorio. Cada estudiante recibirá un conjunto de datos y un requerimiento técnico específico, debiendo demostrar su capacidad para estructurar una interfaz HTML y automatizar el consumo dinámico de datos. Deberán resolver el encargo de manera completamente autónoma, puesto que la sesión no contempla la asistencia del profesor.
 
 _ _ _ _ 
 
