@@ -251,6 +251,10 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
                 line-height: 1.3;
             }
 
+            .nota span {
+                font-weight: 700;
+            }
+
             /* Lista de descripción (<dl>), usada frecuentemente para glosarios, fuentes o metadatos */
             dl {
                 font-family: var(--font-sans);
@@ -270,6 +274,12 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
                 color: var(--color-text-light);
                 margin-top: 0.25rem;
             }
+
+            dl dd em{
+                font-style: normal;
+                font-weight: 700;
+                color: var(--color-text-light);
+            }
         </style>
     </head>
     <body>
@@ -281,7 +291,7 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
             
             <h5>Por <a href="">Nombre Apellido</a></h5>
             
-            <h6>Publicado el viernes 2 de octubre, 2026 &nbsp;&nbsp; 6:00 p.m. GMT-3</h6>
+            <h6>Publicado el viernes 2 de octubre, 2026 &nbsp;&nbsp; 3:00 p.m. GMT-3</h6>
 
             <p>El <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em> evalúa anualmente el desempeño académico por disciplinas específicas. Elaborado por la consultora británica <em>Quacquarelli Symonds</em> (<abbr title="Quacquarelli Symonds">QS</abbr>), el proyecto nació en 2004 en alianza con <em>Times Higher Education</em> (<abbr title="Times Higher Education">THE</abbr>) bajo el nombre <em><abbr title="Times Higher Education - Quacquarelli Symonds">THE-QS</abbr> World University Rankings</em>. Tras la separación de ambas entidades en 2009, <abbr title="Quacquarelli Symonds">QS</abbr> consolidó tanto su clasificación institucional general (<em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings</em>) como sus mediciones específicas por materias.</p>
 
@@ -291,8 +301,8 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
             <h3>Claves de la edición 2026 para Arte y Diseño</h3>
 
             <ul>
-                <li><em>Liderazgo especializado:</em> El Royal College of Art (<abbr title="Royal College of Art">RCA</abbr>, Reino Unido) ocupa el primer lugar mundial, seguido por la University of the Arts London (<abbr title="University of the Arts London">UAL</abbr>, también del Reino Unido).</li>
-                <li><em>Presencia continental europea entre las 10 mejores:</em> El Politecnico di Milano (Italia) ocupa el puesto 7 y la Aalto University (Finlandia) el puesto 9, confirmando que la élite del ranking no se limita al Reino Unido.</li>
+                <li><em>Liderazgo especializado:</em> El <a href="https://www.rca.ac.uk/" target="_blank" rel="noopener">Royal College of Art</a> (<abbr title="Royal College of Art" target="_blank" rel="noopener">RCA</abbr>, Reino Unido) ocupa el primer lugar mundial, seguido por la <a href="https://www.arts.ac.uk/" target="_blank" rel="noopener">University of the Arts London</a> (<abbr title="University of the Arts London">UAL</abbr>, también del Reino Unido).</li>
+                <li><em>Presencia continental europea entre las 10 mejores:</em> El <a href="https://www.polimi.it/" target="_blank" rel="noopener">Politecnico di Milano</a> (Italia) ocupa el puesto 7 y la <a href="https://www.aalto.fi/en" target="_blank" rel="noopener">Aalto University</a> (Finlandia) el puesto 9, confirmando que la élite del ranking no se limita al Reino Unido.</li>
                 <li><em>Metodología basada en reputación:</em> El puntaje de Arte y Diseño se construye exclusivamente con encuestas de reputación académica y de empleadores, sin componentes bibliométricos. Esto genera debate, ya que introduce una carga de subjetividad mayor que en otras disciplinas del ranking.</li>
             </ul>
 
@@ -359,31 +369,31 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
             <p>Para la Carrera de Diseño de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile, la nómina de convenios vigentes incluye alternativas posicionadas entre las 100 mejores en Arte y Diseño según el Ranking QS:</p>
 
             <ul>
-                <li><strong>Politecnico di Milano (polimi; Italia):</strong> Es la principal opción europea del ranking con convenio directo disponible.</li>
-                <li><strong>Universidade de São Paulo (Brasil):</strong> Referente regional destacado en la clasificación mundial de Arte y Diseño.</li>
-                <li><strong>Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>; Argentina):</strong> Una de las instituciones históricas más prominentes de Sudamérica dentro del índice.</li>
-                <li><strong>Tecnológico de Monterrey (Tec; México):</strong> Presente en el ranking de Arte y Diseño, con convenio de movilidad vigente.</li>
-                <li><strong>Universidad Nacional Autónoma de México (<abbr title="Universidad Nacional Autónoma de México">UNAM</abbr>; México):</strong> Una de las macro-universidades más reconocidas de la región en artes y humanidades.</li>
+                <li><em>Politecnico di Milano (polimi; Italia):</em> Es la principal opción europea del ranking con convenio directo disponible.</li>
+                <li><em>Universidade de São Paulo (Brasil):</em> Referente regional destacado en la clasificación mundial de Arte y Diseño.</li>
+                <li><em>Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>; Argentina):</em> Una de las instituciones históricas más prominentes de Sudamérica dentro del índice.</li>
+                <li><em>Tecnológico de Monterrey (Tec; México):</em> Presente en el ranking de Arte y Diseño, con convenio de movilidad vigente.</li>
+                <li><em>Universidad Nacional Autónoma de México (<abbr title="Universidad Nacional Autónoma de México">UNAM</abbr>; México):</em> Una de las macro-universidades más reconocidas de la región en artes y humanidades.</li>
             </ul>
 
-            <div class="nota"><strong>Nota:</strong> La disponibilidad de cupos, requisitos de idioma y llamados a postulación deben verificarse cada año, así como el resultado del Ranking QS.</div>
+            <div class="nota"><span>Nota:</span> La disponibilidad de cupos, requisitos de idioma y llamados a postulación deben verificarse cada año, así como el resultado del Ranking QS.</div>
 
             <dl>
                 <dt>Fuentes</dt>
                 <dd>
-                    <strong>Datos:</strong> Tomados el 21 de septiembre de 2026 desde <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener" >QS World University Rankings for Art and Design</a>.
+                    <em>Datos:</em> Tomados el 21 de septiembre de 2026 desde <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener" >QS World University Rankings for Art and Design</a>.
                 </dd>
                 <dd>
-                    <strong>Procesamiento:</strong> Datos estructurados y servidos en JSON mediante <a href="https://myjson.online/" target="_blank" rel="noopener">myJson</a> y consulta asíncrona (<a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch" target="_blank" rel="noopener">Fetch API</a>).
+                    <em>Procesamiento:</em> Datos estructurados y servidos en JSON mediante <a href="https://myjson.online/" target="_blank" rel="noopener">myJson</a> y consulta asíncrona (<a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch" target="_blank" rel="noopener">Fetch API</a>).
                 </dd>
                 <dd>
-                    <strong>Referente:</strong> Estructura basada en el reportaje <a href="https://www.reuters.com/graphics/NEPAL-FLOODS/HYDROPOWER/jnpwoymwkpw/" target="_blank" rel="noopener" >Nepal's tunnel maze that trapped hydropower workers</a> de <a href="https://www.reuters.com/authors/vijdan-mohammad-kawoosa/" target="_blank" rel="noopener">Vijdan Mohammad Kawoosa</a> para <a href="https://www.reuters.com/graphics/" target="_blank" rel="noopener">Reuters Graphics</a>, lo que implica adoptar un estándar global de validación visual y periodística aportado por una agencia internacional de noticias.
+                    <em>Referente:</em> Estructura basada en el reportaje <a href="https://www.reuters.com/graphics/NEPAL-FLOODS/HYDROPOWER/jnpwoymwkpw/" target="_blank" rel="noopener" >Nepal's tunnel maze that trapped hydropower workers</a> de <a href="https://www.reuters.com/authors/vijdan-mohammad-kawoosa/" target="_blank" rel="noopener">Vijdan Mohammad Kawoosa</a> para <a href="https://www.reuters.com/graphics/" target="_blank" rel="noopener">Reuters Graphics</a>, lo que implica adoptar un estándar global de validación visual y periodística aportado por una agencia internacional de noticias.
                 </dd>
                 <dd>
-                    <strong>Contexto:</strong> Proyecto desarrollado como ejercicio práctico para la asignatura <a href="https://github.com/profesorfaco/troncal" target="_blank" rel="noopener">Diseño y Visualización de Información</a>.
+                    <em>Contexto:</em> Proyecto desarrollado como ejercicio práctico para la asignatura <a href="https://github.com/profesorfaco/troncal" target="_blank" rel="noopener">Diseño y Visualización de Información</a>.
                 </dd>
                 <dd>
-                    <strong>Oportunidades para estudiantes:</strong> Se aprovecha la nómina completa de intercambios recibida por la Jefatura de Carrera el 7 de septiembre de 2026 desde la Dirección Académica y de Relaciones Internacionales de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile.
+                    <em>Oportunidades para estudiantes:</em> Se aprovecha la nómina completa de intercambios recibida por la Jefatura de Carrera el 7 de septiembre de 2026 desde la Dirección Académica y de Relaciones Internacionales de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile.
                 </dd>
             </dl>
         </div>
@@ -394,8 +404,9 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
             const tbodyEuropa = document.querySelector("#europa");
             const tbodyOtros = document.querySelector("#otros");
 
-            // Dirección desde donde vamos a pedir los datos (myJson).
-            const ENDPOINT = "…";
+            // Dirección desde donde vamos a pedir los datos (JSON).
+            // Ojo: no la llamamos "URL" porque ese nombre ya existe en el navegador
+            const ENDPOINT = "https://api.myjson.online/v1/records/946f3c0e-0c5f-4afc-9ce9-9257d906a894";
 
             // Listas de países para clasificar cada universidad por continente.
             // "some()" revisará, dentro del forEach, si AL MENOS UNO de estos strings aparece en u.location
@@ -417,6 +428,7 @@ Corresponde a cada estudiante volver a lo que ya pudo publicar en [myJson](https
                     if (!respuesta.ok) {
                         throw new Error("Error HTTP: " + respuesta.status);
                     }
+
                     // .json() también devuelve una promesa: hay que leer/parsear el body
                     return respuesta.json();
                 })
