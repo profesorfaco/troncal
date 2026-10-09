@@ -23,7 +23,7 @@ Resolviendo lo recién indicado, junto con el trabajo de clases 6 y 7, cada estu
 #### La pauta de evaluación / instrucciones del trabajo en clase, con lo que corresponde resolver hasta las 18:15 hrs.
 
 | Instrucción | Puntaje |
-| --- | --- |
+|:--------|:-----:|
 | Use el código fuente que encontrará debajo de esta tabla | 1,0 |
 | Reemplace el valor de la constante `ENDPOINT` por la URL de un JSON publicado en su cuenta de [myJSON](https://myjson.online/) [0,5] e ingrese en dicho JSON las dos instituciones indicadas más abajo del código fuente [0,5]. La condición de autoría es estricta: La URL del JSON debe ser única para cada estudiante. Si dos o más entregas comparten la misma URL de myJSON, este ítem y todos los que siguen se evalúan con 0 para las partes involucradas (quien copia y quien comparte) | 1,0 |
 | Evite errores sintácticos o de formato en el ingreso de las 2 instituciones al JSON propio, asegurando el despliegue correcto de las instituciones correspondientes en cada una de las tres tablas | 0,25 |
