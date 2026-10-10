@@ -20,17 +20,19 @@ Lo valioso de estos tres casos es que no se limitaron a una reproducción autóm
 
 En un entorno académico donde el costo, el tiempo y el esfuerzo invertidos en formarse buscan desarrollar un pensamiento analítico de alto nivel, la IA es un medio, no el cerebro de la operación. Cada uno de estos trabajos evidencia cómo el discernimiento humano permite abordar el problema desde ángulos complementarios y profundos:
 
-1. La deconstrucción del criterio de clasificación: Enfocándose en cómo la agrupación arbitraria del Reino Unido como un bloque unificado —frente a una Latinoamérica fragmentada en países— altera la percepción de relevancia académica y condiciona la lectura de los datos.
+1. **La deconstrucción del criterio de clasificación**: Enfocándose en cómo la agrupación arbitraria del Reino Unido como un bloque unificado —frente a una Latinoamérica fragmentada en países— altera la percepción de relevancia académica y condiciona la lectura de los datos.
 
-2. La crítica a las jerarquías de visibilidad: Cuestionando cómo las mediciones no solo ordenan cifras, sino que actúan como dispositivos que construyen referentes e imponen qué regiones son reconocidas como centros de producción de conocimiento.
+2. **La crítica a las jerarquías de visibilidad**: Cuestionando cómo las mediciones no solo ordenan cifras, sino que actúan como dispositivos que construyen referentes e imponen qué regiones son reconocidas como centros de producción de conocimiento.
 
-3. La lectura de la proyección territorial: Exponiendo las consecuencias de la limitada presencia nacional en índices globales y cómo las desigualdades de representación afectan la proyección internacional del desarrollo artístico y académico regional.
+3. **La lectura de la proyección territorial**: Exponiendo las consecuencias de la limitada presencia nacional en índices globales y cómo las desigualdades de representación afectan la proyección internacional del desarrollo artístico y académico regional.
 
-Esta capacidad de edición y mirada crítica demuestra el aprovechamiento real de la Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación. La tecnología agiliza la ejecución, pero son las personas formadas universitariamente quienes otorgan sentido, dirección y ética a la producción visual.
+Esta capacidad de edición y mirada crítica demuestra el aprovechamiento real de la [Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación](https://github.com/profesorfaco/troncal/tree/main/clase-03). 
+
+La tecnología puede agilizar la ejecución, pero son las personas quienes otorgan sentido, dirección y ética a lo que se ejecute.
 
 ---
 
-En la sesión de hoy iniciamos la tercera unidad, complementando los lenguajes de interfaces web de complejidad media-alta que ya comenzaron a conocer, con herramientas para la producción rápida de visualizaciones de datos (entendidas como *chart* en inglés, o *Diagramm* en alemán, según vimos en [clase 4](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md)).
+**En la sesión de hoy iniciamos la tercera unidad**, complementando los lenguajes de interfaces web de complejidad media-alta que ya comenzaron a conocer, con herramientas para la producción rápida de visualizaciones de datos (entendidas como *chart* en inglés, o *Diagramm* en alemán, según vimos en [clase 4](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md)).
 
 Las dos primeras herramientas que revisaremos serán:
 
