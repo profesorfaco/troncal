@@ -20,8 +20,6 @@ Lo valioso de estos tres casos es que no se limitaron a una reproducción autóm
 
 En un entorno académico donde el costo, el tiempo y el esfuerzo invertidos en formarse buscan desarrollar un pensamiento analítico de alto nivel, la IA es un medio, no el cerebro de la operación. Cada uno de estos trabajos evidencia cómo el discernimiento humano permite abordar el problema desde ángulos complementarios y profundos:
 
-En un entorno académico donde el costo, el tiempo y el esfuerzo invertidos en formarse buscan desarrollar un pensamiento analítico de alto nivel, la IA es un medio, no el cerebro de la operación. Cada uno de estos trabajos evidencia cómo el discernimiento humano permite abordar el problema desde ángulos complementarios y profundos:
-
 1. La deconstrucción del criterio de clasificación: Enfocándose en cómo la agrupación arbitraria del Reino Unido como un bloque unificado —frente a una Latinoamérica fragmentada en países— altera la percepción de relevancia académica y condiciona la lectura de los datos.
 
 2. La crítica a las jerarquías de visibilidad: Cuestionando cómo las mediciones no solo ordenan cifras, sino que actúan como dispositivos que construyen referentes e imponen qué regiones son reconocidas como centros de producción de conocimiento.
