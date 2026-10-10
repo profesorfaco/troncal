@@ -4,137 +4,46 @@
 
 ### Prototipado rápido y taxonomías visuales: Uso de *RawGraphs et al.*
 
-Iniciamos la tercera unidad orientándonos al prototipado visual acelerado. Hoy aprenderán a utilizar herramientas avanzadas como *RawGraphs* para explorar rápidamente la morfología de los datos y definir las taxonomías visuales más adecuadas para cada caso. Nos enfocaremos en los flujos de trabajo de las diseñadoras y los diseñadores profesionales, poniendo especial cuidado en las metodologías de exportación de estos gráficos hacia vectores limpios que sirvan como puente directo hacia el código nativo web.
+El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos muy buenos resultados de integración de lo presentado: 
+
+|	Nombre	|	Trabajo destacado	|
+|	---------	|	---------	|
+|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/	|
+|	Carol Alvarez Álvarez	|	https://carolmabel.github.io/evaluacion_sumativa_2/	|
+|	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/	|
+|	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/	|
+|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/	|
+|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/	|
+|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/	|
+|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/	|
+|	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/	|
+|	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/	|
+
+Se invita a revisar con atención el modo en que responden a la instrucción que decía
+
+> En la lista sin numerar que está bajo el subtítulo de *Claves de la edición 2026 para Arte y Diseño*, agregue un tercer ítem sobre el caso chileno que desplace al actual tercero (*Metodología basada en reputación*) al cuarto lugar. El nuevo punto debe destacar que solo 3 instituciones chilenas figuran en la medición. No limite el ítem a los datos; considere que *lo que se cuenta, cuenta* frente a una [Latinoamérica con sólo 24 instituciones de 6 países](https://www.topuniversities.com/university-subject-rankings/art-design?region=Latin%20America&countries=mx%2Ccl%2Cbr%2Cco%2Car%2Cpe), mientras [*United Kingdom* presenta 34](https://www.topuniversities.com/university-subject-rankings/art-design?items_per_page=50&region=Europe&countries=gb). La etiqueta unificada de *UK*, que es referente del centro del mundo cartográfico, opera como un bloque homogéneo que infla la representatividad central de la *metrópoli*, difuminando las tensiones identitarias entre sus naciones constitutivas y acentuando la brecha de visibilidad frente a nuestra región
+
+No se limitan a replicar el texto en su integridad, sino relacionar con aquello que se alcanzó a tratar en la primera unidad, con la **Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación**.
+
+En la sesión de hoy iniciamos la tercera unidad, complementando los lenguajes de interfaces web de complejidad media-alta que ya comenzaron a conocer, con herramientas para la producción rápida de visualizaciones de datos (entendidas como *chart* en inglés, o *Diagramm* en alemán, según vimos en [clase 4](https://github.com/profesorfaco/troncal/blob/main/clase-04/README.md)).
+
+Las dos primeras herramientas que revisaremos serán:
+
+- [**RawGraphs**](https://app.rawgraphs.io/), para explorar posibilidades de visualización más adecuadas para cada caso, poniendo especial cuidado en las metodologías de exportación de estos gráficos hacia vectores limpios para embeber en HTML su elemento `<svg></svg>` o vincular mediante `<object></object>`.
+
+- [**Chart.js**](https://www.chartjs.org/), para implementar gráficos interactivos y responsivos en entornos web nativos, aprovechando el aporte de esta biblioteca especializada de JavaScript y el elemento HTML `<canvas></canvas>`.
 
 ---
 
-### RawGraph *et al*
+### RawGraph
 
-Revisemos datos en dos documentos: 
+RawGraphs es una herramienta de código abierto diseñada para transformar rápidamente conjuntos de datos estructurados —como archivos CSV o tablas— en diagramas visuales complejos sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar múltiples taxonomías gráficas (desde diagramas de Sankey hasta aluviales o *treemaps*) para evaluar cuál comunica mejor la información. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en formatos vectoriales limpios (SVG), facilitando su posterior edición gráfica o su integración directa en el marcado HTML de cualquier proyecto web.
 
-- Exámenes de Título aprobados (334): https://docs.google.com/spreadsheets/d/1Mr7L5r97WHkFV6JAjPga6LHx4ddkM1KrKpx7zspPqDY/copy
+---
 
-- Inscripciones de Proyecto de Título II (685): https://docs.google.com/spreadsheets/d/1-9RXg80pRE4M8RN6WEO3jwWYlWvl9CwcFwEMdMhmApE/copy
+### Chart.js
 
-Busquemos qué datos cruzar para luego probar un [Gráfico de barras](https://www.chartjs.org/docs/latest/getting-started/) [apiladas](https://www.chartjs.org/docs/latest/samples/bar/stacked.html) con Chart.js, partiendo desde: 
-
-```
-<!doctype html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>TITULARSE</title>
-        <style>
-            *,
-            *::before,
-            *::after {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
-
-            :root {
-                --color-oscurisimo: #222;
-                --color-oscuro: #444;
-                --color-normal: #666;
-                --color-iluminado: #aaa;
-                --color-iluminadisimo: #ddd;
-            }
-
-            body {
-                font-family: Helvetica, Arial, sans-serif;
-                color: var(--color-normal);
-                text-align: left;
-                font-size: 100%;
-            }
-            div#contenedor {
-                margin: 1rem auto 5rem auto;
-                width: 90%;
-                max-width: 720px;
-            }
-
-            h1 {
-                font-weight: 400;
-                font-size: calc(100% + 3vw + 3vh);
-                margin-left: -0.2rem;
-            }
-
-            h2 {
-                margin: 1rem 0 3rem 0;
-                font-weight: 400;
-                letter-spacing: 0.25rem;
-                font-size: calc(100% + 1vw + 1vh);
-                color: var(--color-oscuro);
-            }
-
-            canvas#myChart {
-                margin: 3rem 0;
-                background: #eee;
-                padding: 1rem;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="contenedor">
-            <h1>Título</h1>
-            <h2>Subtítulo</h2>
-            <p>Un breve texto que explique el origen de lo que sigue</p>
-            <canvas id="myChart"></canvas>
-            <p>Y otro breve texto que invite e reflexionar sobre lo que se presenta arriba.</p>
-
-
-            <object data="monos/viz.svg" type="image/svg+xml"></object>
-
-
-
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-        <script>
-            new Chart(document.getElementById("myChart"), {
-                type: "bar",
-                data: {
-                    labels: [
-                        "Pablo Domínguez G.",
-                        "Verónica Ode S.",
-                        "Eduardo Castillo E.",
-                        "Rodrigo Dueñas S.",
-                        "Jenny Abud C."
-                    ],
-
-                    datasets: [
-                        {
-                            label: ":-(",
-                            data: [29, 12, 17, 18, 2],
-                            borderWidth: 1,
-                            backgroundColor:"#c00"
-                        },
-                        {
-                            label: ":-)",
-                            data: [43, 25, 19, 17, 11],
-                            borderWidth: 2,
-                            backgroundColor:"#22f"
-                        }
-                    ],
-                },
-                options: {
-                    scales: {
-                        x: {
-                            stacked: true,
-                        },
-                        y: {
-                            beginAtZero: true,
-                            stacked: true,
-                        },
-                    },
-                },
-            });
-        </script>
-    </body>
-</html>
-```
+Chart.js es una biblioteca de JavaScript orientada a la creación de visualizaciones de datos dinámicas, animadas y completamente responsivas en la web. A diferencia del enfoque vectorial de SVG, Chart.js utiliza el elemento `<canvas>` de HTML5 para renderizar gráficos mediante mapas de bits a través de código ejecutable. Ofrece diversos tipos de gráficos estándar altamente personalizables —como barras, líneas, tarta o radar— y destaca por su ligereza y facilidad de configuración. Resulta ideal para integrar *dashboards* interactivos, adaptar las visualizaciones automáticamente a distintos tamaños de pantalla y procesar datos dinámicos en tiempo real dentro del desarrollo *frontend*.
 
 _ _ _ _ 
 
