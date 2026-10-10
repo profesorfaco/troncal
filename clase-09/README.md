@@ -6,13 +6,11 @@
 
 El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos muy buenos resultados de integración de las dos unidades tratadas hasta la fecha:  
 
-|	N°	|	Nombre	|	Trabajo destacado
-|	:--------:	|	:---------	|	:---------
-|	1	|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/ | 
-|	2	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/| 
-|	3	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | 
-|	4	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ |
-|	5	|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/ |
+|	N°	|	Nombre	|	Trabajo destacado |
+|	:--------:	|	:---------	|	:---------|
+|	1	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/| 
+|	2	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | 
+|	3	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ |
 
 Se invita a revisar con atención el modo en que los 5 trabajos destacados resuelven la instrucción que decía:
 
