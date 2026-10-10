@@ -9,15 +9,14 @@ El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos 
 |	N°	|	Nombre	|	Trabajo destacado
 |	:--------:	|	:---------	|	:---------
 |	1	|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/
-|	2	|	Carol Alvarez Álvarez	|	https://carolmabel.github.io/evaluacion_sumativa_2/
-|	3	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/
-|	4	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/
-|	5	|	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/
-|	6	|	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/
-|	7	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/
-|	8	|	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/
-|	9	|	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/
-|	10	|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/
+|	2	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/
+|	3	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/
+|	4	|	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/
+|	5	|	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/
+|	6	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/
+|	7	|	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/
+|	8	|	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/
+|	9	|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/
 
 Se invita a revisar con atención el modo en que responden a la instrucción que decía:
 
