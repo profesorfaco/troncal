@@ -7,7 +7,7 @@
 El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos muy buenos resultados de integración de lo presentado: 
 
 |	Nombre	|	Trabajo destacado	|
-|	---------	|	---------	|
+|:---------|:---------|
 |	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/	|
 |	Carol Alvarez Álvarez	|	https://carolmabel.github.io/evaluacion_sumativa_2/	|
 |	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/	|
