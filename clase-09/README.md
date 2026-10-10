@@ -6,18 +6,18 @@
 
 El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos muy buenos resultados de integración de lo presentado: 
 
-|	Nombre	|	Trabajo destacado	|
-|:---------|:---------|
-|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/	|
-|	Carol Alvarez Álvarez	|	https://carolmabel.github.io/evaluacion_sumativa_2/	|
-|	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/	|
-|	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/	|
-|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/	|
-|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/	|
-|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/	|
-|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/	|
-|	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/	|
-|	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/	|
+| Nro. |	Nombre	|	Trabajo destacado	|
+|:---:|:---------|:---------|
+| 1 |	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/	|
+| 2 |	Carol Alvarez Álvarez	|	https://carolmabel.github.io/evaluacion_sumativa_2/	|
+| 3 |	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/	|
+| 4 |	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/	|
+| 5 |	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/	|
+| 6 |	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/	|
+| 7 |	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/	|
+| 8 |	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/	|
+| 9 |	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/	|
+| 10 |	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/	|
 
 Se invita a revisar con atención el modo en que responden a la instrucción que decía
 
