@@ -4,7 +4,7 @@
 
 ### Prototipado rápido y taxonomías visuales: Uso de *RawGraphs et al.*
 
-El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos resultados destacables en la integración de las dos unidades tratadas hasta la fecha:  
+El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos resultados destacables en la integración de las dos unidades tratadas hasta la fecha:
 
 |	N°	|	Nombre	|	GitHub Pages | Repositorio en GitHub |
 |:--------:|:---------|:---------|:--------------------|
@@ -12,11 +12,23 @@ El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos 
 |	2	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | https://github.com/catsgugu/Clase-8/ |
 |	3	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ | https://github.com/ronnistp/PRUEBA_09-10/ |
 
-Se invita a revisar con atención el modo en que los 3 trabajos destacados resuelven la instrucción que decía:
+El destaque guarda relación con el cumplimiento de la siguiente indicación:
 
 > En la lista sin numerar que está bajo el subtítulo de *Claves de la edición 2026 para Arte y Diseño*, agregue un tercer ítem sobre el caso chileno que desplace al actual tercero (*Metodología basada en reputación*) al cuarto lugar. El nuevo punto debe destacar que solo 3 instituciones chilenas figuran en la medición. No limite el ítem a los datos; considere que *lo que se cuenta, cuenta* frente a una [Latinoamérica con sólo 24 instituciones de 6 países](https://www.topuniversities.com/university-subject-rankings/art-design?region=Latin%20America&countries=mx%2Ccl%2Cbr%2Cco%2Car%2Cpe), mientras [*United Kingdom* presenta 34](https://www.topuniversities.com/university-subject-rankings/art-design?items_per_page=50&region=Europe&countries=gb). La etiqueta unificada de *UK*, que es referente del centro del mundo cartográfico, opera como un bloque homogéneo que infla la representatividad central de la *metrópoli*, difuminando las tensiones identitarias entre sus naciones constitutivas y acentuando la brecha de visibilidad frente a nuestra región
 
-En sus casos no se replica la instrucción en su integridad. En sus casos hay evidencia del aprovechamiento de una primera unidad, con su **Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación**.
+Lo valioso de estos tres casos es que no se limitaron a una reproducción autómata de la orden dada ni delegaron el razonamiento al primer resultado que entrega un prompt genérico. Entendieron las herramientas de inteligencia artificial como lo que son: valiosos asistentes de exploración, pero jamás un reemplazo para el criterio, la postura reflexiva y la voz propia.
+
+En un entorno académico donde el costo, el tiempo y el esfuerzo invertidos en formarse buscan desarrollar un pensamiento analítico de alto nivel, la IA es un medio, no el cerebro de la operación. Cada uno de estos trabajos evidencia cómo el discernimiento humano permite abordar el problema desde ángulos complementarios y profundos:
+
+En un entorno académico donde el costo, el tiempo y el esfuerzo invertidos en formarse buscan desarrollar un pensamiento analítico de alto nivel, la IA es un medio, no el cerebro de la operación. Cada uno de estos trabajos evidencia cómo el discernimiento humano permite abordar el problema desde ángulos complementarios y profundos:
+
+1. La deconstrucción del criterio de clasificación: Enfocándose en cómo la agrupación arbitraria del Reino Unido como un bloque unificado —frente a una Latinoamérica fragmentada en países— altera la percepción de relevancia académica y condiciona la lectura de los datos.
+
+2. La crítica a las jerarquías de visibilidad: Cuestionando cómo las mediciones no solo ordenan cifras, sino que actúan como dispositivos que construyen referentes e imponen qué regiones son reconocidas como centros de producción de conocimiento.
+
+3. La lectura de la proyección territorial: Exponiendo las consecuencias de la limitada presencia nacional en índices globales y cómo las desigualdades de representación afectan la proyección internacional del desarrollo artístico y académico regional.
+
+Esta capacidad de edición y mirada crítica demuestra el aprovechamiento real de la Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación. La tecnología agiliza la ejecución, pero son las personas formadas universitariamente quienes otorgan sentido, dirección y ética a la producción visual.
 
 ---
 
