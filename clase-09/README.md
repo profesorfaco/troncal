@@ -46,6 +46,22 @@ Las dos primeras herramientas que revisaremos serán:
 
 RawGraphs es una herramienta de código abierto diseñada para transformar rápidamente conjuntos de datos estructurados —como archivos CSV o tablas— en diagramas visuales complejos sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar múltiples taxonomías gráficas (desde diagramas de Sankey hasta aluviales o *treemaps*) para evaluar cuál comunica mejor la información. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en formatos vectoriales limpios (SVG), facilitando su posterior edición gráfica o su integración directa en el marcado HTML de cualquier proyecto web.
 
+**Para probarlo:** 
+
+1. Seleccionar todo lo que está en la Hoja RAWGraphs en https://docs.google.com/spreadsheets/d/1p8GCNRKneagede_DL0HkavLf8n6WXkYyFmHMM5jjPs8/
+2. Copiar todo lo seleccionado
+2. Acceder a https://app.rawgraphs.io/
+3. En el recuadro blanco, proceda según la indicación: *Paste your data*
+4. En *Choose a chart* marcar *Bar chart*
+5. En *Mapping* arrastrar el recuadro verde de country al espacio de *CHART VARIABLES* que dice Bars, y está marcado con un asterisco rojo (*mandatory*)
+6. En *Customize* hacer clic en el signo + junto a *CHART* y cambiar *Bars orientation* por *Horizontally*.
+7. Lo que siguen son ajustes al *Artboard* y *Colors*
+8. Tan pronto el resultado le conforme, baje al *Export* para obtener un `viz.svg`
+9. Abra lo descargado en un editor de código fuente, seleccione todo y cópielo. 
+10. Pegue lo copiado en https://webformatter.com/ para darle un *Format* que permita la lectura del código.
+
+Para lo que sigue, ponga atención a las indicaciones a presentar en clase, donde se usará `<object data="viz.svg" type="image/svg+xml"></object>`
+
 ---
 
 ### Chart.js
