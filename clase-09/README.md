@@ -6,11 +6,11 @@
 
 El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos resultados destacables en la integración de las dos unidades tratadas hasta la fecha:  
 
-|	N°	|	Nombre	|	Trabajo destacado |
-|	:--------:	|	:---------	|	:---------|
-|	1	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/| 
-|	2	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | 
-|	3	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ |
+|	N°	|	Nombre	|	GitHub Pages | Repositorio en GitHub |
+|:--------:|:---------|:---------|:--------------------|
+|	1	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/| https://github.com/evorakie/TROCAL_E2/ | 
+|	2	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | https://github.com/catsgugu/Clase-8/ |
+|	3	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ | https://github.com/ronnistp/PRUEBA_09-10/ |
 
 Se invita a revisar con atención el modo en que los 3 trabajos destacados resuelven la instrucción que decía:
 
