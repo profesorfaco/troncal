@@ -8,21 +8,17 @@ El cierre de la segunda unidad, de la clase recién pasada, nos entrega algunos 
 
 |	N°	|	Nombre	|	Trabajo destacado
 |	:--------:	|	:---------	|	:---------
-|	1	|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/
-|	2	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/
-|	3	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/
-|	4	|	Esteban Petric Tobar	|	https://bastich03.github.io/Clase_08/
-|	5	|	Marthin Rivera Bustos	|	https://karprincho.github.io/Entrega-Marthin/
-|	6	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/
-|	7	|	Fernanda Valenzuela Navarro	|	https://fdavalenzuela.github.io/evaluacion-clase8/
-|	8	|	Constanza Venegas Ortega	|	https://shootingstarcony.github.io/miprimerapruebadeltroncalquemiedo/
-|	9	|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/
+|	1	|	Rodrigo Albornoz Cisternas	|	https://rodrigoalbornozr.github.io/troncal_clase8/ | 
+|	2	|	Antonia Padilla Ortega	|	https://evorakie.github.io/TROCAL_E2/| 
+|	3	|	Giulia Pepe Vargas	|	https://catsgugu.github.io/Clase-8/ | 
+|	4	|	Veronica Soto Sandoval	|	https://ronnistp.github.io/PRUEBA_09-10/ |
+|	5	|	Millarray Villagra Ovalle	|	https://millarraycvo.github.io/Evaluacion-2/ |
 
-Se invita a revisar con atención el modo en que responden a la instrucción que decía:
+Se invita a revisar con atención el modo en que los 5 trabajos destacados resuelven la instrucción que decía:
 
 > En la lista sin numerar que está bajo el subtítulo de *Claves de la edición 2026 para Arte y Diseño*, agregue un tercer ítem sobre el caso chileno que desplace al actual tercero (*Metodología basada en reputación*) al cuarto lugar. El nuevo punto debe destacar que solo 3 instituciones chilenas figuran en la medición. No limite el ítem a los datos; considere que *lo que se cuenta, cuenta* frente a una [Latinoamérica con sólo 24 instituciones de 6 países](https://www.topuniversities.com/university-subject-rankings/art-design?region=Latin%20America&countries=mx%2Ccl%2Cbr%2Cco%2Car%2Cpe), mientras [*United Kingdom* presenta 34](https://www.topuniversities.com/university-subject-rankings/art-design?items_per_page=50&region=Europe&countries=gb). La etiqueta unificada de *UK*, que es referente del centro del mundo cartográfico, opera como un bloque homogéneo que infla la representatividad central de la *metrópoli*, difuminando las tensiones identitarias entre sus naciones constitutivas y acentuando la brecha de visibilidad frente a nuestra región
 
-En sus casos no se replica la instrucción en su integridad. En su lugar, hacen relación con aquello que se alcanzó a tratar en la primera unidad, con la **Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación**.
+En sus casos no se replica la instrucción en su integridad. Él y ellas hacen relación con aquello que se alcanzó a tratar en la primera unidad, con la **Evaluación Sumativa 1 (Grupal - 20%): Presentación e investigación crítica sobre metadatos, sesgos y desinformación**.
 
 ---
 
