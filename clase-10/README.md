@@ -37,7 +37,7 @@ Mediante una limpieza sistemática de atributos:
 Para esta limpieza semántica, conviene apoyarse en asistentes de código como [Claude](https://claude.ai/), pegando el código del paso 1 con un *prompt* enfocado en estructurar y optimizar la sintaxis.
 
 ```
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 880 580" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" font-family="Helvetica, Arial, sans-serif">
   <style>
     .grid  { fill: none; stroke: lightgray; }
     .axis  { stroke: #000; }
@@ -135,7 +135,6 @@ Para esta limpieza semántica, conviene apoyarse en asistentes de código como [
     <text class="legend-text" x="20" y="92.25">Universidad de Santiago de Chile</text>
   </g>
 </svg>
-
 ```
 
 ---
