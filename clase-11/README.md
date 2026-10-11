@@ -4,8 +4,6 @@
 
 ### Integración del trinomio front-end: Interacción y dinamismo mediante HTML, SVG y JavaScript.
 
-- - - -
-
 En la clase pasada tomamos un SVG "sucio" exportado desde RAWGraphs y lo limpiamos con su `viewBox`, estilos en un bloque `<style>`, formas nativas como `<polygon>` y un primer gesto de interacción con un `:hover` sobre las áreas del radar. Pero ese gráfico, aunque ordenado, sigue siendo **una imagen que reacciona**: no sabe nada de sus datos, no puede reordenarse, filtrarse ni responder a quien lo lee.
 
 Hoy damos el paso que falta: conectar el SVG con **JavaScript** para que el gráfico deje de ser un dibujo y pase a ser una interfaz.
