@@ -68,6 +68,42 @@ Para lo que sigue, ponga atención a las indicaciones a presentar en clase, dond
 
 Chart.js es una biblioteca de JavaScript orientada a la creación de visualizaciones de datos dinámicas, animadas y completamente responsivas en la web. A diferencia del enfoque vectorial de SVG, Chart.js utiliza el elemento `<canvas>` de HTML5 para renderizar gráficos mediante mapas de bits a través de código ejecutable. Ofrece diversos tipos de gráficos estándar altamente personalizables —como barras, líneas, tarta o radar— y destaca por su ligereza y facilidad de configuración. Resulta ideal para integrar *dashboards* interactivos, adaptar las visualizaciones automáticamente a distintos tamaños de pantalla y procesar datos dinámicos en tiempo real dentro del desarrollo *frontend*.
 
+Para comenzar a probar esta biblioteca, aprovechemos el siguiente código fuente: 
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usando Chart.js</title>
+  </head>
+  <body>
+        <canvas id="identidad"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            new Chart(document.getElementById("identidad"), {
+                type: "bar",
+                data: {
+                    labels: ["Argentina", "Australia", "Austria", "Belgium", "Brazil", "Canada", "Chile", "China (Mainland)", "Colombia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Hong Kong", "India", "Ireland", "Italy", "Japan", "Malaysia", "Mexico", "Netherlands", "Saudi Arabia", "Singapore", "South Korea", "Sweden", "Switzerland", "Taiwan", "Thailand", "United Kingdom", "United States", "Vietnam"],
+                    datasets: [
+                        {
+                            label: "Veces en el top 100",
+                            data: [2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1, 1, 11, 24, 1],
+                            backgroundColor:'rgb(214, 214, 214)',
+                            borderWidth: 1,
+                        },
+                    ],
+                },
+                options: {
+                    indexAxis: "y",
+                },
+            });
+        </script>
+    </body>
+</html>
+```
+
 _ _ _ _ 
 
 [clase-08](https://github.com/profesorfaco/troncal/blob/main/clase-08/README.md) ⇆ [clase-10](https://github.com/profesorfaco/troncal/blob/main/clase-10/README.md)
