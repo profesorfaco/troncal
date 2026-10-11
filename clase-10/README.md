@@ -20,9 +20,6 @@ Recordemos:
 
 4. **¿Cómo representamos los gráficos? (SVG):** A diferencia de las imágenes rasterizadas (JPG/PNG), el *Scalable Vector Graphics* es un dialecto de XML que describe **gráficos vectoriales**. No pierde calidad al escalarse y puede ser manipulado directamente con etiquetas como `<circle>` o `<path>`.
 
-**Para la vuelta del receso:**
-
-Hoy comenzamos a trabajar para la tercera calificación (**martes 2 de junio**). Será un **trabajo individual con evaluación sumativa**, donde aplicaremos HTML, SVG y JavaScript para presentar comparaciones entre carreras de Diseño. Por ello, es fundamental iniciar hoy con una triangulación de datos sólida.
 
 _ _ _ _ 
 
