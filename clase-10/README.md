@@ -158,7 +158,8 @@ Al analizar la superposición de estas superficies, surgen interrogantes crític
 * **La hegemonía del centro metropolitano:** Los polígonos de la Pontificia Universidad Católica de Chile (PUC) y la Universidad de Chile (UCH) expanden sus vértices principalmente hacia la *Reputación Académica* y las *Redes Internacionales de Investigación*, métricas fuertemente condicionadas por la visibilidad y el volumen histórico de vinculación global. Esto reproduce, a escala local, las mismas jerarquías de visibilidad que revisamos al analizar cómo se agrupan los bloques globales frente a la fragmentación latinoamericana.
 * **La distancia percibida frente al impacto real:** ¿Acaso hay tan poca diferencia entre la PUC y la UCH, y tanta brecha con la Universidad de Concepción (UdeC) y la Universidad de Santiago de Chile (USACH)? La comparación resulta aún más sugerente al cruzar la naturaleza jurídica de las instituciones: mientras la Universidad de Chile y la USACH son públicas y estatales, la PUC y la Universidad de Concepción corresponden a instituciones privadas tradicionales (corporaciones de derecho privado pertenecientes al CRUCH).
 
-La herramienta técnica (limpiar y estructurar el SVG, con ayuda de [Claude](https://claude.ai/)) no resuelve un **criterio analítico que exige voz propia**: el diseño de la visualización debe hacer visibles las tensiones métricas sin dar por sentada la objetividad incontestable de cualquier *ranking*.
+La herramienta técnica (limpiar y estructurar el SVG, con ayuda de [Claude](https://claude.ai/)) no resuelve un **criterio analítico que exige voz propia**: nuestro diseño y visualización de información debe hacer visibles las tensiones métricas sin dar por sentada la objetividad incontestable de cualquier *ranking*.
+
 _ _ _ _ 
 
 [clase-09](https://github.com/profesorfaco/troncal/blob/main/clase-09/README.md) ⇆ [clase-11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md)
