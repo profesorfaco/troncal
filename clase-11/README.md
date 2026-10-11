@@ -29,14 +29,6 @@ La cita se toma de pp.15-16 de [_El ojo del amo: Una historia social de la intel
 
 Volviendo a la idea central: cuando limpiamos, mapeamos y corregimos una base de datos para poder visualizarla, estamos asumiendo ese rol de servidores: realizamos el trabajo invisible que "la inteligencia del señor" no puede resolver por sí sola.
 
-#### Ahora a la visualización
-
-- Si llegamos a datos como los que se comparten en: https://drive.google.com/drive/folders/1iEG7YRVpCM9K0HTkea0yvMZNHlE-JHFh?usp=sharing
-
-- Podremos luego armar una página web como la que pueden copiar: https://github.com/profesorfaco/troncal/blob/main/clase-11/index.html
-
-- Comenzaremos a trabajar con esta copia-de-la-copia para la evaluación de [la próxima semana](https://github.com/profesorfaco/troncal/blob/main/clase-12/README.md).
-
 - - - - - - - 
 
 [clase-10](https://github.com/profesorfaco/troncal/blob/main/clase-10/README.md) ⇆ [clase-12](https://github.com/profesorfaco/troncal/blob/main/clase-12/README.md)
