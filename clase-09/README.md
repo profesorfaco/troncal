@@ -36,17 +36,17 @@ La tecnología puede agilizar la ejecución, pero son las personas quienes otorg
 
 Las dos primeras herramientas que revisaremos serán:
 
-- [**RawGraphs**](https://app.rawgraphs.io/), para explorar posibilidades de visualización más adecuadas para cada caso, poniendo especial cuidado en las metodologías de exportación de estos gráficos hacia vectores limpios para embeber en HTML su elemento `<svg></svg>` o vincular mediante `<object></object>`.
+- [**RAWGraphs**](https://app.rawgraphs.io/), para explorar posibilidades de visualización más adecuadas para cada caso, poniendo especial cuidado en las metodologías de exportación de estos gráficos hacia vectores limpios para embeber en HTML su elemento `<svg></svg>` o vincular mediante `<object></object>`.
 
 - [**Chart.js**](https://www.chartjs.org/), para implementar gráficos interactivos y responsivos en entornos web nativos, aprovechando el aporte de esta biblioteca especializada de JavaScript y el elemento HTML `<canvas></canvas>`.
 
 ---
 
-### RawGraph
+### RAWGraphs
 
-RawGraphs es una herramienta de código abierto diseñada para transformar rápidamente conjuntos de datos estructurados —como archivos CSV o tablas— en diagramas visuales complejos sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar múltiples taxonomías gráficas (desde diagramas de Sankey hasta aluviales o *treemaps*) para evaluar cuál comunica mejor la información. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en formatos vectoriales limpios (SVG), facilitando su posterior edición gráfica o su integración directa en el marcado HTML de cualquier proyecto web.
+RAWGraphs es una herramienta de código abierto diseñada para transformar conjuntos de datos estructurados —como archivos CSV o tablas— en visualizaciones de datos —como *chart* en inglés, o *Diagramm* en alemán— sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar configuraciones visuales convencionales que muestran lo que nunca podría verse sin más en columnas de números —desde diagramas de _Sankey_ hasta aluviales o _treemaps_—. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en SVG, facilitando su edición e integración posterior a cualquier proyecto web.
 
-**Para probarlo:** 
+**Para probarlo**: 
 
 1. Seleccionar todo lo que está en la Hoja RAWGraphs en https://docs.google.com/spreadsheets/d/1p8GCNRKneagede_DL0HkavLf8n6WXkYyFmHMM5jjPs8/
 2. Copiar todo lo seleccionado
@@ -66,9 +66,9 @@ Para lo que sigue, ponga atención a las indicaciones a presentar en clase, dond
 
 ### Chart.js
 
-Chart.js es una biblioteca de JavaScript orientada a la creación de visualizaciones de datos dinámicas, animadas y completamente responsivas en la web. A diferencia del enfoque vectorial de SVG, Chart.js utiliza el elemento `<canvas>` de HTML5 para renderizar gráficos mediante mapas de bits a través de código ejecutable. Ofrece diversos tipos de gráficos estándar altamente personalizables —como barras, líneas, tarta o radar— y destaca por su ligereza y facilidad de configuración. Resulta ideal para integrar *dashboards* interactivos, adaptar las visualizaciones automáticamente a distintos tamaños de pantalla y procesar datos dinámicos en tiempo real dentro del desarrollo *frontend*.
+Chart.js es una biblioteca de JavaScript orientada a la creación de visualizaciones de datos —como *chart* en inglés, o *Diagramm* en alemán— dinámicas, animadas y completamente responsivas en la web. A diferencia del enfoque vectorial de SVG, Chart.js utiliza el elemento `<canvas>` de HTML5 para renderizar gráficos mediante mapas de bits a través de código ejecutable. Ofrece diversos tipos de gráficos estándar altamente personalizables —como barras, líneas, tarta o radar— y destaca por su ligereza y facilidad de configuración. 
 
-Para comenzar a probar esta biblioteca, aprovechemos el siguiente código fuente: 
+**Para comenzar a probar esta biblioteca, aprovechemos el siguiente código fuente**:
 
 ```
 <!doctype html>
