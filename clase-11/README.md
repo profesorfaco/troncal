@@ -6,8 +6,6 @@ LO DEJARÉ COMO SIGUE:
 
 ### Integración del trinomio front-end: Interacción y dinamismo mediante HTML, SVG y JavaScript
 
----
-
 En la clase pasada tomamos un SVG "sucio" exportado desde RAWGraphs y lo transformamos en un componente limpio, mantenible y semántico: añadimos el atributo `viewBox`, consolidamos sus estilos en un bloque `<style></style>`, simplificamos sus formas a etiquetas nativas como `<polygon>` e implementamos nuestra primera capa de interacción a través de pseudoclases CSS como `:hover`.
 
 Hoy sumamos la pieza que completa el trinomio del desarrollo web nativo: **JavaScript**, pero bajo una máxima metodológica deliberada: **intervención mínima, impacto funcional alto**. No se trata de aprender lógica de programación abstracta en una sesión, sino de comprender que un gráfico SVG incrustado directamente en el HTML pasa a ser parte viva del documento (*DOM*) y que, con apenas dos líneas de código, puede responder de forma fluida a las acciones de quien lo explora.
