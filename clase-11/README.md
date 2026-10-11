@@ -156,39 +156,33 @@ Creen un archivo `index.html` en sus editores y peguen la siguiente estructura:
 
 ### Desmontando el código: ¿Qué ocurre exactamente al hacer clic?
 
-Al examinar la función JavaScript de 2 líneas, la lógica se desglosa en pasos muy sencillos:
+Al examinar la función JavaScript de 2 instrucciones, la lógica se desglosa en pasos muy sencillos:
 
-1. **El evento de entrada:** En el elemento SVG de la leyenda escribimos `onclick="alternar('puc', this)"`. Esto le indica al navegador: *"Cuando el usuario haga clic aquí, ejecuta la función `alternar` pasándole dos datos: la palabra `'puc'` y la referencia a este mismo bloque de leyenda (`this`)."*
-2. **Localización de la geometría:** `document.getElementById(id)` le pide al navegador buscar en todo el documento el grupo que tiene ese identificador único (por ejemplo, el grupo `<g id="puc">`).
-3. **Inmutación del estado:** `.classList.toggle("oculta")` evalúa el elemento: si la clase `.oculta` no está presente, se la agrega; si ya la tiene, se la quita.
-4. **Respuesta visual:** En el CSS declaramos previamente `.oculta { display: none; }`. Por lo tanto, al agregar esa clase, el polígono vectorial desaparece del renderizado al instante. La línea siguiente hace lo propio con la etiqueta de la leyenda (`item.classList.toggle("apagado")`), opacando el texto para indicar visualmente que ese conjunto de datos está desactivado.
+1. **El evento de entrada**: En el grupo `<g></g>` de la leyenda escribimos `onclick="alternar('puc', this)"`. Esto le indica al navegador: “Cuando el usuario haga clic aquí, ejecuta la función alternar pasándole dos datos: el texto 'puc' y la referencia a este mismo grupo de la leyenda (this).”
+
+2. **Localización de la figura**: document.getElementById(id) le pide al navegador buscar en todo el documento el elemento que tiene ese identificador único. En nuestro código es el polígono <polygon id="puc" class="area puc" ...>.
+
+3. **Cambio de estado**: .classList.toggle("oculta") revisa el elemento: si la clase oculta no está presente, la agrega; si ya la tiene, la quita.
+
+4. **Respuesta visual**: En el CSS declaramos previamente .oculta { display: none; }. Por lo tanto, al agregar esa clase, el polígono desaparece del renderizado al instante. La segunda instrucción (item.classList.toggle("apagado")) hace lo propio con el grupo de la leyenda (cuadro de color y texto), que pasa a opacity: 0.3 para indicar que esa universidad está desactivada.
+
+**Idea clave: el JavaScript solo agrega o quita clases; es el CSS el que decide cómo se ve cada estado.**
 
 #### Ejercicio de exploración analítica:
 
 Al probar el archivo en el navegador, filtren y aíslen combinaciones de universidades:
 
-* Compare únicamente las dos instituciones tradicionales de la capital (PUC y UCH). ¿En qué ejes sus polígonos son casi idénticos y en cuáles se aprecian sesgos o diferencias relativas?
-* Oculte las instituciones metropolitanas y deje activas únicamente la Universidad de Concepción y la USACH. ¿Cómo cambia la escala visual percibida dentro del radar cuando desaparecen los picos de las universidades hegemónicas?
+Compare únicamente la Pontificia Universidad Católica (PUC) y la Universidad de Chile (UCH). ¿En qué ejes sus polígonos son casi idénticos y en cuáles se aprecian diferencias relativas?
+
+Oculte la PUC y la UCH y deje activas únicamente la Universidad de Concepción y la USACH. La escala del radar (0 a 100) no cambia al ocultar figuras: ¿por qué, entonces, la comparación entre ambas se percibe de otra manera cuando desaparecen los polígonos más grandes?
 
 ---
 
-### De la técnica a la mirada editorial: El estándar de visualización periodística (*Reuters Graphics*)
+### PARA LA PRÓXIMA EVALUACIÓN SUMATIVA INDIVIDUAL
 
-Herramientas como RAWGraphs o librerías como Chart.js facilitan la generación rápida de figuras, pero **la efectividad del diseño de información depende de la estructura narrativa y editorial**. Referentes mundiales en periodismo visual de datos como [Reuters Graphics](https://www.reuters.com/graphics/) estructuran sus contenidos a partir de patrones clave:
+En la próxima sesión realizaremos la **Evaluación Sumativa de la Unidad 3**. Sobre la base de ciertas instrucciones, se les solicitará desarrollar una interfaz web interactiva que presente a la comunidad estudiantil de **Diseño de la Universidad de Chile** una comparativa sobre una de sus opciones reales de movilidad académica entre las destacadas del área de **Arte y Diseño** según el Ranking QS, tomando como estándar gráfico y comunicacional el modelo de *Reuters Graphics*.
 
-1. **Titulación asertiva y descriptiva:** En lugar de titular simplemente "Ranking QS 2026", la pieza utiliza titulares que comunican el hallazgo principal (*ej: "La brecha de visibilidad: Cómo dos macrouniversidades concentran la reputación regional"*).
-2. **Jerarquía cromática intencionada:** El uso del color no es meramente decorativo. Se asignan tonos neutros a los datos de contexto o fondo, mientras que se aplica un color de contraste acentuado (*highlight*) únicamente sobre la variable o caso sobre el cual se busca llamar la atención.
-3. **Anotaciones directas (*Direct labeling* y micro-stories):** Los datos clave se explican mediante textos бреves ubicados junto al gráfico, eliminando la sobrecarga cognitiva de forzar al lector a descodificar códigos lejanos.
-4. **Interacción orientada al análisis:** La interactividad no se usa como adorno estético (*chartjunk*), sino como un mecanismo funcional que permite comparar, aislar, profundizar o verificar hipótesis.
-5. **Transparencia metodológica y créditos:** Fuentes, fechas de medición, limitaciones de la muestra y criterios de normalización de datos deben declararse de forma visible al pie del gráfico.
-
----
-
-### ANTESALA DE LA EVALUACIÓN SUMATIVA (Unidad 3)
-
-En la próxima sesión realizaremos la **Evaluación Sumativa de la Unidad 3**. Se les solicitará diseñar y publicar una interfaz web interactiva que presente a la comunidad estudiantil de Diseño de la **Universidad de Chile** una comparativa crítica sobre una de sus opciones reales de movilidad académica entre las destacadas del área de **Arte y Diseño** según el Ranking QS, tomando como estándar gráfico y comunicacional el modelo de *Reuters Graphics*.
-
-Las 5 instituciones internacionales entre las que corresponde escoger, para hacer una comparación positiva para el intercambio, son: 
+Las 5 instituciones internacionales entre las que corresponde escoger para la comparativa, son: 
 
 1. **Politecnico di Milano** (polimi; Italia): Principal opción europea del ranking con convenio directo disponible.
 2. **Universidade de São Paulo** (Brasil): Referente regional destacado en la clasificación mundial de Arte y Diseño.
@@ -196,7 +190,7 @@ Las 5 instituciones internacionales entre las que corresponde escoger, para hace
 4. **Tecnológico de Monterrey** (Tec; México): Destacada opción privada con convenio de movilidad vigente.
 5. **Universidad Nacional Autónoma de México** (UNAM; México): Una de las macro-escuelas más reconocidas del continente en artes y humanidades.
 
-Para la próxima evaluación sumativa, y hasta el final del curso, recordemos: las herramientas de inteligencia artificial y los entornos de código abierto son asistentes eficientes para la iteración técnica, pero **la voz propia, el criterio analítico y la responsabilidad editorial pertenecen al diseñador/a.**
+Para la próxima evaluación sumativa de la próxima sesión, y hasta el final del curso, recordemos: las herramientas de inteligencia artificial y los entornos de código abierto son asistentes eficientes para la iteración técnica, pero **la voz propia, el criterio analítico y la responsabilidad editorial pertenecen a quien diseña.**
 
 ---
 
