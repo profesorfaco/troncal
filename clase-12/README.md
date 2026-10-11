@@ -4,7 +4,21 @@
 
 ### **Evaluación Sumativa 3 (Individual - 20%):** Encargo práctico de resolución autónoma en sala de laboratorio.
 
-Les corresponde abordar la tercera evaluación sumativa del semestre. En este encargo práctico en tiempo real se pondrá a prueba la autonomía técnica de cada una y cada uno de ustedes en el laboratorio. Las estudiantes y los estudiantes deberán demostrar el dominio en la manipulación lógica, animación y estilización avanzada (CSS3) de elementos vectoriales SVG utilizando exclusivamente código JavaScript nativo. Al tratarse de una instancia de resolución autónoma, la profesora, el profesor o el cuerpo de ayudantes no prestará asistencia en la programación ni en el control de errores de código.
+#### "Movilidad Internacional en Arte y Diseño: Universidad de Chile vs. Universidades en Convenio Top 100 QS"
+
+Corresponde desarrollar, individualmente, **una única página web interactiva** (*scrollytelling* o *single-page application*) diseñada bajo el estándar de comunicación visual, sobriedad y rigor analítico de **[Reuters Graphics](https://www.reuters.com/graphics/)**.
+
+La página debe permitir a un/a estudiante de la **Licenciatura en Diseño de la Universidad de Chile** evaluar y comparar críticamente su institución de origen frente a **una** de las siguientes cinco opciones de intercambio internacional que aparecen en el **Top 100 de Arte y Diseño en el *QS World University Rankings by Subject***:
+
+1. **Politecnico di Milano** (Italia)
+2. **Universidade de São Paulo** (Brasil)
+3. **Universidad de Buenos Aires** (Argentina)
+4. **Tecnológico de Monterrey** (México)
+5. **Universidad Nacional Autónoma de México** (México)
+
+---
+
+Al tratarse de una instancia de resolución autónoma, el profesor no prestará asistencia en la programación ni en el control de errores de código.
 
 - - - -
 
