@@ -34,7 +34,7 @@ Mediante una limpieza sistemática de atributos:
 3. Reemplazamos los trazados poligonales redundantes (`<path d="..." />`) por la etiqueta nativa `<polygon points="..." />`.
 4. Añadimos estados interactivos simples (transición mediante `:hover` en las áreas del radar).
 
-Para esta limpieza conviene apoyarse en asistentes de código como [Claude](https://claude.ai/), pegando el código del paso 1 con un *prompt* enfocado en estructurar y optimizar la sintaxis.
+Para esta limpieza conviene apoyarse en asistentes de código como [Claude](https://claude.ai/), pegando el código del paso 1, pwergando lo que entrega RAWGraphs y un *prompt* enfocado en estructurar y optimizar la sintaxis entregada.
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" font-family="Helvetica, Arial, sans-serif">
