@@ -19,7 +19,7 @@ Esta clase constituye el **último hito conceptual antes de nuestra evaluación 
 Al abordar la producción de interfaces interactivas desde el diseño, es fundamental comprender la división de responsabilidades que rige en la web:
 
 | Lenguaje | Dominio | Responsabilidad en nuestro Radar |
-| --- | --- | --- |
+|:----|:----|:----|
 | **HTML** | **Estructura y significado** | Los encabezados, textos narrativos y la etiqueta contenedora `<svg>` |
 | **SVG** | **Geometría vectorial** | Grillas circulares, ejes cartesianos radiales y polígonos por universidad |
 | **CSS** | **Apariencia y estados** | Paleta cromática, transiciones suavizadas y reglas visuales (`.oculta`, `.apagado`) |
