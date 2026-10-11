@@ -44,165 +44,112 @@ Hasta la clase anterior exploramos la vinculación de archivos externos mediante
 
 Creen un archivo `index.html` en sus editores y peguen la siguiente estructura:
 
-```html
+```
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Radar QS interactivo: Universidades Chilenas</title>
-    <style>
-      body {
-        font-family: Helvetica, Arial, sans-serif;
-        max-width: 900px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-        color: #222;
-        line-height: 1.5;
-      }
-      svg {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 1.5rem;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Cuatro universidades chilenas en el Ranking QS</h1>
-    <p>Haga clic en el nombre de una institución en la leyenda para alternar su visibilidad en el radar.</p>
+<head>
+  <meta charset="utf-8" />
+  <title>Radar QS simplificado</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 2rem auto; }
+    svg  { width: 100%; }
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" font-family="Helvetica, Arial, sans-serif">
-      <style>
-        /* 1. Estilos geométricos y tipográficos base */
-        .grid { fill: none; stroke: #e0e0e0; stroke-width: 1; }
-        .axis { stroke: #aaa; stroke-width: 1; }
-        .label { font-size: 12px; text-anchor: middle; dominant-baseline: middle; fill: #333; }
-        .tick { font-size: 10px; text-anchor: end; dominant-baseline: middle; fill: #666; }
-        
-        /* 2. Comportamiento transicional de las superficies */
-        .area {
-          fill-opacity: 0.15;
-          stroke-width: 1.5;
-          transition: fill-opacity 0.3s ease, stroke-width 0.3s ease;
-        }
-        .area:hover {
-          fill-opacity: 0.45;
-          stroke-width: 2.5;
-        }
+    /* --- Estructura del gráfico --- */
+    .grid  { fill: none; stroke: #ddd; }
+    .eje   { stroke: #aaa; }
+    .texto { font-size: 12px; text-anchor: middle; }
 
-        /* 3. Estilos de la leyenda y ESTADOS ACTIVADOS POR JS */
-        .legend-title { font-size: 12px; font-weight: bold; fill: #111; }
-        .legend-text { font-size: 11px; fill: #333; }
-        
-        .item { cursor: pointer; transition: opacity 0.2s ease; }
-        .item:hover { opacity: 0.7; }
-        
-        /* Clases de estado (gatilladas vía JavaScript) */
-        .apagado { opacity: 0.3; }
-        .oculta { display: none; }
-      </style>
+    /* --- Polígonos: lo común va en .area, el color en cada clase --- */
+    .area       { fill-opacity: 0.2; stroke-width: 2; }
+    .area:hover { fill-opacity: 0.5; }
 
-      <!-- Grilla radial y ejes -->
-      <g transform="translate(300 300)">
-        <g class="grid">
-          <circle r="24" /><circle r="48" /><circle r="72" /><circle r="96" />
-          <circle r="120" /><circle r="144" /><circle r="168" /><circle r="192" />
-          <circle r="216" /><circle r="240" />
-        </g>
-        <g class="axis">
-          <line x2="0.0" y2="-240.0" />
-          <line x2="228.3" y2="-74.2" />
-          <line x2="141.1" y2="194.2" />
-          <line x2="-141.1" y2="194.2" />
-          <line x2="-228.3" y2="-74.2" />
-        </g>
+    .puc   { fill: #FEC60D; stroke: #FEC60D; }
+    .uch   { fill: #1F5592; stroke: #1F5592; }
+    .udec  { fill: #2ca02c; stroke: #2ca02c; }
+    .usach { fill: #d62728; stroke: #d62728; }
 
-        <!-- Etiquetas de dimensiones/indicadores -->
-        <g>
-          <text class="label" x="0.0" y="-255.0">Staff with PhD</text>
-          <text class="label" x="245.8" y="-77.3">Academic Reputation</text>
-          <text class="label" x="150.9" y="208.3">International Research Network</text>
-          <text class="label" x="-150.9" y="208.3">Papers Per Faculty</text>
-          <text class="label" x="-245.8" y="-77.3">Citations per Paper</text>
-        </g>
+    /* --- Leyenda --- */
+    .item   { cursor: pointer; font-size: 12px; }
+    .item rect { width: 14px; height: 14px; }
 
-        <!-- Escala numérica en eje central -->
-        <g class="tick">
-          <path class="axis" fill="none" d="M-6-240H0V0H-6" />
-          <text x="-9" y="0">0</text><text x="-9" y="-48">20</text>
-          <text x="-9" y="-96">40</text><text x="-9" y="-144">60</text>
-          <text x="-9" y="-192">80</text><text x="-9" y="-240">100</text>
-        </g>
+    /* --- Estados que activa el JavaScript --- */
+    .oculta { display: none; }
+    .apagado { opacity: 0.3; }
+  </style>
+</head>
+<body>
+  <h1>Cuatro universidades chilenas en el Ranking QS</h1>
+  <p>Haga clic en la leyenda para mostrar u ocultar cada universidad.</p>
 
-        <!-- Polígonos identificados por ID -->
-        <g id="puc" fill="#FEC60D" stroke="#FEC60D">
-          <polygon class="area" points="0.0,-236.0 228.3,-74.2 141.1,194.2 -137.5,189.3 -176.9,-57.5" />
-          <circle cx="0.0" cy="-236.0" r="2" stroke="none" />
-          <circle cx="228.3" cy="-74.2" r="2" stroke="none" />
-          <circle cx="141.1" cy="194.2" r="2" stroke="none" />
-          <circle cx="-137.5" cy="189.3" r="2" stroke="none" />
-          <circle cx="-176.9" cy="-57.5" r="2" stroke="none" />
-        </g>
-        <g id="uch" fill="#1F5592" stroke="#1F5592">
-          <polygon class="area" points="0.0,-173.0 228.3,-74.2 141.1,194.2 -141.1,194.2 -175.9,-57.2" />
-          <circle cx="0.0" cy="-173.0" r="2" stroke="none" />
-          <circle cx="228.3" cy="-74.2" r="2" stroke="none" />
-          <circle cx="141.1" cy="194.2" r="2" stroke="none" />
-          <circle cx="-141.1" cy="194.2" r="2" stroke="none" />
-          <circle cx="-175.9" cy="-57.2" r="2" stroke="none" />
-        </g>
-        <g id="udec" fill="#2ca02c" stroke="#2ca02c">
-          <polygon class="area" points="0.0,-153.0 205.4,-66.7 139.3,191.7 -126.4,173.9 -200.7,-65.2" />
-          <circle cx="0.0" cy="-153.0" r="2" stroke="none" />
-          <circle cx="205.4" cy="-66.7" r="2" stroke="none" />
-          <circle cx="139.3" cy="191.7" r="2" stroke="none" />
-          <circle cx="-126.4" cy="173.9" r="2" stroke="none" />
-          <circle cx="-200.7" cy="-65.2" r="2" stroke="none" />
-        </g>
-        <g id="usach" fill="#d62728" stroke="#d62728">
-          <polygon class="area" points="0.0,-70.0 216.8,-70.5 138.1,190.1 -114.0,156.9 -139.8,-45.4" />
-          <circle cx="0.0" cy="-70.0" r="2" stroke="none" />
-          <circle cx="216.8" cy="-70.5" r="2" stroke="none" />
-          <circle cx="138.1" cy="190.1" r="2" stroke="none" />
-          <circle cx="-114.0" cy="156.9" r="2" stroke="none" />
-          <circle cx="-139.8" cy="-45.4" r="2" stroke="none" />
-        </g>
+  <svg viewBox="0 0 880 580">
+
+    <!-- Todo el radar se dibuja con el centro en (0,0) y luego se mueve -->
+    <g transform="translate(300 300)">
+
+      <!-- Círculos concéntricos (0 a 100, cada 20 puntos) -->
+      <g class="grid">
+        <circle r="48" />
+        <circle r="96" />
+        <circle r="144" />
+        <circle r="192" />
+        <circle r="240" />
       </g>
 
-      <!-- Leyenda interactiva -->
-      <g transform="translate(605 60)">
-        <text class="legend-title">Instituciones analizadas</text>
-        
-        <g class="item" onclick="alternar('puc', this)">
-          <rect y="16.0" width="14" height="14" fill="#FEC60D" rx="2" />
-          <text class="legend-text" x="22" y="27.5">Pontificia Universidad Católica</text>
-        </g>
-        <g class="item" onclick="alternar('uch', this)">
-          <rect y="38.0" width="14" height="14" fill="#1F5592" rx="2" />
-          <text class="legend-text" x="22" y="49.5">Universidad de Chile</text>
-        </g>
-        <g class="item" onclick="alternar('udec', this)">
-          <rect y="60.0" width="14" height="14" fill="#2ca02c" rx="2" />
-          <text class="legend-text" x="22" y="71.5">Universidad de Concepción</text>
-        </g>
-        <g class="item" onclick="alternar('usach', this)">
-          <rect y="82.0" width="14" height="14" fill="#d62728" rx="2" />
-          <text class="legend-text" x="22" y="93.5">Universidad de Santiago de Chile</text>
-        </g>
+      <!-- Cinco ejes, uno por indicador -->
+      <g class="eje">
+        <line x2="0"      y2="-240" />
+        <line x2="228.3"  y2="-74.2" />
+        <line x2="141.1"  y2="194.2" />
+        <line x2="-141.1" y2="194.2" />
+        <line x2="-228.3" y2="-74.2" />
       </g>
-    </svg>
 
-    <!-- La capa funcional de comportamiento -->
-    <script>
-      function alternar(id, item) {
-        document.getElementById(id).classList.toggle("oculta");
-        item.classList.toggle("apagado");
-      }
-    </script>
-  </body>
+      <!-- Nombres de los indicadores -->
+      <text class="texto" x="0"      y="-255">Staff with PhD</text>
+      <text class="texto" x="246"    y="-77">Academic Reputation</text>
+      <text class="texto" x="151"    y="208">International Research Network</text>
+      <text class="texto" x="-151"   y="208">Papers Per Faculty</text>
+      <text class="texto" x="-246"   y="-77">Citations per Paper</text>
+
+      <!-- Un polígono por universidad: id para JS, clase para CSS -->
+      <polygon id="puc"   class="area puc"   points="0,-236 228.3,-74.2 141.1,194.2 -137.5,189.3 -176.9,-57.5" />
+      <polygon id="uch"   class="area uch"   points="0,-173 228.3,-74.2 141.1,194.2 -141.1,194.2 -175.9,-57.2" />
+      <polygon id="udec"  class="area udec"  points="0,-153 205.4,-66.7 139.3,191.7 -126.4,173.9 -200.7,-65.2" />
+      <polygon id="usach" class="area usach" points="0,-70 216.8,-70.5 138.1,190.1 -114,156.9 -139.8,-45.4" />
+    </g>
+
+    <!-- Leyenda -->
+    <g transform="translate(605 60)">
+      <text font-weight="bold" font-size="12">Instituciones</text>
+
+      <g class="item" onclick="alternar('puc', this)">
+        <rect y="16" fill="#FEC60D" />
+        <text x="22" y="28">Pontificia Universidad Católica</text>
+      </g>
+      <g class="item" onclick="alternar('uch', this)">
+        <rect y="38" fill="#1F5592" />
+        <text x="22" y="50">Universidad de Chile</text>
+      </g>
+      <g class="item" onclick="alternar('udec', this)">
+        <rect y="60" fill="#2ca02c" />
+        <text x="22" y="72">Universidad de Concepción</text>
+      </g>
+      <g class="item" onclick="alternar('usach', this)">
+        <rect y="82" fill="#d62728" />
+        <text x="22" y="94">Universidad de Santiago</text>
+      </g>
+    </g>
+  </svg>
+
+  <script>
+    // Agrega o quita una clase CSS: el JS solo cambia clases, el CSS decide cómo se ve
+    function alternar(id, item) {
+      document.getElementById(id).classList.toggle("oculta");
+      item.classList.toggle("apagado");
+    }
+  </script>
+</body>
 </html>
-
 ```
 
 ---
