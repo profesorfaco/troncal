@@ -25,7 +25,7 @@ Al abordar la producción de interfaces interactivas desde el diseño, es fundam
 | **CSS** | **Apariencia y estados** | Paleta cromática, transiciones suavizadas y reglas visuales (`.oculta`, `.apagado`) |
 | **JavaScript** | **Comportamiento y eventos** | Escuchar la interacción del usuario y conmutar (*toggle*) las clases visuales |
 
-El lenguaje de marcado hipertextual (HTML) y el de gráficos vectoriales (SVG) comparten la misma naturaleza estructural basada en nodos. CSS y JavaScript, por su parte, controlan las dimensiones estética y comportamental respectivamente. De esta articulación surge el trinomio fundamental del desarrollo front-end.
+El lenguaje de marcado de hipertexto (HTML) y gráficos vectoriales (SVG) comparten la misma naturaleza estructural basada en nodos; ambos cuentan por uno. CSS y JavaScript, por su parte, controlan las dimensiones estética y comportamental respectivamente. De esta articulación surge el trinomio fundamental del desarrollo front-end.
 
 > **Regla de oro para diseñadores:** *JavaScript no pinta; JavaScript solo avisa.*
 > Como diseñadores/as, nuestro trabajo consiste en prever y diseñar los **estados visuales** de la interfaz dentro de la hoja de estilos (CSS). JavaScript se limita a cambiar las reglas de juego (agregar o quitar una clase), permitiendo que la hoja de estilos ejecute la transformación gráfica.
