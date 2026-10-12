@@ -38,7 +38,7 @@ Hasta la clase anterior exploramos la vinculación de archivos externos mediante
 
 #### Código fuente unificado: `index.html`
 
-Creen un archivo nuevo, llamarlo `index.html` y pegar en él la siguiente estructura:
+Vamos a crear un archivo nuevo, llamarlo `index.html` y pegaremos en él la siguiente estructura:
 
 ```
 <!doctype html>
