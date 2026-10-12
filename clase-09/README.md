@@ -70,39 +70,34 @@ Chart.js es una [biblioteca de JavaScript](https://es.wikipedia.org/wiki/Bibliot
 
 **Para comenzar a probar esta biblioteca, aprovechemos el siguiente código fuente:**
 
-```html
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Usando Chart.js</title>
-  </head>
-  <body>
-    <canvas id="identidad"></canvas>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-      new Chart(document.getElementById("identidad"), {
+```
+<canvas id="identidad"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("identidad"), {
         type: "bar",
         data: {
-          labels: ["Argentina", "Australia", "Austria", "Belgium", "Brazil", "Canada", "Chile", "China (Mainland)", "Colombia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Hong Kong", "India", "Ireland", "Italy", "Japan", "Malaysia", "Mexico", "Netherlands", "Saudi Arabia", "Singapore", "South Korea", "Sweden", "Switzerland", "Taiwan", "Thailand", "United Kingdom", "United States", "Vietnam"],
-          datasets: [
-            {
-              label: "Veces en el top 100",
-              data: [2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1, 1, 11, 24, 1],
-              backgroundColor: 'rgb(214, 214, 214)',
-              borderWidth: 1,
-            },
-          ],
+            labels: ["Argentina","Australia","Austria","Belgium","Brazil","Canada","Chile","China (Mainland)","Colombia","Czech Republic","Denmark","Estonia","Finland","France","Germany","Hong Kong","India","Ireland","Italy","Japan","Malaysia","Mexico","Netherlands","Saudi Arabia","Singapore","South Korea","Sweden","Switzerland","Taiwan","Thailand","United Kingdom","United States","Vietnam"],
+            datasets: [
+                {
+                    label: "Veces en el top 100",
+                    data: [
+                        2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1, 1, 11,
+                        24, 1,
+                    ],
+                    backgroundColor: "rgb(214, 214, 214)",
+                    borderWidth: 1,
+                },
+            ],
         },
         options: {
-          indexAxis: "y",
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 1, // Proporción 5:4 (Ancho / Alto = 5 / 4 = 1.25)
         },
-      });
-    </script>
-  </body>
-</html>
-
+    });
+</script>
 ```
 
 ---
