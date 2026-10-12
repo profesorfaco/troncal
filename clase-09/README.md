@@ -81,10 +81,7 @@ Chart.js es una [biblioteca de JavaScript](https://es.wikipedia.org/wiki/Bibliot
             datasets: [
                 {
                     label: "Veces en el top 100",
-                    data: [
-                        2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1, 1, 11,
-                        24, 1,
-                    ],
+                    data: [2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1, 1, 11, 24, 1],
                     backgroundColor: "rgb(214, 214, 214)",
                     borderWidth: 1,
                 },
