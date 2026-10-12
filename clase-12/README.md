@@ -6,7 +6,7 @@
 
 #### "Movilidad Internacional en Arte y Diseño: Universidad de Chile vs. Universidades en Convenio Top 100 QS"
 
-Corresponde desarrollar, individualmente, **una única página web interactiva** (*scrollytelling* o *single-page application*) diseñada bajo el estándar de comunicación visual, sobriedad y rigor analítico de **[Reuters Graphics](https://www.reuters.com/graphics/)**.
+Corresponde desarrollar, individualmente y sin decorar, **una única página web interactiva** (*scrollytelling* o *single-page application*) diseñada bajo el estándar de comunicación visual, sobriedad y rigor analítico de **[Reuters Graphics](https://www.reuters.com/graphics/)**.
 
 La página debe permitir a un/a estudiante de la **Licenciatura en Diseño de la Universidad de Chile** evaluar y comparar críticamente su institución de origen frente a **una** de las siguientes cinco opciones de intercambio internacional que aparecen en el **Top 100 de Arte y Diseño en el *QS World University Rankings by Subject***:
 
