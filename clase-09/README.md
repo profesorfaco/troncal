@@ -80,7 +80,7 @@ Chart.js es una [biblioteca de JavaScript](https://es.wikipedia.org/wiki/Bibliot
   </head>
   <body>
     <canvas id="identidad"></canvas>
-    <script src="[https://cdn.jsdelivr.net/npm/chart.js](https://cdn.jsdelivr.net/npm/chart.js)"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
       new Chart(document.getElementById("identidad"), {
         type: "bar",
