@@ -5,7 +5,7 @@
 
 ### Coordenadas cartesianas en un ViewPort: Estructura y codificación de gráficos vectoriales escalables (SVG) integrados de forma nativa en HTML
 
-En la clase previa utilizamos **RAWGraphs** para obtener un gráfico —*chart*, *Diagramm*— en SVG. Sin embargo, ya vimos que el código exportado resulta "sucio": redundante, denso, cargado de transformaciones innecesarias y estilos incrustados directamente; y sí, pareciera que, como invita a evitar el dicho: estamos contando los dientes en este caballo regalado por herramientas de código abierto.
+En la clase previa utilizamos [RAWGraphs](https://app.rawgraphs.io/) para obtener un gráfico convencional —*chart*, *Diagramm*— en SVG. Sin embargo, ya vimos que el código exportado resulta "sucio": redundante, denso, cargado de transformaciones innecesarias y estilos incrustados directamente; y sí, pareciera que, como invita a evitar el dicho: estamos contando los dientes en este caballo regalado por herramientas de código abierto.
 
 Para que un archivo SVG pueda integrarse como un componente web nativo, limpio, mantenible y responsivo, es fundamental comprender la anatomía de sus coordenadas en el *viewport* e incorporar tanto CSS como sea posible.
 
