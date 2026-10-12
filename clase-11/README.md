@@ -10,25 +10,21 @@ En la clase pasada tomamos un SVG "sucio" exportado desde RAWGraphs y lo transfo
 
 Hoy sumamos la pieza que completa el trinomio del desarrollo web nativo: **JavaScript**, pero bajo una máxima metodológica deliberada: **intervención mínima, impacto funcional alto**. No se trata de aprender lógica de programación abstracta en una sesión, sino de comprender que un gráfico SVG incrustado directamente en el HTML pasa a ser parte viva del documento (*DOM*) y que, con apenas dos líneas de código, puede responder de forma fluida a las acciones de quien lo explora.
 
-Esta clase constituye el **último hito conceptual antes de nuestra evaluación sumativa**. Al final de estos apuntes encontrarán los requerimientos del encargo final, de modo que puedan articular cada técnica y reflexión de la sesión de hoy en función de dicho horizonte.
-
 ---
 
 ### El trinomio web y el principio de "Diseño orientado a estados"
 
 Al abordar la producción de interfaces interactivas desde el diseño, es fundamental comprender la división de responsabilidades que rige en la web:
 
-| Lenguaje | Dominio | Responsabilidad en nuestro Radar |
-|:----|:----|:----|
-| **HTML** | **Estructura y significado** | Los encabezados, textos narrativos y la etiqueta contenedora `<svg>` |
-| **SVG** | **Geometría vectorial** | Grillas circulares, ejes cartesianos radiales y polígonos por universidad |
-| **CSS** | **Apariencia y estados** | Paleta cromática, transiciones suavizadas y reglas visuales (`.oculta`, `.apagado`) |
-| **JavaScript** | **Comportamiento y eventos** | Escuchar la interacción del usuario y conmutar (*toggle*) las clases visuales |
+| Capa | Lenguaje / Formato | Sintaxis / Naturaleza | Función en la web |
+|:-----|:-------------------|:----------------------|:------------------|
+| Estructura | HTML / SVG | Etiquetas `elemento>...</elemento>` | Define los componentes y el contenido (texto, enlaces, formas vectoriales).
+| Estética | CSS | Reglas `propiedad: valor;` | Controla dimensiones, colores, tipografía y disposición visual. |
+| Comportamiento | JavaScript | Código imperativo / funcional | Maneja la lógica, eventos, datos dinámicos e interacción. |
 
-El lenguaje de marcado de hipertexto (HTML) y gráficos vectoriales (SVG) comparten la misma naturaleza estructural basada en nodos; ambos cuentan por uno. CSS y JavaScript, por su parte, controlan las dimensiones estética y comportamental respectivamente. De esta articulación surge el trinomio fundamental del desarrollo front-end.
+El lenguaje de marcado de hipertexto (HTML) y el dialecto de los gráficos vectoriales (SVG) comparten la misma naturaleza estructural, que va marcando elementos usando bloques de la forma `<etiqueta>contenido</etiqueta>`, razón suficiente para tratarlos como un único concepto práctico. Por su parte, CSS y JavaScript controlan las dimensiones estética y comportamental respectivamente. De esta articulación surge el trinomio fundamental del desarrollo front-end.
 
-> **Regla de oro para diseñadores:** *JavaScript no pinta; JavaScript solo avisa.*
-> Como diseñadores/as, nuestro trabajo consiste en prever y diseñar los **estados visuales** de la interfaz dentro de la hoja de estilos (CSS). JavaScript se limita a cambiar las reglas de juego (agregar o quitar una clase), permitiendo que la hoja de estilos ejecute la transformación gráfica.
+**Conviene recordar:** *JavaScript no pinta; JavaScript solo avisa.* Como diseñadores/as, nuestro trabajo consiste en prever y diseñar los **estados visuales** de la interfaz dentro de la hoja de estilos (CSS). JavaScript se limita a cambiar las reglas de juego (agregar o quitar una clase), permitiendo que la hoja de estilos ejecute la transformación gráfica.
 
 #### La importancia de incrustar el SVG en línea (In-line SVG)
 
@@ -42,7 +38,7 @@ Hasta la clase anterior exploramos la vinculación de archivos externos mediante
 
 #### Código fuente unificado: `index.html`
 
-Creen un archivo `index.html` en sus editores y peguen la siguiente estructura:
+Creen un archivo nuevo, llamarlo `index.html` y pegar en él la siguiente estructura:
 
 ```
 <!doctype html>
@@ -168,13 +164,11 @@ Al examinar la función JavaScript de 2 instrucciones, la lógica se desglosa en
 
 **Idea clave: el JavaScript solo agrega o quita clases; es el CSS el que decide cómo se ve cada estado.**
 
-#### Ejercicio de exploración analítica:
+#### Recursos de consulta rápida
 
-Al probar el archivo en el navegador, filtren y aíslen combinaciones de universidades:
-
-Compare únicamente la Pontificia Universidad Católica (PUC) y la Universidad de Chile (UCH). ¿En qué ejes sus polígonos son casi idénticos y en cuáles se aprecian diferencias relativas?
-
-Oculte la PUC y la UCH y deje activas únicamente la Universidad de Concepción y la USACH. La escala del radar (0 a 100) no cambia al ocultar figuras: ¿por qué, entonces, la comparación entre ambas se percibe de otra manera cuando desaparecen los polígonos más grandes?
+* **MDN Web Docs:** [Guía de elementos y atributos SVG](https://developer.mozilla.org/es/docs/Web/SVG)
+* **MDN Web Docs:** [Método Document.getElementById()](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
+* **MDN Web Docs:** [Uso de Element.classList y toggle](https://developer.mozilla.org/es/docs/Web/API/Element/classList)
 
 ---
 
@@ -192,13 +186,6 @@ Las 5 instituciones internacionales entre las que corresponde escoger para la co
 
 Para la próxima evaluación sumativa de la próxima sesión, y hasta el final del curso, recordemos: las herramientas de inteligencia artificial y los entornos de código abierto son asistentes eficientes para la iteración técnica, pero **la voz propia, el criterio analítico y la responsabilidad editorial pertenecen a quien diseña.**
 
----
-
-### Recursos de consulta rápida
-
-* **MDN Web Docs:** [Guía de elementos y atributos SVG](https://developer.mozilla.org/es/docs/Web/SVG)
-* **MDN Web Docs:** [Método Document.getElementById()](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
-* **MDN Web Docs:** [Uso de Element.classList y toggle](https://developer.mozilla.org/es/docs/Web/API/Element/classList)
 
 ---
 
