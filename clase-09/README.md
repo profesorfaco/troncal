@@ -44,7 +44,7 @@ Las dos primeras herramientas que revisaremos serán:
 
 ### RAWGraphs
 
-RAWGraphs es una herramienta de código abierto diseñada para transformar conjuntos de datos estructurados —como archivos CSV o tablas— en visualizaciones de datos —como *chart* en inglés, o *Diagramm* en alemán— sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar configuraciones visuales convencionales que muestran lo que nunca podría verse sin más en columnas de números —desde diagramas de *Sankey* hasta aluviales o *treemaps*—. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en SVG, facilitando su edición e integración posterior a cualquier proyecto web.
+RAWGraphs es una herramienta de código abierto diseñada para transformar conjuntos de datos estructurados —como archivos CSV o tablas— en gráficos convenionales —como *chart* en inglés, o *Diagramm* en alemán— sin necesidad de escribir código. Funciona como un entorno de prototipado rápido que permite probar configuraciones visuales que muestran lo que nunca podría verse sin más en columnas de números —desde diagramas de *Sankey* hasta aluviales o *treemaps*—. Su mayor fortaleza radica en que procesa los datos localmente en el navegador y permite exportar los resultados en SVG, facilitando su edición e integración posterior a cualquier proyecto web.
 
 **Para probarlo:**
 
@@ -66,7 +66,7 @@ Para lo que sigue, ponga atención a las indicaciones que se presentarán en cla
 
 ### Chart.js
 
-Chart.js es una biblioteca de JavaScript orientada a la creación de visualizaciones de datos —como *chart* en inglés, o *Diagramm* en alemán— dinámicas, animadas y completamente responsivas en la web. A diferencia del enfoque vectorial de SVG, Chart.js utiliza el elemento `<canvas>` de HTML5 para renderizar gráficos mediante mapas de bits a través de código ejecutable. Ofrece diversos tipos de gráficos estándar altamente personalizables —como barras, líneas, tarta o radar— y destaca por su ligereza y facilidad de configuración.
+Chart.js es una [biblioteca de JavaScript](https://es.wikipedia.org/wiki/Biblioteca_de_JavaScript) orientada a la creación de gráficos convencionales —como *chart* en inglés, o *Diagramm* en alemán— dinámicos, animados y completamente responsivos para la web. Chart.js utiliza [el elemento `<canvas></canvas>` de HTML5](https://developer.mozilla.org/es/docs/Web/API/Canvas_API) para renderizar gráficos mediante mapas de bits a través de código ejecutable.
 
 **Para comenzar a probar esta biblioteca, aprovechemos el siguiente código fuente:**
 
