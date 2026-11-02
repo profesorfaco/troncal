@@ -6,6 +6,13 @@
 
 Ya cuentan con un [adelanto.html](https://github.com/profesorfaco/troncal/blob/main/clase-12/adelanto.html)
 
+Datos para el adelanto:
+
+- [2027 QS World University Rankings](https://docs.google.com/spreadsheets/d/1iY8pwjNj8Ks7bdBBMiDzaDowd_1Z-LkNP-T6nmE4MCw/copy)
+
+- [2026 QS World University Rankings by Subject - Art & Design](https://docs.google.com/spreadsheets/d/1A-yo3kNuhAJPjqwoI-RMIhlAC6kS5Whw1Gui2CqjyUM/copy)
+
+
 ---
 
 Al tratarse de una instancia de resolución autónoma, el profesor no prestará asistencia en la programación ni en el control de errores de código.
