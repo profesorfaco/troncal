@@ -80,7 +80,6 @@
                 max-width: 700px;
             }
 
-            /* --- Títulos --- */
             h1,
             h2,
             h3,
@@ -117,7 +116,7 @@
                 width: calc(1.5rem + 5vw);
                 height: calc(1.5rem + 5vw);
                 margin: 0 auto 1rem auto;
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16"><path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916zM12.375 6v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2M.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1z"/></svg>');
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
                 background-repeat: no-repeat;
                 background-size: contain;
             }
@@ -132,16 +131,16 @@
                 font-size: calc(1rem + 0.75vw);
                 margin: 2rem 0 0.5rem 0;
                 line-height: 1;
-                color: darkblue;
+                color: dimgray;
             }
 
             h3#universidades,
             h3#escuelas,
             h3#intercambios {
-                text-indent: calc(1rem + 1.25vw);
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16"><path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916zM12.375 6v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2M.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1z"/></svg>');
+                text-indent: calc(1rem + 1vw);
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="dimgray" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
                 background-repeat: no-repeat;
-                background-size: calc(1rem + 0.75vw);
+                background-size: calc(1rem + 0.5vw);
             }
 
             h4 {
@@ -282,75 +281,6 @@
                 color: var(--color-text-light);
             }
 
-            code {
-                font-size: 80%;
-                background: pink;
-                color: red;
-                padding: 0.1rem 0.3rem;
-                border-radius: 3px;
-            }
-
-            /* --- Estructura del gráfico SVG --- */
-            .grid {
-                fill: none;
-                stroke: #ddd;
-            }
-
-            .eje {
-                stroke: #aaa;
-            }
-
-            .texto {
-                font-size: 12px;
-                text-anchor: middle;
-            }
-
-            .area {
-                fill-opacity: 0.2;
-                stroke-width: 2;
-            }
-
-            .area:hover {
-                fill-opacity: 0.5;
-            }
-
-            .puc {
-                fill: #fec60d;
-                stroke: #fec60d;
-            }
-
-            .uch {
-                fill: #1f5592;
-                stroke: #1f5592;
-            }
-
-            .udec {
-                fill: #2ca02c;
-                stroke: #2ca02c;
-            }
-
-            .usach {
-                fill: #d62728;
-                stroke: #d62728;
-            }
-
-            .item {
-                cursor: pointer;
-                font-size: 12px;
-            }
-
-            .item rect {
-                width: 14px;
-                height: 14px;
-            }
-
-            .nones {
-                display: none;
-            }
-
-            .apagado {
-                opacity: 0.3;
-            }
         </style>
     </head>
 
@@ -362,49 +292,18 @@
 
             <h5>Por <a href="#">Nombre Apellido</a></h5>
 
-            <h6>
-                <time datetime="2026-11-06T17:00-03:00">
-                    Publicado el viernes 6 de noviembre de 2026 &nbsp;&nbsp; 17:00 h (GMT-3)
-                </time>
-            </h6>
+            <h6><time datetime="2026-11-06T17:00-03:00">Publicado el viernes 6 de noviembre de 2026 &nbsp;&nbsp;&nbsp; 17:00 h (GMT-3)</time></h6>
 
-            <p>
-                El <em>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></em> es un sistema de clasificación
-                académica desarrollado por <em>Quacquarelli Symonds</em>. Nació en 2004, en alianza con
-                <em>Times Higher Education</em>, bajo el nombre
-                <em><abbr title="Times Higher Education - Quacquarelli Symonds">THE-QS</abbr> World University Rankings</em>.
-                Tras la separación de ambas entidades en 2009 adoptó su estructura actual, que tiene dos vertientes:
-                <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings</em>, centrada en el
-                desempeño institucional general, y
-                <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em>, orientada a
-                la evaluación académica por disciplinas.
+            <p>El <em>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></em> es un sistema de clasificación académica desarrollado por <em>Quacquarelli Symonds</em>. Nació en 2004, en alianza con <em>Times Higher Education</em>, bajo el nombre <em><abbr title="Times Higher Education - Quacquarelli Symonds">THE-QS</abbr> World University Rankings</em>. Tras la separación de ambas entidades en 2009 adoptó su estructura actual, que tiene dos vertientes: <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings</em>, centrada en el desempeño institucional general, y <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em>, orientada a la evaluación académica por disciplinas.</p>
+
+            <p>La edición vigente del ranking institucional se publicó en junio de 2026. <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">Evaluó y posicionó 1.504 instituciones de educación superior de todo el mundo, 17 de ellas chilenas</a>.</p>
+
+            <p>La edición vigente del ranking por disciplina se publicó en marzo de 2026. <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">En Arte y Diseño evaluó y posicionó 302 instituciones, 3 de ellas chilenas</a>.
             </p>
 
-            <p>
-                La edición vigente del ranking institucional se publicó en junio de 2026.
-                <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener"
-                    >Evaluó y posicionó 1.504 instituciones de educación superior de todo el mundo, 17 de ellas
-                    chilenas</a
-                >.
-            </p>
+            <h3 id="universidades">Las mejores universidades del mundo según <abbr title="Quacquarelli Symonds">QS</abbr></h3>
 
-            <p>
-                La edición vigente del ranking por disciplina se publicó en marzo de 2026.
-                <a
-                    href="https://www.topuniversities.com/university-subject-rankings/art-design"
-                    target="_blank"
-                    rel="noopener"
-                    >En Arte y Diseño evaluó y posicionó 302 instituciones, 3 de ellas chilenas</a
-                >.
-            </p>
-
-            <h3 id="universidades">
-                Las mejores universidades del mundo según <abbr title="Quacquarelli Symonds">QS</abbr>
-            </h3>
-
-            <p>
-                En el ranking institucional, la Pontificia Universidad Católica de Chile (puesto 119) y la Universidad de Chile (puesto 185) figuran entre las cinco mejores de Hispanoamérica. Con 17 instituciones entre las 1.504 evaluadas, Chile ocupa además el quinto lugar de América en número de instituciones representadas. Estos resultados se miden, entre otros indicadores, por prestigio académico, valoración de los empleadores, cantidad de docentes por estudiante e impacto de la investigación. Son fruto de políticas públicas que hoy enfrentan la perspectiva de recortes presupuestarios. <strong>[continuar texto]</strong>
-            </p>
+            <p>En el ranking institucional, la Pontificia Universidad Católica de Chile (puesto 119) y la Universidad de Chile (puesto 185) figuran entre las cinco mejores de Hispanoamérica. Con 17 instituciones entre las 1.504 evaluadas, Chile ocupa además el quinto lugar de América en número de instituciones representadas. Estos resultados se miden, entre otros indicadores, por prestigio académico, valoración de los empleadores, cantidad de docentes por estudiante e impacto de la investigación. Son fruto de políticas públicas que hoy enfrentan la perspectiva de recortes presupuestarios. <strong>[continuar texto]</strong></p>
 
             <h4>América, Europa y otros continentes</h4>
 
@@ -412,7 +311,7 @@
 
             <object data="viz.svg" type="image/svg+xml">Tu navegador no soporta SVG</object>
 
-            <p>Con el puesto 84, la Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>) es la única institución hispanoamericana dentro del top 100 mundial. Entre las 100 y las 200 mejores le siguen la Pontificia Universidad Católica de Chile (120), la Universidad Nacional Autónoma de México (145), la Universidad de Chile (185) y el Tecnológico de Monterrey (188).
+            <p>Con el puesto 84, la Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>) es la única institución hispanoamericana dentro del top 100 mundial. Entre las 100 y las 200 mejores le siguen la Pontificia Universidad Católica de Chile (119), la Universidad Nacional Autónoma de México (145), la Universidad de Chile (185) y el Tecnológico de Monterrey (188).
             </p>
 
             <h4>Chile en América</h4>
@@ -450,91 +349,91 @@
                         <td>✓</td>
                     </tr>
                     <tr>
-                        <th scope="row">553</th>
+                        <th scope="row">551</th>
                         <td>Universidad de Santiago de Chile (<abbr>USACH</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">657</th>
+                        <th scope="row">655</th>
                         <td>Universidad de Concepción</td>
                         <td>✗</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">665</th>
+                        <th scope="row">662</th>
                         <td>Universidad Adolfo Ibáñez (<abbr>UAI</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">869</th>
+                        <th scope="row">851-900</th>
                         <td>Pontificia Universidad Católica de Valparaíso (<abbr>PUCV</abbr>)</td>
                         <td>✓</td>
                         <td>✓</td>
                     </tr>
                     <tr>
-                        <th scope="row">931</th>
+                        <th scope="row">901-950</th>
                         <td>Universidad de los Andes</td>
                         <td>✗</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1118</th>
+                        <th scope="row">1001-1200</th>
                         <td>Universidad Andrés Bello (<abbr>UNAB</abbr>)</td>
                         <td>✓</td>
                         <td>✓</td>
                     </tr>
                     <tr>
-                        <th scope="row">1120</th>
+                        <th scope="row">1001-1200</th>
                         <td>Universidad Austral de Chile (<abbr>UACh</abbr>)</td>
                         <td>✓</td>
                         <td>✓</td>
                     </tr>
                     <tr>
-                        <th scope="row">1142</th>
+                        <th scope="row">1001-1200</th>
                         <td>Universidad Técnica Federico Santa María (<abbr>UTFSM</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1320</th>
+                        <th scope="row">1201-1400</th>
                         <td>Universidad de la Frontera (<abbr>UFRO</abbr>)</td>
                         <td>✗</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1325</th>
+                        <th scope="row">1201-1400</th>
                         <td>Universidad de Talca</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1326</th>
+                        <th scope="row">1201-1400</th>
                         <td>Universidad del Desarrollo (<abbr>UDD</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1330</th>
+                        <th scope="row">1201-1400</th>
                         <td>Universidad Diego Portales (<abbr>UDP</abbr>)</td>
                         <td>✓</td>
                         <td>✓</td>
                     </tr>
                     <tr>
-                        <th scope="row">1463</th>
+                        <th scope="row">1401+</th>
                         <td>Universidad Católica del Norte</td>
                         <td>✗</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1466</th>
+                        <th scope="row">1401+</th>
                         <td>Universidad de Tarapacá (<abbr>UTA</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
                     </tr>
                     <tr>
-                        <th scope="row">1467</th>
+                        <th scope="row">1401+</th>
                         <td>Universidad de Valparaíso (<abbr>UV</abbr>)</td>
                         <td>✓</td>
                         <td>✗</td>
@@ -549,14 +448,8 @@
                 institucional.
             </p>
 
-            <svg
-                class="grafico"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 880 580"
-                role="img"
-                aria-label="Espacio reservado para el gráfico interactivo de comparación"
-            >
-                <rect width="880" height="580" fill="darkgray" />
+            <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img" aria-label="Espacio reservado para el gráfico interactivo de comparación">
+                <rect width="880" height="580" fill="silver" />
                 <text x="10" y="40">[Reemplazar por un gráfico interactivo como el trabajado en las clases 10 y 11.]</text>
                 <text x="10" y="70">Debe comparar cinco dimensiones de la PUC, la UCh y la UDD. Nada más.</text>
             </svg>
@@ -649,16 +542,7 @@
                 <dt>Fuentes</dt>
                 <dd>
                     <em>Datos:</em> Tomados el 21 de septiembre de 2026 desde
-                    <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener"
-                        >QS World University Rankings</a
-                    >
-                    y
-                    <a
-                        href="https://www.topuniversities.com/university-subject-rankings/art-design"
-                        target="_blank"
-                        rel="noopener"
-                        >QS World University Rankings by Subject: Art &amp; Design</a
-                    >.
+                    <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">QS World University Rankings</a> y <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">QS World University Rankings by Subject: Art &amp; Design</a>.
                 </dd>
                 <dd>
                     <em>Procesamiento:</em> Datos estructurados en formato JSON e incorporados a la página mediante
@@ -792,7 +676,7 @@
                         const esEuropea = paisesEuropa.some((pais) => e.location.includes(pais));
 
                         const pais = e.location.split(", ").pop();
-                        const fila = `<tr><td>${e.rank}</td><td>${e.name}</td><td>${pais}</td></tr>`;
+                        const fila = `<tr><th scope="row">${e.rank}</th><td>${e.name}</td><td>${pais}</td></tr>`;
 
                         if (esAmericana) {
                             htmlAmerica += fila;
