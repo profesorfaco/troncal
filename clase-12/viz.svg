@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580">
+    <rect width="880" height="580" fill="#ccc" />
+    <text x="20" y="40" font-family="sans-serif" font-size="16" fill="#333">Aquí va un gráfico que se prepara con RawGraph.</text>
+    <text x="20" y="70" font-family="sans-serif" font-size="16" fill="#333">Debe comparar continentes y países que concentran las mejores 100 universidades.</text>
+    <text x="20" y="100" font-family="sans-serif" font-size="16" fill="#333">Atendiendo al título, separe América, Europa y otros continentes.</text>
+</svg>
