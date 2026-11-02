@@ -4,7 +4,7 @@
 
 ### **Evaluación Sumativa 3 (Individual - 20%):** Encargo práctico de resolución autónoma en sala de laboratorio.
 
-Ya cuentan con un adelanto.html
+Ya cuentan con un [adelanto.html](https://github.com/profesorfaco/troncal/blob/main/clase-12/adelanto.html)
 
 ---
 
