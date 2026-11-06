@@ -26,7 +26,7 @@ Datos para el adelanto y para lo que sigue:
 
 - **1,0**: Modificar ✓ y ✗ por emojis para que la tabla de las 17 universidades chilenas del ranking sea de más rápida lectura. 
 
-- **2,0**: Comprar, a través de un gráfico interactivo, tal como el desarrollado en la [clase 11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md), cinco dimensiones cuantitativas (no subjetivas) que diferencias a la Pontificia Universidad Católica de Chile, Universidad de Chile y Universidad del Desarrollo.
+- **2,0**: Comprar, a través de un gráfico interactivo, tal como el desarrollado en la [clase 11](https://github.com/profesorfaco/troncal/blob/main/clase-11/README.md), cinco dimensiones cuantitativas (no subjetivas) que diferencian a la Pontificia Universidad Católica de Chile, Universidad de Chile y Universidad del Desarrollo.
 
 - **0,5**: Asegúrese del correcto funcionamiento de las tres tablas al final, que despliegan las mejores escuelas de Arte y Diseño.
   
