@@ -20,7 +20,7 @@ Datos para el adelanto y para lo que sigue:
 
 - **0,5**: (1) Edite el `<title></title>` por uno más pertinente; (2) Ajustar nombre y Apellido; (3) asegurar que el vínculo a su nombre y apellido lleva a su cuenta de GitHub (github.com/nombre de usuario); (4) continuar textos donde se indica [cotinuar texto]; (5) vincular al propio JSON, usando el mismo “myJSON” que usó en la evaluación, cambiando los puntos suspensivo en `const ENDPOINT = "…";` 
 
-- **1,0**: (1) Generar un gráfico en RawGraphs; (2) usar datos reales; (3) mostrar cómo se distribuyen, por continente y país, las 100 mejores universidades del mundo; (4) ajustar el SVG resultante con el paso por https://webformatter.com/ y agregar, a mano, el `viewBox correspondiente; (5) incluya el SVG mediante un `<object></object>` 
+- **1,0**: (1) Generar un gráfico en RawGraphs; (2) usar datos reales; (3) mostrar cómo se distribuyen, por continente y país, las 100 mejores universidades del mundo; (4) ajustar el SVG resultante con el paso por https://webformatter.com/ y agregar, a mano, el `viewBox correspondiente; (5) incluya el SVG mediante un `object` 
 
 - **1,0**: Modificar el gráfico resuelto con chart.js, para que muestre la distribución de las 322 instituciones americanas en el QS World University Ranking.
 
