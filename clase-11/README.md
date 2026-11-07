@@ -172,21 +172,5 @@ Al examinar la función JavaScript de 2 instrucciones, la lógica se desglosa en
 
 ---
 
-### PARA LA PRÓXIMA EVALUACIÓN SUMATIVA INDIVIDUAL
-
-En la próxima sesión realizaremos la **Evaluación Sumativa de la Unidad 3**. Sobre la base de ciertas instrucciones, se les solicitará desarrollar una interfaz web interactiva que presente a la comunidad estudiantil de **Diseño de la Universidad de Chile** una comparativa sobre una de sus opciones reales de movilidad académica entre las destacadas del área de **Arte y Diseño** según el Ranking QS, tomando como estándar gráfico y comunicacional el modelo de *Reuters Graphics*.
-
-Las 5 instituciones internacionales entre las que corresponde escoger para la comparativa, son: 
-
-1. **Politecnico di Milano** (polimi; Italia): Principal opción europea del ranking con convenio directo disponible.
-2. **Universidade de São Paulo** (Brasil): Referente regional destacado en la clasificación mundial de Arte y Diseño.
-3. **Universidad de Buenos Aires** (UBA; Argentina): Institución pública histórica y referente continental en el índice.
-4. **Tecnológico de Monterrey** (Tec; México): Destacada opción privada con convenio de movilidad vigente.
-5. **Universidad Nacional Autónoma de México** (UNAM; México): Una de las macro-escuelas más reconocidas del continente en artes y humanidades.
-
-Para la próxima evaluación sumativa de la próxima sesión, y hasta el final del curso, recordemos: las herramientas de inteligencia artificial y los entornos de código abierto son asistentes eficientes para la iteración técnica, pero **la voz propia, el criterio analítico y la responsabilidad editorial pertenecen a quien diseña.**
-
-
----
 
 [clase-10](https://github.com/profesorfaco/troncal/blob/main/clase-10/README.md) ⇆ [clase-12](https://github.com/profesorfaco/troncal/blob/main/clase-12/README.md)
