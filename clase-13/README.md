@@ -4,7 +4,15 @@
 
 ### Laboratorio de Co-creación en Duplas: Arquitectura de información y diseño de interfaces narrativas complejas publicadas en línea. Sesión de mentoría y corrección de maquetas
 
-Damos inicio a la última unidad del semestre mediante el lanzamiento oficial del encargo del Proyecto Final. Hoy se organizarán en duplas de trabajo para conceptualizar la arquitectura de información y comenzar el diseño de sus interfaces. Esta jornada funcionará bajo la dinámica de taller abierto y mentoría directa con las profesoras y los profesores, espacio en el cual revisaremos sus primeras propuestas y maquetas, asegurando que las infografías apunten a datos reales de utilidad pública para las ciudadanas y los ciudadanos.
+Damos inicio a la última unidad del semestre mediante el lanzamiento oficial del encargo del Proyecto Final. Hoy se organizarán en duplas de trabajo para conceptualizar la arquitectura de información y comenzar el diseño de sus interfaces. Esta jornada funcionará bajo la dinámica de taller abierto, en el cual revisaremos sus primeras propuestas y maquetas de una interfaz web interactiva que presente a la comunidad estudiantil de **Diseño de la Universidad de Chile** una comparativa sobre una de sus opciones reales de movilidad académica entre las destacadas del área de **Arte y Diseño** según el Ranking QS, tomando como estándar gráfico y comunicacional el modelo de *Reuters Graphics*.
+
+Las 5 instituciones internacionales entre las que corresponde escoger para la comparativa, son: 
+
+1. **Politecnico di Milano** (polimi; Italia): Principal opción europea del ranking con convenio directo disponible.
+2. **Universidade de São Paulo** (Brasil): Referente regional destacado en la clasificación mundial de Arte y Diseño.
+3. **Universidad de Buenos Aires** (UBA; Argentina): Institución pública histórica y referente continental en el índice.
+4. **Tecnológico de Monterrey** (Tec; México): Destacada opción privada con convenio de movilidad vigente.
+5. **Universidad Nacional Autónoma de México** (UNAM; México): Una de las macro-escuelas más reconocidas del continente en artes y humanidades.
 
 ---
 
