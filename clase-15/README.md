@@ -18,7 +18,7 @@
 | **Integridad académica**<br>*Declaración explícita de uso de IA y enlaces a otros trabajos del curso.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **2. REQUISITOS TÉCNICOS BASE (CUMPLIMIENTO)** | **Cumple** | **Cumple** | **Cumple** | **Cumple** | **Cumple** |
 | **Modularidad y estructura técnica**<br>*Archivos HTML, CSS y JS separados en documentos correspondientes y funcionales.* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
-| **Diseño tipográfico e iconográfico**<br>*Uso de tipografías y pictogramas orientados a clarificar el contenido y garantizar legibilidad, induciendo un estado de enérgico reposo (controlando los impulsos por decorar).* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
+| **Diseño tipográfico e iconográfico**<br>*Uso de tipografías y pictogramas enfocado en la claridad del contenido y la legibilidad, priorizando un diseño limpio y funcional libre de elementos decorativos innecesarios.* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
 | **NOTA / PUNTAJE FINAL** | **1,0** | **2,5** | **4,0** | **5,5** | **7,0** |
 
 ---
