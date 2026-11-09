@@ -21,8 +21,6 @@
 | **Diseño tipográfico e iconográfico**<br>*Uso de tipografías y pictogramas enfocado en la claridad del contenido y la legibilidad, priorizando un diseño limpio y funcional libre de elementos decorativos innecesarios.* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
 | **NOTA / PUNTAJE FINAL** | **1,0** | **2,5** | **4,0** | **5,5** | **7,0** |
 
----
-
 ### Desglose Estructural de la Evaluación
 
 #### 1. Puntos Base de Cumplimiento Requerido (1,0 punto base)
