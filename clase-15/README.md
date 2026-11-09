@@ -23,15 +23,21 @@
 
 ### Desglose Estructural de la Evaluación
 
-#### 1. Puntos Base de Cumplimiento Requerido (1,0 punto base)
-* **Modularidad técnica (0,5 pts):** Se asume concedido al inicio. Se descuenta si no existe separación limpia entre HTML, CSS y JS.
-* **Criterio tipográfico (0,5 pts):** Se asume concedido al inicio. Se descuenta si las fuentes o pictogramas perjudican la legibilidad.
+#### 1. Puntos Base de Cumplimiento Requerido (1,0 pto. base)
 
-#### 2. Escala de Desempeño por Ítem (0,0 a 6,0 puntos acumulables)
-* **Infografía SVG:** Tiene una ponderación doble (máximo 2,0 pts).
-* **Resto de ítems (4 ítems):** Ponderación estándar (máximo 1,0 pt cada uno).
-* **Calificación final:** Corresponde a la suma exacta de los **puntos base (1,0)** más los **puntos obtenidos en los criterios graduales**.
+* **Modularidad técnica (0,5 pts):** Se asume concedido al inicio. Se descontará totalmente si los archivos HTML, CSS y JS no presentan una separación limpia y funcional.
 
+* **Criterio tipográfico e iconográfico (0,5 pts):** Se asume concedido al inicio. Se descontará totalmente si el uso tipográfico o los elementos visuales dificultan la lectura o distorsionan la claridad de la información.
+
+#### 2. Escala de Desempeño por Ítem Gradual (0,0 a 6,0 pts. acumulables)
+
+* **Infografía SVG (Ponderación doble - máx. 2,0 pts):** Evalúa la calidad vectorial, precisión semántica y correcta integración técnica del archivo SVG dentro de la estructura web.
+
+* **Criterios graduales estándar (4 ítems - máx. 1,0 pto. cada uno):** Evalúan el texto informativo ético, las dos visualizaciones radar (Chart.js), el empaquetado visual con mapa interactivo (Leaflet) y la declaración transparente de integridad académica.
+
+#### 3. Cálculo de la Calificación Final
+
+* **Fórmula de nota:** La nota final asignada (en escala chilena estándar de 1,0 a 7,0) corresponde exactamente a la suma de la **Base de Cumplimiento (1,0 pto.)** más la suma de los **Puntos Obtenidos en los Criterios Graduales (0,0 a 6,0 pts.)**.
 
 _ _ _ _ 
 
