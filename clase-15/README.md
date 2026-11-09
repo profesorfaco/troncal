@@ -33,7 +33,7 @@
 
 * **Infografía SVG (Ponderación doble - máx. 2,0 pts):** Evalúa la calidad vectorial, precisión semántica y correcta integración técnica del archivo SVG dentro de la estructura web.
 
-* **Criterios graduales estándar (4 ítems - máx. 1,0 pto. cada uno):** Evalúan el texto informativo ético, las dos visualizaciones radar (Chart.js), el empaquetado visual con mapa interactivo (Leaflet) y la declaración transparente de integridad académica.
+* **Criterios graduales estándar (4 ítems - máx. 1,0 pto. cada uno):** Evalúan el texto informativo ético, las dos visualizaciones radar (Chart.js), las imágenes, el mapa interactivo (Leaflet) y la declaración transparente de integridad académica.
 
 #### 3. Cálculo de la Calificación Final
 
