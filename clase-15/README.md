@@ -16,7 +16,7 @@
 | **Infografía Vectorial**<br>*Creación y edición de gráficos en formato SVG.* | 0,0 | 0,7 | 1,0 | 1,7 | 2,0 |
 | **Material visual y mapeo**<br>*Selección/tratamiento de imágenes y mapa interactivo con [Leaflet](https://leafletjs.com/).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Integridad académica**<br>*Declaración explícita de uso de IA y enlaces a otros trabajos del curso.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
-| **2. REQUISITOS TÉCNICOS BASE (CUMPLIMIENTO)** | **Cumple (Sí)** | **Cumple (Sí)** | **Cumple (Sí)** | **Cumple (Sí)** | **Cumple (Sí)** |
+| **2. REQUISITOS TÉCNICOS BASE (CUMPLIMIENTO)** | **Cumple** | **Cumple** | **Cumple** | **Cumple** | **Cumple** |
 | **Modularidad y estructura técnica**<br>*Archivos HTML, CSS y JS separados en documentos correspondientes y funcionales.* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
 | **Diseño tipográfico e iconográfico**<br>*Uso de tipografías y pictogramas orientados a clarificar el contenido y garantizar legibilidad.* | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 |
 | **NOTA / PUNTAJE FINAL** | **1,0** | **2,5** | **4,0** | **5,5** | **7,0** |
