@@ -12,7 +12,7 @@
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **1. CRITERIOS GRADUALES** | **No está** | **Insuficiente** | **Suficiente** | **Bien** | **Excelente** |
 | **Texto informativo**<br>*Redacción concisa, precisa y libre de errores, orientada al manejo ético de la información que contextualiza datos sin desinformar ni confundir hechos con opiniones.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
-| **Visualizaciones de datos**<br>*Implementación de dos gráficos tipo radar, implementados con [Chart.js](https://www.chartjs.org/) y datos reales, que comparen las dimensiones que justifican un puntaje y ubicación en el ranking (uno de universidades y otro de escuelas).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
+| **Visualizaciones de datos**<br>*Implementación de dos gráficos tipo radar, implementados con [Chart.js](https://www.chartjs.org/) y datos reales, que comparen las dimensiones que justifican un puntaje y ubicación en el ranking (uno de [universidades](https://docs.google.com/spreadsheets/d/1iY8pwjNj8Ks7bdBBMiDzaDowd_1Z-LkNP-T6nmE4MCw/copy) y otro de [escuelas](https://docs.google.com/spreadsheets/d/1A-yo3kNuhAJPjqwoI-RMIhlAC6kS5Whw1Gui2CqjyUM/copy)).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Infografía Vectorial**<br>*Creación y edición de gráficos en formato SVG.* | 0,0 | 0,7 | 1,0 | 1,7 | 2,0 |
 | **Material visual y mapeo**<br>*Selección/tratamiento de imágenes y mapa interactivo con [Leaflet](https://leafletjs.com/) apuntando a la dirección de la escuela de destino.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Integridad académica**<br>*Declaración explícita de uso de IA y enlaces a otros trabajos del curso.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
