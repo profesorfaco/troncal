@@ -37,7 +37,7 @@
 
 #### 3. Cálculo de la Calificación Final
 
-* **Fórmula de nota:** La nota final asignada (en escala chilena estándar de 1,0 a 7,0) corresponde exactamente a la suma de la **Base de Cumplimiento (1,0 pto.)** más la suma de los **Puntos Obtenidos en los Criterios Graduales (0,0 a 6,0 pts.)**.
+* **Fórmula de nota:** La nota final asignada (en escala chilena estándar de 1,0 a 7,0) corresponde exactamente a la suma de la **base de cumplimiento (1,0 pto.)** más la suma de los **puntos obtenidos en los criterios graduales (0,0 a 6,0 pts.)**.
 
 _ _ _ _ 
 
