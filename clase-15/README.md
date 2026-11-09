@@ -10,7 +10,7 @@
 
 | Criterio / Requisito | | | | | |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **1. CRITERIOS GRADUALES** | No está | Insuficiente | Suficiente | Bien | Muy bien |
+| **1. CRITERIOS GRADUALES** | **No está** | **Insuficiente** | **Suficiente** | **Bien** | **Muy bien** |
 | **Texto informativo**<br>*Conciso, preciso, sin errores de redacción ni confusión entre opiniones y datos.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Visualizaciones de datos**<br>*Implementación de gráficos interactivos con [Chart.js](https://www.chartjs.org/).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Infografía Vectorial**<br>*Creación y edición de gráficos en formato SVG.* | 0,0 | 0,7 | 1,0 | 1,7 | 2,0 |
