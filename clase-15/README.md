@@ -6,7 +6,7 @@
 
 ¡Concluimos el proceso semestral! Hoy cerramos la asignatura con la entrega definitiva y la defensa oral de sus proyectos. Cada dupla presentará la infografía digital interactiva operando en tiempo real y publicada de manera abierta a través de GitHub Pages ante sus compañeras, compañeros y docentes. Se evaluará la sofisticación técnica en el despliegue del trinomio front-end, el rigor formal de la interfaz y la pertinencia, claridad e impacto ciudadano del relato visual que las creadoras y los creadores han propuesto.
 
-# Rúbrica de Evaluación
+### Rúbrica de Evaluación
 
 | Criterio / Requisito | No se puede evaluar | Insuficiente | Suficiente | Bien | Muy bien |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -23,13 +23,13 @@
 
 ---
 
-## Desglose Estructural de la Evaluación
+### Desglose Estructural de la Evaluación
 
-### 1. Puntos Base de Cumplimiento Requerido (1,0 punto base)
+#### 1. Puntos Base de Cumplimiento Requerido (1,0 punto base)
 * **Modularidad técnica (0,5 pts):** Se asume concedido al inicio. Se descuenta si no existe separación limpia entre HTML, CSS y JS.
 * **Criterio tipográfico (0,5 pts):** Se asume concedido al inicio. Se descuenta si las fuentes o pictogramas perjudican la legibilidad.
 
-### 2. Escala de Desempeño por Ítem (0,0 a 6,0 puntos acumulables)
+#### 2. Escala de Desempeño por Ítem (0,0 a 6,0 puntos acumulables)
 * **Infografía SVG:** Tiene una ponderación doble (máximo 2,0 pts).
 * **Resto de ítems (4 ítems):** Ponderación estándar (máximo 1,0 pt cada uno).
 * **Calificación final:** Corresponde a la suma exacta de los **puntos base (1,0)** más los **puntos obtenidos en los criterios graduales**.
