@@ -11,7 +11,7 @@
 | Criterio / Requisito | | | | | |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **1. CRITERIOS GRADUALES** | **No está** | **Insuficiente** | **Suficiente** | **Bien** | **Muy bien** |
-| **Texto informativo**<br>*Conciso, preciso, sin errores de redacción ni confusión entre opiniones y datos.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
+| **Texto informativo**<br>*Redacción concisa, precisa y libre de errores, orientada al manejo ético de la información que contextualiza datos sin desinformar ni confundir hechos con opiniones.* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Visualizaciones de datos**<br>*Implementación de gráficos interactivos con [Chart.js](https://www.chartjs.org/).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
 | **Infografía Vectorial**<br>*Creación y edición de gráficos en formato SVG.* | 0,0 | 0,7 | 1,0 | 1,7 | 2,0 |
 | **Material visual y mapeo**<br>*Selección/tratamiento de imágenes y mapa interactivo con [Leaflet](https://leafletjs.com/).* | 0,0 | 0,2 | 0,5 | 0,7 | 1,0 |
