@@ -27,10 +27,11 @@ Ahora es momento de cerrar con un trabajo en duplas, donde dos cabezas (ayudadas
 
 En este trabajo final, integraremos lo explorado a lo largo del semestre en una sola página web interactiva. En esta plataforma se debe considerar:
 
-* **Textualidad apoyada en lo que se visualiza:** Una redacción completa, lógica y [concisa](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) conducente a preguntas a las que se responde con cinco visualizaciones de información. Este modo de redacción vuelve sobre la primera evaluación sumativa.
-* **Visualizaciones en SVG:** Considera dos (2) visualizaciones generadas con [https://app.rawgraphs.io/](https://app.rawgraphs.io/) y luego ordenadas en un programa de edición vectorial. Esto vuelve sobre clases recientes.
+* **Textualidad apoyada en lo que se visualiza:** Una redacción completa, lógica y [concisa](https://www.nngroup.com/articles/be-succinct-writing-for-the-web/) conducente a preguntas a las que se responde con cada visualizaciones de información, donde nada ser hace por decorar.
 * **Visualización en Chart.js:** Considera dos (2) visualizaciones generadas con Chart.js, cada una a desplegarse en su propio `<canvas></canvas>`. Esto vuelve sobre las clases más recientes y su tercera evaluación sumativa.
-* **Comienza con lo que sigue:** A continuación se presenta una base para comenzar a trabajar:
+* **Infografía en SVG:** En una única composición, que puede apoyarse en visualizaciones generadas con [https://app.rawgraphs.io/](https://app.rawgraphs.io/), presenta el proceso de irse de intercambio desde la FAU.
+* **Comienza con el siguiente código:** A continuación se presenta una base para comenzar a trabajar y ordenar todo su trabajo:
+
 
 ```
 <!doctype html>
