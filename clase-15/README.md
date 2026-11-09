@@ -4,7 +4,7 @@
 
 ### **Evaluación Sumativa Final (Duplas - 40%):** Exposición final y entrega de la infografía digital interactiva. Cada dupla publica su proyecto en GitHub Pages y defiende su propuesta ante el curso
 
-¡Concluimos el proceso semestral! Hoy cerramos la asignatura con la entrega definitiva y la defensa oral de sus proyectos. Cada dupla presentará la infografía digital interactiva operando en tiempo real y publicada de manera abierta a través de GitHub Pages. Se evaluará la sofisticación técnica en el despliegue del trinomio front-end, el rigor formal de la interfaz y la pertinencia, claridad e impacto ciudadano del relato visual que las creadoras y los creadores han propuesto.
+¡Concluimos el proceso semestral! Hoy cerramos la asignatura con la entrega definitiva y la defensa oral de sus proyectos. Cada dupla presentará la infografía digital interactiva operando en tiempo real y publicada de manera abierta a través de GitHub Pages.
 
 ### Rúbrica de Evaluación
 
